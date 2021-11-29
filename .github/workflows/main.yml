@@ -26,18 +26,11 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: '11.x'
-      - name: test and build
-        run: ./gradlew test
+      - name: Test and build
+        run: ./gradlew test bootJar
         env:
           ORG_GRADLE_PROJECT_githubUser: x-access-token
           ORG_GRADLE_PROJECT_githubPassword: ${{ secrets.GITHUB_TOKEN }}
-      - name: Build jar
-        env:
-          ORG_GRADLE_PROJECT_githubUser: x-access-token
-          ORG_GRADLE_PROJECT_githubPassword: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          ./gradlew shadowJar -x test
-          echo "version=$(./gradlew -q printVersion)" >> $GITHUB_ENV
       - name: Build Docker images
         run: |
           docker build --tag ${IMAGE} .
