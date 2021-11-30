@@ -1,4 +1,4 @@
-package no.nav.klage.kabalkodeverk
+package no.nav.klage.kodeverk
 
 interface Kode {
     val id: String
