@@ -1,4 +1,7 @@
-﻿package no.nav.klage.kabalkodeverk
+﻿package no.nav.klage.kodeverk
+
+import javax.persistence.AttributeConverter
+import javax.persistence.Converter
 
 enum class Tema(override val id: String, override val navn: String, override val beskrivelse: String) : Kode {
     AAP("1", "AAP", "Arbeidsavklaringspenger"),
@@ -75,4 +78,14 @@ enum class Tema(override val id: String, override val navn: String, override val
                 ?: throw IllegalArgumentException("No Tema with $navn exists")
         }
     }
+}
+
+@Converter
+class TemaConverter : AttributeConverter<Tema, String?> {
+
+    override fun convertToDatabaseColumn(entity: Tema?): String? =
+        entity?.id
+
+    override fun convertToEntityAttribute(id: String?): Tema? =
+        id?.let { Tema.of(it) }
 }

@@ -1,4 +1,7 @@
-package no.nav.klage.kabalkodeverk
+package no.nav.klage.kodeverk
+
+import javax.persistence.AttributeConverter
+import javax.persistence.Converter
 
 enum class Ytelse(override val id: String, override val navn: String, override val beskrivelse: String) : Kode {
     OMS_OMP("1", "Omsorgspenger", "Omsorgspenger"),
@@ -95,3 +98,33 @@ enum class Ytelse(override val id: String, override val navn: String, override v
         }
     }
 }
+
+@Converter
+class YtelseConverter : AttributeConverter<Ytelse, String?> {
+
+    override fun convertToDatabaseColumn(entity: Ytelse?): String? =
+        entity?.id
+
+    override fun convertToEntityAttribute(id: String?): Ytelse? =
+        id?.let { Ytelse.of(it) }
+}
+
+val ytelserPerEnhet = mapOf(
+    "4291" to listOf(Ytelse.SYK_SYK),
+    "4292" to listOf(Ytelse.FOR_FOR, Ytelse.FOR_ENG, Ytelse.FOR_SVA, Ytelse.SYK_SYK),
+    "4293" to listOf(),
+    "4294" to listOf(Ytelse.SYK_SYK),
+    "4295" to listOf(Ytelse.OMS_OMP, Ytelse.OMS_PLS, Ytelse.OMS_PSB, Ytelse.OMS_OLP),
+    "4250" to listOf(),
+)
+
+val enheterPerYtelse = mapOf(
+    Ytelse.SYK_SYK to listOf("4291", "4292", "4294"),
+    Ytelse.FOR_SVA to listOf("4292"),
+    Ytelse.FOR_ENG to listOf("4292"),
+    Ytelse.FOR_FOR to listOf("4292"),
+    Ytelse.OMS_OMP to listOf("4295"),
+    Ytelse.OMS_PLS to listOf("4295"),
+    Ytelse.OMS_PSB to listOf("4295"),
+    Ytelse.OMS_OLP to listOf("4295"),
+)
