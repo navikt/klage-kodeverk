@@ -10,7 +10,7 @@ env:
 
 jobs:
   build:
-    name: Build and push docker image
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -38,7 +38,7 @@ jobs:
     if: github.ref == 'refs/heads/main' && !contains(github.event.head_commit.message, 'ci skip')
     steps:
       - name: Checkout code
-        uses: actions/checkout@2
+        uses: actions/checkout@v2
       - name: Set release tag
         run: |
           export TAG_NAME="$(TZ="Europe/Oslo" date +%Y.%m.%d-%H.%M).$(echo $GITHUB_SHA | cut -c 1-12)"

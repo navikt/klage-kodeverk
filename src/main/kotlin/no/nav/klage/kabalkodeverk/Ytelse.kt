@@ -15,7 +15,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     BID_BIF("12", "Bidragsforskudd", "Bidragsforskudd"),
     BID_OPI("13", "Oppfostringsbidrag", "Oppfostringsbidrag"),
     BID_EKB("14", "Ektefellebidrag", "Ektefellebidrag"),
-//    BII_BII("15", "Bidragsinnkreving", "Bidragsinnkreving"),
+    BID_BII("15", "Bidragsinnkreving", "Bidragsinnkreving"),
     DAG_DAG("16", "Dagpenger", "Dagpenger"),
     ENF_ENF("17", "Enslig forsørger", "Enslig forsørger"),
     GEN_GEN("18", "Lønnsgaranti", "Lønnsgaranti"),
@@ -72,8 +72,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
             FOR_FOR, FOR_ENG, FOR_SVA -> Tema.FOR
             AAP_AAP -> Tema.AAP
             BAR_BAR -> Tema.BAR
-            BID_BAB, BID_BIF, BID_OPI, BID_EKB, BID_BBF -> Tema.BID
-            //BII_BII -> Tema.BII
+            BID_BAB, BID_BIF, BID_OPI, BID_EKB, BID_BBF, BID_BII -> Tema.BID
             DAG_DAG -> Tema.DAG
             ENF_ENF -> Tema.ENF
             GEN_GEN -> Tema.GEN
