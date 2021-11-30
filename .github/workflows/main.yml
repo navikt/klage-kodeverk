@@ -27,16 +27,47 @@ jobs:
         with:
           java-version: '11.x'
       - name: Test and build
-        run: ./gradlew test bootJar
+        run: ./gradlew test build
         env:
           ORG_GRADLE_PROJECT_githubUser: x-access-token
           ORG_GRADLE_PROJECT_githubPassword: ${{ secrets.GITHUB_TOKEN }}
-      - name: Build Docker images
+  release:
+    name: Create Release
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' && !contains(github.event.head_commit.message, 'ci skip')
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@21
+      - name: Set release tag
         run: |
-          docker build --tag ${IMAGE} .
-      - name: Push docker image to GitHub
+          export TAG_NAME="$(TZ="Europe/Oslo" date +%Y.%m.%d-%H.%M).$(echo $GITHUB_SHA | cut -c 1-12)"
+          echo "RELEASE_TAG=$TAG_NAME" >> $GITHUB_ENV
+      - name: Set changelog
+        id: changelog
+        # (Escape newlines see https://github.com/actions/create-release/issues/25)
+        run: |
+          text="$(git --no-pager log $(git describe --tags --abbrev=0)..HEAD --pretty=format:"%h %s")"
+          echo "::set-output name=CHANGELOG::$text"
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          docker login docker.pkg.github.com -u ${GITHUB_REPOSITORY} -p ${GITHUB_TOKEN}
-          docker push ${IMAGE}
+        with:
+          tag_name: ${{ env.RELEASE_TAG }}
+          release_name: ${{ env.RELEASE_TAG }}
+          body: |
+            Changes in this release
+            ${{ steps.changelog.outputs.CHANGELOG }}
+          draft: false
+          prerelease: false
+#      - name: Build Docker images
+#        run: |
+#          docker build --tag ${IMAGE} .
+#      - name: Push docker image to GitHub
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        run: |
+#          docker login docker.pkg.github.com -u ${GITHUB_REPOSITORY} -p ${GITHUB_TOKEN}
+#          docker push ${IMAGE}
