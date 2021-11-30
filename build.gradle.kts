@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "no.nav.klage"
-version = "0.0.1-SNAPSHOT"
+version = properties["version"] ?: "local-build"
 java.sourceCompatibility = JavaVersion.VERSION_11
 
 configurations {
@@ -41,4 +41,31 @@ tasks.withType<KotlinCompile> {
 
 tasks.withType<Test> {
 	useJUnitPlatform()
+}
+
+publishing {
+	publications {
+		create<MavenPublication>("mavenJava") {
+
+			pom {
+				name.set("kabal-kodeverk")
+				description.set("Kabal Kodeverk")
+				url.set("https://github.com/navikt/kabal-kodeverk")
+
+				licenses {
+					license {
+						name.set("MIT License")
+						url.set("https://opensource.org/licenses/MIT")
+					}
+				}
+
+				scm {
+					connection.set("scm:git:https://github.com/navikt/kabal-kodeverk.git")
+					developerConnection.set("scm:git:https://github.com/navikt/kabal-kodeverk.git")
+					url.set("https://github.com/navikt/kabal-kodeverk")
+				}
+			}
+			from(components["java"])
+		}
+	}
 }
