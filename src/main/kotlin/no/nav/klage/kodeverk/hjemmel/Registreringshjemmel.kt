@@ -5,7 +5,7 @@ enum class Registreringshjemmel(
     val lovKilde: LovKilde,
     val spesifikasjon: String
 ) {
-    // @formatter:off
+    //@formatter:off
 //    FTRL_10_1("1", LovKilde.FOLKETRYGDLOVEN, "10-5 Sykdom, skade og lyte"),
     FTRL_10_2("2", LovKilde.FOLKETRYGDLOVEN, "10-3"),
     FTRL_10_3("3", LovKilde.FOLKETRYGDLOVEN, "10-4"),
@@ -154,6 +154,6 @@ enum class Registreringshjemmel(
     TRRL_11("137", LovKilde.TRYGDERETTSLOVEN, "11"),
     TRRL_12("138", LovKilde.TRYGDERETTSLOVEN, "12"),
     TRRL_14("139", LovKilde.TRYGDERETTSLOVEN, "14"),
-    // @formatter:on
+    //@formatter:on
 }
 
