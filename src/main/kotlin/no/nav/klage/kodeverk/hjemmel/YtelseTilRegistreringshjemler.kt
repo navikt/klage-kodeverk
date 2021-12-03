@@ -5,7 +5,7 @@ import no.nav.klage.kodeverk.Ytelse
 val ytelseTilRegistreringshjemler = mapOf(
     Ytelse.HJE_HJE to listOf(
 
-        Registreringshjemmel.FTRL_10_1,
+//        Registreringshjemmel.FTRL_10_1,
         Registreringshjemmel.FTRL_10_2,
         Registreringshjemmel.FTRL_10_3,
         Registreringshjemmel.FTRL_10_4,

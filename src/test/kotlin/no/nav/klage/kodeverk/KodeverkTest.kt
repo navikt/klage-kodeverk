@@ -5,7 +5,7 @@ import no.nav.klage.kodeverk.hjemmel.Registreringshjemmel
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 
-internal class KodeverkTests {
+internal class KodeverkTest {
 
     @Test
     fun `LovKilde has no duplicate values`() {
