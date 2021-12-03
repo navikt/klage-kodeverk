@@ -1,9 +1,36 @@
 package no.nav.klage.kodeverk
 
+import no.nav.klage.kodeverk.hjemmel.Hjemmel
+import no.nav.klage.kodeverk.hjemmel.LovKilde
+import no.nav.klage.kodeverk.hjemmel.RegistreringsHjemmel
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 
 internal class KodeverkTests {
+
+    @Test
+    fun `LovKilde has no duplicate values`() {
+        assertThat(Fagsystem.values().groupBy {
+            it.navn
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
+
+        assertThat(Fagsystem.values().groupBy {
+            it.beskrivelse
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
+    }
+
+    @Test
+    fun `RegistreringsHjemmel has no duplicate values`() {
+        assertThat(RegistreringsHjemmel.values().groupBy {
+            it.id
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
+    }
 
     @Test
     fun `Fagsystem has no duplicate values`() {
