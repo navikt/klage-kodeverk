@@ -1,42 +1,86 @@
 package no.nav.klage.kodeverk.hjemmel
 
+import javax.persistence.AttributeConverter
+import javax.persistence.Converter
+
 enum class Registreringshjemmel(
     val id: String,
     val lovKilde: LovKilde,
     val spesifikasjon: String
 ) {
     //@formatter:off
-//    FTRL_10_1("1", LovKilde.FOLKETRYGDLOVEN, "10-5 Sykdom, skade og lyte"),
-    FTRL_10_2("2", LovKilde.FOLKETRYGDLOVEN, "10-3"),
-    FTRL_10_3("3", LovKilde.FOLKETRYGDLOVEN, "10-4"),
-    FTRL_10_4("4", LovKilde.FOLKETRYGDLOVEN, "10-5 Sykdom, skade og lyte"),
-    FTRL_10_5("5", LovKilde.FOLKETRYGDLOVEN, "10-5 Varig nedsatt inntektsevne"),
-    FTRL_10_6("6", LovKilde.FOLKETRYGDLOVEN, "10-5 Vesentlig innkrenkede arbeidsmuligheter"),
-    FTRL_10_7("7", LovKilde.FOLKETRYGDLOVEN, "10-5 Nødvendig og hensiktsmessig"),
-    FTRL_10_8("8", LovKilde.FOLKETRYGDLOVEN, "10-6 Sykdom, skade og lyte"),
-    FTRL_10_9("9", LovKilde.FOLKETRYGDLOVEN, "10-6 Vesentlig og varig nedsatt funksjonstap"),
-    FTRL_10_10("10", LovKilde.FOLKETRYGDLOVEN, "10-6 Nødvendig og hensiktsmessig"),
-    FTRL_10_11("11", LovKilde.FOLKETRYGDLOVEN, "10-7a Hjelpemidler"),
-    FTRL_10_12("12", LovKilde.FOLKETRYGDLOVEN, "10-7a Skolehjelpemidler"),
-    FTRL_10_13("13", LovKilde.FOLKETRYGDLOVEN, "10-7a Ordinært og vanlig utstyr"),
-    FTRL_10_14("14", LovKilde.FOLKETRYGDLOVEN, "10-7a Hjelpemidler med indirekte avhjelpsfunksjon og behandlingsformål"),
-    FTRL_10_15("15", LovKilde.FOLKETRYGDLOVEN, "10-7b Høreapparat"),
-    FTRL_10_16("16", LovKilde.FOLKETRYGDLOVEN, "10-7c Grunnmønster"),
-    FTRL_10_17("17", LovKilde.FOLKETRYGDLOVEN, "10-7d Førerhund"),
-    FTRL_10_18("18", LovKilde.FOLKETRYGDLOVEN, "10-7e Lese- og sekretærhjelp"),
-    FTRL_10_19("19", LovKilde.FOLKETRYGDLOVEN, "10-7f Tolkehjelp"),
-    FTRL_10_20("20", LovKilde.FOLKETRYGDLOVEN, "10-7g Tolk- og ledsagerhjelp"),
-    FTRL_10_21("21", LovKilde.FOLKETRYGDLOVEN, "10-7h Motorkjøretøy"),
-    FTRL_10_22("22", LovKilde.FOLKETRYGDLOVEN, "10-7i Ortopediske hjelpemidler"),
-    FTRL_10_23("23", LovKilde.FOLKETRYGDLOVEN, "10-7 Ombygging av maskiner"),
-    FTRL_10_24("24", LovKilde.FOLKETRYGDLOVEN, "10-7 Opplæringstiltak"),
-    FTRL_10_25("25", LovKilde.FOLKETRYGDLOVEN, "10-8 Bortfall av rettigheter"),
-    FTRL_10_26("26", LovKilde.FOLKETRYGDLOVEN, "10-8 Opplæringsloven"),
-    FTRL_10_27("27", LovKilde.FOLKETRYGDLOVEN, "10-8 Barnehageloven"),
-    FTRL_10_28("28", LovKilde.FOLKETRYGDLOVEN, "10-8 Spesialisthelsetjenesteloven"),
-    FTRL_10_29("29", LovKilde.FOLKETRYGDLOVEN, "10-8 Helse- og omsorgstjenesteloven"),
-    FTRL_10_30("30", LovKilde.FOLKETRYGDLOVEN, "10-8 Husbankloven"),
-    FTRL_10_31("31", LovKilde.FOLKETRYGDLOVEN, "10-8 Arbeidsmiljøloven"),
+
+    FTRL_8_13("1000.008.013", LovKilde.FOLKETRYGDLOVEN, "8-13"),
+
+    FTRL_9_2("1000.009.002", LovKilde.FOLKETRYGDLOVEN, "9-2"),
+    FTRL_9_3("1000.009.003", LovKilde.FOLKETRYGDLOVEN, "9-3"),
+    FTRL_9_4("140", LovKilde.FOLKETRYGDLOVEN, "9-4"),
+    FTRL_9_10("1000.009.010", LovKilde.FOLKETRYGDLOVEN, "9-10"),
+    FTRL_9_11("1000.009.011", LovKilde.FOLKETRYGDLOVEN, "9-11"),
+    FTRL_9_13("1000.009.013", LovKilde.FOLKETRYGDLOVEN, "9-13"),
+    FTRL_9_14("1000.009.014", LovKilde.FOLKETRYGDLOVEN, "9-14"),
+    FTRL_9_15("1000.009.015", LovKilde.FOLKETRYGDLOVEN, "9-15"),
+    FTRL_9_16("1000.009.016", LovKilde.FOLKETRYGDLOVEN, "9-16"),
+    FTRL_9_17("141", LovKilde.FOLKETRYGDLOVEN, "9-17"),
+    FTRL_9_5("1000.009.005", LovKilde.FOLKETRYGDLOVEN, "9-5"),
+    FTRL_9_5U("153", LovKilde.FOLKETRYGDLOVEN, "9-5 utvidet rett"),
+    FTRL_9_6("1000.009.006", LovKilde.FOLKETRYGDLOVEN, "9-6"),
+    FTRL_9_6U("154", LovKilde.FOLKETRYGDLOVEN, "9-6 utvidet rett"),
+    FTRL_9_7("155", LovKilde.FOLKETRYGDLOVEN, "9-7"),
+    FTRL_9_8("1000.009.008", LovKilde.FOLKETRYGDLOVEN, "9-8"),
+    FTRL_9_9("1000.009.009", LovKilde.FOLKETRYGDLOVEN, "9-9"),
+
+    FTRL_10_3("2", LovKilde.FOLKETRYGDLOVEN, "10-3"),
+    FTRL_10_4("3", LovKilde.FOLKETRYGDLOVEN, "10-4"),
+    FTRL_10_5A("4", LovKilde.FOLKETRYGDLOVEN, "10-5 Sykdom, skade og lyte"),
+    FTRL_10_5B("5", LovKilde.FOLKETRYGDLOVEN, "10-5 Varig nedsatt inntektsevne"),
+    FTRL_10_5C("6", LovKilde.FOLKETRYGDLOVEN, "10-5 Vesentlig innkrenkede arbeidsmuligheter"),
+    FTRL_10_5D("7", LovKilde.FOLKETRYGDLOVEN, "10-5 Nødvendig og hensiktsmessig"),
+    FTRL_10_6A("8", LovKilde.FOLKETRYGDLOVEN, "10-6 Sykdom, skade og lyte"),
+    FTRL_10_6B("9", LovKilde.FOLKETRYGDLOVEN, "10-6 Vesentlig og varig nedsatt funksjonstap"),
+    FTRL_10_6C("10", LovKilde.FOLKETRYGDLOVEN, "10-6 Nødvendig og hensiktsmessig"),
+    FTRL_10_7AA("11", LovKilde.FOLKETRYGDLOVEN, "10-7a Hjelpemidler"),
+    FTRL_10_7AB("12", LovKilde.FOLKETRYGDLOVEN, "10-7a Skolehjelpemidler"),
+    FTRL_10_7AC("13", LovKilde.FOLKETRYGDLOVEN, "10-7a Ordinært og vanlig utstyr"),
+    FTRL_10_7AD("14", LovKilde.FOLKETRYGDLOVEN, "10-7a Hjelpemidler med indirekte avhjelpsfunksjon og behandlingsformål"),
+    FTRL_10_7B("15", LovKilde.FOLKETRYGDLOVEN, "10-7b Høreapparat"),
+    FTRL_10_7C("16", LovKilde.FOLKETRYGDLOVEN, "10-7c Grunnmønster"),
+    FTRL_10_7D("17", LovKilde.FOLKETRYGDLOVEN, "10-7d Førerhund"),
+    FTRL_10_7E("18", LovKilde.FOLKETRYGDLOVEN, "10-7e Lese- og sekretærhjelp"),
+    FTRL_10_7F("19", LovKilde.FOLKETRYGDLOVEN, "10-7f Tolkehjelp"),
+    FTRL_10_7G("20", LovKilde.FOLKETRYGDLOVEN, "10-7g Tolk- og ledsagerhjelp"),
+    FTRL_10_7H("21", LovKilde.FOLKETRYGDLOVEN, "10-7h Motorkjøretøy"),
+    FTRL_10_7I("22", LovKilde.FOLKETRYGDLOVEN, "10-7i Ortopediske hjelpemidler"),
+    FTRL_10_7XA("23", LovKilde.FOLKETRYGDLOVEN, "10-7 Ombygging av maskiner"),
+    FTRL_10_7XB("24", LovKilde.FOLKETRYGDLOVEN, "10-7 Opplæringstiltak"),
+    FTRL_10_8A("25", LovKilde.FOLKETRYGDLOVEN, "10-8 Bortfall av rettigheter"),
+    FTRL_10_8B("26", LovKilde.FOLKETRYGDLOVEN, "10-8 Opplæringsloven"),
+    FTRL_10_8C("27", LovKilde.FOLKETRYGDLOVEN, "10-8 Barnehageloven"),
+    FTRL_10_8D("28", LovKilde.FOLKETRYGDLOVEN, "10-8 Spesialisthelsetjenesteloven"),
+    FTRL_10_8E("29", LovKilde.FOLKETRYGDLOVEN, "10-8 Helse- og omsorgstjenesteloven"),
+    FTRL_10_8F("30", LovKilde.FOLKETRYGDLOVEN, "10-8 Husbankloven"),
+    FTRL_10_8G("31", LovKilde.FOLKETRYGDLOVEN, "10-8 Arbeidsmiljøloven"),
+
+    FTRL_21_3("108", LovKilde.FOLKETRYGDLOVEN, "21-3"),
+    FTRL_21_6("143", LovKilde.FOLKETRYGDLOVEN, "21-6"),
+    FTRL_21_7("109", LovKilde.FOLKETRYGDLOVEN, "21-7"),
+    FTRL_21_8("110", LovKilde.FOLKETRYGDLOVEN, "21-8"),
+    FTRL_21_10("111", LovKilde.FOLKETRYGDLOVEN, "21-10"),
+    FTRL_21_12("112", LovKilde.FOLKETRYGDLOVEN, "21-12"),
+
+
+    FTRL_22_3("1000.022.003", LovKilde.FOLKETRYGDLOVEN, "22-3"),
+    FTRL_22_12("113", LovKilde.FOLKETRYGDLOVEN, "22-12"),
+    FTRL_22_13("114", LovKilde.FOLKETRYGDLOVEN, "22-13"),
+    FTRL_22_14("115", LovKilde.FOLKETRYGDLOVEN, "22-14"),
+    FTRL_22_15A("144", LovKilde.FOLKETRYGDLOVEN, "22-15 første ledd første punktum"),
+    FTRL_22_15B("145", LovKilde.FOLKETRYGDLOVEN, "22-15 første ledd andre punktum"),
+    FTRL_22_15C("146", LovKilde.FOLKETRYGDLOVEN, "22-15 andre ledd"),
+    FTRL_22_15D("147", LovKilde.FOLKETRYGDLOVEN, "22-15 fjerde ledd"),
+    FTRL_22_15E("148", LovKilde.FOLKETRYGDLOVEN, "22-15 femte ledd"),
+    FTRL_22_15F("149", LovKilde.FOLKETRYGDLOVEN, "22-15 sjette ledd"),
+    FTRL_22_17("116", LovKilde.FOLKETRYGDLOVEN, "22-17"),
+    FTRL_22_17A("150", LovKilde.FOLKETRYGDLOVEN, "22-17a"),
 
     FS_AKT_26_1("32", LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR, "2 aktivitetshjelpemidler"),
     FS_AKT_26_2("33", LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR, "2 hjelpemidler for å aktivisere bevegelsesapparatet"),
@@ -120,16 +164,6 @@ enum class Registreringshjemmel(
     FS_MOK_13("106", LovKilde.FORSKRIFT_OM_MOTORKJØRETØY, "12 tilskudd til kjøreopplæring"),
     FS_MOK_14("107", LovKilde.FORSKRIFT_OM_MOTORKJØRETØY, "15 gjeldoppgjør"),
 
-    FTRL_21_3("108", LovKilde.FOLKETRYGDLOVEN, "21-3"),
-    FTRL_21_7("109", LovKilde.FOLKETRYGDLOVEN, "21-7"),
-    FTRL_21_8("110", LovKilde.FOLKETRYGDLOVEN, "21-8"),
-    FTRL_21_10("111", LovKilde.FOLKETRYGDLOVEN, "21-10"),
-    FTRL_21_12("112", LovKilde.FOLKETRYGDLOVEN, "21-12"),
-    FTRL_22_12("113", LovKilde.FOLKETRYGDLOVEN, "22-12"),
-    FTRL_22_13("114", LovKilde.FOLKETRYGDLOVEN, "22-13"),
-    FTRL_22_14("115", LovKilde.FOLKETRYGDLOVEN, "22-14"),
-    FTRL_22_17("116", LovKilde.FOLKETRYGDLOVEN, "22-17"),
-
     FVL_11("117", LovKilde.FORVALTNINGSLOVEN, "11"),
     FVL_12("118", LovKilde.FORVALTNINGSLOVEN, "12"),
     FVL_16("119", LovKilde.FORVALTNINGSLOVEN, "16"),
@@ -154,6 +188,28 @@ enum class Registreringshjemmel(
     TRRL_11("137", LovKilde.TRYGDERETTSLOVEN, "11"),
     TRRL_12("138", LovKilde.TRYGDERETTSLOVEN, "12"),
     TRRL_14("139", LovKilde.TRYGDERETTSLOVEN, "14"),
+
+    FL_2_3("151", LovKilde.FORELDELSESLOVEN, "2 og 3"),
+    FL_10("152", LovKilde.FORELDELSESLOVEN, "10"),
+
+    ;
     //@formatter:on
+
+    companion object {
+        fun of(id: String): Registreringshjemmel {
+            return values().firstOrNull { it.id == id }
+                ?: throw IllegalArgumentException("No Registreringshjemmel with $id exists")
+        }
+    }
+}
+
+@Converter
+class RegistreringshjemmelConverter : AttributeConverter<Registreringshjemmel, String?> {
+
+    override fun convertToDatabaseColumn(entity: Registreringshjemmel?): String? =
+        entity?.id
+
+    override fun convertToEntityAttribute(id: String?): Registreringshjemmel? =
+        id?.let { Registreringshjemmel.of(it) }
 }
 

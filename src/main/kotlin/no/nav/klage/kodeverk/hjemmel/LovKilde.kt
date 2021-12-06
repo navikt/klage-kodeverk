@@ -12,6 +12,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
     FORSKRIFT_OM_MOTORKJØRETØY("7","Forskrift om motorkjøretøy", "Forskrift om motorkjøretøy"),
     FORVALTNINGSLOVEN("8","Forvaltningsloven", "Fvl"),
     TRYGDERETTSLOVEN("9","Trygderettsloven", "Trrl"),
+    FORELDELSESLOVEN("10","Foreldelsesloven", "Fl"),
 
     UKJENT("999","Ukjent", "Ukjent")
 }
