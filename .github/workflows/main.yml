@@ -62,12 +62,3 @@ jobs:
             ${{ steps.changelog.outputs.CHANGELOG }}
           draft: false
           prerelease: false
-#      - name: Build Docker images
-#        run: |
-#          docker build --tag ${IMAGE} .
-#      - name: Push docker image to GitHub
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#        run: |
-#          docker login docker.pkg.github.com -u ${GITHUB_REPOSITORY} -p ${GITHUB_TOKEN}
-#          docker push ${IMAGE}

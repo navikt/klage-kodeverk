@@ -1,5 +1,8 @@
-package no.nav.klage.kodeverk
+package no.nav.klage.kodeverk.hjemmel
 
+import no.nav.klage.kodeverk.Kode
+import no.nav.klage.kodeverk.Tema
+import no.nav.klage.kodeverk.Ytelse
 import javax.persistence.AttributeConverter
 import javax.persistence.Converter
 
@@ -119,10 +122,6 @@ enum class Hjemmel(
 }
 
 data class KapittelOgParagraf(val kapittel: Int, val paragraf: Int? = null)
-
-enum class LovKilde {
-    FOLKETRYGDLOVEN, FORVALTNINGSLOVEN, UKJENT
-}
 
 data class HjemlerPerTema(val tema: Tema, val hjemler: List<Hjemmel>)
 
