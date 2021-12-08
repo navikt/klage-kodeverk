@@ -13,6 +13,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
     FORVALTNINGSLOVEN("8","Forvaltningsloven", "Fvl"),
     TRYGDERETTSLOVEN("9","Trygderettsloven", "Trrl"),
     FORELDELSESLOVEN("10","Foreldelsesloven", "Fl"),
+    EØS_FORORDNING_883_2004("11", "EØS forordning 883/2004", "EØS forordning 883/2004"),
 
     UKJENT("999","Ukjent", "Ukjent")
 }
