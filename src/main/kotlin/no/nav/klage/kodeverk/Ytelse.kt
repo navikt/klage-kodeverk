@@ -14,7 +14,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     FOR_SVA("8", "Svangerskapspenger", "Svangerskapspenger"),
     AAP_AAP("9", "Arbeidsavklaringspenger (AAP)", "Arbeidsavklaringspenger (AAP)"),
     BAR_BAR("10", "Barnetrygd", "Barnetrygd"),
-    BID_BAB("11", "Barnebidrag", "BarnebidragBarnetrygd"),
+    BID_BAB("11", "Barnebidrag", "Barnebidrag"),
     BID_BIF("12", "Bidragsforskudd", "Bidragsforskudd"),
     BID_OPI("13", "Oppfostringsbidrag", "Oppfostringsbidrag"),
     BID_EKB("14", "Ektefellebidrag", "Ektefellebidrag"),
