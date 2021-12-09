@@ -213,4 +213,25 @@ internal class KodeverkTest {
             it.value.size > 1
         }).isEmpty()
     }
+
+    @Test
+    fun `Enhet has no duplicate values`() {
+        assertThat(Enhet.values().groupBy {
+            it.id
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
+
+        assertThat(Enhet.values().groupBy {
+            it.navn
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
+
+        assertThat(Enhet.values().groupBy {
+            it.beskrivelse
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
+    }
 }
