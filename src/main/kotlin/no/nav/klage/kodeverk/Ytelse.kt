@@ -20,7 +20,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     BID_EKB("14", "Ektefellebidrag", "Ektefellebidrag"),
     BID_BII("15", "Bidragsinnkreving", "Bidragsinnkreving"),
     DAG_DAG("16", "Dagpenger", "Dagpenger"),
-    ENF_ENF("17", "Enslig forsørger", "Enslig forsørger"),
+    ENF_ENF("17", "Enslig mor eller far", "Enslig mor eller far"),
     GEN_GEN("18", "Lønnsgaranti", "Lønnsgaranti"),
     GRA_GRA("19", "Gravferdsstønad", "Gravferdsstønad"),
     GRU_HJE("20", "Hjelpestønad", "Hjelpestønad"),
@@ -58,6 +58,8 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     TSO_TSO("44", "Tilleggsstønad", "Tilleggsstønad"),
     FAR_FAR("45", "Far- og morskap", "Far- og morskap"),
     BID_BBF("46", "Barnebortføring", "Barnebortføring"),
+    DAG_LKP("47", "Lønnskompensasjon for permitterte", "Lønnskompensasjon for permittertee"),
+    DAG_FDP("48", "Forskudd dagpenger", "Forskudd dagpenger")
     ;
 
 
@@ -76,7 +78,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
             AAP_AAP -> Tema.AAP
             BAR_BAR -> Tema.BAR
             BID_BAB, BID_BIF, BID_OPI, BID_EKB, BID_BBF, BID_BII -> Tema.BID
-            DAG_DAG -> Tema.DAG
+            DAG_DAG, DAG_FDP, DAG_LKP -> Tema.DAG
             ENF_ENF -> Tema.ENF
             GEN_GEN -> Tema.GEN
             GRA_GRA -> Tema.GRA
