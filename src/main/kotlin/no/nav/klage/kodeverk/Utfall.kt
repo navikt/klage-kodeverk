@@ -9,7 +9,7 @@ enum class Utfall(override val id: String, override val navn: String, override v
     OPPHEVET("3", "Opphevet", "Opphevet"),
     MEDHOLD("4", "Medhold", "Medhold"),
     DELVIS_MEDHOLD("5", "Delvis medhold", "Delvis medhold"),
-    OPPRETTHOLDT("6", "Opprettholdt", "Opprettholdt"),
+    STADFESTELSE("6", "Stadfestelse", "Stadfestelse"),
     UGUNST("7", "Ugunst (Ugyldig)", "Ugunst (Ugyldig)"),
     AVVIST("8", "Avvist", "Avvist");
 
