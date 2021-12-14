@@ -149,6 +149,6 @@ val ytelseTilKlageenheter = mapOf(
         E4291,
     ),
     Ytelse.DAG_LKP to setOf(
-        E4291,
+        E4291, E4250
     )
 )
