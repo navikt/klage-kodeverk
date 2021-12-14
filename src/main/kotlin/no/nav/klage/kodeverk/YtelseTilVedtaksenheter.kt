@@ -2149,4 +2149,10 @@ val ytelseTilVedtaksenheter = mapOf(
     Ytelse.BID_BBF to setOf(
         E4849,
     ),
+    Ytelse.DAG_FDP to setOf(
+        E4153
+    ),
+    Ytelse.DAG_LKP to setOf(
+        E4486
+    )
 )
