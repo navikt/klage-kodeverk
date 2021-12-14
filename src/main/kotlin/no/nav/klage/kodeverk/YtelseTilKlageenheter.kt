@@ -145,4 +145,10 @@ val ytelseTilKlageenheter = mapOf(
     Ytelse.AAR_AAR to setOf(
         E4292,
     ),
+    Ytelse.DAG_FDP to setOf(
+        E4291,
+    ),
+    Ytelse.DAG_LKP to setOf(
+        E4291,
+    )
 )
