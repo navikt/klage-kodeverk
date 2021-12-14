@@ -447,7 +447,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E4863("444", "4863", "NAV Familie- og pensjonsytelser midlertidig enhet"),
     E4475("445", "4475", "Uføretrygd bosatt utland"),
     E4476("446", "4476", "Uføretrygd med utlandstilsnitt"),
-    E4280("500", "4280", "NAV Klageinstans - Tilleggsstønader - Inn"),
+//    E4280("500", "4280", "NAV Klageinstans - Tilleggsstønader - Inn"),
 //    E4255("501", "4255", "NAV Klageinstans - Tiltakspenger - Inn"),
 //    E4258("502", "4258", "NAV Klageinstans - Tiltak"),
 //    E4260("503", "4260", "NAV Klageinstans - Arbeidsavklaringspenger - Inn"),
