@@ -52,7 +52,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
     TILLEGGSSTØNADSFORSKRIFTEN("46", "Tilleggsstønadforskriften", "Fors om till.stø."),
     NAV_LOVEN("47", "NAV-loven", "NAV-L"),
     MIDLERTIDIG_LOV_KOMP_SELVST_OG_FRILANS("48","Midlertidig lov om kompensasjonsytelse for selvstendig næringsdrivende og frilansere", "Midl. komp selv.næ og fril"),
-    LØNNSKOMPENSASJON_FOR_PERMITTERTE("49", "Lønnskopmensasjon for permitterte", "Lønn.komp perm"),
+    LØNNSKOMPENSASJON_FOR_PERMITTERTE("49", "Lønnskompensasjon for permitterte", "Lønn.komp perm"),
     MIDLERTIDIG_FORSKR_FORSKUDD_DAGPENGER("50", "Midlertidig forskrift om forskudd på dagpenger for å avhjelpe konsekvensene av covid-19", "Midlertidig forskrift om forskudd på dagpenger for å avhjelpe konsekvensene av covid-19"),
     BARNEBORTFØRINGSLOVEN("51", "Barnebortføringsloven", "Bbfl"),
     KONVENSON_OM_SIVILE_SIDER_VED_BARNEBORTFØRING("52", "Konvensjon om sivile sider ved barnebortføring", "Konvensjon om sivile sider ved barnebortføring"),
