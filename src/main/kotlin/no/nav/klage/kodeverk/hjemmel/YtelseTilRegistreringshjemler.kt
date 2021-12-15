@@ -2529,6 +2529,14 @@ val ytelseTilRegistreringshjemler = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+
+        EOES_883_2004_11,
+        EOES_883_2004_12,
+        EOES_883_2004_13,
+        EOES_883_2004_14,
+        EOES_883_2004_16,
+
+        NRD_KNV,
     ),
 
     Ytelse.UFO_TVF to listOf(

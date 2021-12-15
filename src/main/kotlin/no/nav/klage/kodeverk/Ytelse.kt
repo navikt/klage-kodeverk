@@ -58,7 +58,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     TSO_TSO("44", "Tilleggsstønad", "Tilleggsstønad"),
     FAR_FAR("45", "Far- og morskap", "Far- og morskap"),
     BID_BBF("46", "Barnebortføring", "Barnebortføring"),
-    DAG_LKP("47", "Lønnskompensasjon for permitterte", "Lønnskompensasjon for permittertee"),
+    DAG_LKP("47", "Lønnskompensasjon for permitterte", "Lønnskompensasjon for permitterte"),
     DAG_FDP("48", "Forskudd dagpenger", "Forskudd dagpenger")
     ;
 

@@ -2149,10 +2149,19 @@ val ytelseTilVedtaksenheter = mapOf(
     Ytelse.BID_BBF to setOf(
         E4849,
     ),
+    Ytelse.ENF_ENF to setOf(
+        E4410,
+        E4415,
+        E4408,
+    ),
     Ytelse.DAG_FDP to setOf(
         E4153
+    ),
+    Ytelse.FRI_FRI to setOf(
+        E4863
     ),
     Ytelse.DAG_LKP to setOf(
         E4486
     )
+//TODO: Legg inn enheter for UFO_TVF, AAR_AAR og TSR_TSR når disse er klare.
 )
