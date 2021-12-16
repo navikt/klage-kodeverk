@@ -15,6 +15,8 @@ enum class Hjemmel(
 ) {
     //@formatter:off
 
+    //TODO give more explaining enum-names or improve Swagger-docs.
+
     SUP_ST_L_3("696", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 3"),
     SUP_ST_L_4("697", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 4"),
     SUP_ST_L_5("698", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 5"),
