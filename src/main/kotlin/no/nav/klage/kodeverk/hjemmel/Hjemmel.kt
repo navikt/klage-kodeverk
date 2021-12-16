@@ -15,11 +15,6 @@ enum class Hjemmel(
 ) {
     //@formatter:off
 
-    //Backwards compatibility in dev with search and innstillinger
-    FTL("1000", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven"),
-    FTL_9("1000.009", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven kapittel 9"),
-    MANGLER("1002", LovKilde.UKJENT, "Hjemmel mangler"),
-
     SUP_ST_L_3("696", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 3"),
     SUP_ST_L_4("697", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 4"),
     SUP_ST_L_5("698", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 5"),
@@ -33,6 +28,30 @@ enum class Hjemmel(
     SUP_ST_L_13("706", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 13"),
     SUP_ST_L_18("707", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 18"),
 
+    FTRL_22_3("1000.022.003", LovKilde.FOLKETRYGDLOVEN, "§ 22-3"),
+    FTRL_22_12("1000.022.012", LovKilde.FOLKETRYGDLOVEN, "§ 22-12"),
+    FTRL_22_13("1000.022.013", LovKilde.FOLKETRYGDLOVEN, "§ 22-13"),
+    FTRL_22_15("1000.022.015", LovKilde.FOLKETRYGDLOVEN, "§ 22-15"),
+
+    FTRL_9_2("1000.009.002", LovKilde.FOLKETRYGDLOVEN, "§ 9-2"),
+    FTRL_9_3("1000.009.003", LovKilde.FOLKETRYGDLOVEN, "§ 9-3"),
+    FTRL_9_5("1000.009.005", LovKilde.FOLKETRYGDLOVEN, "§ 9-5"),
+    FTRL_9_6("1000.009.006", LovKilde.FOLKETRYGDLOVEN, "§ 9-6"),
+    FTRL_9_8("1000.009.008", LovKilde.FOLKETRYGDLOVEN, "§ 9-8"),
+    FTRL_9_9("1000.009.009", LovKilde.FOLKETRYGDLOVEN, "§ 9-9"),
+    FTRL_9_10("1000.009.010", LovKilde.FOLKETRYGDLOVEN, "§ 9-10"),
+    FTRL_9_11("1000.009.011", LovKilde.FOLKETRYGDLOVEN, "§ 9-11"),
+    FTRL_9_13("1000.009.013", LovKilde.FOLKETRYGDLOVEN, "§ 9-13"),
+    FTRL_9_14("1000.009.014", LovKilde.FOLKETRYGDLOVEN, "§ 9-14"),
+    FTRL_9_15("1000.009.015", LovKilde.FOLKETRYGDLOVEN, "§ 9-15"),
+    FTRL_9_16("1000.009.016", LovKilde.FOLKETRYGDLOVEN, "§ 9-16"),
+
+    //Backwards compatibility in dev with search and innstillinger. Remove when we can?
+    FTL("1000", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven"),
+    FTL_9("1000.009", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven kapittel 9"),
+    MANGLER("1002", LovKilde.UKJENT, "Hjemmel mangler"),
+
+    //Backwards compatibility in dev since most of our test data is Sykepenger
     FTRL_8_2("1000.008.002", LovKilde.FOLKETRYGDLOVEN, "§ 8-2"),
     FTRL_8_3("1000.008.003", LovKilde.FOLKETRYGDLOVEN, "§ 8-3"),
     FTRL_8_4("1000.008.004", LovKilde.FOLKETRYGDLOVEN, "§ 8-4"),
@@ -57,24 +76,6 @@ enum class Hjemmel(
     FTRL_8_43("1000.008.043", LovKilde.FOLKETRYGDLOVEN, "§ 8-43"),
     FTRL_8_47("1000.008.047", LovKilde.FOLKETRYGDLOVEN, "§ 8-47"),
     FTRL_8_49("1000.008.049", LovKilde.FOLKETRYGDLOVEN, "§ 8-49"),
-
-    FTRL_22_3("1000.022.003", LovKilde.FOLKETRYGDLOVEN, "§ 22-3"),
-    FTRL_22_12("1000.022.012", LovKilde.FOLKETRYGDLOVEN, "§ 22-12"),
-    FTRL_22_13("1000.022.013", LovKilde.FOLKETRYGDLOVEN, "§ 22-13"),
-    FTRL_22_15("1000.022.015", LovKilde.FOLKETRYGDLOVEN, "§ 22-15"),
-
-    FTRL_9_2("1000.009.002", LovKilde.FOLKETRYGDLOVEN, "§ 9-2"),
-    FTRL_9_3("1000.009.003", LovKilde.FOLKETRYGDLOVEN, "§ 9-3"),
-    FTRL_9_5("1000.009.005", LovKilde.FOLKETRYGDLOVEN, "§ 9-5"),
-    FTRL_9_6("1000.009.006", LovKilde.FOLKETRYGDLOVEN, "§ 9-6"),
-    FTRL_9_8("1000.009.008", LovKilde.FOLKETRYGDLOVEN, "§ 9-8"),
-    FTRL_9_9("1000.009.009", LovKilde.FOLKETRYGDLOVEN, "§ 9-9"),
-    FTRL_9_10("1000.009.010", LovKilde.FOLKETRYGDLOVEN, "§ 9-10"),
-    FTRL_9_11("1000.009.011", LovKilde.FOLKETRYGDLOVEN, "§ 9-11"),
-    FTRL_9_13("1000.009.013", LovKilde.FOLKETRYGDLOVEN, "§ 9-13"),
-    FTRL_9_14("1000.009.014", LovKilde.FOLKETRYGDLOVEN, "§ 9-14"),
-    FTRL_9_15("1000.009.015", LovKilde.FOLKETRYGDLOVEN, "§ 9-15"),
-    FTRL_9_16("1000.009.016", LovKilde.FOLKETRYGDLOVEN, "§ 9-16"),
     ;
 
     fun toSearchableString(): String {
