@@ -93,6 +93,7 @@ enum class Hjemmel(
 
 data class HjemlerPerTema(val tema: Tema, val hjemler: List<Hjemmel>)
 
+//Remove when not in use by FE anymore
 val hjemlerPerTema: List<HjemlerPerTema> = listOf(
     HjemlerPerTema(
         Tema.OMS,
@@ -103,8 +104,6 @@ val hjemlerPerTema: List<HjemlerPerTema> = listOf(
         Hjemmel.values().filter { it.id.startsWith("1000.008") }
     )
 )
-
-data class HjemlerPerYtelse(val ytelse: Ytelse, val hjemler: List<Hjemmel>)
 
 @Converter
 class HjemmelConverter : AttributeConverter<Hjemmel, String?> {
