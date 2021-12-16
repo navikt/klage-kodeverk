@@ -2165,6 +2165,9 @@ val ytelseTilVedtaksenheter = mapOf(
     ),
     Ytelse.UFO_TVF to setOf(
         E4407,
+        E4808,
+        E4803,
+        E4815,
         E4817
     ),
     Ytelse.AAR_AAR to setOf(
