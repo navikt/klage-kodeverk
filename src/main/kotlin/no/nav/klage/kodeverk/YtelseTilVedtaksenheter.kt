@@ -2162,6 +2162,18 @@ val ytelseTilVedtaksenheter = mapOf(
     ),
     Ytelse.DAG_LKP to setOf(
         E4486
+    ),
+    Ytelse.UFO_TVF to setOf(
+        E4407,
+        E4808,
+        E4803,
+        E4815,
+        E4817
+    ),
+    Ytelse.AAR_AAR to setOf(
+        E4534
+    ),
+    Ytelse.TSR_TSR to setOf(
+        E0587
     )
-//TODO: Legg inn enheter for UFO_TVF, AAR_AAR og TSR_TSR når disse er klare.
 )
