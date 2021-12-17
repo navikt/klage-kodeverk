@@ -25,28 +25,34 @@ val ytelseTilVedtaksenheter = mapOf(
         E4720,
         E4408,
         E4418,
+        E2103
     ),
     Ytelse.OMS_OMP to setOf(
         E4432,
         E4409,
+        E2103
     ),
     Ytelse.OMS_OLP to setOf(
         E4432,
         E4409,
+        E2103
     ),
     Ytelse.OMS_PLS to setOf(
         E4432,
         E4409,
+        E2103
     ),
     Ytelse.OMS_PSB to setOf(
         E4432,
         E4409,
+        E2103
     ),
     Ytelse.DAG_DAG to setOf(
         E4450,
         E4470,
         E4465,
         E4455,
+        E2103
     ),
     Ytelse.AAP_AAP to setOf(
         E4404,
@@ -427,6 +433,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E2030,
         E2040,
         E2053,
+        E2103
     ),
     Ytelse.SYK_SYK to setOf(
         E4488,
@@ -805,17 +812,21 @@ val ytelseTilVedtaksenheter = mapOf(
         E2030,
         E2040,
         E2053,
+        E2103
     ),
     Ytelse.YRK_YRK to setOf(
         E4803,
         E4849,
+        E2103
     ),
     Ytelse.YRK_YSY to setOf(
         E4803,
+        E2103
     ),
     Ytelse.YRK_MEN to setOf(
         E4803,
         E4849,
+        E2103
     ),
     Ytelse.UFO_UFO to setOf(
         E4405,
@@ -828,6 +839,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4407,
         E4476,
         E4475,
+        E2103
     ),
     Ytelse.FOR_FOR to setOf(
         E4833,
@@ -836,17 +848,21 @@ val ytelseTilVedtaksenheter = mapOf(
         E4817,
         E4812,
         E4849,
+        E2103
     ),
     Ytelse.GRU_GRU to setOf(
         E4401,
         E4410,
+        E2103
     ),
     Ytelse.GRU_HJE to setOf(
         E4401,
         E4410,
+        E2103
     ),
     Ytelse.GRA_GRA to setOf(
         E4812,
+        E2103
     ),
     Ytelse.PEN_ALD to setOf(
         E4808,
@@ -855,6 +871,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4815,
         E4862,
         E4817,
+        E2103
     ),
     Ytelse.PEN_TIF to setOf(
         E4808,
@@ -862,6 +879,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4815,
         E4862,
         E0001,
+        E2103
     ),
     Ytelse.PEN_GJE to setOf(
         E4808,
@@ -869,6 +887,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4815,
         E4862,
         E0001,
+        E2103
     ),
     Ytelse.PEN_BAR to setOf(
         E4808,
@@ -876,6 +895,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4815,
         E4862,
         E0001,
+        E2103
     ),
     Ytelse.OPP_OPP to setOf(
         E0101,
@@ -1250,9 +1270,11 @@ val ytelseTilVedtaksenheter = mapOf(
         E2030,
         E2040,
         E2053,
+        E2103
     ),
     Ytelse.PEN_KRI to setOf(
         E4803,
+        E2103
     ),
     Ytelse.BAR_BAR to setOf(
         E4812,
@@ -1261,6 +1283,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4833,
         E4817,
         E4842,
+        E2103
     ),
     Ytelse.KON_KON to setOf(
         E4812,
@@ -1269,6 +1292,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4833,
         E4817,
         E4842,
+        E2103
     ),
     Ytelse.BID_BAB to setOf(
         E4806,
@@ -1278,6 +1302,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4820,
         E4849,
         E4865,
+        E2103
     ),
     Ytelse.BID_BIF to setOf(
         E4806,
@@ -1287,6 +1312,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4820,
         E4849,
         E4865,
+        E2103
     ),
     Ytelse.BID_BII to setOf(
         E4806,
@@ -1296,15 +1322,19 @@ val ytelseTilVedtaksenheter = mapOf(
         E4820,
         E4849,
         E4865,
+        E2103
     ),
     Ytelse.BID_EKB to setOf(
         E4849,
+        E2103
     ),
     Ytelse.SUP_PEN to setOf(
         E4815,
+        E2103
     ),
     Ytelse.SUP_UFF to setOf(
         E4815,
+        E2103
     ),
     Ytelse.FOR_ENG to setOf(
         E4833,
@@ -1313,6 +1343,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4817,
         E4812,
         E4849,
+        E2103
     ),
     Ytelse.FOR_SVA to setOf(
         E4833,
@@ -1321,6 +1352,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4817,
         E4812,
         E4849,
+        E2103
     ),
     Ytelse.TIL_TIL to setOf(
         E0207,
@@ -1708,6 +1740,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E2030,
         E2040,
         E2053,
+        E2103
     ),
     Ytelse.TIL_TIP to setOf(
         E0207,
@@ -2095,21 +2128,26 @@ val ytelseTilVedtaksenheter = mapOf(
         E2030,
         E2040,
         E2053,
+        E2103
     ),
     Ytelse.GEN_GEN to setOf(
         E4450,
         E4432,
+        E2103
     ),
     Ytelse.MED_MED to setOf(
         E4525,
         E4530,
+        E2103
     ),
     Ytelse.BID_OPI to setOf(
         E4802,
+        E2103
     ),
     Ytelse.OMS_OLP to setOf(
         E4432,
         E4409,
+        E2103
     ),
     Ytelse.PEN_AFP to setOf(
         E4808,
@@ -2118,6 +2156,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4815,
         E4862,
         E4817,
+        E2103
     ),
     Ytelse.TSO_TSO to setOf(
         E0207,
@@ -2141,39 +2180,49 @@ val ytelseTilVedtaksenheter = mapOf(
         E4411,
         E4416,
         E5771,
+        E2103
     ),
     Ytelse.FAR_FAR to setOf(
         E4860,
         E4863,
+        E2103
     ),
     Ytelse.BID_BBF to setOf(
         E4849,
+        E2103
     ),
     Ytelse.ENF_ENF to setOf(
         E4410,
         E4415,
         E4408,
+        E2103
     ),
     Ytelse.DAG_FDP to setOf(
-        E4153
+        E4153,
+        E2103
     ),
     Ytelse.FRI_FRI to setOf(
-        E4863
+        E4863,
+        E2103
     ),
     Ytelse.DAG_LKP to setOf(
-        E4486
+        E4486,
+        E2103
     ),
     Ytelse.UFO_TVF to setOf(
         E4407,
         E4808,
         E4803,
         E4815,
-        E4817
+        E4817,
+        E2103
     ),
     Ytelse.AAR_AAR to setOf(
-        E4534
+        E4534,
+        E2103
     ),
     Ytelse.TSR_TSR to setOf(
-        E0587
+        E0587,
+        E2103
     )
 )
