@@ -76,13 +76,7 @@ internal class KodeverkTest {
         }).isEmpty()
 
         assertThat(Hjemmel.values().groupBy {
-            it.navn
-        }.filter {
-            it.value.size > 1
-        }).isEmpty()
-
-        assertThat(Hjemmel.values().groupBy {
-            it.beskrivelse
+            it.spesifikasjon
         }.filter {
             it.value.size > 1
         }).isEmpty()
