@@ -48,7 +48,7 @@ enum class Hjemmel(
     FTRL_9_15("1000.009.015", LovKilde.FOLKETRYGDLOVEN, "§ 9-15"),
     FTRL_9_16("1000.009.016", LovKilde.FOLKETRYGDLOVEN, "§ 9-16"),
 
-    //Backwards compatibility in dev with search and innstillinger. Remove when we can?
+    //Backwards compatibility in dev with search and innstillinger. Can be removed later?
     FTL("1000", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven"),
     FTL_9("1000.009", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven kapittel 9"),
     MANGLER("1002", LovKilde.UKJENT, "Hjemmel mangler"),
