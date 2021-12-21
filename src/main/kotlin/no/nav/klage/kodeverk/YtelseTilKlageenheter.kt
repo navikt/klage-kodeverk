@@ -192,6 +192,16 @@ val ytelseTilKlageenheter = mapOf(
         E2103
     ),
     Ytelse.DAG_LKP to setOf(
-        E4291, E4250
+        E4291,
+        E4250,
+        E2103
+    ),
+    Ytelse.HJE_HJE to setOf(
+        E4293,
+        E2103
+    ),
+    Ytelse.FRI_FRI to setOf(
+        E4292,
+        E2103
     )
 )
