@@ -52,7 +52,12 @@ val ytelseTilVedtaksenheter = mapOf(
         E4470,
         E4465,
         E4455,
-        E2103
+        E2103,
+        E4401,
+        E4405,
+        E4408,
+        E4416,
+        E4418
     ),
     Ytelse.AAP_AAP to setOf(
         E4404,
