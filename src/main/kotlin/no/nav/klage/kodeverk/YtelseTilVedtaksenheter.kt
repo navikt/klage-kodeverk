@@ -48,10 +48,6 @@ val ytelseTilVedtaksenheter = mapOf(
         E2103
     ),
     Ytelse.DAG_DAG to setOf(
-        E4450,
-        E4470,
-        E4465,
-        E4455,
         E2103,
         E4401,
         E4405,
