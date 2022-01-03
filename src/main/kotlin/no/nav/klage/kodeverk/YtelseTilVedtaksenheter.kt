@@ -439,6 +439,7 @@ val ytelseTilVedtaksenheter = mapOf(
     Ytelse.SYK_SYK to setOf(
         E4488,
         E4402,
+        E4405,
         E4474,
         E4411,
         E0101,
