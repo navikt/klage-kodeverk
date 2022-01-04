@@ -440,6 +440,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4488,
         E4402,
         E4405,
+        E4407,
         E4474,
         E4411,
         E0101,
@@ -818,6 +819,7 @@ val ytelseTilVedtaksenheter = mapOf(
     ),
     Ytelse.YRK_YRK to setOf(
         E4803,
+        E4833,
         E4849,
         E2103
     ),
