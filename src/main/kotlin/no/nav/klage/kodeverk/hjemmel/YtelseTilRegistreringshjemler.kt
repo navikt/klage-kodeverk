@@ -507,6 +507,12 @@ val ytelseTilRegistreringshjemler = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+
+        FS_COV_19_1_2,
+        FS_COV_19_1_3,
+        FS_COV_19_3_1,
+        FS_COV_19_3A_1,
+        FS_COV_19_3A_3,
     ),
     Ytelse.DAG_DAG to listOf(
         FTRL_4_2,
@@ -2602,6 +2608,8 @@ val ytelseTilRegistreringshjemler = mapOf(
         FS_TILL_ST_15B,
 
         ARBML_17,
+
+        FTRL_11_A4_3,
         FTRL_21_3,
         FTRL_21_6,
         FTRL_21_7,

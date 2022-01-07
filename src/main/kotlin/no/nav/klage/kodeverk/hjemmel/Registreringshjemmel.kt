@@ -256,6 +256,7 @@ enum class Registreringshjemmel(
     FTRL_11_31A("305", LovKilde.FOLKETRYGDLOVEN, "§ 11-31 første ledd"),
     FTRL_11_31B("306", LovKilde.FOLKETRYGDLOVEN, "§ 11-31 andre ledd"),
     FTRL_11_31C("307", LovKilde.FOLKETRYGDLOVEN, "§ 11-31 tredje og fjerde ledd"),
+    FTRL_11_A4_3("815", LovKilde.FOLKETRYGDLOVEN, "§ 11A-4 tredje ledd"),
 
     FTRL_12_2("335", LovKilde.FOLKETRYGDLOVEN, "12-2"),
     FTRL_12_3("336", LovKilde.FOLKETRYGDLOVEN, "12-3"),
@@ -621,6 +622,12 @@ enum class Registreringshjemmel(
     FS_DAG_13_9("263", LovKilde.DAGPENGEFORSKRIFTEN, "§ 13-9"),
 
     FS_COV_19_2_10("264", LovKilde.FORSKRIFT_COVID_19, "§ 2-10 - feriepenger"),
+
+    FS_COV_19_1_2("816", LovKilde.FORSKRIFT_COVID_19, "§ 1-2"),
+    FS_COV_19_1_3("817", LovKilde.FORSKRIFT_COVID_19, "§ 1-3"),
+    FS_COV_19_3_1("818", LovKilde.FORSKRIFT_COVID_19, "§ 3-1"),
+    FS_COV_19_3A_1("819", LovKilde.FORSKRIFT_COVID_19, "§ 3A-1"),
+    FS_COV_19_3A_3("820", LovKilde.FORSKRIFT_COVID_19, "§ 3A-3"),
 
     PMLL_3("265", LovKilde.PERMITTERINGSLØNNSLOVEN, "§ 3"),
 

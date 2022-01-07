@@ -197,6 +197,7 @@ val ytelseTilKlageenheter = mapOf(
         E2103
     ),
     Ytelse.HJE_HJE to setOf(
+        E4292,
         E4293,
         E2103
     ),
