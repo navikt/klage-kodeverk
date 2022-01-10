@@ -436,9 +436,9 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E4486("521", "4486", "NAV Arbeid og ytelse lønnskompensasjon"),
     E4534("522", "4534", "NAV Registerforvaltning"),
     E2103("523", "2103", "NAV Vikafossen"),
-
     E2970("524", "2970", "IT-avdelingen"),
     E4473("525", "4473", "NAV AY Inntektskompensasjon"),
+    E0807("526", "0807", "NAV Notodden"),
 
 }
 
