@@ -413,6 +413,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4403,
         E4405,
         E4407,
+        E4410,
         E4473,
         E4474,
         E4411,
