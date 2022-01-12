@@ -221,11 +221,5 @@ internal class KodeverkTest {
         }.filter {
             it.value.size > 1
         }).isEmpty()
-
-        assertThat(Enhet.values().groupBy {
-            it.beskrivelse
-        }.filter {
-            it.value.size > 1
-        }).isEmpty()
     }
 }
