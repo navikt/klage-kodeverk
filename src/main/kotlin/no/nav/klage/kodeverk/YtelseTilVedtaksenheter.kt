@@ -1891,6 +1891,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E1751,
         E1755,
         E1756,
+        E1800,
         E1804,
         E1805,
         E1812,
@@ -1981,8 +1982,9 @@ val ytelseTilVedtaksenheter = mapOf(
         E2103
     ),
     Ytelse.GEN_GEN to setOf(
-        E4450,
-        E4432,
+        E4425,
+        E4401,
+        E4426,
         E2103
     ),
     Ytelse.MED_MED to setOf(
