@@ -736,6 +736,7 @@ enum class Registreringshjemmel(
     BL_75("639", LovKilde.BARNELOVEN, "§ 75"),
     BL_76("640", LovKilde.BARNELOVEN, "§ 76"),
     BL_80("641", LovKilde.BARNELOVEN, "§ 80"),
+    BL_83("821", LovKilde.BARNELOVEN, "§ 83"),
 
     FS_FASTS_OG_END_1("695", LovKilde.FORSKRIFT_OM_FASTSETTELSE_OG_ENDRING_AV_FORSTRINGSTILSKOT, "§ 1"),
     FS_FASTS_OG_END_2("642", LovKilde.FORSKRIFT_OM_FASTSETTELSE_OG_ENDRING_AV_FORSTRINGSTILSKOT, "§ 2"),
@@ -774,6 +775,7 @@ enum class Registreringshjemmel(
     FORSKL_7C("680", LovKilde.FORSKOTTERINGSLOVEN, "§ 7 andre ledd"),
 
     INNKL_1("681", LovKilde.BIDRAGSINNKREVINGSLOVEN, "§ 1"),
+    INNKL_2("822", LovKilde.BIDRAGSINNKREVINGSLOVEN, "§ 1"),
     INNKL_5("682", LovKilde.BIDRAGSINNKREVINGSLOVEN, "§ 5"),
     INNKL_25("683", LovKilde.BIDRAGSINNKREVINGSLOVEN, "§ 25"),
     INNKL_26A("684", LovKilde.BIDRAGSINNKREVINGSLOVEN, "§ 26 første ledd"),
@@ -919,6 +921,12 @@ enum class Registreringshjemmel(
     KONV_SIV_BBF_13("812", LovKilde.KONVENSON_OM_SIVILE_SIDER_VED_BARNEBORTFØRING, "art. 13"),
     KONV_SIV_BBF_17("813", LovKilde.KONVENSON_OM_SIVILE_SIDER_VED_BARNEBORTFØRING, "art. 17"),
     KONV_SIV_BBF_24("814", LovKilde.KONVENSON_OM_SIVILE_SIDER_VED_BARNEBORTFØRING, "art. 24"),
+
+    HAAG_20("823", LovKilde.HAAG_KONVENSJONEN, "art. 20"),
+    HAAG_22("824", LovKilde.HAAG_KONVENSJONEN, "art. 22"),
+    HAAG_28("825", LovKilde.HAAG_KONVENSJONEN, "art. 28"),
+    HAAG_30("826", LovKilde.HAAG_KONVENSJONEN, "art. 30"),
+
     ;
     //@formatter:on
 

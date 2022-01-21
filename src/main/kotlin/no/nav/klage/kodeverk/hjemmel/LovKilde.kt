@@ -56,6 +56,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
     MIDLERTIDIG_FORSKR_FORSKUDD_DAGPENGER("50", "Midlertidig forskrift om forskudd på dagpenger for å avhjelpe konsekvensene av covid-19", "Midlertidig forskrift om forskudd på dagpenger for å avhjelpe konsekvensene av covid-19"),
     BARNEBORTFØRINGSLOVEN("51", "Barnebortføringsloven", "Bbfl"),
     KONVENSON_OM_SIVILE_SIDER_VED_BARNEBORTFØRING("52", "Konvensjon om sivile sider ved barnebortføring", "Konvensjon om sivile sider ved barnebortføring"),
+    HAAG_KONVENSJONEN("53", "Haag-konvensjonen", "Haag-konvensjonen"),
 
     UKJENT("999","Ukjent", "Ukjent")
 }

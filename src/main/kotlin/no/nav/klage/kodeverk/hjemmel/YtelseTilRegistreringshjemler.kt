@@ -2164,6 +2164,7 @@ val ytelseTilRegistreringshjemler = mapOf(
         BL_75,
         BL_76,
         BL_80,
+        BL_83,
 
         FS_FASTS_OG_END_2,
         FS_FASTS_OG_END_3,
@@ -2237,6 +2238,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
     Ytelse.BID_BII to listOf(
         INNKL_1,
+        INNKL_2,
         INNKL_5,
         INNKL_25,
         INNKL_26A,
@@ -2267,6 +2269,11 @@ val ytelseTilRegistreringshjemler = mapOf(
         FVL_35,
         FVL_41,
         FVL_42,
+
+        HAAG_20,
+        HAAG_22,
+        HAAG_28,
+        HAAG_30,
     ),
 
     Ytelse.BID_EKB to listOf(
