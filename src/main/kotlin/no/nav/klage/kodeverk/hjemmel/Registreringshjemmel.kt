@@ -775,7 +775,7 @@ enum class Registreringshjemmel(
     FORSKL_7C("680", LovKilde.FORSKOTTERINGSLOVEN, "§ 7 andre ledd"),
 
     INNKL_1("681", LovKilde.BIDRAGSINNKREVINGSLOVEN, "§ 1"),
-    INNKL_2("822", LovKilde.BIDRAGSINNKREVINGSLOVEN, "§ 1"),
+    INNKL_2("822", LovKilde.BIDRAGSINNKREVINGSLOVEN, "§ 2"),
     INNKL_5("682", LovKilde.BIDRAGSINNKREVINGSLOVEN, "§ 5"),
     INNKL_25("683", LovKilde.BIDRAGSINNKREVINGSLOVEN, "§ 25"),
     INNKL_26A("684", LovKilde.BIDRAGSINNKREVINGSLOVEN, "§ 26 første ledd"),
