@@ -463,6 +463,11 @@ enum class Registreringshjemmel(
     FTRL_22_17("116", LovKilde.FOLKETRYGDLOVEN, "§ 22-17"),
     FTRL_22_17A("150", LovKilde.FOLKETRYGDLOVEN, "§ 22-17a"),
 
+    FTRL_23_3("827", LovKilde.FOLKETRYGDLOVEN, "§ 23-3"),
+    FTRL_23_4("828", LovKilde.FOLKETRYGDLOVEN, "§ 23-4"),
+
+    FTRL_24_1("829", LovKilde.FOLKETRYGDLOVEN, "§ 24-1"),
+
     FS_AKT_26_1("32", LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR, "§ 2 aktivitetshjelpemidler"),
     FS_AKT_26_2("33", LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR, "§ 2 hjelpemidler for å aktivisere bevegelsesapparatet"),
     FS_AKT_26_3("34", LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR, "§ 2 ortopediske aktivitetshjelpemidler"),
