@@ -890,6 +890,7 @@ val ytelseTilRegistreringshjemler = mapOf(
         FS_UFT_FTR_4_1,
         FS_UFT_FTR_4_2,
         FS_UFT_FTR_5_3,
+        FS_UFT_FTR_7_3,
 
         FTRL_21_3,
         FTRL_21_6,
@@ -2495,6 +2496,8 @@ val ytelseTilRegistreringshjemler = mapOf(
         FVL_35,
         FVL_41,
         FVL_42,
+
+        FORSK_OPPFLG_NAV_REGI_8,
     ),
 
     Ytelse.GEN_GEN to listOf(
@@ -2627,9 +2630,13 @@ val ytelseTilRegistreringshjemler = mapOf(
         FS_TILL_ST_15A,
         FS_TILL_ST_15B,
 
+        ARBML_13,
         ARBML_17,
 
+        FTRL_11_A3,
+        FTRL_11_A4,
         FTRL_11_A4_3,
+        FTRL_15_11,
         FTRL_21_3,
         FTRL_21_6,
         FTRL_21_7,

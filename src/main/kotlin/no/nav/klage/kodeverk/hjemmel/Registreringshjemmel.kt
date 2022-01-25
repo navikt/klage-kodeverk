@@ -256,6 +256,8 @@ enum class Registreringshjemmel(
     FTRL_11_31A("305", LovKilde.FOLKETRYGDLOVEN, "§ 11-31 første ledd"),
     FTRL_11_31B("306", LovKilde.FOLKETRYGDLOVEN, "§ 11-31 andre ledd"),
     FTRL_11_31C("307", LovKilde.FOLKETRYGDLOVEN, "§ 11-31 tredje og fjerde ledd"),
+    FTRL_11_A3("831", LovKilde.FOLKETRYGDLOVEN, "§ 11A-3"),
+    FTRL_11_A4("832", LovKilde.FOLKETRYGDLOVEN, "§ 11A-4"),
     FTRL_11_A4_3("815", LovKilde.FOLKETRYGDLOVEN, "§ 11A-4 tredje ledd"),
 
     FTRL_12_2("335", LovKilde.FOLKETRYGDLOVEN, "12-2"),
@@ -656,6 +658,7 @@ enum class Registreringshjemmel(
     FS_UFT_FTR_4_1("363", LovKilde.FORSKRIFT_UFØRETRYGD_FOLKETRYGDEN, "§ 4-1"),
     FS_UFT_FTR_4_2("364", LovKilde.FORSKRIFT_UFØRETRYGD_FOLKETRYGDEN, "§ 4-2"),
     FS_UFT_FTR_5_3("365", LovKilde.FORSKRIFT_UFØRETRYGD_FOLKETRYGDEN, "§ 5-3"),
+    FS_UFT_FTR_7_3("831", LovKilde.FORSKRIFT_UFØRETRYGD_FOLKETRYGDEN, "§ 7-3"),
 
     FS_BER_UFT_EOS_883_2004_1("387", LovKilde.FORSKRIFT_OM_BEREGNING_AV_UFØRETRYGD_ETTER_EØS_AVTALEN_883_2004, "§ 1"),
     FS_BER_UFT_EOS_883_2004_2("388", LovKilde.FORSKRIFT_OM_BEREGNING_AV_UFØRETRYGD_ETTER_EØS_AVTALEN_883_2004, "§ 2"),
@@ -932,6 +935,7 @@ enum class Registreringshjemmel(
     HAAG_28("825", LovKilde.HAAG_KONVENSJONEN, "art. 28"),
     HAAG_30("826", LovKilde.HAAG_KONVENSJONEN, "art. 30"),
 
+    FORSK_OPPFLG_NAV_REGI_8("830", LovKilde.FORSK_OPPFLG_NAV_EGEN_REGI, "§ 8"),
     ;
     //@formatter:on
 

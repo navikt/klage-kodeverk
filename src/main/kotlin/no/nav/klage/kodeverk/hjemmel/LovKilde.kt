@@ -57,6 +57,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
     BARNEBORTFØRINGSLOVEN("51", "Barnebortføringsloven", "Bbfl"),
     KONVENSON_OM_SIVILE_SIDER_VED_BARNEBORTFØRING("52", "Konvensjon om sivile sider ved barnebortføring", "Konvensjon om sivile sider ved barnebortføring"),
     HAAG_KONVENSJONEN("53", "Haag-konvensjonen", "Haag-konvensjonen"),
+    FORSK_OPPFLG_NAV_EGEN_REGI("54", "Forskrift om oppfølgingstjenester i Arbeids- og velferdsetatens egen regi", "Forskrift om oppfølgingstjenester i Arbeids- og velferdsetatens egen regi"),
 
     UKJENT("999","Ukjent", "Ukjent")
 }
