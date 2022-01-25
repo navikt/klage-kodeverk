@@ -256,8 +256,8 @@ enum class Registreringshjemmel(
     FTRL_11_31A("305", LovKilde.FOLKETRYGDLOVEN, "§ 11-31 første ledd"),
     FTRL_11_31B("306", LovKilde.FOLKETRYGDLOVEN, "§ 11-31 andre ledd"),
     FTRL_11_31C("307", LovKilde.FOLKETRYGDLOVEN, "§ 11-31 tredje og fjerde ledd"),
-    FTRL_11_A3("831", LovKilde.FOLKETRYGDLOVEN, "§ 11A-3"),
-    FTRL_11_A4("832", LovKilde.FOLKETRYGDLOVEN, "§ 11A-4"),
+    FTRL_11_A3("832", LovKilde.FOLKETRYGDLOVEN, "§ 11A-3"),
+    FTRL_11_A4("833", LovKilde.FOLKETRYGDLOVEN, "§ 11A-4"),
     FTRL_11_A4_3("815", LovKilde.FOLKETRYGDLOVEN, "§ 11A-4 tredje ledd"),
 
     FTRL_12_2("335", LovKilde.FOLKETRYGDLOVEN, "12-2"),
