@@ -517,6 +517,7 @@ enum class Registreringshjemmel(
     FS_ORT_HJE_MM_16("74", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 8 under 30 år"),
     FS_ORT_HJE_MM_17("75", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 8 stell og vedlikehold"),
     FS_ORT_HJE_MM_18("76", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 8 hodeplagg"),
+    FS_ORT_HJE_MM_22("838", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 8 varig"),
     FS_ORT_HJE_MM_19("77", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 9 alminnelig fottøy"),
     FS_ORT_HJE_MM_20("78", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 9a overekstremitetsortoser ved revmatisme"),
     FS_ORT_HJE_MM_21("79", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 12 reise"),
@@ -936,6 +937,12 @@ enum class Registreringshjemmel(
     HAAG_30("826", LovKilde.HAAG_KONVENSJONEN, "art. 30"),
 
     FORSK_OPPFLG_NAV_REGI_8("830", LovKilde.FORSK_OPPFLG_NAV_EGEN_REGI, "§ 8"),
+
+    FS_OM_ETTGJ_1("834", LovKilde.FORSKRIFT_OM_ETTERGJEVING, "§ 1"),
+    FS_OM_ETTGJ_2("835", LovKilde.FORSKRIFT_OM_ETTERGJEVING, "§ 2"),
+    FS_OM_ETTGJ_3("836", LovKilde.FORSKRIFT_OM_ETTERGJEVING, "§ 3"),
+    FS_OM_ETTGJ_4("837", LovKilde.FORSKRIFT_OM_ETTERGJEVING, "§ 4"),
+
     ;
     //@formatter:on
 

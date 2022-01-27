@@ -83,6 +83,7 @@ val ytelseTilRegistreringshjemler = mapOf(
         FS_ORT_HJE_MM_16,
         FS_ORT_HJE_MM_17,
         FS_ORT_HJE_MM_18,
+        FS_ORT_HJE_MM_22,
         FS_ORT_HJE_MM_19,
         FS_ORT_HJE_MM_20,
         FS_ORT_HJE_MM_21,
@@ -2194,6 +2195,11 @@ val ytelseTilRegistreringshjemler = mapOf(
         FS_OM_SAERT_2,
         FS_OM_SAERT_3,
         FS_OM_SAERT_4,
+
+        FS_OM_ETTGJ_1,
+        FS_OM_ETTGJ_2,
+        FS_OM_ETTGJ_3,
+        FS_OM_ETTGJ_4,
 
         FVL_11,
         FVL_12,
