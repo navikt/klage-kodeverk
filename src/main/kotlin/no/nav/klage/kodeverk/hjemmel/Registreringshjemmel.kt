@@ -812,7 +812,9 @@ enum class Registreringshjemmel(
     SUP_ST_L_11("704", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 11"),
     SUP_ST_L_12("705", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 12"),
     SUP_ST_L_13("706", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 13"),
+    SUP_ST_L_17("839", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 17"),
     SUP_ST_L_18("707", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 18"),
+    SUP_ST_L_21("840", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 21"),
 
     ARBML_12("708", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 12"),
     ARBML_13("723", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 13"),
