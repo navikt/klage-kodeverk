@@ -44,6 +44,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E0127("41", "0127", "NAV Skiptvet"),
     E0128("42", "0128", "NAV Rakkestad"),
     E0135("43", "0135", "NAV Råde"),
+    E0137("534", "0137", "NAV Våler i Viken"),
     E1037("44", "1037", "NAV Lister"),
     E0211("45", "0211", "NAV Vestby"),
     E0213("46", "0213", "NAV Nordre Follo"),
