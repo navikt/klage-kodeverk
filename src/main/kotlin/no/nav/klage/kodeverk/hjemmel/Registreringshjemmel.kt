@@ -623,6 +623,7 @@ enum class Registreringshjemmel(
     EOES_883_2004_70("385", LovKilde.EØS_FORORDNING_883_2004, "art. 70"),
     EOES_883_2004_87("386", LovKilde.EØS_FORORDNING_883_2004, "art. 87"),
 
+    FS_DAG_6_5("841", LovKilde.DAGPENGEFORSKRIFTEN, "§ 6-5"),
     FS_DAG_6_7("259", LovKilde.DAGPENGEFORSKRIFTEN, "§ 6-7"),
     FS_DAG_9_1("260", LovKilde.DAGPENGEFORSKRIFTEN, "§ 9-1"),
     FS_DAG_13_3("261", LovKilde.DAGPENGEFORSKRIFTEN, "§ 13-3"),

@@ -544,6 +544,7 @@ val ytelseTilRegistreringshjemler = mapOf(
         FTRL_4_27,
         FTRL_4_28,
 
+        FS_DAG_6_5,
         FS_DAG_6_7,
         FS_DAG_9_1,
         FS_DAG_13_3,

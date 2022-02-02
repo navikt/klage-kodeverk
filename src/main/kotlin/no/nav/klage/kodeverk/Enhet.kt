@@ -446,8 +446,8 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E4425("530", "4425", "NAV Arbeid og ytelser lønnsgaranti"),
     E4426("531", "4426", "NAV Arbeid og ytelser lønnsgaranti Vardø"),
     E1783("532", "1783", "NAV Værnes"),
-    E2830("533", "2830", "DIR Ytelsesavdelingen")
-
+    E2830("533", "2830", "DIR Ytelsesavdelingen"),
+    E4151("535", "4151", "NAV Økonomi Stønad"),
 }
 
 val klageenheter = setOf(Enhet.E4295, Enhet.E4293, Enhet.E4294, Enhet.E4292, Enhet.E4291, Enhet.E4250, Enhet.E2103)
