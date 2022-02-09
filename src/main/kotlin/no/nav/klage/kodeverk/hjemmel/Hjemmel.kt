@@ -32,29 +32,6 @@ enum class Hjemmel(
     SUP_ST_L_18("707", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 18"),
     SUP_ST_L_21("840", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 21"),
 
-    FTRL_22_3("1000.022.003", LovKilde.FOLKETRYGDLOVEN, "§ 22-3"),
-    FTRL_22_12("1000.022.012", LovKilde.FOLKETRYGDLOVEN, "§ 22-12"),
-    FTRL_22_13("1000.022.013", LovKilde.FOLKETRYGDLOVEN, "§ 22-13"),
-    FTRL_22_15("1000.022.015", LovKilde.FOLKETRYGDLOVEN, "§ 22-15"),
-
-    FTRL_9_2("1000.009.002", LovKilde.FOLKETRYGDLOVEN, "§ 9-2"),
-    FTRL_9_3("1000.009.003", LovKilde.FOLKETRYGDLOVEN, "§ 9-3"),
-    FTRL_9_5("1000.009.005", LovKilde.FOLKETRYGDLOVEN, "§ 9-5"),
-    FTRL_9_6("1000.009.006", LovKilde.FOLKETRYGDLOVEN, "§ 9-6"),
-    FTRL_9_8("1000.009.008", LovKilde.FOLKETRYGDLOVEN, "§ 9-8"),
-    FTRL_9_9("1000.009.009", LovKilde.FOLKETRYGDLOVEN, "§ 9-9"),
-    FTRL_9_10("1000.009.010", LovKilde.FOLKETRYGDLOVEN, "§ 9-10"),
-    FTRL_9_11("1000.009.011", LovKilde.FOLKETRYGDLOVEN, "§ 9-11"),
-    FTRL_9_13("1000.009.013", LovKilde.FOLKETRYGDLOVEN, "§ 9-13"),
-    FTRL_9_14("1000.009.014", LovKilde.FOLKETRYGDLOVEN, "§ 9-14"),
-    FTRL_9_15("1000.009.015", LovKilde.FOLKETRYGDLOVEN, "§ 9-15"),
-    FTRL_9_16("1000.009.016", LovKilde.FOLKETRYGDLOVEN, "§ 9-16"),
-
-    //Backwards compatibility in dev with search and innstillinger. Can be removed later?
-    FTL("1000", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven"),
-    FTL_9("1000.009", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven kapittel 9"),
-    MANGLER("1002", LovKilde.UKJENT, "Hjemmel mangler"),
-
     //Backwards compatibility in dev since most of our test data is Sykepenger
     FTRL_8_2("1000.008.002", LovKilde.FOLKETRYGDLOVEN, "§ 8-2"),
     FTRL_8_3("1000.008.003", LovKilde.FOLKETRYGDLOVEN, "§ 8-3"),
@@ -80,6 +57,48 @@ enum class Hjemmel(
     FTRL_8_43("1000.008.043", LovKilde.FOLKETRYGDLOVEN, "§ 8-43"),
     FTRL_8_47("1000.008.047", LovKilde.FOLKETRYGDLOVEN, "§ 8-47"),
     FTRL_8_49("1000.008.049", LovKilde.FOLKETRYGDLOVEN, "§ 8-49"),
+
+    FTRL_9_2("1000.009.002", LovKilde.FOLKETRYGDLOVEN, "§ 9-2"),
+    FTRL_9_3("1000.009.003", LovKilde.FOLKETRYGDLOVEN, "§ 9-3"),
+    FTRL_9_5("1000.009.005", LovKilde.FOLKETRYGDLOVEN, "§ 9-5"),
+    FTRL_9_6("1000.009.006", LovKilde.FOLKETRYGDLOVEN, "§ 9-6"),
+    FTRL_9_8("1000.009.008", LovKilde.FOLKETRYGDLOVEN, "§ 9-8"),
+    FTRL_9_9("1000.009.009", LovKilde.FOLKETRYGDLOVEN, "§ 9-9"),
+    FTRL_9_10("1000.009.010", LovKilde.FOLKETRYGDLOVEN, "§ 9-10"),
+    FTRL_9_11("1000.009.011", LovKilde.FOLKETRYGDLOVEN, "§ 9-11"),
+    FTRL_9_13("1000.009.013", LovKilde.FOLKETRYGDLOVEN, "§ 9-13"),
+    FTRL_9_14("1000.009.014", LovKilde.FOLKETRYGDLOVEN, "§ 9-14"),
+    FTRL_9_15("1000.009.015", LovKilde.FOLKETRYGDLOVEN, "§ 9-15"),
+    FTRL_9_16("1000.009.016", LovKilde.FOLKETRYGDLOVEN, "§ 9-16"),
+
+    FTRL_14_2("399", LovKilde.FOLKETRYGDLOVEN, "§ 14-2"),
+    FTRL_14_4("430", LovKilde.FOLKETRYGDLOVEN, "§ 14-4"),
+    FTRL_14_5("401", LovKilde.FOLKETRYGDLOVEN, "§ 14-5"),
+    FTRL_14_6("402", LovKilde.FOLKETRYGDLOVEN, "§ 14-6"),
+    FTRL_14_7("403", LovKilde.FOLKETRYGDLOVEN, "§ 14-7"),
+    FTRL_14_9("405", LovKilde.FOLKETRYGDLOVEN, "§ 14-9"),
+    FTRL_14_10("406", LovKilde.FOLKETRYGDLOVEN, "§ 14-10"),
+    FTRL_14_11("407", LovKilde.FOLKETRYGDLOVEN, "§ 14-11"),
+    FTRL_14_12("408", LovKilde.FOLKETRYGDLOVEN, "§ 14-12"),
+    FTRL_14_13("409", LovKilde.FOLKETRYGDLOVEN, "§ 14-13"),
+    FTRL_14_14("410", LovKilde.FOLKETRYGDLOVEN, "§ 14-14"),
+    FTRL_14_15("411", LovKilde.FOLKETRYGDLOVEN, "§ 14-15"),
+    FTRL_14_16("412", LovKilde.FOLKETRYGDLOVEN, "§ 14-16"),
+    FTRL_14_17("429", LovKilde.FOLKETRYGDLOVEN, "§ 14-17"),
+
+    FTRL_21_3("108", LovKilde.FOLKETRYGDLOVEN, "§ 21-3"),
+
+    FTRL_22_3("1000.022.003", LovKilde.FOLKETRYGDLOVEN, "§ 22-3"),
+    FTRL_22_12("1000.022.012", LovKilde.FOLKETRYGDLOVEN, "§ 22-12"),
+    FTRL_22_13("1000.022.013", LovKilde.FOLKETRYGDLOVEN, "§ 22-13"),
+    FTRL_22_15("1000.022.015", LovKilde.FOLKETRYGDLOVEN, "§ 22-15"),
+
+    EOES_883_2004_6("228", LovKilde.EØS_FORORDNING_883_2004, "art. 6"),
+
+    //Backwards compatibility in dev with search and innstillinger. Can be removed later?
+    FTL("1000", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven"),
+    FTL_9("1000.009", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven kapittel 9"),
+    MANGLER("1002", LovKilde.UKJENT, "Hjemmel mangler"),
     ;
 
     fun toSearchableString(): String {
