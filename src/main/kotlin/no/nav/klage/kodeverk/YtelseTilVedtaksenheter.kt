@@ -409,7 +409,8 @@ val ytelseTilVedtaksenheter = mapOf(
         E2027,
         E2028,
         E2030,
-        E2103
+        E2103,
+        E5701,
     ),
     Ytelse.SYK_SYK to setOf(
         E4401,
@@ -766,7 +767,6 @@ val ytelseTilVedtaksenheter = mapOf(
         E2028,
         E2030,
         E2103,
-        E5701,
         E5702,
     ),
     Ytelse.YRK_YRK to setOf(
