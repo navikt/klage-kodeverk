@@ -555,6 +555,7 @@ enum class Registreringshjemmel(
 
     FVL_11("117", LovKilde.FORVALTNINGSLOVEN, "§ 11"),
     FVL_12("118", LovKilde.FORVALTNINGSLOVEN, "§ 12"),
+    FVL_14("842", LovKilde.FORVALTNINGSLOVEN, "§ 14"),
     FVL_16("119", LovKilde.FORVALTNINGSLOVEN, "§ 16"),
     FVL_17("120", LovKilde.FORVALTNINGSLOVEN, "§ 17"),
     FVL_18_19("121", LovKilde.FORVALTNINGSLOVEN, "§§ 18 og 19"),

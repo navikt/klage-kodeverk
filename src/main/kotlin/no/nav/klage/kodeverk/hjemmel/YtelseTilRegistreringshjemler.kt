@@ -131,6 +131,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -191,6 +192,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -246,6 +248,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -304,6 +307,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -359,6 +363,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -486,6 +491,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -585,6 +591,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -688,6 +695,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -745,6 +753,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -788,6 +797,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -836,6 +846,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -931,6 +942,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -1067,6 +1079,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -1143,6 +1156,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -1243,6 +1257,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -1316,6 +1331,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -1381,6 +1397,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -1442,6 +1459,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -1497,6 +1515,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -1624,6 +1643,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -1722,6 +1742,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -1822,6 +1843,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -1925,6 +1947,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2002,6 +2025,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2079,6 +2103,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2133,6 +2158,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2204,6 +2230,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2232,6 +2259,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2267,6 +2295,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2298,6 +2327,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2326,6 +2356,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2359,6 +2390,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2402,6 +2434,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2445,6 +2478,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2491,6 +2525,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2547,6 +2582,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2589,6 +2625,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2667,6 +2704,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2689,6 +2727,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,
@@ -2732,6 +2771,7 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FVL_11,
         FVL_12,
+FVL_14,
         FVL_16,
         FVL_17,
         FVL_18_19,

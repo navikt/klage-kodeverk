@@ -9,18 +9,22 @@ val ytelseTilKlageenheter = mapOf(
     ),
     Ytelse.OMS_OMP to setOf(
         E4295,
+        E4294,
         E2103
     ),
     Ytelse.OMS_OLP to setOf(
         E4295,
+        E4294,
         E2103
     ),
     Ytelse.OMS_PLS to setOf(
         E4295,
+        E4294,
         E2103
     ),
     Ytelse.OMS_PSB to setOf(
         E4295,
+        E4294,
         E2103
     ),
     Ytelse.DAG_DAG to setOf(
