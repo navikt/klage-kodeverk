@@ -196,10 +196,15 @@ enum class Registreringshjemmel(
     FTRL_10_6A("8", LovKilde.FOLKETRYGDLOVEN, "§ 10-6 Sykdom, skade og lyte"),
     FTRL_10_6B("9", LovKilde.FOLKETRYGDLOVEN, "§ 10-6 Vesentlig og varig nedsatt funksjonstap"),
     FTRL_10_6C("10", LovKilde.FOLKETRYGDLOVEN, "§ 10-6 Nødvendig og hensiktsmessig"),
+    FTRL_10_6D("852", LovKilde.FOLKETRYGDLOVEN, "§ 10-6 Årsakssammenheng"),
     FTRL_10_7AA("11", LovKilde.FOLKETRYGDLOVEN, "§ 10-7a Hjelpemidler"),
     FTRL_10_7AB("12", LovKilde.FOLKETRYGDLOVEN, "§ 10-7a Skolehjelpemidler"),
     FTRL_10_7AC("13", LovKilde.FOLKETRYGDLOVEN, "§ 10-7a Ordinært og vanlig utstyr"),
-    FTRL_10_7AD("14", LovKilde.FOLKETRYGDLOVEN, "§ 10-7a Hjelpemidler med indirekte avhjelpsfunksjon og behandlingsformål"),
+    FTRL_10_7AD(
+        "14",
+        LovKilde.FOLKETRYGDLOVEN,
+        "§ 10-7a Hjelpemidler med indirekte avhjelpsfunksjon og behandlingsformål"
+    ),
     FTRL_10_7B("15", LovKilde.FOLKETRYGDLOVEN, "§ 10-7b Høreapparat"),
     FTRL_10_7C("16", LovKilde.FOLKETRYGDLOVEN, "§ 10-7c Grunnmønster"),
     FTRL_10_7D("17", LovKilde.FOLKETRYGDLOVEN, "§ 10-7d Førerhund"),
@@ -471,10 +476,22 @@ enum class Registreringshjemmel(
     FTRL_24_1("829", LovKilde.FOLKETRYGDLOVEN, "§ 24-1"),
 
     FS_AKT_26_1("32", LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR, "§ 2 aktivitetshjelpemidler"),
-    FS_AKT_26_2("33", LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR, "§ 2 hjelpemidler for å aktivisere bevegelsesapparatet"),
-    FS_AKT_26_3("34", LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR, "§ 2 ortopediske aktivitetshjelpemidler"),
+    FS_AKT_26_2(
+        "33",
+        LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR,
+        "§ 2 hjelpemidler for å aktivisere bevegelsesapparatet"
+    ),
+    FS_AKT_26_3(
+        "34",
+        LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR,
+        "§ 2 ortopediske aktivitetshjelpemidler"
+    ),
     FS_AKT_26_4("35", LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR, "§ 4 egenandel"),
-    FS_AKT_26_5("36", LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR, "§ 5 spesialtilpasning av ordinært utstyr"),
+    FS_AKT_26_5(
+        "36",
+        LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR,
+        "§ 5 spesialtilpasning av ordinært utstyr"
+    ),
 
     FS_HJE_MM_1("37", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 2 trening, aktivisering, stimulering og lek"),
     FS_HJE_MM_2("38", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 2 datautstyr"),
@@ -503,10 +520,12 @@ enum class Registreringshjemmel(
     FS_ORT_HJE_MM_2("60", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 1 ortoser"),
     FS_ORT_HJE_MM_3("61", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 1 fotsenger"),
     FS_ORT_HJE_MM_4("62", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 1 antall fotsenger"),
+    FS_ORT_HJE_MM_4A("853", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 1 behandling"),
     FS_ORT_HJE_MM_5("63", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 2 spesialsydde sko"),
     FS_ORT_HJE_MM_6("64", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 2 spesialtilpasning av sko"),
     FS_ORT_HJE_MM_7("65", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 2 spesialsko"),
     FS_ORT_HJE_MM_8("66", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 2 antall sko"),
+    FS_ORT_HJE_MM_8A("854", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 2 egenandel"),
     FS_ORT_HJE_MM_9("67", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 3 søknad og gyldighetstid"),
     FS_ORT_HJE_MM_10("68", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 5 brystproteser"),
     FS_ORT_HJE_MM_11("69", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 5 spesialbrystholder"),
@@ -519,7 +538,11 @@ enum class Registreringshjemmel(
     FS_ORT_HJE_MM_18("76", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 8 hodeplagg"),
     FS_ORT_HJE_MM_22("838", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 8 varig"),
     FS_ORT_HJE_MM_19("77", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 9 alminnelig fottøy"),
-    FS_ORT_HJE_MM_20("78", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 9a overekstremitetsortoser ved revmatisme"),
+    FS_ORT_HJE_MM_20(
+        "78",
+        LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM,
+        "§ 9a overekstremitetsortoser ved revmatisme"
+    ),
     FS_ORT_HJE_MM_21("79", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 12 reise"),
 
     FS_HA_MM_1("80", LovKilde.FORSKRIFT_OM_HØREAPPARATER_MM, "§ 2 høreapparat"),
@@ -685,13 +708,29 @@ enum class Registreringshjemmel(
 
     GAMMELT_REGELVERK("397", LovKilde.GAMMELT_REGELVERK, "Gammelt regelverk"),
 
-    LOV_OM_KRIGSPENSJON_FOR_MILITÆRPERSONER("582", LovKilde.LOV_OM_KRIGSPENSJON_FOR_MILITÆRPERSONER, "Lov om krigspensjon for militærpersoner"),
+    LOV_OM_KRIGSPENSJON_FOR_MILITÆRPERSONER(
+        "582",
+        LovKilde.LOV_OM_KRIGSPENSJON_FOR_MILITÆRPERSONER,
+        "Lov om krigspensjon for militærpersoner"
+    ),
 
-    LOV_OM_KRIGSPENSJON_FOR_SIVILE("583", LovKilde.LOV_OM_KRIGSPENSJON_FOR_SIVILE, "Lov om krigspensjon for sivile m.v"),
+    LOV_OM_KRIGSPENSJON_FOR_SIVILE(
+        "583",
+        LovKilde.LOV_OM_KRIGSPENSJON_FOR_SIVILE,
+        "Lov om krigspensjon for sivile m.v"
+    ),
 
-    TILLEGGSLOV_OM_KRIGSPENSJONERING_AV_1951("584", LovKilde.TILLEGGSLOV_OM_KRIGSPENSJONERING_AV_1951, "Tilleggslov om krigspensjonering av 1951"),
+    TILLEGGSLOV_OM_KRIGSPENSJONERING_AV_1951(
+        "584",
+        LovKilde.TILLEGGSLOV_OM_KRIGSPENSJONERING_AV_1951,
+        "Tilleggslov om krigspensjonering av 1951"
+    ),
 
-    TILLEGGSLOV_OM_KRIGSPENSJONERING_AV_1968("585", LovKilde.TILLEGGSLOV_OM_KRIGSPENSJONERING_AV_1968, "Tilleggslov om krigspensjonering av 1968"),
+    TILLEGGSLOV_OM_KRIGSPENSJONERING_AV_1968(
+        "585",
+        LovKilde.TILLEGGSLOV_OM_KRIGSPENSJONERING_AV_1968,
+        "Tilleggslov om krigspensjonering av 1968"
+    ),
 
     BTRL_2("619", LovKilde.BARNETRYGDLOVEN, "§ 2"),
     BTRL_3("586", LovKilde.BARNETRYGDLOVEN, "§ 3"),
@@ -724,7 +763,6 @@ enum class Registreringshjemmel(
     KONTSL_13("616", LovKilde.KONTANTSTØTTELOVEN, "§ 13"),
     KONTSL_14("617", LovKilde.KONTANTSTØTTELOVEN, "§ 14"),
     KONTSL_16("618", LovKilde.KONTANTSTØTTELOVEN, "§ 16"),
-
 
 
     BL_7("622", LovKilde.BARNELOVEN, "§ 7 (farskap)"),
@@ -800,6 +838,7 @@ enum class Registreringshjemmel(
     EL_84("691", LovKilde.EKTESKAPSLOVEN, "§ 84"),
     EL_85("692", LovKilde.EKTESKAPSLOVEN, "§ 85"),
 
+    BVL_9("843", LovKilde.BARNEVERNLOVEN, "§ 9-2"),
     BVL_9_2A("693", LovKilde.BARNEVERNLOVEN, "§ 9-2 første ledd"),
     BVL_9_2B("694", LovKilde.BARNEVERNLOVEN, "§ 9-2 andre ledd"),
 
@@ -901,8 +940,8 @@ enum class Registreringshjemmel(
     LOENNSKOMP_PERM_10("783", LovKilde.LØNNSKOMPENSASJON_FOR_PERMITTERTE, "§ 10"),
     LOENNSKOMP_PERM_12("784", LovKilde.LØNNSKOMPENSASJON_FOR_PERMITTERTE, "§ 12"),
 
-     FORSK_DP_6A("785", LovKilde.MIDLERTIDIG_FORSKR_FORSKUDD_DAGPENGER, "§ 6 første og andre ledd"),
-     FORSK_DP_6B("786", LovKilde.MIDLERTIDIG_FORSKR_FORSKUDD_DAGPENGER, "§ 6 tredje ledd"),
+    FORSK_DP_6A("785", LovKilde.MIDLERTIDIG_FORSKR_FORSKUDD_DAGPENGER, "§ 6 første og andre ledd"),
+    FORSK_DP_6B("786", LovKilde.MIDLERTIDIG_FORSKR_FORSKUDD_DAGPENGER, "§ 6 tredje ledd"),
 
 
     BBF_2("787", LovKilde.BARNEBORTFØRINGSLOVEN, "§ 2"),
@@ -946,6 +985,15 @@ enum class Registreringshjemmel(
     FS_OM_ETTGJ_2("835", LovKilde.FORSKRIFT_OM_ETTERGJEVING, "§ 2"),
     FS_OM_ETTGJ_3("836", LovKilde.FORSKRIFT_OM_ETTERGJEVING, "§ 3"),
     FS_OM_ETTGJ_4("837", LovKilde.FORSKRIFT_OM_ETTERGJEVING, "§ 4"),
+
+    FS_OM_OPPFOSTRINGSBIDRAG_1("844", LovKilde.FORSKRIFT_OM_OPPFOSTRINGSBIDRAG, "§ 1"),
+    FS_OM_OPPFOSTRINGSBIDRAG_2("845", LovKilde.FORSKRIFT_OM_OPPFOSTRINGSBIDRAG, "§ 2"),
+    FS_OM_OPPFOSTRINGSBIDRAG_3("846", LovKilde.FORSKRIFT_OM_OPPFOSTRINGSBIDRAG, "§ 3"),
+    FS_OM_OPPFOSTRINGSBIDRAG_4("847", LovKilde.FORSKRIFT_OM_OPPFOSTRINGSBIDRAG, "§ 4"),
+    FS_OM_OPPFOSTRINGSBIDRAG_5("848", LovKilde.FORSKRIFT_OM_OPPFOSTRINGSBIDRAG, "§ 5"),
+    FS_OM_OPPFOSTRINGSBIDRAG_6("849", LovKilde.FORSKRIFT_OM_OPPFOSTRINGSBIDRAG, "§ 6"),
+    FS_OM_OPPFOSTRINGSBIDRAG_7("850", LovKilde.FORSKRIFT_OM_OPPFOSTRINGSBIDRAG, "§ 7"),
+    FS_OM_OPPFOSTRINGSBIDRAG_8("851", LovKilde.FORSKRIFT_OM_OPPFOSTRINGSBIDRAG, "§ 8"),
 
     ;
     //@formatter:on

@@ -177,6 +177,7 @@ val ytelseTilKlageenheter = mapOf(
     ),
     Ytelse.TSR_TSR to setOf(
         E4292,
+        E4293,
         E2103
     ),
     Ytelse.FAR_FAR to setOf(

@@ -59,6 +59,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
     HAAG_KONVENSJONEN("53", "Haag-konvensjonen", "Haag-konvensjonen"),
     FORSK_OPPFLG_NAV_EGEN_REGI("54", "Forskrift om oppfølgingstjenester i Arbeids- og velferdsetatens egen regi", "Forskrift om oppfølgingstjenester i Arbeids- og velferdsetatens egen regi"),
     FORSKRIFT_OM_ETTERGJEVING("55", "Forskrift om ettergjeving", "Forskrift om ettergjeving"),
+    FORSKRIFT_OM_OPPFOSTRINGSBIDRAG("56", "Forskrift om fastsetting og endring av oppfostringsbidrag etter lov om barneverntjenester", "Forskrift om oppfostringsbidrag"),
 
     UKJENT("999","Ukjent", "Ukjent")
 }
