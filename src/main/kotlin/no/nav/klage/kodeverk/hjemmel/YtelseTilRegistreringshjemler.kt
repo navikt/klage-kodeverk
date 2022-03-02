@@ -164,6 +164,7 @@ val ytelseTilRegistreringshjemler = mapOf(
         FTRL_9_3,
         FTRL_9_4,
         FTRL_9_10,
+        FTRL_9_10A,
         FTRL_9_11,
         FTRL_9_13,
         FTRL_9_15,
@@ -555,12 +556,15 @@ val ytelseTilRegistreringshjemler = mapOf(
 
         FS_DAG_6_5,
         FS_DAG_6_7,
+        FS_DAG_6_8,
         FS_DAG_9_1,
         FS_DAG_13_3,
         FS_DAG_13_4,
         FS_DAG_13_9,
 
         FS_COV_19_2_10,
+
+        FS_OM_LPL_PERM_1,
 
         PMLL_3,
 
