@@ -2876,6 +2876,7 @@ val ytelseTilRegistreringshjemler = mapOf(
         KONV_SIV_BBF_24,
     ),
     Ytelse.FAR_FAR to listOf(
+        BL_7,
         BL_80
     )
 
