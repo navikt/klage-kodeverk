@@ -454,3 +454,5 @@ enum class Enhet(override val id: String, override val navn: String, override va
 }
 
 val klageenheter = setOf(Enhet.E4295, Enhet.E4293, Enhet.E4294, Enhet.E4292, Enhet.E4291, Enhet.E4250, Enhet.E2103)
+
+val styringsenheter = setOf(Enhet.E4200)
