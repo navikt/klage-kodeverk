@@ -562,6 +562,7 @@ val ytelseTilRegistreringshjemler = mapOf(
         FS_DAG_13_4,
         FS_DAG_13_9,
 
+        FS_COV_19_2_8,
         FS_COV_19_2_10,
 
         FS_OM_LPL_PERM_1,

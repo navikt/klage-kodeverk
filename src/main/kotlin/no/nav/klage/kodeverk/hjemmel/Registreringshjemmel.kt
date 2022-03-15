@@ -656,6 +656,7 @@ enum class Registreringshjemmel(
     FS_DAG_13_4("262", LovKilde.DAGPENGEFORSKRIFTEN, "§ 13-4"),
     FS_DAG_13_9("263", LovKilde.DAGPENGEFORSKRIFTEN, "§ 13-9"),
 
+    FS_COV_19_2_8("858", LovKilde.FORSKRIFT_COVID_19, "§ 2-8 - fortsatt dagpengerett"),
     FS_COV_19_2_10("264", LovKilde.FORSKRIFT_COVID_19, "§ 2-10 - feriepenger"),
 
     FS_COV_19_1_2("816", LovKilde.FORSKRIFT_COVID_19, "§ 1-2"),
