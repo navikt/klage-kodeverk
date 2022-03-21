@@ -61,6 +61,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
     FORSKRIFT_OM_ETTERGJEVING("55", "Forskrift om ettergjeving", "Forskrift om ettergjeving"),
     FORSKRIFT_OM_OPPFOSTRINGSBIDRAG("56", "Forskrift om fastsetting og endring av oppfostringsbidrag etter lov om barneverntjenester", "Forskrift om oppfostringsbidrag"),
     FORSKRIFT_OM_LØNNSPLIKT_UNDER_PERMITTERING("57", "Forskrift om lønnsplikt under permittering", "Forskrift om lønnsplikt under permittering"),
+    HOVEDNUMMER_42_TRYGDEAVTALER("58", "Hovednummer 42 - Trygdeavtaler", "Hnr. 42"),
 
     UKJENT("999","Ukjent", "Ukjent")
 }

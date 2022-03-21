@@ -1000,6 +1000,11 @@ enum class Registreringshjemmel(
 
     FS_OM_LPL_PERM_1("857", LovKilde.FORSKRIFT_OM_LØNNSPLIKT_UNDER_PERMITTERING, "§ 1"),
 
+    HNR_42_1("859", LovKilde.HOVEDNUMMER_42_TRYGDEAVTALER, "Tyrkia"),
+    HNR_42_2("860", LovKilde.HOVEDNUMMER_42_TRYGDEAVTALER, "USA"),
+    HNR_42_3("861", LovKilde.HOVEDNUMMER_42_TRYGDEAVTALER, "Storbritannia og Nord-Irland"),
+    HNR_42_4("862", LovKilde.HOVEDNUMMER_42_TRYGDEAVTALER, "Resterende avtaler"),
+
     ;
     //@formatter:on
 
