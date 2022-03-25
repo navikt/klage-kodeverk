@@ -21,6 +21,7 @@ val ytelseTilHjemler = mapOf(
         FTRL_9_14,
         FTRL_9_15,
         FTRL_9_16,
+        FTRL_22_13,
     ),
     Ytelse.OMS_OMP to listOf(
         FTRL_9_2,
@@ -35,6 +36,7 @@ val ytelseTilHjemler = mapOf(
         FTRL_9_14,
         FTRL_9_15,
         FTRL_9_16,
+        FTRL_22_13,
     ),
     Ytelse.OMS_PLS to listOf(
         FTRL_9_2,
@@ -49,6 +51,7 @@ val ytelseTilHjemler = mapOf(
         FTRL_9_14,
         FTRL_9_15,
         FTRL_9_16,
+        FTRL_22_13,
     ),
     Ytelse.OMS_PSB to listOf(
         FTRL_9_2,
@@ -63,6 +66,7 @@ val ytelseTilHjemler = mapOf(
         FTRL_9_14,
         FTRL_9_15,
         FTRL_9_16,
+        FTRL_22_13,
     ),
     Ytelse.SYK_SYK to listOf(
         FTRL_8_2,
