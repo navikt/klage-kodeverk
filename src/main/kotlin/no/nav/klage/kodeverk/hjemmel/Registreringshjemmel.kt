@@ -1005,6 +1005,8 @@ enum class Registreringshjemmel(
     HNR_42_3("861", LovKilde.HOVEDNUMMER_42_TRYGDEAVTALER, "Storbritannia og Nord-Irland"),
     HNR_42_4("862", LovKilde.HOVEDNUMMER_42_TRYGDEAVTALER, "Resterende avtaler"),
 
+    DL_7_11("863", LovKilde.DEKNINGSLOVEN, "§ 7-11"),
+
     ;
     //@formatter:on
 
