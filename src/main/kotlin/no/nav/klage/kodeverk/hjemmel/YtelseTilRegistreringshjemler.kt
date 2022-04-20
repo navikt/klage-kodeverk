@@ -2849,6 +2849,8 @@ val ytelseTilRegistreringshjemler = mapOf(
         FTRL_22_15F,
         FTRL_22_17A,
 
+        FVL_35,
+
         FL_2_3,
         FL_10,
     ),
