@@ -2567,7 +2567,12 @@ val ytelseTilRegistreringshjemler = mapOf(
         LGL_7A,
         LGL_7B,
         LGL_10,
+
         DL_7_11,
+
+        FVL_29,
+        FVL_30,
+        FVL_31,
     ),
 
     Ytelse.MED_MED to listOf(
