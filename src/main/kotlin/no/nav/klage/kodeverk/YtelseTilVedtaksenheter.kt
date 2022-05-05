@@ -1229,7 +1229,6 @@ val ytelseTilVedtaksenheter = mapOf(
         E4817,
         E4820,
         E4849,
-        E4865,
         E2103
     ),
     Ytelse.BID_BIF to setOf(
@@ -1239,7 +1238,6 @@ val ytelseTilVedtaksenheter = mapOf(
         E4817,
         E4820,
         E4849,
-        E4865,
         E2103
     ),
     Ytelse.BID_BII to setOf(
@@ -1249,7 +1247,6 @@ val ytelseTilVedtaksenheter = mapOf(
         E4817,
         E4820,
         E4849,
-        E4865,
         E2103
     ),
     Ytelse.BID_EKB to setOf(
