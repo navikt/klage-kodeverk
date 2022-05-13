@@ -1188,6 +1188,11 @@ val ytelseTilRegistreringshjemler = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+
+        EOES_883_2004_6,
+        EOES_883_2004_11,
+        EOES_883_2004_12,
+        EOES_883_2004_13,
     ),
     Ytelse.FOR_SVA to listOf(
         FTRL_14_2,
