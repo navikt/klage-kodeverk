@@ -236,5 +236,11 @@ internal class KodeverkTest {
         }.filter {
             it.value.size > 1
         }).isEmpty()
+
+        assertThat(DokumentType.values().groupBy {
+            it.beskrivelse
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
     }
 }
