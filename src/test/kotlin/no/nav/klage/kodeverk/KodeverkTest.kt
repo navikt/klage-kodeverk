@@ -222,4 +222,19 @@ internal class KodeverkTest {
             it.value.size > 1
         }).isEmpty()
     }
+
+    @Test
+    fun `DokumentType has no duplicate values`() {
+        assertThat(DokumentType.values().groupBy {
+            it.id
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
+
+        assertThat(DokumentType.values().groupBy {
+            it.navn
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
+    }
 }
