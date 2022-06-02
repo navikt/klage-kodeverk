@@ -1013,7 +1013,7 @@ enum class Registreringshjemmel(
     companion object {
         fun of(id: String): Registreringshjemmel {
             return values().firstOrNull { it.id == id }
-                ?: throw IllegalArgumentException("No Registreringshjemmel with $id exists")
+                ?: throw IllegalArgumentException("No Registreringshjemmel with id $id exists")
         }
     }
 }

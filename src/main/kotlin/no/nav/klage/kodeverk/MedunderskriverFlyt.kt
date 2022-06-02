@@ -18,12 +18,12 @@ enum class MedunderskriverFlyt(override val id: String, override val navn: Strin
     companion object {
         fun of(id: String): MedunderskriverFlyt {
             return values().firstOrNull { it.id == id }
-                ?: throw IllegalArgumentException("No Medunderskriverflyt with $id exists")
+                ?: throw IllegalArgumentException("No Medunderskriverflyt with id $id exists")
         }
 
         fun fromNavn(navn: String?): MedunderskriverFlyt {
             return values().firstOrNull { it.navn == navn }
-                ?: throw IllegalArgumentException("No Medunderskriverflyt with $navn exists")
+                ?: throw IllegalArgumentException("No Medunderskriverflyt with navn $navn exists")
         }
     }
 }
