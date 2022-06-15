@@ -6,7 +6,7 @@ on:
       - 'main'
 
 env:
-  IMAGE: docker.pkg.github.com/${{ github.repository }}/kabal-kodeverk:${{ github.sha }}
+  IMAGE: ghcr.io/${{ github.repository }}/kabal-kodeverk:${{ github.sha }}
 
 jobs:
   build:
