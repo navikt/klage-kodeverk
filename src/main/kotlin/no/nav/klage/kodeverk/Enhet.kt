@@ -333,7 +333,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E1874("356", "1874", "NAV Moskenes"),
     E1883("357", "1883", "NAV egne ansatte Nordland"),
     E1902("358", "1902", "NAV Tromsø"),
-    E1903("359", "1903", "NAV Harstad"),
+    E1903("359", "1903", "NAV Sør-Troms"),
     E1911("360", "1911", "NAV Kvæfjord"),
     E1913("361", "1913", "NAV Tjeldsund"),
     E1917("362", "1917", "NAV Ibestad"),
