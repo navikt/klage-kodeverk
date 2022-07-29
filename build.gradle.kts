@@ -16,6 +16,7 @@ repositories {
 
 dependencies {
 	compileOnly("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+	implementation("jakarta.persistence:jakarta.persistence-api:2.2.3")
 	testImplementation("org.junit.jupiter:junit-jupiter:5.9.0")
 	testImplementation("org.assertj:assertj-core:3.23.1")
 }
