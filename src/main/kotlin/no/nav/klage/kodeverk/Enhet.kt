@@ -462,8 +462,8 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E1200("547", "1200", "NAV Vestland"),
 }
 
-val klageenheter = setOf(Enhet.E4295, Enhet.E4293, Enhet.E4294, Enhet.E4292, Enhet.E4291, Enhet.E4250, Enhet.E2103)
+val klageenheter = setOf(Enhet.E4295, Enhet.E4293, Enhet.E4250, Enhet.E4294, Enhet.E4292, Enhet.E4291, Enhet.E2103)
 
-val klageenheterForAnkeinnsending = klageenheter + setOf(Enhet.E4286)
+val klageenheterForAnkeinnsending = setOf(Enhet.E4295, Enhet.E4293, Enhet.E4250, Enhet.E4294, Enhet.E4292, Enhet.E4291, Enhet.E4286, Enhet.E2103)
 
 val styringsenheter = setOf(Enhet.E4200, Enhet.E4400, Enhet.E4700)
