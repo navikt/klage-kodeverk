@@ -759,6 +759,7 @@ val ytelseTilRegistreringshjemler = mapOf(
         FTRL_13_14,
         FTRL_13_15,
         FTRL_13_16,
+        FTRL_13_RS_FOLGESKADE,
 
         FTRL_21_12,
 
@@ -803,6 +804,7 @@ val ytelseTilRegistreringshjemler = mapOf(
         FTRL_13_14,
         FTRL_13_15,
         FTRL_13_16,
+        FTRL_13_RS_FOLGESKADE,
 
         FTRL_21_12,
 

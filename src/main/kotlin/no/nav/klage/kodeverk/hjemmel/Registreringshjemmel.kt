@@ -307,6 +307,7 @@ enum class Registreringshjemmel(
     FTRL_13_15("329", LovKilde.FOLKETRYGDLOVEN, "§ 13-15"),
     FTRL_13_16("330", LovKilde.FOLKETRYGDLOVEN, "§ 13-16"),
     FTRL_13_17("333", LovKilde.FOLKETRYGDLOVEN, "§ 13-17"),
+    FTRL_13_RS_FOLGESKADE("866", LovKilde.FOLKETRYGDLOVEN, "§ 13 - Rundskriv - Følgeskade"),
 
     FTRL_14_2("399", LovKilde.FOLKETRYGDLOVEN, "§ 14-2"),
     FTRL_14_3("400", LovKilde.FOLKETRYGDLOVEN, "§ 14-3"),
