@@ -293,7 +293,9 @@ enum class Registreringshjemmel(
     FTRL_13_2("316", LovKilde.FOLKETRYGDLOVEN, "§ 13-2"),
     FTRL_13_3A("317", LovKilde.FOLKETRYGDLOVEN, "§ 13-3 første, tredje og fjerde ledd"),
     FTRL_13_3B("318", LovKilde.FOLKETRYGDLOVEN, "§ 13-3 andre ledd"),
+    FTRL_13_3_FS("866", LovKilde.FOLKETRYGDLOVEN, "§ 13-3 - Følgeskade"),
     FTRL_13_4("332", LovKilde.FOLKETRYGDLOVEN, "§ 13-4"),
+    FTRL_13_4_FS("867", LovKilde.FOLKETRYGDLOVEN, "§ 13-4 - Følgeskade"),
     FTRL_13_5("319", LovKilde.FOLKETRYGDLOVEN, "§ 13-5"),
     FTRL_13_6("320", LovKilde.FOLKETRYGDLOVEN, "§ 13-6"),
     FTRL_13_7("321", LovKilde.FOLKETRYGDLOVEN, "§ 13-7"),
@@ -307,7 +309,6 @@ enum class Registreringshjemmel(
     FTRL_13_15("329", LovKilde.FOLKETRYGDLOVEN, "§ 13-15"),
     FTRL_13_16("330", LovKilde.FOLKETRYGDLOVEN, "§ 13-16"),
     FTRL_13_17("333", LovKilde.FOLKETRYGDLOVEN, "§ 13-17"),
-    FTRL_13_RS_FOLGESKADE("866", LovKilde.FOLKETRYGDLOVEN, "§ 13 - Rundskriv - Følgeskade"),
 
     FTRL_14_2("399", LovKilde.FOLKETRYGDLOVEN, "§ 14-2"),
     FTRL_14_3("400", LovKilde.FOLKETRYGDLOVEN, "§ 14-3"),
