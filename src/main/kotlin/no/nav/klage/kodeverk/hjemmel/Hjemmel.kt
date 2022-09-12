@@ -97,7 +97,7 @@ enum class Hjemmel(
     FTRL_15_4("433", LovKilde.FOLKETRYGDLOVEN, "§ 15-4"),
     FTRL_15_5("434", LovKilde.FOLKETRYGDLOVEN, "§ 15-5"),
     FTRL_15_6("435", LovKilde.FOLKETRYGDLOVEN, "§ 15-6"),
-    FTRL_15_8A("437", LovKilde.FOLKETRYGDLOVEN, "§ 15-8"),
+    FTRL_15_8("437", LovKilde.FOLKETRYGDLOVEN, "§ 15-8"),
     FTRL_15_9("439", LovKilde.FOLKETRYGDLOVEN, "§ 15-9"),
     FTRL_15_10("440", LovKilde.FOLKETRYGDLOVEN, "§ 15-10"),
     FTRL_15_11("441", LovKilde.FOLKETRYGDLOVEN, "§ 15-11"),
