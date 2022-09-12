@@ -8,6 +8,28 @@ import no.nav.klage.kodeverk.hjemmel.Hjemmel.*
  */
 
 val ytelseTilHjemler = mapOf(
+    Ytelse.ENF_ENF to listOf(
+        FTRL_15_2,
+        FTRL_15_3,
+        FTRL_15_4,
+        FTRL_15_5,
+        FTRL_15_6,
+        FTRL_15_8A,
+        FTRL_15_9,
+        FTRL_15_10,
+        FTRL_15_11,
+        FTRL_15_12,
+        FTRL_15_13,
+        FTRL_22_15,
+    ),
+    Ytelse.BAR_BAR to listOf(
+        BTRL_2,
+        BTRL_4,
+        BTRL_5,
+        BTRL_9,
+        BTRL_13,
+        EOES_AVTALEN,
+    ),
     Ytelse.OMS_OLP to listOf(
         FTRL_9_2,
         FTRL_9_3,

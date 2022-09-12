@@ -17,6 +17,12 @@ enum class Hjemmel(
 
     //TODO give more explaining enum-names or improve Swagger-docs.
 
+    BTRL_2("619", LovKilde.BARNETRYGDLOVEN, "§ 2"),
+    BTRL_4("587", LovKilde.BARNETRYGDLOVEN, "§ 4"),
+    BTRL_5("588", LovKilde.BARNETRYGDLOVEN, "§ 5"),
+    BTRL_9("592", LovKilde.BARNETRYGDLOVEN, "§ 9"),
+    BTRL_13("596", LovKilde.BARNETRYGDLOVEN, "§ 13"),
+
     SUP_ST_L_3("696", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 3"),
     SUP_ST_L_4("697", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 4"),
     SUP_ST_L_5("698", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 5"),
@@ -86,6 +92,18 @@ enum class Hjemmel(
     FTRL_14_16("412", LovKilde.FOLKETRYGDLOVEN, "§ 14-16"),
     FTRL_14_17("429", LovKilde.FOLKETRYGDLOVEN, "§ 14-17"),
 
+    FTRL_15_2("431", LovKilde.FOLKETRYGDLOVEN, "§ 15-2"),
+    FTRL_15_3("432", LovKilde.FOLKETRYGDLOVEN, "§ 15-3"),
+    FTRL_15_4("433", LovKilde.FOLKETRYGDLOVEN, "§ 15-4"),
+    FTRL_15_5("434", LovKilde.FOLKETRYGDLOVEN, "§ 15-5"),
+    FTRL_15_6("435", LovKilde.FOLKETRYGDLOVEN, "§ 15-6"),
+    FTRL_15_8A("437", LovKilde.FOLKETRYGDLOVEN, "§ 15-8"),
+    FTRL_15_9("439", LovKilde.FOLKETRYGDLOVEN, "§ 15-9"),
+    FTRL_15_10("440", LovKilde.FOLKETRYGDLOVEN, "§ 15-10"),
+    FTRL_15_11("441", LovKilde.FOLKETRYGDLOVEN, "§ 15-11"),
+    FTRL_15_12("442", LovKilde.FOLKETRYGDLOVEN, "§ 15-12"),
+    FTRL_15_13("443", LovKilde.FOLKETRYGDLOVEN, "§ 15-13"),
+
     FTRL_21_3("108", LovKilde.FOLKETRYGDLOVEN, "§ 21-3"),
 
     FTRL_22_3("1000.022.003", LovKilde.FOLKETRYGDLOVEN, "§ 22-3"),
@@ -93,6 +111,7 @@ enum class Hjemmel(
     FTRL_22_13("1000.022.013", LovKilde.FOLKETRYGDLOVEN, "§ 22-13"),
     FTRL_22_15("1000.022.015", LovKilde.FOLKETRYGDLOVEN, "§ 22-15"),
 
+    EOES_AVTALEN("601", LovKilde.EØS_AVTALEN, "EØS-avtalen"),
     EOES_883_2004_6("228", LovKilde.EØS_FORORDNING_883_2004, "art. 6"),
 
     //Backwards compatibility in dev with search and innstillinger. Can be removed later?
