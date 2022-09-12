@@ -14,7 +14,7 @@ val ytelseTilHjemler = mapOf(
         FTRL_15_4,
         FTRL_15_5,
         FTRL_15_6,
-        FTRL_15_8A,
+        FTRL_15_8,
         FTRL_15_9,
         FTRL_15_10,
         FTRL_15_11,
