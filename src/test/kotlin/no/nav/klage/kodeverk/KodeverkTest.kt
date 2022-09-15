@@ -75,8 +75,16 @@ internal class KodeverkTest {
             it.value.size > 1
         }).isEmpty()
 
+        data class Key(val lovKilde: LovKilde, val spesifikasjon: String)
+
+        fun Hjemmel.toKey() =
+            Key(
+                this.lovKilde,
+                this.spesifikasjon
+            )
+
         assertThat(Hjemmel.values().groupBy {
-            it.spesifikasjon
+            it.toKey()
         }.filter {
             it.value.size > 1
         }).isEmpty()
