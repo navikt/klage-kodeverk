@@ -34,5 +34,5 @@ jobs:
       - uses: ncipollo/release-action@v1
         name: Create release
         with:
-          tag: ${{ steps.next_version.outputs.version }}
+          tag: ${{ steps.next_version.outputs.version_tag }}
           generateReleaseNotes: true
