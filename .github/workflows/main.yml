@@ -11,57 +11,25 @@ env:
   IMAGE: ghcr.io/${{ github.repository }}/kabal-kodeverk:${{ github.sha }}
 
 jobs:
-  build:
-    name: Build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Cache
-        uses: actions/cache@v1.1.2
-        with:
-          path: ~/.gradle/caches
-          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle.kts') }}
-          restore-keys: |
-            ${{ runner.os }}-gradle-
-      - name: Install Java 17
-        uses: actions/setup-java@v2.4.0
-        with:
-          java-version: 17
-          distribution: temurin
-      - name: Test and build
-        run: ./gradlew test build
-        env:
-          ORG_GRADLE_PROJECT_githubUser: x-access-token
-          ORG_GRADLE_PROJECT_githubPassword: ${{ secrets.GITHUB_TOKEN }}
   release:
     name: Create Release
-    needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' && !contains(github.event.head_commit.message, 'ci skip')
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Set release tag
-        run: |
-          export TAG_NAME="$(TZ="Europe/Oslo" date +%Y.%m.%d-%H.%M).$(echo $GITHUB_SHA | cut -c 1-12)"
-          echo "RELEASE_TAG=$TAG_NAME" >> $GITHUB_ENV
-      - name: Set changelog
-        id: changelog
-        # (Escape newlines see https://github.com/actions/create-release/issues/25)
-        run: |
-          text="$(git --no-pager log $(git describe --tags --abbrev=0)..HEAD --pretty=format:"%h %s")"
-          echo "::set-output name=CHANGELOG::$text"
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v2
+        name: Checkout
+      - id: bump
+        name: Validate and get semver label
+        uses: zwaldowski/match-label-action@v1
         with:
-          tag_name: ${{ env.RELEASE_TAG }}
-          release_name: ${{ env.RELEASE_TAG }}
-          body: |
-            Changes in this release
-            ${{ steps.changelog.outputs.CHANGELOG }}
-          draft: false
-          prerelease: false
+          allowed: major,minor,patch
+      - id: next_version
+        uses: zwaldowski/semver-release-action@v1
+        name: Prepare and tag release with semver
+        with:
+          bump: ${{ steps.bump.outputs.match }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: ncipollo/release-action@v1
+        name: Create release
+        with:
+          tag: ${{ steps.next_version.outputs.version }}
+          generateReleaseNotes: true

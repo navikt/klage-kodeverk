@@ -1,27 +1,36 @@
 name: PR build
 
-on: [pull_request]
+on:
+  pull_request:
+    types: [opened, labeled, unlabeled, synchronize]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: mheap/github-action-required-labels@v2
+        name: Verify semver label is set for this PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          mode: exactly
+          count: 1
+          labels: "patch, minor, major"
       - uses: actions/checkout@v1
+        name: Checkout
       - uses: actions/cache@v1.1.2
         with:
           path: ~/.gradle/caches
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle.kts') }}
           restore-keys: |
             ${{ runner.os }}-gradle-
-      - name: Sett opp Java 17
+      - name: Setup Java 17
         uses: actions/setup-java@v2.4.0
         with:
           java-version: 17
           distribution: temurin
-      - name: test and build
+      - name: Test and build
         run: ./gradlew test build
         env:
           ORG_GRADLE_PROJECT_githubUser: x-access-token
           ORG_GRADLE_PROJECT_githubPassword: ${{ secrets.GITHUB_TOKEN }}
-      - name: build docker image
-        run: docker build . --pull
