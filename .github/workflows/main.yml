@@ -18,13 +18,17 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     steps:
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
       - uses: actions/checkout@v2
         name: Checkout
       - id: next_version
         uses: zwaldowski/semver-release-action@v1
         name: Prepare and tag release with semver
         with:
-          bump: ${{ github.event.pull_request.labels.[0].name }}
+          bump: ${{ github.event.pull_request.labels.0.name }}
           prefix: v
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - uses: ncipollo/release-action@v1
