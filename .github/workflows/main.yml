@@ -28,7 +28,7 @@ jobs:
         uses: zwaldowski/semver-release-action@v1
         name: Prepare and tag release with semver
         with:
-          bump: ${{ github.event.pull_request.labels.0.name }}
+          bump: patch
           prefix: v
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - uses: ncipollo/release-action@v1
