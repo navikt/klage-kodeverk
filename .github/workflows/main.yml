@@ -21,14 +21,17 @@ jobs:
       - name: Dump GitHub context
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo "$GITHUB_CONTEXT"
+          SEMVER_TYPE: ${{ toJSON(github.event.pull_request.labels[0].name) }}
+        run: |
+          echo SEMVER_TYPE: "$SEMVER_TYPE"
+          echo GITHUB_CONTEXT: "$GITHUB_CONTEXT"
       - uses: actions/checkout@v2
         name: Checkout
       - id: next_version
         uses: zwaldowski/semver-release-action@v2.1
         name: Prepare and tag release with semver
         with:
-          bump: ${{ toJSON(github.event.pull_request.labels[0].name) }}
+          bump: $SEMVER_TYPE
           prefix: v
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - uses: ncipollo/release-action@v1
