@@ -1,7 +1,9 @@
 name: Release (Github Package Registry)
 
 on:
-  push:
+  pull_request:
+    types:
+      - closed
     branches:
       - 'main'
     paths-ignore:
@@ -12,21 +14,18 @@ env:
 
 jobs:
   release:
+    if: github.event.pull_request.merged == true
     name: Create Release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         name: Checkout
-      - id: bump
-        name: Validate and get semver label
-        uses: zwaldowski/match-label-action@v1
-        with:
-          allowed: major,minor,patch
       - id: next_version
         uses: zwaldowski/semver-release-action@v1
         name: Prepare and tag release with semver
         with:
-          bump: ${{ steps.bump.outputs.match }}
+          bump: ${{ github.event.pull_request.labels.[0].name }}
+          prefix: v
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - uses: ncipollo/release-action@v1
         name: Create release
