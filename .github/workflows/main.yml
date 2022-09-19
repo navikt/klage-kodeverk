@@ -18,9 +18,8 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     steps:
-      - name: Dump GitHub context
+      - name: Get semver from pr event
         env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
           SEMVER_TYPE: ${{ toJSON(github.event.pull_request.labels[0].name) }}
         run: |
           echo SEMVER_TYPE before putting in global env: "$SEMVER_TYPE"
@@ -29,18 +28,24 @@ jobs:
           echo SEMVER_TYPE is now: $SEMVER_TYPE
           echo env.SEMVER_TYPE is now: ${{ env.SEMVER_TYPE }}
           echo GITHUB_ENV is now: $GITHUB_ENV
+      - name: Dump GitHub context again
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: |
+          echo context "$GITHUB_CONTEXT"
       - uses: actions/checkout@v2
         name: Checkout
+      - id: bump
+        uses: zwaldowski/match-label-action@v3
+        with:
+          allowed: major,minor,patch
       - id: next_version
         uses: zwaldowski/semver-release-action@v2.1
         name: Prepare and tag release with semver
         with:
-          bump: ${{ env.SEMVER_TYPE }}
+          bump: ${{ steps.bump.outputs.match }}
           prefix: v
           github_token: ${{ secrets.GITHUB_TOKEN }}
-      - run: |
-          echo next version: "${{ steps.next_version.outputs.version }}"
-          echo next version_tag: "${{ steps.next_version.outputs.version_tag }}"
       - uses: ncipollo/release-action@v1
         name: Create release
         with:
