@@ -18,21 +18,6 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     steps:
-      - name: Get semver from pr event
-        env:
-          SEMVER_TYPE: ${{ toJSON(github.event.pull_request.labels[0].name) }}
-        run: |
-          echo SEMVER_TYPE before putting in global env: "$SEMVER_TYPE"
-          echo "SEMVER_TYPE=$SEMVER_TYPE" >> $GITHUB_ENV
-      - run: |
-          echo SEMVER_TYPE is now: $SEMVER_TYPE
-          echo env.SEMVER_TYPE is now: ${{ env.SEMVER_TYPE }}
-          echo GITHUB_ENV is now: $GITHUB_ENV
-      - name: Dump GitHub context again
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: |
-          echo context "$GITHUB_CONTEXT"
       - uses: actions/checkout@v2
         name: Checkout
       - id: bump
