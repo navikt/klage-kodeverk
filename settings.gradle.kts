@@ -1,1 +1,1 @@
-rootProject.name = "kabal-kodeverk"
+rootProject.name = "klage-kodeverk"

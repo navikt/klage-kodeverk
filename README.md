@@ -1,2 +1,2 @@
-# kabal-kodeverk
-Samler kodeverk brukt på tvers av kabal-løsningen.
+# klage-kodeverk
+Samler kodeverk brukt på tvers av klage-løsningene.

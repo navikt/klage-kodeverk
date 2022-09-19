@@ -41,9 +41,9 @@ publishing {
 		create<MavenPublication>("mavenJava") {
 
 			pom {
-				name.set("kabal-kodeverk")
+				name.set("klage-kodeverk")
 				description.set("Kabal Kodeverk")
-				url.set("https://github.com/navikt/kabal-kodeverk")
+				url.set("https://github.com/navikt/klage-kodeverk")
 
 				licenses {
 					license {
@@ -53,9 +53,9 @@ publishing {
 				}
 
 				scm {
-					connection.set("scm:git:https://github.com/navikt/kabal-kodeverk.git")
-					developerConnection.set("scm:git:https://github.com/navikt/kabal-kodeverk.git")
-					url.set("https://github.com/navikt/kabal-kodeverk")
+					connection.set("scm:git:https://github.com/navikt/klage-kodeverk.git")
+					developerConnection.set("scm:git:https://github.com/navikt/klage-kodeverk.git")
+					url.set("https://github.com/navikt/klage-kodeverk")
 				}
 			}
 			from(components["java"])
