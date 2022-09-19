@@ -31,9 +31,13 @@ jobs:
         uses: zwaldowski/semver-release-action@v2.1
         name: Prepare and tag release with semver
         with:
+          dry_run: true
           bump: $SEMVER_TYPE
           prefix: v
           github_token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo next version: "${{ steps.next_version.outputs.version }}"
+          echo next version_tag: "${{ steps.next_version.outputs.version_tag }}"
       - uses: ncipollo/release-action@v1
         name: Create release
         with:
