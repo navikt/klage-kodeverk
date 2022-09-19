@@ -23,10 +23,11 @@ jobs:
           GITHUB_CONTEXT: ${{ toJson(github) }}
           SEMVER_TYPE: ${{ toJSON(github.event.pull_request.labels[0].name) }}
         run: |
-          echo SEMVER_TYPE befor putting in global env: "$SEMVER_TYPE"
-          echo "::set-env name=SEMVER_TYPE::$SEMVER_TYPE"
+          echo SEMVER_TYPE before putting in global env: "$SEMVER_TYPE"
+          echo "SEMVER_TYPE=$SEMVER_TYPE" >> $GITHUB_ENV
       - run: |
           echo SEMVER_TYPE is now: "$SEMVER_TYPE"
+          echo env.SEMVER_TYPE is now: "${{ env.SEMVER_TYPE }}"
       - uses: actions/checkout@v2
         name: Checkout
       - id: next_version
