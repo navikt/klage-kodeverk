@@ -34,7 +34,7 @@ jobs:
         uses: zwaldowski/semver-release-action@v2.1
         name: Prepare and tag release with semver
         with:
-          bump: patch
+          bump: ${{ env.SEMVER_TYPE }}
           prefix: v
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - run: |
