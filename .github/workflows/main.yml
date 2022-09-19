@@ -23,16 +23,17 @@ jobs:
           GITHUB_CONTEXT: ${{ toJson(github) }}
           SEMVER_TYPE: ${{ toJSON(github.event.pull_request.labels[0].name) }}
         run: |
-          echo SEMVER_TYPE: "$SEMVER_TYPE"
-          echo GITHUB_CONTEXT: "$GITHUB_CONTEXT"
+          echo SEMVER_TYPE befor putting in global env: "$SEMVER_TYPE"
+          echo "::set-env name=SEMVER_TYPE::$SEMVER_TYPE"
+      - run: |
+          echo SEMVER_TYPE is now: "$SEMVER_TYPE"
       - uses: actions/checkout@v2
         name: Checkout
       - id: next_version
         uses: zwaldowski/semver-release-action@v2.1
         name: Prepare and tag release with semver
         with:
-          dry_run: true
-          bump: ${{ env.SEMVER_TYPE }}
+          bump: $SEMVER_TYPE
           prefix: v
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - run: |
