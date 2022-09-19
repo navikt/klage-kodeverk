@@ -35,7 +35,7 @@ jobs:
           bump: $SEMVER_TYPE
           prefix: v
           github_token: ${{ secrets.GITHUB_TOKEN }}
-        run: |
+      - run: |
           echo next version: "${{ steps.next_version.outputs.version }}"
           echo next version_tag: "${{ steps.next_version.outputs.version_tag }}"
       - uses: ncipollo/release-action@v1
