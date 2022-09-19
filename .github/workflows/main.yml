@@ -10,7 +10,7 @@ on:
       - '.github/dependabot.yml'
 
 env:
-  IMAGE: ghcr.io/${{ github.repository }}/kabal-kodeverk:${{ github.sha }}
+  IMAGE: ghcr.io/${{ github.repository }}/klage-kodeverk:${{ github.sha }}
 
 jobs:
   release:
@@ -32,7 +32,7 @@ jobs:
         name: Prepare and tag release with semver
         with:
           dry_run: true
-          bump: $SEMVER_TYPE
+          bump: ${{ env.SEMVER_TYPE }}
           prefix: v
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - run: |
