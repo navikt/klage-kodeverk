@@ -11,7 +11,10 @@ enum class Utfall(override val id: String, override val navn: String, override v
     DELVIS_MEDHOLD("5", "Delvis medhold", "Delvis medhold"),
     STADFESTELSE("6", "Stadfestelse", "Stadfestelse"),
     UGUNST("7", "Ugunst (Ugyldig)", "Ugunst (Ugyldig)"),
-    AVVIST("8", "Avvist", "Avvist");
+    AVVIST("8", "Avvist", "Avvist"),
+    INNSTILLING_STADFESTELSE("9", "Innstilling - Stadfestelse", "Innstilling - Stadfestelse"),
+    INNSTILLING_AVVIST("10", "Innstilling - Avvist", "Innstilling - Avvist");
+
 
     override fun toString(): String {
         return "Utfall(id=$id, " +
