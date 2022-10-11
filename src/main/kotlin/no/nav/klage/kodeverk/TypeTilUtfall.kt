@@ -23,15 +23,13 @@ val typeTilUtfall = mapOf(
         UGUNST,
         INNSTILLING_AVVIST,
     ),
-    //TODO: Fiks liste etter funksjonell avklaring.
     Type.ANKE_I_TRYGDERETTEN to setOf(
-        TRUKKET,
-        RETUR,
         OPPHEVET,
         MEDHOLD,
         DELVIS_MEDHOLD,
         STADFESTELSE,
-        UGUNST,
         AVVIST,
+        HEVET,
+        HENVIST,
     ),
 )
