@@ -33,3 +33,5 @@ val typeTilUtfall = mapOf(
         HENVIST,
     ),
 )
+
+//Testing rules for pushing to main
