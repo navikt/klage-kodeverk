@@ -50,6 +50,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E0213("46", "0213", "NAV Nordre Follo"),
     E0214("47", "0214", "NAV Ås"),
     E0215("48", "0215", "NAV Frogn"),
+    E0216("548", "0216", "NAV Nesodden"),
     E0219("50", "0219", "NAV Bærum"),
     E0220("51", "0220", "NAV Asker"),
     E0221("52", "0221", "NAV Aurskog-Høland"),
