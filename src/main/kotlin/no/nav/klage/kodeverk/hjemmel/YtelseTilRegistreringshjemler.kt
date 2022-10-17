@@ -628,6 +628,7 @@ val ytelseTilRegistreringshjemler = mapOf(
         EOES_883_2004_11,
         EOES_883_2004_12,
         EOES_883_2004_13,
+        EOES_883_2004_61,
         EOES_883_2004_64,
         EOES_883_2004_65,
     ),
