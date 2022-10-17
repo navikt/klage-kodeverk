@@ -643,6 +643,7 @@ enum class Registreringshjemmel(
     EOES_883_2004_58("383", LovKilde.EØS_FORORDNING_883_2004, "art. 58"),
     EOES_883_2004_59("535", LovKilde.EØS_FORORDNING_883_2004, "art. 59"),
     EOES_883_2004_60("536", LovKilde.EØS_FORORDNING_883_2004, "art. 60"),
+    EOES_883_2004_61("868", LovKilde.EØS_FORORDNING_883_2004, "art. 61"),
     EOES_883_2004_64("269", LovKilde.EØS_FORORDNING_883_2004, "art. 64"),
     EOES_883_2004_65("270", LovKilde.EØS_FORORDNING_883_2004, "art. 65"),
     EOES_883_2004_67("605", LovKilde.EØS_FORORDNING_883_2004, "art. 67"),
