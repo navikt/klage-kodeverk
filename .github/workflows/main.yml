@@ -18,20 +18,20 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@main
         name: Checkout
       - id: bump
-        uses: zwaldowski/match-label-action@v3
+        uses: zwaldowski/match-label-action@main
         with:
           allowed: major,minor,patch
       - id: next_version
-        uses: zwaldowski/semver-release-action@v2.1
+        uses: zwaldowski/semver-release-action@main
         name: Prepare and tag release with semver
         with:
           bump: ${{ steps.bump.outputs.match }}
           prefix: v
           github_token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: ncipollo/release-action@v1
+      - uses: ncipollo/release-action@main
         name: Create release
         with:
           tag: ${{ steps.next_version.outputs.version_tag }}
