@@ -10,13 +10,19 @@ internal class KodeverkTest {
 
     @Test
     fun `LovKilde has no duplicate values`() {
-        assertThat(Fagsystem.values().groupBy {
+        assertThat(LovKilde.values().groupBy {
+            it.id
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
+
+        assertThat(LovKilde.values().groupBy {
             it.navn
         }.filter {
             it.value.size > 1
         }).isEmpty()
 
-        assertThat(Fagsystem.values().groupBy {
+        assertThat(LovKilde.values().groupBy {
             it.beskrivelse
         }.filter {
             it.value.size > 1
