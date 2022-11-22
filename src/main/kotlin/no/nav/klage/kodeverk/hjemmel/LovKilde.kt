@@ -44,7 +44,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
     LOV_OM_SUPPLERENDE_STØNAD("39", "Lov om supplerende stønad", "Lov om supplerende stønad"),
     ARBEIDSMARKEDSLOVEN("40", "Arbeidsmarkedsloven", "Arbml"),
     FORSKRIFT_OM_TILTAK("41", "Forskrift om tiltak", "Forskrift om tiltak"),
-    FORSKRIFT_OM_TILTAKSPENGER("41", "Forskrift om tiltakspenger", "Fors om tilt.p."),
+    FORSKRIFT_OM_TILTAKSPENGER("60", "Forskrift om tiltakspenger", "Fors om tilt.p."),
     LØNNSGARANTILOVEN("42", "Lønnsgarantiloven", "Lgl"),
     AFP_62_PRIVAT("43", "AFP-62 Privat", "AFP-62 Privat"),
     AFP_62_OFFENTLIG("44", "AFP-62 Offentlig", "AFP-62 Offentlig"),
