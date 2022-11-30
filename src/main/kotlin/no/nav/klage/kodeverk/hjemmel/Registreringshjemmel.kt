@@ -319,6 +319,7 @@ enum class Registreringshjemmel(
     FTRL_14_8("404", LovKilde.FOLKETRYGDLOVEN, "§ 14-8"),
     FTRL_14_9("405", LovKilde.FOLKETRYGDLOVEN, "§ 14-9"),
     FTRL_14_10("406", LovKilde.FOLKETRYGDLOVEN, "§ 14-10"),
+    FTRL_14_10A("869", LovKilde.FOLKETRYGDLOVEN, "§ 14-10a"),
     FTRL_14_11("407", LovKilde.FOLKETRYGDLOVEN, "§ 14-11"),
     FTRL_14_12("408", LovKilde.FOLKETRYGDLOVEN, "§ 14-12"),
     FTRL_14_13("409", LovKilde.FOLKETRYGDLOVEN, "§ 14-13"),
