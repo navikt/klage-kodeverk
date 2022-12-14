@@ -34,6 +34,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E4402("31", "4402", "NAV Arbeid og ytelser Romerike"),
     E4416("32", "4416", "NAV Arbeid og ytelser Trondheim"),
     E4407("33", "4407", "NAV Arbeid og ytelser Tønsberg"),
+    E4483("549", "4483", "NAV Arbeid og ytelser Utland"),
     E0101("34", "0101", "NAV Halden-Aremark"),
     E0104("35", "0104", "NAV Moss"),
     E0105("36", "0105", "NAV Sarpsborg"),
