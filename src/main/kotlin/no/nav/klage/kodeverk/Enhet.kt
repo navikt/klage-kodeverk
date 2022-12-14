@@ -417,22 +417,26 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E4475("445", "4475", "Uføretrygd bosatt utland"),
     E4476("446", "4476", "Uføretrygd med utlandstilsnitt"),
     E4280("500", "4280", "NAV Klageinstans - Tilleggsstønader - Inn"),
-//    E4255("501", "4255", "NAV Klageinstans - Tiltakspenger - Inn"),
+
+    //    E4255("501", "4255", "NAV Klageinstans - Tiltakspenger - Inn"),
 //    E4258("502", "4258", "NAV Klageinstans - Tiltak"),
     E4260("503", "4260", "NAV Klageinstans - Arbeidsavklaringspenger - Inn"),
     E4270("504", "4270", "NAV Klageinstans - Dagpenger - Inn"),
     E4295("505", "4295", "NAV Klageinstans nord"),
     E4286("506", "4286", "NAV Klageinstans - Uføretrygd - inn"),
-//    E4279("507", "4279", "NAV Klageinstans Sakskostnader"),
+
+    //    E4279("507", "4279", "NAV Klageinstans Sakskostnader"),
     E4293("508", "4293", "NAV Klageinstans øst"),
-//    E4207("509", "4207", "Avviklet NAV Klageinstans øst"),
+
+    //    E4207("509", "4207", "Avviklet NAV Klageinstans øst"),
 //    E4287("510", "4287", "NAV Klageinstans - erstatning"),
 //    E4205("511", "4205", "Avviklet NAV Klageinstans Midt-Norge"),
 //    E4214("512", "4214", "Avviklet NAV Klageinstans vest"),
     E4294("513", "4294", "NAV Klageinstans vest"),
     E4292("514", "4292", "NAV Klageinstans Midt-Norge"),
     E4291("515", "4291", "NAV Klageinstans Oslo og Akershus"),
-//    E4203("516", "4203", "Avviklet NAV Klageinstans Oslo og Akershus"),
+
+    //    E4203("516", "4203", "Avviklet NAV Klageinstans Oslo og Akershus"),
 //    E4200("517", "4200", "NAV Klageinstans styringsenhet"),
 //    E4219("518", "4219", "Avviklet NAV Klageinstans nord"),
     E4250("519", "4250", "NAV Klageinstans sør"),
@@ -466,6 +470,18 @@ enum class Enhet(override val id: String, override val navn: String, override va
 
 val klageenheter = setOf(Enhet.E4295, Enhet.E4293, Enhet.E4250, Enhet.E4294, Enhet.E4292, Enhet.E4291, Enhet.E2103)
 
-val klageenheterForAnkeinnsending = setOf(Enhet.E4295, Enhet.E4293, Enhet.E4250, Enhet.E4294, Enhet.E4292, Enhet.E4291, Enhet.E4260, Enhet.E4270, Enhet.E4280, Enhet.E4286, Enhet.E2103)
+val klageenheterForAnkeinnsending = setOf(
+    Enhet.E4295,
+    Enhet.E4293,
+    Enhet.E4250,
+    Enhet.E4294,
+    Enhet.E4292,
+    Enhet.E4291,
+    Enhet.E4260,
+    Enhet.E4270,
+    Enhet.E4280,
+    Enhet.E4286,
+    Enhet.E2103
+)
 
 val styringsenheter = setOf(Enhet.E4200, Enhet.E4400, Enhet.E4700)
