@@ -13,6 +13,7 @@ enum class Registreringshjemmel(
     FTRL_1_3("308", LovKilde.FOLKETRYGDLOVEN, "§ 1-3"),
     FTRL_1_5("485", LovKilde.FOLKETRYGDLOVEN, "§ 1-5"),
 
+    FTRL_2("FTRL_2", LovKilde.FOLKETRYGDLOVEN, "kap. 2"),
     FTRL_2_1("218", LovKilde.FOLKETRYGDLOVEN, "§ 2-1"),
     FTRL_2_2("219", LovKilde.FOLKETRYGDLOVEN, "§ 2-2"),
     FTRL_2_3("416", LovKilde.FOLKETRYGDLOVEN, "§ 2-3"),
@@ -109,6 +110,8 @@ enum class Registreringshjemmel(
     FTRL_8_4A("158", LovKilde.FOLKETRYGDLOVEN, "§ 8-4 første ledd"),
     FTRL_8_4B("159", LovKilde.FOLKETRYGDLOVEN, "§ 8-4 andre ledd"),
     FTRL_8_4C("160", LovKilde.FOLKETRYGDLOVEN, "§ 8-4 tredje ledd"),
+    FTRL_8_4D("FTRL_8_4D", LovKilde.FOLKETRYGDLOVEN, "§ 8-4 generell arbeidsuførhet"),
+    FTRL_8_4E("FTRL_8_4E", LovKilde.FOLKETRYGDLOVEN, "§ 8-4 yrkesuførhet"),
     FTRL_8_5("161", LovKilde.FOLKETRYGDLOVEN, "§ 8-5"),
     FTRL_8_6("162", LovKilde.FOLKETRYGDLOVEN, "§ 8-6"),
     FTRL_8_7("163", LovKilde.FOLKETRYGDLOVEN, "§ 8-7"),
@@ -136,6 +139,9 @@ enum class Registreringshjemmel(
     FTRL_8_28A("183", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 første ledd"),
     FTRL_8_28B("184", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 andre ledd"),
     FTRL_8_28C("185", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 tredje ledd"),
+    FTRL_8_28_3A("FTRL_8_28_3A", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 tredje ledd bokstav a"),
+    FTRL_8_28_3B("FTRL_8_28_3B", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 tredje ledd bokstav b"),
+    FTRL_8_28_3C("FTRL_8_28_3C", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 tredje ledd bokstav C"),
     FTRL_8_28D("186", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 fjerde  ledd"),
     FTRL_8_28E("187", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 femte ledd"),
     FTRL_8_28F("188", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 sjette ledd"),
@@ -594,6 +600,7 @@ enum class Registreringshjemmel(
     FS_MOK_12A("106", LovKilde.FORSKRIFT_OM_MOTORKJØRETØY, "§ 12 tilskudd til kjøreopplæring"),
     FS_MOK_15("107", LovKilde.FORSKRIFT_OM_MOTORKJØRETØY, "§ 15 gjeldoppgjør"),
 
+    FVL_2("FVL_2", LovKilde.FORVALTNINGSLOVEN, "§ 2"),
     FVL_11("117", LovKilde.FORVALTNINGSLOVEN, "§ 11"),
     FVL_12("118", LovKilde.FORVALTNINGSLOVEN, "§ 12"),
     FVL_14("842", LovKilde.FORVALTNINGSLOVEN, "§ 14"),
@@ -613,6 +620,7 @@ enum class Registreringshjemmel(
     FVL_31E("671", LovKilde.FORVALTNINGSLOVEN, "§ 31 tredje ledd"),
     FVL_32("129", LovKilde.FORVALTNINGSLOVEN, "§ 32"),
     FVL_33("130", LovKilde.FORVALTNINGSLOVEN, "§ 33"),
+    FVL_34("FVL_34", LovKilde.FORVALTNINGSLOVEN, "§ 34"),
     FVL_35("131", LovKilde.FORVALTNINGSLOVEN, "§ 35"),
     FVL_41("132", LovKilde.FORVALTNINGSLOVEN, "§ 41"),
     FVL_42("133", LovKilde.FORVALTNINGSLOVEN, "§ 42"),
@@ -630,6 +638,8 @@ enum class Registreringshjemmel(
     EOES_883_2004_1("530", LovKilde.EØS_FORORDNING_883_2004, "art. 1"),
     EOES_883_2004_2("310", LovKilde.EØS_FORORDNING_883_2004, "art. 2"),
     EOES_883_2004_3("311", LovKilde.EØS_FORORDNING_883_2004, "art. 3"),
+    EOES_883_2004_4("EOES_883_2004_4", LovKilde.EØS_FORORDNING_883_2004, "art. 4"),
+    EOES_883_2004_5("EOES_883_2004_5", LovKilde.EØS_FORORDNING_883_2004, "art. 5"),
     EOES_883_2004_6("228", LovKilde.EØS_FORORDNING_883_2004, "art. 6"),
     EOES_883_2004_7("372", LovKilde.EØS_FORORDNING_883_2004, "art. 7"),
     EOES_883_2004_10("312", LovKilde.EØS_FORORDNING_883_2004, "art. 10"),
@@ -664,6 +674,9 @@ enum class Registreringshjemmel(
     EOES_883_2004_68("620", LovKilde.EØS_FORORDNING_883_2004, "art. 68"),
     EOES_883_2004_69("384", LovKilde.EØS_FORORDNING_883_2004, "art. 69"),
     EOES_883_2004_70("385", LovKilde.EØS_FORORDNING_883_2004, "art. 70"),
+    EOES_883_2004_76("EOES_883_2004_76", LovKilde.EØS_FORORDNING_883_2004, "art. 76"),
+    EOES_883_2004_81("EOES_883_2004_81", LovKilde.EØS_FORORDNING_883_2004, "art. 81"),
+    EOES_883_2004_82("EOES_883_2004_82", LovKilde.EØS_FORORDNING_883_2004, "art. 82"),
     EOES_883_2004_87("386", LovKilde.EØS_FORORDNING_883_2004, "art. 87"),
 
     FS_DAG_6_5("841", LovKilde.DAGPENGEFORSKRIFTEN, "§ 6-5"),
@@ -682,7 +695,12 @@ enum class Registreringshjemmel(
     FS_COV_19_1_3("817", LovKilde.FORSKRIFT_COVID_19, "§ 1-3"),
     FS_COV_19_3_1("818", LovKilde.FORSKRIFT_COVID_19, "§ 3-1"),
     FS_COV_19_3A_1("819", LovKilde.FORSKRIFT_COVID_19, "§ 3A-1"),
+    FS_COV_19_3A_2("FS_COV_19_3A_2", LovKilde.FORSKRIFT_COVID_19, "§ 3A-2"),
     FS_COV_19_3A_3("820", LovKilde.FORSKRIFT_COVID_19, "§ 3A-3"),
+    FS_COV_19_3A_4("FS_COV_19_3A_4", LovKilde.FORSKRIFT_COVID_19, "§ 3A-4"),
+    FS_COV_19_3_4("FS_COV_19_3_4", LovKilde.FORSKRIFT_COVID_19, "§ 3-4"),
+    FS_COV_19_3_5("FS_COV_19_3_5", LovKilde.FORSKRIFT_COVID_19, "§ 3-5"),
+    FS_COV_19_3_6("FS_COV_19_3_6", LovKilde.FORSKRIFT_COVID_19, "§ 3-6"),
 
     PMLL_3("265", LovKilde.PERMITTERINGSLØNNSLOVEN, "§ 3"),
 
@@ -693,9 +711,11 @@ enum class Registreringshjemmel(
     GJ_F_FORD_987_2009_12("314", LovKilde.GJENNOMFØRINGSFORORDNING_987_2009, "art. 12"),
     GJ_F_FORD_987_2009_14A("315", LovKilde.GJENNOMFØRINGSFORORDNING_987_2009, "art. 14 følgende"),
     GJ_F_FORD_987_2009_14B("607", LovKilde.GJENNOMFØRINGSFORORDNING_987_2009, "art. 14"),
+    GJ_F_FORD_987_2009_27("GJ_F_FORD_987_2009_27", LovKilde.GJENNOMFØRINGSFORORDNING_987_2009, "art. 27"),
     GJ_F_FORD_987_2009_58("662", LovKilde.GJENNOMFØRINGSFORORDNING_987_2009, "art. 58"),
     GJ_F_FORD_987_2009_59("663", LovKilde.GJENNOMFØRINGSFORORDNING_987_2009, "art. 59"),
     GJ_F_FORD_987_2009_60("664", LovKilde.GJENNOMFØRINGSFORORDNING_987_2009, "art. 60"),
+    GJ_F_FORD_987_2009_87("GJ_F_FORD_987_2009_87", LovKilde.GJENNOMFØRINGSFORORDNING_987_2009, "art. 87"),
 
     FS_UFT_FTR_2_1("357", LovKilde.FORSKRIFT_UFØRETRYGD_FOLKETRYGDEN, "§ 2-1"),
     FS_UFT_FTR_2_2("358", LovKilde.FORSKRIFT_UFØRETRYGD_FOLKETRYGDEN, "§ 2-2"),
@@ -1025,6 +1045,8 @@ enum class Registreringshjemmel(
     HNR_42_4("862", LovKilde.HOVEDNUMMER_42_TRYGDEAVTALER, "Resterende avtaler"),
 
     DL_7_11("863", LovKilde.DEKNINGSLOVEN, "§ 7-11"),
+    BREXITAVTALEN("BREXITAVTALEN", LovKilde.BREXITAVTALEN, "Brexitavtalen"),
+
 
     ;
     //@formatter:on

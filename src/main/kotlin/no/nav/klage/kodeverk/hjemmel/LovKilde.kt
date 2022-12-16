@@ -63,6 +63,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
     FORSKRIFT_OM_LØNNSPLIKT_UNDER_PERMITTERING("57", "Forskrift om lønnsplikt under permittering", "Forskrift om lønnsplikt under permittering"),
     HOVEDNUMMER_42_TRYGDEAVTALER("58", "Hovednummer 42 - Trygdeavtaler", "Hnr. 42"),
     DEKNINGSLOVEN("59", "Dekningsloven", "Dekningsloven"),
+    BREXITAVTALEN("61", "Brexitavtalen", "Brexitavtalen"),
 
     UKJENT("999","Ukjent", "Ukjent")
 }
