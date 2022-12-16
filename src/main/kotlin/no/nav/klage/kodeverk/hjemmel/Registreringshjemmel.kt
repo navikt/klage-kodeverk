@@ -901,6 +901,7 @@ enum class Registreringshjemmel(
     SUP_ST_L_18("707", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 18"),
     SUP_ST_L_21("840", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 21"),
 
+    ARBML_2("ARBML_2", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 2"),
     ARBML_12("708", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 12"),
     ARBML_13("723", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 13"),
     ARBML_17("709", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 17"),
@@ -1047,7 +1048,10 @@ enum class Registreringshjemmel(
     HNR_42_4("862", LovKilde.HOVEDNUMMER_42_TRYGDEAVTALER, "Resterende avtaler"),
 
     DL_7_11("863", LovKilde.DEKNINGSLOVEN, "§ 7-11"),
+
     BREXITAVTALEN("BREXITAVTALEN", LovKilde.BREXITAVTALEN, "Brexitavtalen"),
+
+    SPESIELL_LOVKILDE_A("SPESIELL_LOVKILDE_A", LovKilde.SPESIELL_LOVKILDE, "Ettergivelse på ulovfestet grunnlag"),
 
 
     ;

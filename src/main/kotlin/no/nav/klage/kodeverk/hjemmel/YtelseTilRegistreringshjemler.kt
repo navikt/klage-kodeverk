@@ -727,8 +727,13 @@ val ytelseTilRegistreringshjemler = mapOf(
         EOES_883_2004_13,
         EOES_883_2004_21,
 
+        GJ_F_FORD_987_2009_11,
         GJ_F_FORD_987_2009_12,
         GJ_F_FORD_987_2009_14A,
+
+        ARBML_2,
+
+        SPESIELL_LOVKILDE_A,
     ),
     Ytelse.YRK_YRK to listOf(
         FTRL_13_2,
