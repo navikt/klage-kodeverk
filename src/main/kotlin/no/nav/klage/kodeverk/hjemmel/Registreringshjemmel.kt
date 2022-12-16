@@ -195,10 +195,12 @@ enum class Registreringshjemmel(
     FTRL_10_5B("5", LovKilde.FOLKETRYGDLOVEN, "§ 10-5 Varig nedsatt inntektsevne"),
     FTRL_10_5C("6", LovKilde.FOLKETRYGDLOVEN, "§ 10-5 Vesentlig innkrenkede arbeidsmuligheter"),
     FTRL_10_5D("7", LovKilde.FOLKETRYGDLOVEN, "§ 10-5 Nødvendig og hensiktsmessig"),
+    FTRL_10_5E("FTRL_10_5E", LovKilde.FOLKETRYGDLOVEN, "§ 10-5 Arbeid"),
     FTRL_10_6A("8", LovKilde.FOLKETRYGDLOVEN, "§ 10-6 Sykdom, skade og lyte"),
     FTRL_10_6B("9", LovKilde.FOLKETRYGDLOVEN, "§ 10-6 Vesentlig og varig nedsatt funksjonstap"),
     FTRL_10_6C("10", LovKilde.FOLKETRYGDLOVEN, "§ 10-6 Nødvendig og hensiktsmessig"),
     FTRL_10_6D("852", LovKilde.FOLKETRYGDLOVEN, "§ 10-6 Årsakssammenheng"),
+    FTRL_10_6E("FTRL_10_6E", LovKilde.FOLKETRYGDLOVEN, "§ 10-6 Dagligliv"),
     FTRL_10_7AA("11", LovKilde.FOLKETRYGDLOVEN, "§ 10-7a Hjelpemidler"),
     FTRL_10_7AB("12", LovKilde.FOLKETRYGDLOVEN, "§ 10-7a Skolehjelpemidler"),
     FTRL_10_7AC("13", LovKilde.FOLKETRYGDLOVEN, "§ 10-7a Ordinært og vanlig utstyr"),
@@ -491,6 +493,11 @@ enum class Registreringshjemmel(
         LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR,
         "§ 2 ortopediske aktivitetshjelpemidler"
     ),
+    FS_AKT_26_3A(
+        "FS_AKT_26_3A",
+        LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR,
+        "§ 2 Utlån"
+    ),
     FS_AKT_26_4("35", LovKilde.FORSKRIFT_OM_AKTIVITETSHJELPEMIDLER_TIL_DE_OVER_26_ÅR, "§ 4 egenandel"),
     FS_AKT_26_5(
         "36",
@@ -519,6 +526,7 @@ enum class Registreringshjemmel(
     FS_HJE_MM_6A("55", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 6 tilpasningskurs"),
     FS_HJE_MM_6B("56", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 6 folkehøgskole 1 år"),
     FS_HJE_MM_6C("57", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 6 folkehøgskole 2 år"),
+    FS_HJE_MM_6D("FS_HJE_MM_6D", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 6 folkehøgskole"),
     FS_HJE_MM_7("58", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 7 reise"),
 
     FS_ORT_HJE_MM_1A("59", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 1 ortopediske proteser"),
@@ -531,7 +539,9 @@ enum class Registreringshjemmel(
     FS_ORT_HJE_MM_2C("65", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 2 spesialsko"),
     FS_ORT_HJE_MM_2D("66", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 2 antall sko"),
     FS_ORT_HJE_MM_2E("854", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 2 egenandel"),
+    FS_ORT_HJE_MM_2F("FS_ORT_HJE_MM_2F", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 2 ortopediske sko"),
     FS_ORT_HJE_MM_3A("67", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 3 søknad og gyldighetstid"),
+    FS_ORT_HJE_MM_4A("FS_ORT_HJE_MM_4A", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 4 Pris- og leveringsavtaler"),
     FS_ORT_HJE_MM_5A("68", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 5 brystproteser"),
     FS_ORT_HJE_MM_5B("69", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 5 spesialbrystholder"),
     FS_ORT_HJE_MM_6A("70", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 6 ansiktsdefektprotese"),
@@ -542,12 +552,14 @@ enum class Registreringshjemmel(
     FS_ORT_HJE_MM_8D("75", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 8 stell og vedlikehold"),
     FS_ORT_HJE_MM_8E("76", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 8 hodeplagg"),
     FS_ORT_HJE_MM_8F("838", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 8 varig"),
+    FS_ORT_HJE_MM_8G("FS_ORT_HJE_MM_8G", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 8 parykk"),
     FS_ORT_HJE_MM_9A("77", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 9 alminnelig fottøy"),
     FS_ORT_HJE_MM_9AA(
         "78",
         LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM,
         "§ 9a overekstremitetsortoser ved revmatisme"
     ),
+    FS_ORT_HJE_MM_10A("FS_ORT_HJE_MM_10A", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 10 Forhåndstilsagn"),
     FS_ORT_HJE_MM_12A("79", LovKilde.FORSKRIFT_OM_ORTOPEDISKE_HJELPEMIDLER_MM, "§ 12 reise"),
 
     FS_HA_MM_2A("80", LovKilde.FORSKRIFT_OM_HØREAPPARATER_MM, "§ 2 høreapparat"),
@@ -562,6 +574,7 @@ enum class Registreringshjemmel(
     FS_HA_MM_3D("89", LovKilde.FORSKRIFT_OM_HØREAPPARATER_MM, "§ 3 gjenanskaffelse før 6 år - endret funksjonsevne"),
     FS_HA_MM_3E("90", LovKilde.FORSKRIFT_OM_HØREAPPARATER_MM, "§ 3 gjenanskaffelse før 6 år - barn under 18 år"),
     FS_HA_MM_4A("91", LovKilde.FORSKRIFT_OM_HØREAPPARATER_MM, "§ 4 krav til søknad og produkt"),
+    FS_HA_MM_6A("FS_HA_MM_6A", LovKilde.FORSKRIFT_OM_HØREAPPARATER_MM, "§ 6 Pris og leveringsavtaler"),
     FS_HA_MM_8A("92", LovKilde.FORSKRIFT_OM_HØREAPPARATER_MM, "§ 8 stønad og satser"),
 
     FS_SH_2("93", LovKilde.FORSKRIFT_OM_SERVICEHUND, "§ 2 servicehund"),
