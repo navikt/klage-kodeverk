@@ -3,7 +3,7 @@ package no.nav.klage.kodeverk.hjemmel
 import no.nav.klage.kodeverk.Ytelse
 import no.nav.klage.kodeverk.hjemmel.Registreringshjemmel.*
 
-val ytelseTilRegistreringshjemler = mapOf(
+val ytelseTilRegistreringshjemlerV1 = mapOf(
     Ytelse.HJE_HJE to listOf(
 
         FTRL_10_3,
