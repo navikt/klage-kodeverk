@@ -93,6 +93,7 @@ enum class Registreringshjemmel(
     FTRL_6_3E("449", LovKilde.FOLKETRYGDLOVEN, "§ 6-3 første ledd g"),
     FTRL_6_3F("450", LovKilde.FOLKETRYGDLOVEN, "§ 6-3 første ledd h"),
     FTRL_6_3G("451", LovKilde.FOLKETRYGDLOVEN, "§ 6-3 andre ledd"),
+    FTRL_6_3J("FTRL_6_3J", LovKilde.FOLKETRYGDLOVEN, "§ 6-3 tredje ledd"),
     FTRL_6_3H("452", LovKilde.FOLKETRYGDLOVEN, "§ 6-3 fjerde ledd"),
     FTRL_6_3I("453", LovKilde.FOLKETRYGDLOVEN, "§ 6-3 femte ledd"),
     FTRL_6_4("458", LovKilde.FOLKETRYGDLOVEN, "§ 6-4"),
