@@ -2264,6 +2264,7 @@ val ytelseTilRegistreringshjemler = mapOf(
         SUP_ST_L_4,
         SUP_ST_L_5,
         SUP_ST_L_6,
+        SUP_ST_L_7
         SUP_ST_L_8,
         SUP_ST_L_9,
         SUP_ST_L_10,
