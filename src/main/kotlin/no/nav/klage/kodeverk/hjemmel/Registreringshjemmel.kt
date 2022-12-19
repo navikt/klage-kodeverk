@@ -397,6 +397,8 @@ enum class Registreringshjemmel(
     FTRL_17_6("556", LovKilde.FOLKETRYGDLOVEN, "§ 17-6"),
     FTRL_17_7("557", LovKilde.FOLKETRYGDLOVEN, "§ 17-7"),
     FTRL_17_8("558", LovKilde.FOLKETRYGDLOVEN, "§ 17-8"),
+    FTRL_17_8A("FTRL_17_8A", LovKilde.FOLKETRYGDLOVEN, "§ 17-8 ordinær"),
+    FTRL_17_8B("FTRL_17_8B", LovKilde.FOLKETRYGDLOVEN, "§ 17-8 hypotetisk"),
     FTRL_17_9("559", LovKilde.FOLKETRYGDLOVEN, "§ 17-9"),
     FTRL_17_10("560", LovKilde.FOLKETRYGDLOVEN, "§ 17-10"),
     FTRL_17_11("561", LovKilde.FOLKETRYGDLOVEN, "§ 17-11"),
