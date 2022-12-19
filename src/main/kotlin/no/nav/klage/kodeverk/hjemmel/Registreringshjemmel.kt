@@ -824,7 +824,7 @@ enum class Registreringshjemmel(
     BTRL_12("595", LovKilde.BARNETRYGDLOVEN, "§ 12"),
     BTRL_13("596", LovKilde.BARNETRYGDLOVEN, "§ 13"),
     BTRL_13_1_2("BTRL_13_1_2", LovKilde.BARNETRYGDLOVEN, "§ 13 første ledd andre punkt"),
-    BTRL_13_1_3("BTRL_13_1_2", LovKilde.BARNETRYGDLOVEN, "§ 13 første ledd tredje punkt"),
+    BTRL_13_1_3("BTRL_13_1_3", LovKilde.BARNETRYGDLOVEN, "§ 13 første ledd tredje punkt"),
     BTRL_13_2("BTRL_13_2", LovKilde.BARNETRYGDLOVEN, "§ 13 andre ledd"),
     BTRL_14("597", LovKilde.BARNETRYGDLOVEN, "§ 14"),
     BTRL_15("598", LovKilde.BARNETRYGDLOVEN, "§ 15"),
