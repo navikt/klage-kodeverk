@@ -995,6 +995,7 @@ enum class Registreringshjemmel(
     FS_ARB_UTD_R_6("756", LovKilde.FORSKRIFT_OM_ARBEIDS_OG_UTDANNINGSREISER, "§ 6"),
     FS_ARB_UTD_R_8("757", LovKilde.FORSKRIFT_OM_ARBEIDS_OG_UTDANNINGSREISER, "§ 8"),
 
+    FS_TILL_ST_1("FS_TILL_ST_1", LovKilde.TILLEGGSSTØNADSFORSKRIFTEN, "§ 1"),
     FS_TILL_ST_1A("758", LovKilde.TILLEGGSSTØNADSFORSKRIFTEN, "§ 1 første ledd a"),
     FS_TILL_ST_1B("759", LovKilde.TILLEGGSSTØNADSFORSKRIFTEN, "§ 1 første ledd b til d"),
     FS_TILL_ST_1C("760", LovKilde.TILLEGGSSTØNADSFORSKRIFTEN, "§ 1 andre ledd"),

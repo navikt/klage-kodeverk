@@ -49,7 +49,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
     AFP_62_PRIVAT("43", "AFP-62 Privat", "AFP-62 Privat"),
     AFP_62_OFFENTLIG("44", "AFP-62 Offentlig", "AFP-62 Offentlig"),
     FORSKRIFT_OM_ARBEIDS_OG_UTDANNINGSREISER("45", "Forskrift om arbeids- og utdanningsreiser", "Fors om arb- og utd.r."),
-    TILLEGGSSTØNADSFORSKRIFTEN("46", "Tilleggsstønadforskriften", "Fors om till.stø."),
+    TILLEGGSSTØNADSFORSKRIFTEN("46", "Tilleggsstønadforskriften", "Fors om tilleggsstønad"),
     NAV_LOVEN("47", "NAV-loven", "NAV-L"),
     MIDLERTIDIG_LOV_KOMP_SELVST_OG_FRILANS("48","Midlertidig lov om kompensasjonsytelse for selvstendig næringsdrivende og frilansere", "Midl. komp selv.næ og fril"),
     LØNNSKOMPENSASJON_FOR_PERMITTERTE("49", "Lønnskompensasjon for permitterte", "Lønn.komp perm"),

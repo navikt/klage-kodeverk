@@ -1211,7 +1211,7 @@ val ytelseTilRegistreringshjemler = mapOf(
         GJ_F_FORD_987_2009_14B,
         GJ_F_FORD_987_2009_58,
         GJ_F_FORD_987_2009_59,
-        ),
+    ),
     Ytelse.GRU_GRU to listOf(
         FTRL_6_2,
         FTRL_6_3A,
@@ -2526,8 +2526,7 @@ val ytelseTilRegistreringshjemler = mapOf(
         FS_ARB_UTD_R_8,
     ),
     Ytelse.TSO_TSO to listOf(
-        FS_TILL_ST_1A,
-        FS_TILL_ST_1B,
+        FS_TILL_ST_1,
         FS_TILL_ST_1C,
         FS_TILL_ST_1D,
         FS_TILL_ST_3,
