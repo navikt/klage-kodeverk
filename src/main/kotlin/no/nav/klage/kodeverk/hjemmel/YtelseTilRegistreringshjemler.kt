@@ -2345,14 +2345,17 @@ val ytelseTilRegistreringshjemler = mapOf(
         FVL_42,
     ),
     Ytelse.TIL_TIP to listOf(
+        ARBML_2,
+        ARBML_12,
         ARBML_13,
+        ARBML_15,
         ARBML_17,
+        ARBML_19,
         ARBML_22,
         ARBML_28,
 
         FS_TIP_2,
         FS_TIP_3,
-        FS_TIP_4,
         FS_TIP_5,
         FS_TIP_6,
         FS_TIP_7,
@@ -2367,7 +2370,6 @@ val ytelseTilRegistreringshjemler = mapOf(
         FTRL_22_15D,
         FTRL_22_15E,
         FTRL_22_15F,
-        FTRL_22_17A,
 
         FL_2_3,
         FL_10,
