@@ -946,7 +946,8 @@ enum class Registreringshjemmel(
     ARBML_22("724", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 22"),
     ARBML_28("725", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 28"),
 
-
+    FS_TIL_1_3("FS_TIL_1_3", LovKilde.FORSKRIFT_OM_TILTAK, "§ 1-3"),
+    FS_TIL_1_6("FS_TIL_1_6", LovKilde.FORSKRIFT_OM_TILTAK, "§ 1-6"),
     FS_TIL_2("710", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 2"),
     FS_TIL_3("711", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 3"),
     FS_TIL_4("712", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 4"),

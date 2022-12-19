@@ -2264,7 +2264,7 @@ val ytelseTilRegistreringshjemler = mapOf(
         SUP_ST_L_4,
         SUP_ST_L_5,
         SUP_ST_L_6,
-        SUP_ST_L_7
+        SUP_ST_L_7,
         SUP_ST_L_8,
         SUP_ST_L_9,
         SUP_ST_L_10,
@@ -2305,9 +2305,12 @@ val ytelseTilRegistreringshjemler = mapOf(
         TRRL_14,
     ),
     Ytelse.TIL_TIL to listOf(
+        ARBML_2,
         ARBML_12,
         ARBML_17,
 
+        FS_TIL_1_3,
+        FS_TIL_1_6,
         FS_TIL_2,
         FS_TIL_3,
         FS_TIL_4,
