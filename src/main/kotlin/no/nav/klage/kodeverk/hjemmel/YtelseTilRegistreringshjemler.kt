@@ -2682,8 +2682,6 @@ val ytelseTilRegistreringshjemler = mapOf(
         MIDL_KOMP_SELV_7,
         MIDL_KOMP_SELV_9,
 
-        FTRL_21_3,
-        FTRL_21_7,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -2694,9 +2692,6 @@ val ytelseTilRegistreringshjemler = mapOf(
         FTRL_22_17A,
 
         FVL_35,
-
-        FL_2_3,
-        FL_10,
     ),
     Ytelse.BID_BBF to listOf(
         BBF_2,
