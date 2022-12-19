@@ -2003,8 +2003,6 @@ val ytelseTilRegistreringshjemler = mapOf(
         KONTSL_14,
         KONTSL_16,
 
-        FTRL_21_10,
-
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -2012,29 +2010,9 @@ val ytelseTilRegistreringshjemler = mapOf(
         FTRL_22_15E,
         FTRL_22_15F,
 
-        FL_2_3,
-        FL_10,
-
         EOES_883_2004_11,
 
-        FVL_11,
-        FVL_12,
-        FVL_14,
-        FVL_16,
-        FVL_17,
-        FVL_18_19,
-        FVL_21,
-        FVL_24,
-        FVL_25,
-        FVL_28,
-        FVL_29,
-        FVL_30,
-        FVL_31,
-        FVL_32,
-        FVL_33,
         FVL_35,
-        FVL_41,
-        FVL_42,
     ),
     Ytelse.BID_BAB to listOf(
         BL_7,
