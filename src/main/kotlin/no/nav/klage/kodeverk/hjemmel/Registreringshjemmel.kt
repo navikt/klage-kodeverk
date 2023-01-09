@@ -70,10 +70,11 @@ enum class Registreringshjemmel(
     FTRL_4_12("245", LovKilde.FOLKETRYGDLOVEN, "§ 4-12"),
     FTRL_4_13("246", LovKilde.FOLKETRYGDLOVEN, "§ 4-13"),
     FTRL_4_14("864", LovKilde.FOLKETRYGDLOVEN, "§ 4-14"),
+    FTRL_4_14A("FTRL_4_16A", LovKilde.FOLKETRYGDLOVEN, "§ 4-14 ferietillegg"), //Ble først lagt ut som 4-16A. Beholder gammel ID for å sikre kompabilitet.
     FTRL_4_15("247", LovKilde.FOLKETRYGDLOVEN, "§ 4-15"),
     FTRL_4_16("248", LovKilde.FOLKETRYGDLOVEN, "§ 4-16"),
-    FTRL_4_16A("FTRL_4_16A", LovKilde.FOLKETRYGDLOVEN, "§ 4-16 ferietillegg"),
     FTRL_4_16B("FTRL_4_16B", LovKilde.FOLKETRYGDLOVEN, "§ 4-16 reberegning"),
+    FTRL_4_16C("FTRL_4_16C", LovKilde.FOLKETRYGDLOVEN, "§ 4-16 gjenopptak"),
     FTRL_4_18("249", LovKilde.FOLKETRYGDLOVEN, "§ 4-18"),
     FTRL_4_19("250", LovKilde.FOLKETRYGDLOVEN, "§ 4-19"),
     FTRL_4_20("251", LovKilde.FOLKETRYGDLOVEN, "§ 4-20"),
