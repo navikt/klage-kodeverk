@@ -131,6 +131,7 @@ enum class Hjemmel(
     EOES_AVTALEN("601", LovKilde.EØS_AVTALEN, "EØS-avtalen"),
     NORDISK_KONVENSJON("NORDISK_KONVENSJON", LovKilde.NORDISK_KONVENSJON, "Nordisk konvensjon"),
     ANDRE_TRYGDEAVTALER("ANDRE_TRYGDEAVTALER", LovKilde.ANDRE_TRYGDEAVTALER, "Andre trygdeavtaler"),
+    EOES_883_2004_5("EOES_883_2004_5", LovKilde.EØS_FORORDNING_883_2004, "art. 5"),
     EOES_883_2004_6("228", LovKilde.EØS_FORORDNING_883_2004, "art. 6"),
 
     //Backwards compatibility in dev with search and innstillinger. Can be removed later?

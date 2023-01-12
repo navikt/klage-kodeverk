@@ -185,6 +185,7 @@ val ytelseTilHjemler = mapOf(
         FTRL_21_3,
         FTRL_22_13,
         FTRL_22_15,
+        EOES_883_2004_5,
         EOES_883_2004_6,
     ),
     Ytelse.FOR_SVA to listOf(
