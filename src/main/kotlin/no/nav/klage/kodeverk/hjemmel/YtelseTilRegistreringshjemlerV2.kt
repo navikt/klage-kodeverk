@@ -2543,8 +2543,14 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FS_TILL_ST_15A,
         FS_TILL_ST_15B,
 
+        ARBML_2,
+        ARBML_12,
         ARBML_13,
+        ARBML_15,
         ARBML_17,
+        ARBML_19,
+        ARBML_22,
+        ARBML_28,
 
         FTRL_11_A3,
         FTRL_11_A4,
