@@ -1642,6 +1642,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E2030,
         E2103,
         E5701,
+        E5702,
     ),
     Ytelse.TIL_TIP to setOf(
         E0387,
