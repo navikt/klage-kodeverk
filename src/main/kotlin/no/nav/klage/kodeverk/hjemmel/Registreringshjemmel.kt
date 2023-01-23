@@ -342,6 +342,7 @@ enum class Registreringshjemmel(
     FTRL_14_7F("FTRL_14_7F", LovKilde.FOLKETRYGDLOVEN, "§ 14-7 Arb. taker, selvst. næringsdrivende og frilanser"),
     FTRL_14_7G("FTRL_14_7G", LovKilde.FOLKETRYGDLOVEN, "§ 14-7 Midlertidig ute av arbeid"),
     FTRL_14_7H("FTRL_14_7H", LovKilde.FOLKETRYGDLOVEN, "§ 14-7 Dagpenger"),
+    FTRL_14_7I("FTRL_14_7I", LovKilde.FOLKETRYGDLOVEN, "§ 14-7 Arbeidsavklaringspenger"),
     FTRL_14_8("404", LovKilde.FOLKETRYGDLOVEN, "§ 14-8"),
     FTRL_14_9("405", LovKilde.FOLKETRYGDLOVEN, "§ 14-9"),
     FTRL_14_10("406", LovKilde.FOLKETRYGDLOVEN, "§ 14-10"),
