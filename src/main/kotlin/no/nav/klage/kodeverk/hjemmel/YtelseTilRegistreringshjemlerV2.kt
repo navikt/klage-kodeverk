@@ -966,6 +966,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
     ),
     Ytelse.FOR_FOR to listOf(
         FTRL_14_2,
+        FTRL_14_5,
         FTRL_14_6,
         FTRL_14_7A,
         FTRL_14_7B,
@@ -1076,6 +1077,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
     Ytelse.FOR_SVA to listOf(
         FTRL_14_2,
         FTRL_14_4,
+        FTRL_14_5,
         FTRL_14_7A,
         FTRL_14_7B,
         FTRL_14_7C,
