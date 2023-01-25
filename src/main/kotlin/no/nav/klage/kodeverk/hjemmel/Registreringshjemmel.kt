@@ -372,7 +372,7 @@ enum class Registreringshjemmel(
     FTRL_15_8_2A("FTRL_15_8_2A", LovKilde.FOLKETRYGDLOVEN, "§ 15-8 andre ledd - nødvendig og hensiktsmessig utdanning"),
     FTRL_15_8_3("438", LovKilde.FOLKETRYGDLOVEN, "§ 15-8 tredje ledd"),
     FTRL_15_8_3A("FTRL_15_8_3A", LovKilde.FOLKETRYGDLOVEN, "§ 15-8 tredje ledd - særlig tilsynskrevende barn"),
-    FTRL_15_8_3B("FTRL_15_8_3B", LovKilde.FOLKETRYGDLOVEN, "§ 15-8 tredje ledd - forbigående sykdom"),
+    FTRL_15_8_3B("FTRL_15_8_3B", LovKilde.FOLKETRYGDLOVEN, "§ 15-8 fjerde ledd - forbigående sykdom"),
     FTRL_15_8_5A("FTRL_15_8_5A", LovKilde.FOLKETRYGDLOVEN, "§ 15-8 femte ledd - påvente"),
     FTRL_15_9("439", LovKilde.FOLKETRYGDLOVEN, "§ 15-9"),
     FTRL_15_10("440", LovKilde.FOLKETRYGDLOVEN, "§ 15-10"),
