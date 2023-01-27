@@ -20,6 +20,8 @@ val ytelseTilHjemler = mapOf(
         FTRL_15_11,
         FTRL_15_12,
         FTRL_15_13,
+        FTRL_22_12,
+        FTRL_22_13,
         FTRL_22_15,
     ),
     Ytelse.BAR_BAR to listOf(
