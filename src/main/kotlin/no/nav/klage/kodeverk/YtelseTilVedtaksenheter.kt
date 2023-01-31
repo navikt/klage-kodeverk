@@ -25,26 +25,31 @@ val ytelseTilVedtaksenheter = mapOf(
         E4720,
         E4408,
         E4418,
+        E4483,
         E2103
     ),
     Ytelse.OMS_OMP to setOf(
         E4432,
         E4409,
+        E4483,
         E2103
     ),
     Ytelse.OMS_OLP to setOf(
         E4432,
         E4409,
+        E4483,
         E2103
     ),
     Ytelse.OMS_PLS to setOf(
         E4432,
         E4409,
+        E4483,
         E2103
     ),
     Ytelse.OMS_PSB to setOf(
         E4432,
         E4409,
+        E4483,
         E2103
     ),
     Ytelse.DAG_DAG to setOf(
@@ -56,6 +61,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4408,
         E4416,
         E4418,
+        E4483,
         E4525,
     ),
     Ytelse.AAP_AAP to setOf(
@@ -431,6 +437,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4411,
         E4415,
         E4416,
+        E4483,
         E0101,
         E0104,
         E0105,
@@ -802,6 +809,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4407,
         E4476,
         E4475,
+        E4483,
         E2103
     ),
     Ytelse.FOR_FOR to setOf(
@@ -816,11 +824,13 @@ val ytelseTilVedtaksenheter = mapOf(
     Ytelse.GRU_GRU to setOf(
         E4401,
         E4410,
+        E4483,
         E2103
     ),
     Ytelse.GRU_HJE to setOf(
         E4401,
         E4410,
+        E4483,
         E2103
     ),
     Ytelse.GRA_GRA to setOf(
@@ -2004,6 +2014,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4425,
         E4401,
         E4426,
+        E4483,
         E2103
     ),
     Ytelse.MED_MED to setOf(
@@ -2018,6 +2029,7 @@ val ytelseTilVedtaksenheter = mapOf(
     Ytelse.OMS_OLP to setOf(
         E4432,
         E4409,
+        E4483,
         E2103
     ),
     Ytelse.PEN_AFP to setOf(
@@ -2046,6 +2058,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4407,
         E4411,
         E4416,
+        E4483,
         E5771,
         E2103
     ),
@@ -2062,6 +2075,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E4410,
         E4415,
         E4408,
+        E4483,
         E2103
     ),
     Ytelse.DAG_FDP to setOf(
@@ -2074,10 +2088,12 @@ val ytelseTilVedtaksenheter = mapOf(
     ),
     Ytelse.DAG_LKP to setOf(
         E4486,
+        E4483,
         E2103
     ),
     Ytelse.UFO_TVF to setOf(
         E4407,
+        E4483,
         E4808,
         E4803,
         E4815,
