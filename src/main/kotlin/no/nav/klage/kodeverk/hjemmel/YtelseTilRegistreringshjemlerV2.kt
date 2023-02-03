@@ -516,6 +516,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         GJ_F_FORD_987_2009_87,
     ),
     Ytelse.DAG_DAG to listOf(
+        FTRL_4_1A,
         FTRL_4_2,
         FTRL_4_3A,
         FTRL_4_3B,
@@ -547,13 +548,20 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_4_27,
         FTRL_4_28,
 
+        FS_DAG_1_5,
+        FS_DAG_1_7,
+        FS_DAG_1_8,
         FS_DAG_6_5,
         FS_DAG_6_7,
         FS_DAG_6_8,
         FS_DAG_8_1,
         FS_DAG_9_1,
+        FS_DAG_13_1,
+        FS_DAG_13_2,
         FS_DAG_13_3,
+        FS_DAG_13_3A,
         FS_DAG_13_4,
+        FS_DAG_13_4A,
         FS_DAG_13_9,
 
         FS_COV_19_2_8,
@@ -618,6 +626,8 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         EOES_883_2004_61,
         EOES_883_2004_64,
         EOES_883_2004_65,
+        EOES_883_2004_65_1,
+        EOES_883_2004_65_2,
     ),
     Ytelse.AAP_AAP to listOf(
         FTRL_11_2,
