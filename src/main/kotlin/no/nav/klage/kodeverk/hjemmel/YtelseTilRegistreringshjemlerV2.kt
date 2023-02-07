@@ -559,9 +559,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FS_DAG_13_1,
         FS_DAG_13_2,
         FS_DAG_13_3A,
-        FS_DAG_13_4,
         FS_DAG_13_4A,
-        FS_DAG_13_9,
 
         FS_COV_19_2_8,
         FS_COV_19_2_10,
