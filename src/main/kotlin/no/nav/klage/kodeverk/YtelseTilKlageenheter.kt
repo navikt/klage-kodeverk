@@ -120,23 +120,27 @@ val ytelseTilKlageenheter = mapOf(
         E4291,
         E4293,
         E4294,
+        E4295,
         E2103
     ),
     Ytelse.BID_BIF to setOf(
         E4291,
         E4293,
         E4294,
+        E4295,
         E2103
     ),
     Ytelse.BID_BII to setOf(
         E4291,
         E4293,
         E4294,
+        E4295,
         E2103
     ),
     Ytelse.BID_EKB to setOf(
         E4291,
         E4293,
+        E4295,
         E2103
     ),
     Ytelse.SUP_PEN to setOf(
@@ -174,6 +178,7 @@ val ytelseTilKlageenheter = mapOf(
     Ytelse.BID_OPI to setOf(
         E4291,
         E4294,
+        E4295,
         E2103
     ),
     Ytelse.TIL_TIL to setOf(
