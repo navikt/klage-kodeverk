@@ -15,12 +15,10 @@ val typeTilUtfall = mapOf(
     ),
     Type.ANKE to setOf(
         TRUKKET,
-        RETUR,
         OPPHEVET,
         MEDHOLD,
         DELVIS_MEDHOLD,
         INNSTILLING_STADFESTELSE,
-        UGUNST,
         INNSTILLING_AVVIST,
     ),
     Type.ANKE_I_TRYGDERETTEN to setOf(
