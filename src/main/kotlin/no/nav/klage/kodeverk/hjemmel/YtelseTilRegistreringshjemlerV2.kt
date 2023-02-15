@@ -743,6 +743,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         SPESIELL_LOVKILDE_A,
     ),
     Ytelse.YRK_YRK to listOf(
+        FTRL_13_0,
         FTRL_13_2,
         FTRL_13_3A,
         FTRL_13_3B,
