@@ -116,6 +116,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E0536("119", "0536", "NAV Søndre Land"),
     E0538("120", "0538", "NAV Nordre Land"),
     E0542("121", "0542", "NAV Valdres"),
+    E0600("E0600", "0600", "NAV Vest-Viken"),
     E0602("122", "0602", "NAV Drammen"),
     E0604("123", "0604", "NAV Kongsberg"),
     E0605("124", "0605", "NAV Ringerike"),
