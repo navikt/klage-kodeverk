@@ -2110,6 +2110,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FORSKL_7A,
         FORSKL_7B,
         FORSKL_7C,
+        FORSKL_8,
 
         FVL_11,
         FVL_12,
@@ -2127,6 +2128,8 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FVL_35,
         FVL_41,
         FVL_42,
+
+        SPESIELL_LOVKILDE_A,
     ),
 
     Ytelse.BID_BII to listOf(
