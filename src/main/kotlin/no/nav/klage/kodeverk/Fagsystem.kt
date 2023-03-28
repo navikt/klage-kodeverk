@@ -25,7 +25,7 @@ enum class Fagsystem(override val id: String, override val navn: String, overrid
 
     //Ikke i bruk i Dokarkiv.
     MANUELL("18", "MANUELL", "Manuell registrering av kvalitetsskjema"),
-    FS22("19", "GOSYS", "GOSYS"),
+    FS22("19", "FS22", "GOSYS"),
     HJELPEMIDLER("20", "HJELPEMIDLER", "Hjelpemidler"),
     BARNEBRILLER("21", "BARNEBRILLER", "Barnebriller"),
     EY("22", "EY", "Etterlatteytelser");
