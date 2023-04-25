@@ -526,6 +526,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_4_6A,
         FTRL_4_6B,
         FTRL_4_7,
+        FTRL_4_7_B,
         FTRL_4_8,
         FTRL_4_9,
         FTRL_4_10,
