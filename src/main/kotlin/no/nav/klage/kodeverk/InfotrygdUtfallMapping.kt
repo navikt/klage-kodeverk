@@ -1,20 +1,20 @@
 package no.nav.klage.kodeverk
 
 val infotrygdKlageutfallToUtfall = mapOf(
-    "H" to Utfall.TRUKKET,
-    "IB" to Utfall.RETUR,
-    "NB" to Utfall.OPPHEVET,
-    "I" to Utfall.MEDHOLD,
-    "DI" to Utfall.DELVIS_MEDHOLD,
-    "A" to Utfall.STADFESTELSE,
-    "AK" to Utfall.AVVIST,
+    "HENLAGT" to Utfall.TRUKKET,
+    "IKKE_BEHANDLET" to Utfall.RETUR,
+    "HJEMVIST_FOR_NY_BEHANDLING" to Utfall.OPPHEVET,
+    "INNVILGET" to Utfall.MEDHOLD,
+    "DELVIS_INNVILGET" to Utfall.DELVIS_MEDHOLD,
+    "AVSLAG" to Utfall.STADFESTELSE,
+    "AVVIST_KLAGE" to Utfall.AVVIST,
 )
 
 val ankeutfallToInfotrygdutfall = mapOf(
-    Utfall.TRUKKET to "H",
-    Utfall.OPPHEVET to "NB",
-    Utfall.MEDHOLD to "I",
-    Utfall.DELVIS_MEDHOLD to "DI",
-    Utfall.INNSTILLING_STADFESTELSE to "A",
-    Utfall.INNSTILLING_AVVIST to "A",
+    Utfall.TRUKKET to "HENLAGT",
+    Utfall.OPPHEVET to "HJEMVIST_FOR_NY_BEHANDLING",
+    Utfall.MEDHOLD to "INNVILGET",
+    Utfall.DELVIS_MEDHOLD to "DELVIS_INNVILGET",
+    Utfall.INNSTILLING_STADFESTELSE to "AVSLAG",
+    Utfall.INNSTILLING_AVVIST to "AVSLAG",
 )
