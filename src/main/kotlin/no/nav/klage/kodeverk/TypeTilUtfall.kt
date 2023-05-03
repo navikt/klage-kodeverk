@@ -10,7 +10,6 @@ val typeTilUtfall = mapOf(
         MEDHOLD,
         DELVIS_MEDHOLD,
         STADFESTELSE,
-        UGUNST,
         AVVIST,
     ),
     Type.ANKE to setOf(
