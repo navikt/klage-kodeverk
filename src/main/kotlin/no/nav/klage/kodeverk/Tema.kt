@@ -27,6 +27,7 @@ enum class Tema(override val id: String, override val navn: String, override val
     IAR("21", "IAR", "Inkluderende arbeidsliv"),
     IND("22", "IND", "Tiltakspenger"),
     KON("23", "KON", "Kontantstøtte"),
+    KLL("57", "KLL", "Klage lønnsgaranti"),
     KTR("24", "KTR", "Kontroll"),
     MED("25", "MED", "Medlemskap"),
     MOB("26", "MOB", "Mobilitetsfremmende stønad"),
