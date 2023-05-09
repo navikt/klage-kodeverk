@@ -2024,7 +2024,7 @@ val ytelseTilVedtaksenheter = mapOf(
         E2103
     ),
     Ytelse.BID_OPI to setOf(
-        E4802,
+        E4833,
         E2103
     ),
     Ytelse.OMS_OLP to setOf(

@@ -2048,7 +2048,8 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         BL_74A,
         BL_74B,
         BL_74C,
-        BL_75,
+        BL_75A,
+        BL_75B,
         BL_76,
         BL_80,
         BL_83,
@@ -2202,9 +2203,9 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
     ),
 
     Ytelse.BID_OPI to listOf(
-        BVL_9,
-        BVL_9_2A,
-        BVL_9_2B,
+        BVL_15_2,
+        BVL_15_2A,
+        BVL_15_2B,
 
         FS_OM_OPPFOSTRINGSBIDRAG_1,
         FS_OM_OPPFOSTRINGSBIDRAG_2,
