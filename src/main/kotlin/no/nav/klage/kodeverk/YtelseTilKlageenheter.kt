@@ -42,6 +42,7 @@ val ytelseTilKlageenheter = mapOf(
         E4291,
         E4292,
         E4294,
+        E4295,
         E2103
     ),
     Ytelse.YRK_YRK to setOf(
