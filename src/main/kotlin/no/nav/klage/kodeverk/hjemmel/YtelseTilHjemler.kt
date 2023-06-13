@@ -184,6 +184,8 @@ val ytelseTilHjemler = mapOf(
         FTRL_22_3,
         FTRL_22_13,
         FTRL_22_15,
+        FTRL_22_17,
+        FTRL_22_17A,
     ),
     Ytelse.SUP_UFF to listOf(
         SUP_ST_L_3,
