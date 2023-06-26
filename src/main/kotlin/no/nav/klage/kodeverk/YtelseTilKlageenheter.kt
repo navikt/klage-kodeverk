@@ -217,6 +217,16 @@ val ytelseTilKlageenheter = mapOf(
         E4293,
         E2103
     ),
+    Ytelse.BIL_BIL to setOf(
+        E4292,
+        E4293,
+        E2103
+    ),
+    Ytelse.HEL_HEL to setOf(
+        E4292,
+        E4293,
+        E2103
+    ),
     Ytelse.FRI_FRI to setOf(
         E4292,
         E2103
