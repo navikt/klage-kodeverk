@@ -2,6 +2,12 @@ package no.nav.klage.kodeverk
 
 import no.nav.klage.kodeverk.Enhet.*
 
+val klageEnheterHJE_HJE = setOf(
+    E4292,
+    E4293,
+    E2103
+)
+
 val ytelseTilKlageenheter = mapOf(
     Ytelse.ENF_ENF to setOf(
         E4295,
@@ -212,21 +218,9 @@ val ytelseTilKlageenheter = mapOf(
         E4250,
         E2103
     ),
-    Ytelse.HJE_HJE to setOf(
-        E4292,
-        E4293,
-        E2103
-    ),
-    Ytelse.BIL_BIL to setOf(
-        E4292,
-        E4293,
-        E2103
-    ),
-    Ytelse.HEL_HEL to setOf(
-        E4292,
-        E4293,
-        E2103
-    ),
+    Ytelse.HJE_HJE to klageEnheterHJE_HJE,
+    Ytelse.BIL_BIL to klageEnheterHJE_HJE,
+    Ytelse.HEL_HEL to klageEnheterHJE_HJE,
     Ytelse.FRI_FRI to setOf(
         E4292,
         E2103
