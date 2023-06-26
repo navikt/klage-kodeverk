@@ -3,6 +3,22 @@ package no.nav.klage.kodeverk.hjemmel
 import no.nav.klage.kodeverk.Ytelse
 import no.nav.klage.kodeverk.hjemmel.Hjemmel.*
 
+val hjemlerHJE_HJE = listOf(
+    FTRL_10_3,
+    FTRL_10_7A,
+    FTRL_10_7B,
+    FTRL_10_7C,
+    FTRL_10_7D,
+    FTRL_10_7E,
+    FTRL_10_7F,
+    FTRL_10_7G,
+    FTRL_10_7H,
+    FTRL_10_7I,
+    FTRL_10_7_3A,
+    FTRL_21_12,
+    FTRL_22_13,
+)
+
 /**
  * Used for innsending, search and innstillinger
  */
@@ -243,19 +259,7 @@ val ytelseTilHjemler = mapOf(
         FTRL_22_15,
         EOES_883_2004_6,
     ),
-    Ytelse.HJE_HJE to listOf(
-        FTRL_10_3,
-        FTRL_10_7A,
-        FTRL_10_7B,
-        FTRL_10_7C,
-        FTRL_10_7D,
-        FTRL_10_7E,
-        FTRL_10_7F,
-        FTRL_10_7G,
-        FTRL_10_7H,
-        FTRL_10_7I,
-        FTRL_10_7_3A,
-        FTRL_21_12,
-        FTRL_22_13,
-    )
+    Ytelse.HJE_HJE to hjemlerHJE_HJE,
+    Ytelse.BIL_BIL to hjemlerHJE_HJE,
+    Ytelse.HEL_HEL to hjemlerHJE_HJE,
 )

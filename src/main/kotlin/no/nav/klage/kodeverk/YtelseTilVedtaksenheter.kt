@@ -2,32 +2,36 @@ package no.nav.klage.kodeverk
 
 import no.nav.klage.kodeverk.Enhet.*
 
+val vedtaksEnheterHJE_HJE = setOf(
+    E4701,
+    E4702,
+    E4703,
+    E4704,
+    E4705,
+    E4706,
+    E4707,
+    E4708,
+    E4709,
+    E4710,
+    E4711,
+    E4712,
+    E4714,
+    E4715,
+    E4716,
+    E4717,
+    E4718,
+    E4719,
+    E4720,
+    E4408,
+    E4418,
+    E4483,
+    E2103
+)
+
 val ytelseTilVedtaksenheter = mapOf(
-    Ytelse.HJE_HJE to setOf(
-        E4701,
-        E4702,
-        E4703,
-        E4704,
-        E4705,
-        E4706,
-        E4707,
-        E4708,
-        E4709,
-        E4710,
-        E4711,
-        E4712,
-        E4714,
-        E4715,
-        E4716,
-        E4717,
-        E4718,
-        E4719,
-        E4720,
-        E4408,
-        E4418,
-        E4483,
-        E2103
-    ),
+    Ytelse.HJE_HJE to vedtaksEnheterHJE_HJE,
+    Ytelse.BIL_BIL to vedtaksEnheterHJE_HJE,
+    Ytelse.HEL_HEL to vedtaksEnheterHJE_HJE,
     Ytelse.OMS_OMP to setOf(
         E4432,
         E4409,

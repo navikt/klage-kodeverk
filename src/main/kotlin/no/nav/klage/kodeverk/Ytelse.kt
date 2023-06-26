@@ -59,7 +59,9 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     FAR_FAR("45", "Far- og morskap", "Far- og morskap"),
     BID_BBF("46", "Barnebortføring", "Barnebortføring"),
     DAG_LKP("47", "Lønnskompensasjon for permitterte", "Lønnskompensasjon for permitterte"),
-    DAG_FDP("48", "Forskudd dagpenger", "Forskudd dagpenger")
+    DAG_FDP("48", "Forskudd dagpenger", "Forskudd dagpenger"),
+    BIL_BIL("49", "Bil", "Bil"),
+    HEL_HEL("50", "Helsetjenester og ortopediske hjelpemidler", "Helsetjenester og ortopediske hjelpemidler"),
     ;
 
 
@@ -97,6 +99,8 @@ enum class Ytelse(override val id: String, override val navn: String, override v
             FRI_FRI -> Tema.FRI
             TSO_TSO -> Tema.TSO
             FAR_FAR -> Tema.FAR
+            BIL_BIL -> Tema.BIL
+            HEL_HEL -> Tema.HEL
         }
     }
 }
