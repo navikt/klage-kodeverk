@@ -37,6 +37,15 @@ tasks.getByName<Jar>("jar") {
 }
 
 publishing {
+	repositories {
+		maven {
+			url = uri("https://maven.pkg.github.com/navikt/klage-kodeverk")
+			credentials {
+				username = System.getenv("GITHUB_USERNAME")
+				password = System.getenv("GITHUB_PASSWORD")
+			}
+		}
+	}
 	publications {
 		create<MavenPublication>("mavenJava") {
 
