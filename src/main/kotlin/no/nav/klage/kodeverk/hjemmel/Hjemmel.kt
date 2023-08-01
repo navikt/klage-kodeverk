@@ -2,8 +2,8 @@ package no.nav.klage.kodeverk.hjemmel
 
 import no.nav.klage.kodeverk.Tema
 import no.nav.klage.kodeverk.Ytelse
-import javax.persistence.AttributeConverter
-import javax.persistence.Converter
+import jakarta.persistence.AttributeConverter
+import jakarta.persistence.Converter
 
 /**
  * Used for innsending, search and innstillinger

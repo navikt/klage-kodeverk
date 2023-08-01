@@ -1,7 +1,7 @@
 package no.nav.klage.kodeverk.hjemmel
 
-import javax.persistence.AttributeConverter
-import javax.persistence.Converter
+import jakarta.persistence.AttributeConverter
+import jakarta.persistence.Converter
 
 enum class Registreringshjemmel(
     val id: String,

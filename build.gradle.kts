@@ -1,14 +1,19 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
+val jakartaPersistenceApiVersion = "3.1.0"
+val junitJupiterVersion = "5.10.0"
+val assertjCoreVersion = "3.24.2"
+
+
 plugins {
-	kotlin("jvm") version "1.8.0"
+	kotlin("jvm") version "1.9.0"
 	id("maven-publish")
 	id("java-library")
 }
 
 group = "no.nav.klage"
 version = properties["version"] ?: "local-build"
-java.sourceCompatibility = JavaVersion.VERSION_11
+java.sourceCompatibility = JavaVersion.VERSION_17
 
 repositories {
 	mavenCentral()
@@ -16,9 +21,9 @@ repositories {
 
 dependencies {
 	compileOnly("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-	implementation("jakarta.persistence:jakarta.persistence-api:2.2.3")
-	testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")
-	testImplementation("org.assertj:assertj-core:3.24.1")
+	implementation("jakarta.persistence:jakarta.persistence-api:$jakartaPersistenceApiVersion")
+	testImplementation("org.junit.jupiter:junit-jupiter:$junitJupiterVersion")
+	testImplementation("org.assertj:assertj-core:$assertjCoreVersion")
 }
 
 tasks.withType<KotlinCompile> {
