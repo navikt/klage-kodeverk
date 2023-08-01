@@ -1,7 +1,7 @@
 package no.nav.klage.kodeverk
 
-import javax.persistence.AttributeConverter
-import javax.persistence.Converter
+import jakarta.persistence.AttributeConverter
+import jakarta.persistence.Converter
 
 enum class Ytelse(override val id: String, override val navn: String, override val beskrivelse: String) : Kode {
     OMS_OMP("1", "Omsorgspenger", "Omsorgspenger"),

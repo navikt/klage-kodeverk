@@ -1,7 +1,7 @@
 package no.nav.klage.kodeverk
 
-import javax.persistence.AttributeConverter
-import javax.persistence.Converter
+import jakarta.persistence.AttributeConverter
+import jakarta.persistence.Converter
 
 enum class Source(override val id: String, override val navn: String, override val beskrivelse: String) : Kode {
     KAKA("1", "KAKA", "KAKA"),
