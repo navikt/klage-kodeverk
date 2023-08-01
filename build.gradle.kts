@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-	kotlin("jvm") version "1.8.0"
+	kotlin("jvm") version "1.9.0"
 	id("maven-publish")
 	id("java-library")
 }
@@ -16,9 +16,9 @@ repositories {
 
 dependencies {
 	compileOnly("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-	implementation("jakarta.persistence:jakarta.persistence-api:2.2.3")
-	testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")
-	testImplementation("org.assertj:assertj-core:3.24.1")
+	implementation("jakarta.persistence:jakarta.persistence-api:3.1.0")
+	testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
+	testImplementation("org.assertj:assertj-core:3.24.2")
 }
 
 tasks.withType<KotlinCompile> {
