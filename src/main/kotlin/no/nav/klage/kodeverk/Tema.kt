@@ -7,6 +7,7 @@ enum class Tema(override val id: String, override val navn: String, override val
     AAP("1", "AAP", "Arbeidsavklaringspenger"),
     AAR("2", "AAR", "Aa-registeret"),
     AGR("3", "AGR", "Ajourhold - Grunnopplysninger"),
+    ARS("58", "ARS", "Arbeidsrådgivning - skjermet"),
     BAR("4", "BAR", "Barnetrygd"),
     BID("5", "BID", "Bidrag"),
     BIL("6", "BIL", "Bil"),
