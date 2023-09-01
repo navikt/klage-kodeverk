@@ -83,6 +83,7 @@ val registreringshjemlerHJE_HJE = listOf(
     FS_MOK_11A,
     FS_MOK_11B,
     FS_MOK_12A,
+    FS_MOK_13,
     FS_MOK_15,
 
     FTRL_21_3,

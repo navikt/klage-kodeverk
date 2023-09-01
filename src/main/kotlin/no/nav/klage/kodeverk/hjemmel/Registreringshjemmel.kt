@@ -636,6 +636,7 @@ enum class Registreringshjemmel(
     FS_MOK_11A("104", LovKilde.FORSKRIFT_OM_MOTORKJØRETØY, "§ 11 tilskudd til spesialutstyr"),
     FS_MOK_11B("105", LovKilde.FORSKRIFT_OM_MOTORKJØRETØY, "§ 11 tilskudd til firehjulstrekk"),
     FS_MOK_12A("106", LovKilde.FORSKRIFT_OM_MOTORKJØRETØY, "§ 12 tilskudd til kjøreopplæring"),
+    FS_MOK_13("FS_MOK_13", LovKilde.FORSKRIFT_OM_MOTORKJØRETØY, "§ 13 Dekning av reise- og oppholdsutgifter"),
     FS_MOK_15("107", LovKilde.FORSKRIFT_OM_MOTORKJØRETØY, "§ 15 gjeldoppgjør"),
 
     FVL_2("FVL_2", LovKilde.FORVALTNINGSLOVEN, "§ 2"),
