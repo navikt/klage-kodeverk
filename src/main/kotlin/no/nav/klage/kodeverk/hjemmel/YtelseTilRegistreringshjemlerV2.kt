@@ -2691,6 +2691,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FORSK_DP_6A,
         FORSK_DP_6B,
 
+        FTRL_21_12,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -2699,6 +2700,14 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_15E,
         FTRL_22_15F,
         FTRL_22_17A,
+
+        FVL_29,
+        FVL_30,
+        FVL_31,
+
+        TRRL_9,
+        TRRL_10,
+        TRRL_11,
 
         FL_2_3,
         FL_10,
