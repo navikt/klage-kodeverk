@@ -404,6 +404,8 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E4862("421", "4862", "NAV Familie- og pensjonsytelser utland Ålesund"),
     E4820("422", "4820", "NAV Familie- og pensjonsytelser Vadsø"),
     E4865("423", "4865", "NAV Familie- og pensjonsytelser Bidrag utland"),
+    E4867("E4867", "4867", "NAV Familie- og pensjonsytelser Foreldrepenger"),
+    E4883("E4883", "4883", "NAV Familie- og pensjonsytelser Egne ansatte"),
     E0387("426", "0387", "NAV Tiltak Oslo"),
     E0587("428", "0587", "NAV Tiltak Innlandet"),
     E0687("429", "0687", "NAV Tiltak Vest-Viken"),
