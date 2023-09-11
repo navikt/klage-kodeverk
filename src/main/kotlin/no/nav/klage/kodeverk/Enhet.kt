@@ -387,6 +387,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E4488("405", "4488", "NAV AY Sykepenger"),
     E4489("E4489", "4489", "NAV AY Enslig forsørger"),
     E4474("406", "4474", "Sykepenger Utland"),
+    E4800("E4800", "4800", "NAV Familie- og pensjonsytelser styringsenhet"),
     E4803("407", "4803", "NAV Familie- og pensjonsytelser Oslo 2"),
     E4849("408", "4849", "NAV Familie- og pensjonsytelser Tromsø"),
     E4403("409", "4403", "NAV Arbeid og ytelser Oslo"),
