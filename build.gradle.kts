@@ -41,6 +41,10 @@ tasks.getByName<Jar>("jar") {
 	classifier = ""
 }
 
+java {
+	withSourcesJar()
+}
+
 publishing {
 	repositories {
 		maven {
