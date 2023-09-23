@@ -6,7 +6,8 @@ enum class Template(override val id: String, override val navn: String, override
     GENERELT_BREV("generelt_brev", "Generelt brev", "Generelt brev"),
     ANKEVEDTAK("ankevedtak", "ankevedtak", "Ankevedtak"),
     KLAGEVEDTAK("klagevedtak", "klagevedtak", "Klagevedtak"),
-    ROL_NOTAT("rol-notat", "rol-notat", "ROL-notat"),
+    ROL_QUESTIONS("rol-questions", "rol-questions", "ROL questions"),
+    ROL_ANSWERS("rol-answers", "rol-answers", "ROL answers"),
     ;
 
     override fun toString(): String {
