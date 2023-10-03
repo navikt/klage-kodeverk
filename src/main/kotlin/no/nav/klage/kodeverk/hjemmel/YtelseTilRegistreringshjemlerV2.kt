@@ -2770,8 +2770,6 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         BL_7,
         BL_80
     ),
-    Ytelse.PEN_BAR to registreringshjemler_PEN_GJE_PEN_BAR_common,
-    Ytelse.PEN_GJE to registreringshjemler_PEN_GJE_PEN_BAR_common,
 
 )
 
