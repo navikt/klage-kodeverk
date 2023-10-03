@@ -2765,7 +2765,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
     Ytelse.FAR_FAR to listOf(
         BL_7,
         BL_80
-    )
+    ),
 
 )
 
