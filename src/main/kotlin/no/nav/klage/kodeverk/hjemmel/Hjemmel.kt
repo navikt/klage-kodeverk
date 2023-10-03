@@ -1,7 +1,5 @@
 package no.nav.klage.kodeverk.hjemmel
 
-import no.nav.klage.kodeverk.Tema
-import no.nav.klage.kodeverk.Ytelse
 import jakarta.persistence.AttributeConverter
 import jakarta.persistence.Converter
 
@@ -192,7 +190,7 @@ enum class Hjemmel(
 
     companion object {
         fun of(id: String): Hjemmel {
-            return values().firstOrNull { it.id == id }
+            return entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No Hjemmel with id $id exists")
         }
     }

@@ -19,6 +19,10 @@ val hjemlerHJE_HJE = listOf(
     FTRL_22_13,
 )
 
+val hjemler_PEN_GJE_PEN_BAR_common = listOf(
+    FTRL_21_12,
+)
+
 /**
  * Used for innsending, search and innstillinger
  */
@@ -262,4 +266,7 @@ val ytelseTilHjemler = mapOf(
     Ytelse.HJE_HJE to hjemlerHJE_HJE,
     Ytelse.BIL_BIL to hjemlerHJE_HJE,
     Ytelse.HEL_HEL to hjemlerHJE_HJE,
+
+    Ytelse.PEN_BAR to hjemler_PEN_GJE_PEN_BAR_common,
+    Ytelse.PEN_GJE to hjemler_PEN_GJE_PEN_BAR_common,
 )
