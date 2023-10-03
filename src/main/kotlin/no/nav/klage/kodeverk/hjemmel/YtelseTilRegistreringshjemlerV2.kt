@@ -123,10 +123,6 @@ val registreringshjemlerHJE_HJE = listOf(
     TRRL_14,
 )
 
-val registreringshjemler_PEN_GJE_PEN_BAR_common = listOf(
-    FTRL_21_12,
-)
-
 val ytelseTilRegistreringshjemlerV2 = mapOf(
     Ytelse.HJE_HJE to registreringshjemlerHJE_HJE,
     Ytelse.BIL_BIL to registreringshjemlerHJE_HJE,
