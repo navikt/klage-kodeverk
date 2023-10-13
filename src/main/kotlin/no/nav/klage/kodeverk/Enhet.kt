@@ -102,6 +102,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E0439("101", "0439", "NAV Folldal"),
     E0450("102", "0450", "ENHET FOR ARBEIDSGIVER- OG ARBEIDSTAKERREGISTERET"),
     E0483("104", "0483", "NAV egne ansatte Innlandet"),
+    E0491("E0491", "0491", "NAV Arbeidslivssenter Innlandet"),
     E0501("105", "0501", "NAV Lillehammer-Gausdal"),
     E0502("106", "0502", "NAV Gjøvik"),
     E0511("108", "0511", "NAV Lesja - Dovre"),
