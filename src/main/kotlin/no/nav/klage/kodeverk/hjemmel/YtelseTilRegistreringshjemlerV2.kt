@@ -2708,6 +2708,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         TRRL_9,
         TRRL_10,
         TRRL_11,
+        TRRL_14,
 
         FL_2_3,
         FL_10,
