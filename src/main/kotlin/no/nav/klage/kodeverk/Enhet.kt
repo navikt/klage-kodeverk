@@ -417,6 +417,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E1987("434", "1987", "NAV Tiltak Troms og Finnmark"),
     E5771("435", "5771", "NAV Tiltak Trøndelag"),
     E0287("436", "0287", "NAV Tiltak Øst-Viken"),
+    E0296("E0296", "0296", "NAV Arbeidsrådgivning Øst-Viken"),
     E4525("437", "4525", "NAV Kontroll Forvaltning"),
     E4530("438", "4530", "NAV Medlemskap og avgift"),
     E4802("439", "4802", "NAV Familie- og pensjonsytelser Bærum"),

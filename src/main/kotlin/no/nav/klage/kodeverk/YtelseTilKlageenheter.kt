@@ -124,6 +124,7 @@ val ytelseTilKlageenheter = mapOf(
         E2103
     ),
     Ytelse.BID_BAB to setOf(
+        E4250,
         E4291,
         E4293,
         E4294,
@@ -131,6 +132,7 @@ val ytelseTilKlageenheter = mapOf(
         E2103
     ),
     Ytelse.BID_BIF to setOf(
+        E4250,
         E4291,
         E4293,
         E4294,
@@ -138,6 +140,7 @@ val ytelseTilKlageenheter = mapOf(
         E2103
     ),
     Ytelse.BID_BII to setOf(
+        E4250,
         E4291,
         E4293,
         E4294,
@@ -145,6 +148,7 @@ val ytelseTilKlageenheter = mapOf(
         E2103
     ),
     Ytelse.BID_EKB to setOf(
+        E4250,
         E4291,
         E4293,
         E4295,
@@ -183,6 +187,7 @@ val ytelseTilKlageenheter = mapOf(
         E2103
     ),
     Ytelse.BID_OPI to setOf(
+        E4250,
         E4291,
         E4294,
         E4295,
@@ -202,6 +207,7 @@ val ytelseTilKlageenheter = mapOf(
         E2103
     ),
     Ytelse.BID_BBF to setOf(
+        E4250,
         E4294,
         E2103
     ),
