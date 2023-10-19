@@ -24,3 +24,13 @@ val ankeutfallToInfotrygdutfall = mapOf(
     Utfall.INNSTILLING_STADFESTELSE to "AVSLAG",
     Utfall.INNSTILLING_AVVIST to "AVSLAG",
 )
+
+val klageutfallToInfotrygdutfall = mapOf(
+    Utfall.TRUKKET to "HENLAGT",
+    Utfall.OPPHEVET to "HJEMVIST_FOR_NY_BEHANDLING",
+    Utfall.MEDHOLD to "INNVILGET",
+    Utfall.DELVIS_MEDHOLD to "DELVIS_INNVILGET",
+    Utfall.STADFESTELSE to "AVSLAG",
+    Utfall.AVVIST to "AVSLAG",
+    Utfall.RETUR to "IKKE_BEHANDLET",
+)
