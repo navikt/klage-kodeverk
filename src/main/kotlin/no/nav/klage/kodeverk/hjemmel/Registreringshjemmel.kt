@@ -567,6 +567,7 @@ enum class Registreringshjemmel(
     FS_HJE_MM_2P("52", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 2 utstyr på arbeidsplass  jordbruk og fiske"),
     FS_HJE_MM_2Q("53", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 2 varmehjelpemidler"),
     FS_HJE_MM_2R("54", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 2 refusjon isteden for utlån"),
+    FS_HJE_MM_3A("FS_HJE_MM_3A", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 3 grunnmønster"),
     FS_HJE_MM_6A("55", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 6 tilpasningskurs"),
     FS_HJE_MM_6B("56", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 6 folkehøgskole 1 år"),
     FS_HJE_MM_6C("57", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 6 folkehøgskole 2 år"),
