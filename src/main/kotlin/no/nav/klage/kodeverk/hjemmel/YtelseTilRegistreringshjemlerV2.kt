@@ -13,6 +13,8 @@ val registreringshjemlerHJE_HJE = listOf(
     FTRL_10_7AC,
     FTRL_10_7AD,
     FTRL_10_7B,
+    FTRL_10_7C,
+    FTRL_10_7D,
     FTRL_10_7E,
     FTRL_10_7F,
     FTRL_10_7G,
