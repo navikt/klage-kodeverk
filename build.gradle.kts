@@ -6,7 +6,7 @@ val assertjCoreVersion = "3.24.2"
 
 
 plugins {
-	kotlin("jvm") version "1.9.0"
+	kotlin("jvm") version "1.9.10"
 	id("maven-publish")
 	id("java-library")
 }
