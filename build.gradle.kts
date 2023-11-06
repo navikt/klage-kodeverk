@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 val jakartaPersistenceApiVersion = "3.1.0"
-val junitJupiterVersion = "5.10.0"
+val junitJupiterVersion = "5.10.1"
 val assertjCoreVersion = "3.24.2"
 
 
