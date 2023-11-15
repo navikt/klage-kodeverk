@@ -385,6 +385,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E2027("400", "2027", "NAV Unjárga/Nesseby"),
     E2028("401", "2028", "NAV Båtsfjord"),
     E2030("402", "2030", "NAV Sør-Varanger"),
+    E2096("E2096", "2096", "NAV Arbeidsrådgivningskontor  Troms og Finnmark"),
     E4488("405", "4488", "NAV AY Sykepenger"),
     E4489("E4489", "4489", "NAV AY Enslig forsørger"),
     E4474("406", "4474", "Sykepenger Utland"),
