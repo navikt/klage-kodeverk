@@ -19,6 +19,30 @@ val hjemlerHJE_HJE = listOf(
     FTRL_22_13,
 )
 
+val hjemlerGRU = listOf(
+    FTRL_6_3_A,
+    FTRL_6_3_B,
+    FTRL_6_3_C,
+    FTRL_6_3_F,
+    FTRL_6_3_G,
+    FTRL_6_3_H,
+    FTRL_6_4,
+    FTRL_6_5,
+    FTRL_6_6,
+    FTRL_6_7,
+    FTRL_6_8,
+)
+
+val hjemlerYRK = listOf(
+    FTRL_13_3_1,
+    FTRL_13_3_2,
+    FTRL_13_4,
+    FTRL_13_6,
+    FTRL_13_8,
+    FTRL_13_10,
+    FTRL_13_17,
+)
+
 val hjemler_PEN_GJE_PEN_BAR_common = listOf(
     FTRL_1_3,
     FTRL_1_3_A,
@@ -125,6 +149,7 @@ val ytelseTilHjemler = mapOf(
     Ytelse.KON_KON to listOf(
         KONTSL_2,
         KONTSL_3,
+        KONTSL_4,
         KONTSL_6,
         KONTSL_7,
         KONTSL_8,
@@ -133,6 +158,7 @@ val ytelseTilHjemler = mapOf(
         KONTSL_11,
         KONTSL_12,
         KONTSL_13,
+        KONTSL_14,
         KONTSL_16,
         EOES_AVTALEN,
         NORDISK_KONVENSJON,
@@ -369,4 +395,31 @@ val ytelseTilHjemler = mapOf(
         FTRL_17_A_7,
         FTRL_17_A_8,
     ),
+    Ytelse.GRU_HJE to hjemlerGRU,
+    Ytelse.GRU_GRU to hjemlerGRU,
+
+    Ytelse.YRK_MEN to hjemlerYRK,
+    Ytelse.YRK_YRK to hjemlerYRK,
+    Ytelse.YRK_YSY to hjemlerYRK,
+
+    Ytelse.MED_MED to listOf(
+        FTRL_2_1,
+        FTRL_2_2,
+        FTRL_2_3,
+        FTRL_2_4,
+        FTRL_2_5,
+        FTRL_2_6,
+        FTRL_2_7,
+        FTRL_2_8,
+        FTRL_2_11,
+        FTRL_2_12,
+        FTRL_2_13,
+        FTRL_2_14,
+        FTRL_2_15,
+        FTRL_2_17,
+        FTRL_23_3,
+
+        EOES_883_2004,
+        ANDRE_TRYGDEAVTALER,
+    )
 )
