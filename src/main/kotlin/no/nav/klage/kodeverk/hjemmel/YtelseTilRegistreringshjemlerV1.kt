@@ -2248,6 +2248,8 @@ val ytelseTilRegistreringshjemlerV1 = mapOf(
         FS_OM_ETTGJ_3,
         FS_OM_ETTGJ_4,
 
+        FORSKL_3_2,
+
         FVL_11,
         FVL_12,
         FVL_14,
