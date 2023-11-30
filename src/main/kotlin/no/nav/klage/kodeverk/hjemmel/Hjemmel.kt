@@ -34,6 +34,7 @@ enum class Hjemmel(
 
     KONTSL_2("606", LovKilde.KONTANTSTØTTELOVEN, "§ 2"),
     KONTSL_3("621", LovKilde.KONTANTSTØTTELOVEN, "§ 3"),
+    KONTSL_4("KONTSL_4", LovKilde.KONTANTSTØTTELOVEN, "§ 4"),
     KONTSL_6("609", LovKilde.KONTANTSTØTTELOVEN, "§ 6"),
     KONTSL_7("610", LovKilde.KONTANTSTØTTELOVEN, "§ 7"),
     KONTSL_8("611", LovKilde.KONTANTSTØTTELOVEN, "§ 8"),
@@ -42,6 +43,7 @@ enum class Hjemmel(
     KONTSL_11("614", LovKilde.KONTANTSTØTTELOVEN, "§ 11"),
     KONTSL_12("615", LovKilde.KONTANTSTØTTELOVEN, "§ 12"),
     KONTSL_13("616", LovKilde.KONTANTSTØTTELOVEN, "§ 13"),
+    KONTSL_14("KONTSL_14", LovKilde.KONTANTSTØTTELOVEN, "§ 14"),
     KONTSL_16("618", LovKilde.KONTANTSTØTTELOVEN, "§ 16"),
 
     SUP_ST_L_3("696", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 3"),
@@ -91,6 +93,18 @@ enum class Hjemmel(
     FTRL_3_13("FTRL_3_13", LovKilde.FOLKETRYGDLOVEN, "§ 3-13"),
     FTRL_3_14("FTRL_3_14", LovKilde.FOLKETRYGDLOVEN, "§ 3-14"),
     FTRL_3_15("FTRL_3_15", LovKilde.FOLKETRYGDLOVEN, "§ 3-15"),
+
+    FTRL_6_3_A("FTRL_6_3_A", LovKilde.FOLKETRYGDLOVEN, "§ 6-3 a"),
+    FTRL_6_3_B("FTRL_6_3_B", LovKilde.FOLKETRYGDLOVEN, "§ 6-3 b"),
+    FTRL_6_3_C("FTRL_6_3_C", LovKilde.FOLKETRYGDLOVEN, "§ 6-3 c"),
+    FTRL_6_3_F("FTRL_6_3_F", LovKilde.FOLKETRYGDLOVEN, "§ 6-3 f"),
+    FTRL_6_3_G("FTRL_6_3_G", LovKilde.FOLKETRYGDLOVEN, "§ 6-3 g"),
+    FTRL_6_3_H("FTRL_6_3_H", LovKilde.FOLKETRYGDLOVEN, "§ 6-3 h"),
+    FTRL_6_4("FTRL_6_4", LovKilde.FOLKETRYGDLOVEN, "§ 6-4"),
+    FTRL_6_5("FTRL_6_5", LovKilde.FOLKETRYGDLOVEN, "§ 6-5"),
+    FTRL_6_6("FTRL_6_6", LovKilde.FOLKETRYGDLOVEN, "§ 6-6"),
+    FTRL_6_7("FTRL_6_7", LovKilde.FOLKETRYGDLOVEN, "§ 6-7"),
+    FTRL_6_8("FTRL_6_8", LovKilde.FOLKETRYGDLOVEN, "§ 6-8"),
 
     FTRL_8_1("1000.008.001", LovKilde.FOLKETRYGDLOVEN, "§ 8-1"),
     FTRL_8_2("1000.008.002", LovKilde.FOLKETRYGDLOVEN, "§ 8-2"),
@@ -172,6 +186,14 @@ enum class Hjemmel(
     FTRL_10_7H("FTRL_10_7H", LovKilde.FOLKETRYGDLOVEN, "§ 10-7h"),
     FTRL_10_7I("FTRL_10_7I", LovKilde.FOLKETRYGDLOVEN, "§ 10-7i"),
     FTRL_10_7_3A("FTRL_10_7_3A", LovKilde.FOLKETRYGDLOVEN, "§ 10-7 tredje ledd - folkehøyskole"),
+
+    FTRL_13_3_1("FTRL_13_3_1", LovKilde.FOLKETRYGDLOVEN, "§ 13-3 første ledd"),
+    FTRL_13_3_2("FTRL_13_3_2", LovKilde.FOLKETRYGDLOVEN, "§ 13-3 andre ledd"),
+    FTRL_13_4("FTRL_13_4", LovKilde.FOLKETRYGDLOVEN, "§ 13-4"),
+    FTRL_13_6("FTRL_13_6", LovKilde.FOLKETRYGDLOVEN, "§ 13-6"),
+    FTRL_13_8("FTRL_13_8", LovKilde.FOLKETRYGDLOVEN, "§ 13-8"),
+    FTRL_13_10("FTRL_13_10", LovKilde.FOLKETRYGDLOVEN, "§ 13-10"),
+    FTRL_13_17("FTRL_13_17", LovKilde.FOLKETRYGDLOVEN, "§ 13-17"),
 
     FTRL_14_2("399", LovKilde.FOLKETRYGDLOVEN, "§ 14-2"),
     FTRL_14_4("430", LovKilde.FOLKETRYGDLOVEN, "§ 14-4"),
@@ -267,6 +289,8 @@ enum class Hjemmel(
     FTRL_22_17A("FTRL_22_17A", LovKilde.FOLKETRYGDLOVEN, "§ 22-17a"),
     FTRL_22_17B("FTRL_22_17B", LovKilde.FOLKETRYGDLOVEN, "§ 22-17b"),
 
+    FTRL_23_3("FTRL_23_3", LovKilde.FOLKETRYGDLOVEN, "§ 23-3"),
+
     FTRL_25_14("FTRL_25_14", LovKilde.FOLKETRYGDLOVEN, "§ 25-14"),
 
     EOES_AVTALEN("601", LovKilde.EØS_AVTALEN, "EØS-avtalen"),
@@ -274,6 +298,7 @@ enum class Hjemmel(
     EOES_AVTALEN_MEDLEMSKAP_TRYGDETID("EOES_AVTALEN_MEDLEMSKAP_TRYGDETID", LovKilde.EØS_AVTALEN, "EØS-avtalen - medlemskap/trygdetid"),
     NORDISK_KONVENSJON("NORDISK_KONVENSJON", LovKilde.NORDISK_KONVENSJON, "Nordisk konvensjon"),
     ANDRE_TRYGDEAVTALER("ANDRE_TRYGDEAVTALER", LovKilde.ANDRE_TRYGDEAVTALER, "Andre trygdeavtaler"),
+    EOES_883_2004("EOES_883_2004", LovKilde.EØS_FORORDNING_883_2004, "EØS forordning 883/2004"),
     EOES_883_2004_5("EOES_883_2004_5", LovKilde.EØS_FORORDNING_883_2004, "art. 5"),
     EOES_883_2004_6("228", LovKilde.EØS_FORORDNING_883_2004, "art. 6"),
 
