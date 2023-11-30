@@ -917,6 +917,7 @@ enum class Registreringshjemmel(
     FORSKL_2A("672", LovKilde.FORSKOTTERINGSLOVEN, "§ 2 første ledd bokstav a."),
     FORSKL_2B("673", LovKilde.FORSKOTTERINGSLOVEN, "§ 2 første ledd bokstav b."),
     FORSKL_3("674", LovKilde.FORSKOTTERINGSLOVEN, "§ 3"),
+    FORSKL_3_2("FORSKL_3_2", LovKilde.FORSKOTTERINGSLOVEN, "§ 3 andre ledd"),
     FORSKL_4("675", LovKilde.FORSKOTTERINGSLOVEN, "§ 4"),
     FORSKL_5("676", LovKilde.FORSKOTTERINGSLOVEN, "§ 5"),
     FORSKL_6("677", LovKilde.FORSKOTTERINGSLOVEN, "§ 6"),
