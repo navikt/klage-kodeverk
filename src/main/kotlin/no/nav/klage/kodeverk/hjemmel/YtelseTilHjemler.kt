@@ -421,5 +421,11 @@ val ytelseTilHjemler = mapOf(
 
         EOES_883_2004,
         ANDRE_TRYGDEAVTALER,
+    ),
+
+    Ytelse.GRA_GRA to listOf(
+        FTRL_7_2,
+        FTRL_7_3,
+        FTRL_22_13_2,
     )
 )
