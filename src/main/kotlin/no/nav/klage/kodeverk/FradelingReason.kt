@@ -7,6 +7,7 @@ enum class FradelingReason(override val id: String, override val navn: String, o
     INHABIL("3", "INHABIL", "Inhabil"),
     LENGRE_FRAVAER("4", "LENGRE_FRAVAER", "Lengre fravær"),
     ANNET("5", "ANNET", "Annet"),
+    LEDER("6", "LEDER", "Leder"),
     ;
 
     override fun toString(): String {
