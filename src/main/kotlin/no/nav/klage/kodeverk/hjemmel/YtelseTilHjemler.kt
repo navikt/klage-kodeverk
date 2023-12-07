@@ -31,6 +31,7 @@ val hjemlerGRU = listOf(
     FTRL_6_6,
     FTRL_6_7,
     FTRL_6_8,
+    FTRL_22_15,
 )
 
 val hjemlerYRK = listOf(
@@ -417,7 +418,10 @@ val ytelseTilHjemler = mapOf(
         FTRL_2_14,
         FTRL_2_15,
         FTRL_2_17,
+        FTRL_21_12,
         FTRL_23_3,
+
+        TRRL_9,
 
         EOES_883_2004,
         ANDRE_TRYGDEAVTALER,
@@ -427,5 +431,6 @@ val ytelseTilHjemler = mapOf(
         FTRL_7_2,
         FTRL_7_3,
         FTRL_22_13_2,
+        FTRL_22_15,
     )
 )

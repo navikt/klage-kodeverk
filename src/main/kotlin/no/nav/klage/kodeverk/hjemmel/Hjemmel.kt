@@ -297,6 +297,8 @@ enum class Hjemmel(
 
     FTRL_25_14("FTRL_25_14", LovKilde.FOLKETRYGDLOVEN, "§ 25-14"),
 
+    TRRL_9("TRRL_9", LovKilde.TRYGDERETTSLOVEN, "§ 9"),
+
     EOES_AVTALEN("601", LovKilde.EØS_AVTALEN, "EØS-avtalen"),
     EOES_AVTALEN_BEREGNING("EOES_AVTALEN_BEREGNING", LovKilde.EØS_AVTALEN, "EØS-avtalen - beregning"),
     EOES_AVTALEN_MEDLEMSKAP_TRYGDETID("EOES_AVTALEN_MEDLEMSKAP_TRYGDETID", LovKilde.EØS_AVTALEN, "EØS-avtalen - medlemskap/trygdetid"),
