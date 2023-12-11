@@ -65,6 +65,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
     DEKNINGSLOVEN("59", "Dekningsloven", "Dekningsloven"),
     BREXITAVTALEN("61", "Brexitavtalen", "Brexitavtalen"),
     SPESIELL_LOVKILDE("62", "Spesiell lovkilde", "Spesiell lovkilde"),
+    FORSKRIFT_OM_AA_REGISTERET("63", "Forskrift om AA-registeret", "Forskrift om AA-registeretSpesiell lovkilde"),
 
     UKJENT("999","Ukjent", "Ukjent")
 }

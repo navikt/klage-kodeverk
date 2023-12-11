@@ -2771,5 +2771,10 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         BL_80
     ),
 
+    Ytelse.AAR_AAR to listOf(
+        FS_OM_AA_REGISTERET_2,
+        FS_OM_AA_REGISTERET_3,
+    )
+
 )
 
