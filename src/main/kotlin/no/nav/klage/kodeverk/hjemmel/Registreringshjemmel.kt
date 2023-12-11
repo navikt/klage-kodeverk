@@ -1119,7 +1119,8 @@ enum class Registreringshjemmel(
 
     SPESIELL_LOVKILDE_A("SPESIELL_LOVKILDE_A", LovKilde.SPESIELL_LOVKILDE, "Ettergivelse på ulovfestet grunnlag"),
 
-
+    FS_OM_AA_REGISTERET_2("FS_OM_AA_REGISTERET_2", LovKilde.FORSKRIFT_OM_AA_REGISTERET, "§ 2"),
+    FS_OM_AA_REGISTERET_3("FS_OM_AA_REGISTERET_3", LovKilde.FORSKRIFT_OM_AA_REGISTERET, "§ 3"),
     ;
     //@formatter:on
 
