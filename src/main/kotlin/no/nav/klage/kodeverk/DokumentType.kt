@@ -17,6 +17,7 @@ enum class DokumentType(
     //VEDLEGG("3", "Vedlegg", "Vedlegg", "vedlegg.pdf"),
     VEDTAK("4", "Vedtak", "Vedtaksbrev fra Klageinstans", "vedtaksbrev.pdf"),
     BESLUTNING("5", "Beslutning", "Beslutningsbrev fra Klageinstans", "beslutningsbrev.pdf"),
+    INNGAAENDE("6", "Inngående dokument", "Inngående dokument til Klageinstans", "inngaaende.pdf"),
     ;
 
     override fun toString(): String {
