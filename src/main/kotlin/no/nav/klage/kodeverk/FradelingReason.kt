@@ -8,6 +8,7 @@ enum class FradelingReason(override val id: String, override val navn: String, o
     LENGRE_FRAVAER("4", "LENGRE_FRAVAER", "Lengre fravær"),
     ANNET("5", "ANNET", "Annet"),
     LEDER("6", "LEDER", "Leder"),
+    UTGAATT("7", "UTGAATT", "Tildelt bruker jobber ikke lenger i NAV"),
     ;
 
     override fun toString(): String {
