@@ -725,6 +725,7 @@ enum class Registreringshjemmel(
     FS_DAG_1_7("FS_DAG_1_7", LovKilde.DAGPENGEFORSKRIFTEN, "§ 1-7 Søke arbeid annet EØS-land"),
     FS_DAG_1_8("FS_DAG_1_8", LovKilde.DAGPENGEFORSKRIFTEN, "§ 1-8 Unntatt opphold etter art. 65 nr. 1"),
     FS_DAG_2_1("FS_DAG_2_1", LovKilde.DAGPENGEFORSKRIFTEN, "§ 2-1 Dagpenger ved konkurs m.v."),
+    FS_DAG_3A_1("FS_DAG_3A_1", LovKilde.DAGPENGEFORSKRIFTEN, "§ 3A-1"),
     FS_DAG_6_5("841", LovKilde.DAGPENGEFORSKRIFTEN, "§ 6-5"),
     FS_DAG_6_7("259", LovKilde.DAGPENGEFORSKRIFTEN, "§ 6-7"),
     FS_DAG_6_8("855", LovKilde.DAGPENGEFORSKRIFTEN, "§ 6-8"),
