@@ -27,6 +27,7 @@ enum class Fagsystem(
     KONT("15", "KONT", "Kontantstøtte", false),
     SUPSTONAD("16", "SUPSTONAD", "Supplerende Stønad", true),
     OMSORGSPENGER("17", "OMSORGSPENGER", "Omsorgspenger", false),
+    NEESSI("24", "NEESSI", "NEESSI", false),
 
     //Ikke i bruk i Dokarkiv.
     MANUELL("18", "MANUELL", "Manuell registrering av kvalitetsskjema", false),
