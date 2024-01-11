@@ -20,6 +20,7 @@ val hjemlerHJE_HJE = listOf(
 )
 
 val hjemlerGRU = listOf(
+    FTRL_6_3,
     FTRL_6_3_A,
     FTRL_6_3_B,
     FTRL_6_3_C,
@@ -42,6 +43,9 @@ val hjemlerYRK = listOf(
     FTRL_13_8,
     FTRL_13_10,
     FTRL_13_17,
+    FTRL_21_12,
+
+    TRRL_9,
 )
 
 val hjemler_PEN_GJE_PEN_BAR_common = listOf(

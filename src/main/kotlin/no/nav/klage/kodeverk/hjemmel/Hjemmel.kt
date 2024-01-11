@@ -94,6 +94,7 @@ enum class Hjemmel(
     FTRL_3_14("FTRL_3_14", LovKilde.FOLKETRYGDLOVEN, "§ 3-14"),
     FTRL_3_15("FTRL_3_15", LovKilde.FOLKETRYGDLOVEN, "§ 3-15"),
 
+    FTRL_6_3("FTRL_6_3", LovKilde.FOLKETRYGDLOVEN, "§ 6-3"),
     FTRL_6_3_A("FTRL_6_3_A", LovKilde.FOLKETRYGDLOVEN, "§ 6-3 a"),
     FTRL_6_3_B("FTRL_6_3_B", LovKilde.FOLKETRYGDLOVEN, "§ 6-3 b"),
     FTRL_6_3_C("FTRL_6_3_C", LovKilde.FOLKETRYGDLOVEN, "§ 6-3 c"),
