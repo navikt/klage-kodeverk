@@ -2142,5 +2142,10 @@ val ytelseTilVedtaksenheter = mapOf(
     Ytelse.TSR_TSR to setOf(
         E0587,
         E2103
+    ),
+    Ytelse.FOS_FOS to setOf(
+        E4411,
+        E4488,
+        E2103,
     )
 )
