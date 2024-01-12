@@ -238,5 +238,10 @@ val ytelseTilKlageenheter = mapOf(
     Ytelse.PEN_KRI to setOf(
         E4294,
         E2103
-    )
+    ),
+    Ytelse.FOS_FOS to setOf(
+        E4294,
+        E2103
+    ),
+
 )

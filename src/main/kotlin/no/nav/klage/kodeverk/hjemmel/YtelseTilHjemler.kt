@@ -436,5 +436,11 @@ val ytelseTilHjemler = mapOf(
         FTRL_7_3,
         FTRL_22_13_2,
         FTRL_22_15,
+    ),
+
+    Ytelse.FOS_FOS to listOf(
+        FTRL_8_36,
+        FTRL_8_37,
+        FTRL_8_39,
     )
 )

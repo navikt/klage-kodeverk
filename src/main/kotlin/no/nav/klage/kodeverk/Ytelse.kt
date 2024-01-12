@@ -62,6 +62,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     DAG_FDP("48", "Forskudd dagpenger", "Forskudd dagpenger"),
     BIL_BIL("49", "Bil", "Bil"),
     HEL_HEL("50", "Helsetjenester og ortopediske hjelpemidler", "Helsetjenester og ortopediske hjelpemidler"),
+    FOS_FOS("51", "Forsikring", "Forsikring"),
     ;
 
 
@@ -101,6 +102,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
             FAR_FAR -> Tema.FAR
             BIL_BIL -> Tema.BIL
             HEL_HEL -> Tema.HEL
+            FOS_FOS -> Tema.FOS
         }
     }
 }

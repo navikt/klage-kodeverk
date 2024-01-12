@@ -2777,6 +2777,18 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
     Ytelse.AAR_AAR to listOf(
         FS_OM_AA_REGISTERET_2,
         FS_OM_AA_REGISTERET_3,
+    ),
+
+    Ytelse.FOS_FOS to listOf(
+        FTRL_8_35,
+        FTRL_8_36,
+        FTRL_8_37,
+        FTRL_8_38,
+        FTRL_8_39,
+        FTRL_8_40,
+        FTRL_8_41,
+        FTRL_8_42,
+        FTRL_8_43,
     )
 
 )
