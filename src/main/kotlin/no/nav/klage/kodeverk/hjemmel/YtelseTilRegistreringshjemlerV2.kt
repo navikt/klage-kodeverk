@@ -246,6 +246,9 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         TRRL_14,
     ),
     Ytelse.OMS_OMP to listOf(
+        FTRL_8_28,
+        FTRL_8_30,
+
         FTRL_9_2,
         FTRL_9_3,
         FTRL_9_4,
@@ -256,6 +259,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_9_7,
         FTRL_9_8,
         FTRL_9_9,
+        FTRL_9_15,
 
         FTRL_21_3,
         FTRL_21_6,
