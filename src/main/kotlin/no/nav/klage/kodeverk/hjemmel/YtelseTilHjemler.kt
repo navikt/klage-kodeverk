@@ -20,6 +20,7 @@ val hjemlerHJE_HJE = listOf(
 )
 
 val hjemlerGRU = listOf(
+    FTRL_6_2,
     FTRL_6_3,
     FTRL_6_3_A,
     FTRL_6_3_B,
