@@ -34,6 +34,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     PEN_TIF("28", "Tidligere familiepleier", "Tidligere familiepleier"),
     PEN_KRI("29", "Krigspensjon", "Krigspensjon"),
     PEN_GJE("30", "Ytelser til gjenlevende", "Ytelser til gjenlevende"),
+    PEN_EYO("52", "Omstillingsstønad", "Omstillingsstønad"),
     SUP_PEN("31", "Supplerende stønad", "Supplerende stønad"),
     SUP_UFF("32", "Supplerende stønad til uføre flyktninger", "Supplerende stønad til uføre flyktninger"),
     TIL_TIP("33", "Tiltakspenger", "Tiltakspenger"),
@@ -91,6 +92,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
             MED_MED -> Tema.MED
             PEN_BAR -> Tema.EYB
             PEN_ALD, PEN_AFP, PEN_TIF, PEN_KRI, PEN_GJE -> Tema.PEN
+            PEN_EYO -> Tema.EYO
             SUP_PEN, SUP_UFF -> Tema.SUP
             TIL_TIP, TIL_TIL -> Tema.TIL
             UFO_UFO, UFO_TVF -> Tema.UFO
