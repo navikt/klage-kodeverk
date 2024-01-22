@@ -194,6 +194,7 @@ enum class Hjemmel(
 
     FTRL_13_3_1("FTRL_13_3_1", LovKilde.FOLKETRYGDLOVEN, "§ 13-3 første ledd"),
     FTRL_13_3_2("FTRL_13_3_2", LovKilde.FOLKETRYGDLOVEN, "§ 13-3 andre ledd"),
+    FTRL_13_3_FS("FTRL_13_3_FS", LovKilde.FOLKETRYGDLOVEN, "§ 13-3 - Følgeskade"),
     FTRL_13_4("FTRL_13_4", LovKilde.FOLKETRYGDLOVEN, "§ 13-4"),
     FTRL_13_6("FTRL_13_6", LovKilde.FOLKETRYGDLOVEN, "§ 13-6"),
     FTRL_13_8("FTRL_13_8", LovKilde.FOLKETRYGDLOVEN, "§ 13-8"),

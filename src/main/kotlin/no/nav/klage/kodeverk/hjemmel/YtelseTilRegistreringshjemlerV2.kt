@@ -186,6 +186,7 @@ val registreringshjemlerHJE_HJE = listOf(
     FS_HJE_MM_2P,
     FS_HJE_MM_2Q,
     FS_HJE_MM_2R,
+    FS_HJE_MM_4,
     FS_HJE_MM_6A,
     FS_HJE_MM_6D,
     FS_HJE_MM_7,
