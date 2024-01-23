@@ -18,6 +18,7 @@ enum class DokumentType(
     VEDTAK("4", "Vedtak", "Vedtaksbrev fra Klageinstans", "vedtaksbrev.pdf"),
     BESLUTNING("5", "Beslutning", "Beslutningsbrev fra Klageinstans", "beslutningsbrev.pdf"),
     KJENNELSE_FRA_TRYGDERETTEN("6", "Kjennelse fra Trygderetten", "Inngående kjennelse fra Trygderetten", "Kjennelse fra Trygderetten.pdf"),
+    ANNEN_INNGAAENDE_POST("7", "Annen inngående post", "Annen inngående post", "Annen inngående post.pdf"),
     ;
 
     override fun toString(): String {
