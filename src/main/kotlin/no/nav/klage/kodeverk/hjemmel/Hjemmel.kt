@@ -15,8 +15,10 @@ enum class Hjemmel(
 
     //TODO give more explaining enum-names or improve Swagger-docs.
 
+    FVL_30("FVL_30", LovKilde.FORVALTNINGSLOVEN, "§ 30"),
     FVL_31("FVL_31", LovKilde.FORVALTNINGSLOVEN, "§ 31"),
     FVL_32("FVL_32", LovKilde.FORVALTNINGSLOVEN, "§ 32"),
+    FVL_33("FVL_33", LovKilde.FORVALTNINGSLOVEN, "§ 33"),
     FVL_33_2("FVL_33_2", LovKilde.FORVALTNINGSLOVEN, "§ 33, 2. ledd"),
     FVL_35_1_C("FVL_35_1_C", LovKilde.FORVALTNINGSLOVEN, "§ 35, 1. ledd c)"),
     FVL_36("FVL_36", LovKilde.FORVALTNINGSLOVEN, "§ 36"),

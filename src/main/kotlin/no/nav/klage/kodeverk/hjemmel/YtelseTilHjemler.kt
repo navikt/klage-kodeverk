@@ -35,7 +35,13 @@ val hjemlerGRU = listOf(
     FTRL_6_8,
     FTRL_22_12,
     FTRL_22_13,
+    FTRL_22_12,
     FTRL_22_15,
+
+    FVL_30,
+    FVL_31,
+    FVL_32,
+    FVL_33,
 )
 
 val hjemlerYRK = listOf(
