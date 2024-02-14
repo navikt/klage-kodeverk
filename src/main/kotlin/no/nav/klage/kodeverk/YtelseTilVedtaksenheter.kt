@@ -2046,8 +2046,8 @@ val ytelseTilVedtaksenheter = mapOf(
         E2103
     ),
     Ytelse.GEN_GEN to setOf(
-        E4425,
         E4401,
+        E4403,
         E4426,
         E4483,
         E2103
