@@ -715,6 +715,9 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         GJ_F_FORD_987_2009_87,
     ),
     Ytelse.DAG_DAG to listOf(
+        FTRL_4_0A,
+        FTRL_4_0B,
+        FTRL_4_0C,
         FTRL_4_1A,
         FTRL_4_2,
         FTRL_4_3A,
@@ -1085,6 +1088,10 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         GAMMELT_REGELVERK,
     ),
     Ytelse.FOR_FOR to listOf(
+        FTRL_14_0A,
+        FTRL_14_0B,
+        FTRL_14_0C,
+
         FTRL_14_2,
         FTRL_14_5,
         FTRL_14_6,

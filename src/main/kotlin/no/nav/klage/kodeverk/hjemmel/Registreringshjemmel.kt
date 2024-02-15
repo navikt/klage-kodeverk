@@ -54,6 +54,9 @@ enum class Registreringshjemmel(
     FTRL_3_25("505", LovKilde.FOLKETRYGDLOVEN, "§ 3-25"),
     FTRL_3_26("506", LovKilde.FOLKETRYGDLOVEN, "§ 3-26"),
 
+    FTRL_4_0A("FTRL_4_0A", LovKilde.FOLKETRYGDLOVEN, "§ 4-0 vanlig o-brev"),
+    FTRL_4_0B("FTRL_4_0B", LovKilde.FOLKETRYGDLOVEN, "§ 4-0 forenklet o-brev"),
+    FTRL_4_0C("FTRL_4_0C", LovKilde.FOLKETRYGDLOVEN, "§ 4-0 uten o-brev"),
     FTRL_4_1A("FTRL_4_1A", LovKilde.FOLKETRYGDLOVEN, "§ 4-1a"),
     FTRL_4_2("232", LovKilde.FOLKETRYGDLOVEN, "§ 4-2"),
     FTRL_4_3A("233", LovKilde.FOLKETRYGDLOVEN, "§ 4-3 første ledd"),
@@ -331,6 +334,9 @@ enum class Registreringshjemmel(
     FTRL_13_16("330", LovKilde.FOLKETRYGDLOVEN, "§ 13-16"),
     FTRL_13_17("333", LovKilde.FOLKETRYGDLOVEN, "§ 13-17"),
 
+    FTRL_14_0A("FTRL_14_0A", LovKilde.FOLKETRYGDLOVEN, "§ 14-0 vanlig o-brev"),
+    FTRL_14_0B("FTRL_14_0B", LovKilde.FOLKETRYGDLOVEN, "§ 14-0 forenklet o-brev"),
+    FTRL_14_0C("FTRL_14_0C", LovKilde.FOLKETRYGDLOVEN, "§ 14-0 uten o-brev"),
     FTRL_14_2("399", LovKilde.FOLKETRYGDLOVEN, "§ 14-2"),
     FTRL_14_3("400", LovKilde.FOLKETRYGDLOVEN, "§ 14-3"),
     FTRL_14_4("430", LovKilde.FOLKETRYGDLOVEN, "§ 14-4"),
