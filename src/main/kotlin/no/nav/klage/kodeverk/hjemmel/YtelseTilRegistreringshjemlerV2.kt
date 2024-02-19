@@ -1159,6 +1159,10 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         NRD_KNV,
     ),
     Ytelse.FOR_ENG to listOf(
+        FTRL_14_0A,
+        FTRL_14_0B,
+        FTRL_14_0C,
+
         FTRL_14_2,
         FTRL_14_17,
 
@@ -1202,6 +1206,10 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         EOES_883_2004_13,
     ),
     Ytelse.FOR_SVA to listOf(
+        FTRL_14_0A,
+        FTRL_14_0B,
+        FTRL_14_0C,
+
         FTRL_14_2,
         FTRL_14_4,
         FTRL_14_5,
