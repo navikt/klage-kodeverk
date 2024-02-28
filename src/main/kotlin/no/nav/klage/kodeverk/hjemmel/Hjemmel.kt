@@ -283,6 +283,7 @@ enum class Hjemmel(
     FTRL_22_13_3("FTRL_22_13_3", LovKilde.FOLKETRYGDLOVEN, "§ 22-13 3. ledd"),
     FTRL_22_13_4_C("FTRL_22_13_4_C", LovKilde.FOLKETRYGDLOVEN, "§ 22-13 4. ledd c)"),
     FTRL_22_13_7("FTRL_22_13_7", LovKilde.FOLKETRYGDLOVEN, "§ 22-13 7. ledd"),
+    FTRL_22_14("FTRL_22_14", LovKilde.FOLKETRYGDLOVEN, "§ 22-14"),
     FTRL_22_14_3("FTRL_22_14_3", LovKilde.FOLKETRYGDLOVEN, "§ 22-14 3. ledd"),
     FTRL_22_15("1000.022.015", LovKilde.FOLKETRYGDLOVEN, "§ 22-15"),
     FTRL_22_15_1_1("FTRL_22_15_1_1", LovKilde.FOLKETRYGDLOVEN, "§ 22-15 1. ledd 1. pkt."),

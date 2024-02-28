@@ -35,8 +35,9 @@ val hjemlerGRU = listOf(
     FTRL_6_8,
     FTRL_22_12,
     FTRL_22_13,
-    FTRL_22_12,
+    FTRL_22_14,
     FTRL_22_15,
+    FTRL_22_17,
 
     FVL_30,
     FVL_31,
