@@ -61,8 +61,8 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     BID_BBF("46", "Barnebortføring", "Barnebortføring"),
     DAG_LKP("47", "Lønnskompensasjon for permitterte", "Lønnskompensasjon for permitterte"),
     DAG_FDP("48", "Forskudd dagpenger", "Forskudd dagpenger"),
-    BIL_BIL("49", "Bil", "Bil"),
-    HEL_HEL("50", "Helsetjenester og ortopediske hjelpemidler", "Helsetjenester og ortopediske hjelpemidler"),
+    BIL_BIL("49", "Hjelpemidler - Bil", "Hjelpemidler - Bil"),
+    HEL_HEL("50", "Hjelpemidler - Helsetjenester og ortopediske hjelpemidler", "Hjelpemidler - Helsetjenester og ortopediske hjelpemidler"),
     FOS_FOS("51", "Forsikring", "Forsikring"),
     ;
 
