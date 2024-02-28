@@ -57,6 +57,9 @@ val hjemlerYRK = listOf(
     FTRL_21_12,
 
     TRRL_9,
+
+    KRAV_OM_OMGJOERING,
+    BEGJAERING_OM_GJENOPPTAK,
 )
 
 val hjemler_PEN_GJE_PEN_BAR_common = listOf(

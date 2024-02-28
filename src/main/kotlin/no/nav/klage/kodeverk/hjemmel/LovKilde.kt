@@ -71,6 +71,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
     FORSKRIFT_OM_BIDRAGSENDRING_FORSKOTTERINGSLOVEN("66", "Forskrift om i hvilke tilfelle bidragsfogden skal fastsette eller endre bidrag av eget tiltak etter forskotteringsloven § 3 annet ledd", "Forskrift om bidragsendring, forskotteringsloven"),
     FORSKRIFT_OM_INNTEKTSPRØVING_AV_FORSKOTT("67", "Forskrift om gjennomføringen av bestemmelsene om inntektsprøving av forskott", "Forskrift om inntektsprøving av forskott"),
 
+    ANNET("68", "Annet", "Annet"),
 
     UKJENT("999","Ukjent", "Ukjent")
 }

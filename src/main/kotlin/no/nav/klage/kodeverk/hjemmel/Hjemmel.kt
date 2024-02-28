@@ -315,6 +315,9 @@ enum class Hjemmel(
     FTL("1000", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven"),
     FTL_9("1000.009", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven kapittel 9"),
     MANGLER("1002", LovKilde.UKJENT, "Hjemmel mangler"),
+
+    KRAV_OM_OMGJOERING("KRAV_OM_OMGJOERING", LovKilde.ANNET, "Krav om omgjøring"),
+    BEGJAERING_OM_GJENOPPTAK("BEGJAERING_OM_GJENOPPTAK", LovKilde.ANNET, "Begjæring om gjenopptak"),
     ;
 
     fun toSearchableString(): String {
