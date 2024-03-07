@@ -73,5 +73,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
 
     ANNET("68", "Annet", "Annet"),
 
+    FORSKRIFT_OM_YTELSER_TIL_GJENLEVENDE_EKTEFELLE_OG_TIDLIGERE_FAMILIEPLEIER("69", "Forskrift om ytelser til gjenlevende ektefelle og tidligere familiepleier etter folketrygdloven kapittel 17", "Forskrift om ytelser til gjenlevende ektefelle og tidligere familiepleier etter folketrygdloven kapittel 17"),
+
     UKJENT("999","Ukjent", "Ukjent")
 }

@@ -33,6 +33,7 @@ val ytelseTilKlageenheter = mapOf(
         E4294,
         E2103
     ),
+
     Ytelse.DAG_DAG to setOf(
         E4291,
         E4250,
@@ -90,9 +91,10 @@ val ytelseTilKlageenheter = mapOf(
         E4294,
         E2103
     ),
-    Ytelse.PEN_TIF to setOf(
+    Ytelse.PEN_EYO to setOf(
         E4294,
-        E2103
+        E4250,
+        E2103,
     ),
     Ytelse.PEN_GJE to setOf(
         E4294,
