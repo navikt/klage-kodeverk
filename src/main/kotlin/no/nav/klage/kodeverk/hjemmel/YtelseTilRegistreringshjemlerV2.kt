@@ -2158,6 +2158,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         BL_76,
         BL_80,
         BL_83,
+        BL_0_PR_BID,
 
         FS_FASTS_OG_END_2,
         FS_FASTS_OG_END_3,
@@ -2220,6 +2221,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FORSKL_7B,
         FORSKL_7C,
         FORSKL_8,
+        FORSKL_0_PR_BID,
 
         FVL_11,
         FVL_12,
@@ -2259,6 +2261,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         INNKL_25,
         INNKL_26A,
         INNKL_26B,
+        INNKL_0_PR_BID,
 
         FTRL_22_15A,
         FTRL_22_15B,
