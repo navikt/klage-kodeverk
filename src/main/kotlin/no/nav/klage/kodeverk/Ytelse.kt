@@ -31,7 +31,8 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     PEN_ALD("25", "Alderspensjon", "Alderspensjon"),
     PEN_BAR("26", "Barnepensjon", "Barnepensjon"),
     PEN_AFP("27", "Avtalefestet pensjon (AFP)", "Avtalefestet pensjon (AFP)"),
-    PEN_TIF("28", "Tidligere familiepleier", "Tidligere familiepleier"),
+// Ikke lenger i bruk
+//    PEN_TIF("28", "Tidligere familiepleier", "Tidligere familiepleier"),
     PEN_KRI("29", "Krigspensjon", "Krigspensjon"),
     PEN_GJE("30", "Ytelser til gjenlevende", "Ytelser til gjenlevende"),
     PEN_EYO("52", "Omstillingsstønad", "Omstillingsstønad"),
@@ -91,7 +92,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
             KON_KON -> Tema.KON
             MED_MED -> Tema.MED
             PEN_BAR -> Tema.EYB
-            PEN_ALD, PEN_AFP, PEN_TIF, PEN_KRI, PEN_GJE -> Tema.PEN
+            PEN_ALD, PEN_AFP, PEN_KRI, PEN_GJE -> Tema.PEN
             PEN_EYO -> Tema.EYO
             SUP_PEN, SUP_UFF -> Tema.SUP
             TIL_TIP, TIL_TIL -> Tema.TIL

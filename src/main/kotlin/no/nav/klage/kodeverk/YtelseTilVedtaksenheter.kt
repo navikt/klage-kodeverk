@@ -861,14 +861,6 @@ val ytelseTilVedtaksenheter = mapOf(
         E4817,
         E2103
     ),
-    Ytelse.PEN_TIF to setOf(
-        E4808,
-        E4817,
-        E4815,
-        E4862,
-        E0001,
-        E2103
-    ),
     Ytelse.PEN_GJE to setOf(
         E4808,
         E4817,
