@@ -34,7 +34,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
     BARNETRYGDLOVEN("29", "Barnetrygdloven", "Btrl"),
     EØS_AVTALEN("30", "EØS-avtalen", "EØS-avtalen"),
     KONTANTSTØTTELOVEN("31", "Kontantstøtteloven", "Kontsl"),
-    BARNELOVEN("32", "Barneloven", "Bl"),
+    BARNELOVA("32", "Barnelova", "Bl"),
     FORSKRIFT_OM_FASTSETTELSE_OG_ENDRING_AV_FORSTRINGSTILSKOT("33", "Forskrift om fastsettelse og endring av fostringstilskot", "Fors fasts og end"),
     FORSKRIFT_OM_SÆRTILSKUDD("34", "Forskrift om særtilskudd", "Fors. om sært."),
     FORSKOTTERINGSLOVEN("35", "Forskotteringsloven", "Forskl"),
