@@ -139,6 +139,19 @@ val registreringshjemlerHJE_HJE = listOf(
     FS_MOK_13,
     FS_MOK_15,
 
+    EOES_883_2004_11,
+    EOES_883_2004_12,
+    EOES_883_2004_13,
+    EOES_883_2004_23,
+    EOES_883_2004_24,
+    EOES_883_2004_25,
+    EOES_883_2004_33,
+    EOES_883_2004_81,
+
+    GJ_F_FORD_987_2009_11,
+
+    NRD_KNV,
+
     FTRL_21_3,
     FTRL_21_7,
     FTRL_21_8,
