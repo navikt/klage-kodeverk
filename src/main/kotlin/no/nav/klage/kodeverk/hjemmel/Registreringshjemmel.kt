@@ -288,6 +288,7 @@ enum class Registreringshjemmel(
     FTRL_12_3("336", LovKilde.FOLKETRYGDLOVEN, "12-3"),
     FTRL_12_4("337", LovKilde.FOLKETRYGDLOVEN, "12-4"),
     FTRL_12_5("338", LovKilde.FOLKETRYGDLOVEN, "12-5"),
+    FTRL_12_5_PROSJEKT("FTRL_12_5_PROSJEKT", LovKilde.FOLKETRYGDLOVEN, "12-5 Prosjekt NAY"),
     FTRL_12_6("339", LovKilde.FOLKETRYGDLOVEN, "12-6"),
     FTRL_12_7("340", LovKilde.FOLKETRYGDLOVEN, "12-7"),
     FTRL_12_8("341", LovKilde.FOLKETRYGDLOVEN, "12-8"),
