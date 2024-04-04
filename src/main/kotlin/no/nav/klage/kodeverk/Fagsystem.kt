@@ -34,7 +34,7 @@ enum class Fagsystem(
     FS22("19", "FS22", "GOSYS", false),
     HJELPEMIDLER("20", "HJELPEMIDLER", "Hjelpemidler", false),
     BARNEBRILLER("21", "BARNEBRILLER", "Barnebriller", false),
-    EY("22", "EY", "Etterlatteytelser", false),
+    EY("22", "EY", "Etterlatteytelser", true),
     KABAL("23", "KABAL", "Kabal", true);
 
     companion object {
