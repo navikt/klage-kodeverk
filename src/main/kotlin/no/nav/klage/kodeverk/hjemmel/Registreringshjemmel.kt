@@ -242,6 +242,9 @@ enum class Registreringshjemmel(
     FTRL_10_8F("30", LovKilde.FOLKETRYGDLOVEN, "§ 10-8 Husbankloven"),
     FTRL_10_8G("31", LovKilde.FOLKETRYGDLOVEN, "§ 10-8 Arbeidsmiljøloven"),
 
+    FTRL_11_0A("FTRL_11_0A", LovKilde.FOLKETRYGDLOVEN, "§ 11-0 vanlig o-brev"),
+    FTRL_11_0B("FTRL_11_0B", LovKilde.FOLKETRYGDLOVEN, "§ 11-0 forenklet o-brev"),
+    FTRL_11_0C("FTRL_11_0C", LovKilde.FOLKETRYGDLOVEN, "§ 11-0 uten o-brev"),
     FTRL_11_G("331", LovKilde.FOLKETRYGDLOVEN, "Gamle kapittel 11"),
     FTRL_11_2("271", LovKilde.FOLKETRYGDLOVEN, "§ 11-2"),
     FTRL_11_3("272", LovKilde.FOLKETRYGDLOVEN, "§ 11-3"),
@@ -315,6 +318,9 @@ enum class Registreringshjemmel(
     FTRL_12_21("356", LovKilde.FOLKETRYGDLOVEN, "12-21"),
 
     FTRL_13_0("FTRL_13_0", LovKilde.FOLKETRYGDLOVEN, "§ 13-0 prosjekt"),
+    FTRL_13_0A("FTRL_13_0A", LovKilde.FOLKETRYGDLOVEN, "§ 13-0 vanlig o-brev"),
+    FTRL_13_0B("FTRL_13_0B", LovKilde.FOLKETRYGDLOVEN, "§ 13-0 forenklet o-brev"),
+    FTRL_13_0C("FTRL_13_0C", LovKilde.FOLKETRYGDLOVEN, "§ 13-0 uten o-brev"),
     FTRL_13_2("316", LovKilde.FOLKETRYGDLOVEN, "§ 13-2"),
     FTRL_13_3A("317", LovKilde.FOLKETRYGDLOVEN, "§ 13-3 første, tredje og fjerde ledd"),
     FTRL_13_3B("318", LovKilde.FOLKETRYGDLOVEN, "§ 13-3 andre ledd"),
