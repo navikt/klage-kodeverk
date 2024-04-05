@@ -1,19 +1,19 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 val jakartaPersistenceApiVersion = "3.1.0"
-val junitJupiterVersion = "5.10.0"
-val assertjCoreVersion = "3.24.2"
+val junitJupiterVersion = "5.10.2"
+val assertjCoreVersion = "3.25.3"
 
 
 plugins {
-	kotlin("jvm") version "1.9.0"
+	kotlin("jvm") version "1.9.23"
 	id("maven-publish")
 	id("java-library")
 }
 
 group = "no.nav.klage"
 version = properties["version"] ?: "local-build"
-java.sourceCompatibility = JavaVersion.VERSION_17
+java.sourceCompatibility = JavaVersion.VERSION_21
 
 repositories {
 	mavenCentral()
@@ -29,16 +29,12 @@ dependencies {
 tasks.withType<KotlinCompile> {
 	kotlinOptions {
 		freeCompilerArgs = listOf("-Xjsr305=strict")
-		jvmTarget = "17"
+		jvmTarget = "21"
 	}
 }
 
 tasks.withType<Test> {
 	useJUnitPlatform()
-}
-
-tasks.getByName<Jar>("jar") {
-	classifier = ""
 }
 
 java {

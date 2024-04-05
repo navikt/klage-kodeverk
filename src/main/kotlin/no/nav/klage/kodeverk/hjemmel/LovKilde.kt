@@ -65,7 +65,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
     DEKNINGSLOVEN("59", "Dekningsloven", "Dekningsloven"),
     BREXITAVTALEN("61", "Brexitavtalen", "Brexitavtalen"),
     SPESIELL_LOVKILDE("62", "Spesiell lovkilde", "Spesiell lovkilde"),
-    FORSKRIFT_OM_AA_REGISTERET("63", "Forskrift om AA-registeret", "Forskrift om AA-registeretSpesiell lovkilde"),
+    FORSKRIFT_OM_AA_REGISTERET("63", "Forskrift om AA-registeret", "Forskrift om AA-registeret"),
     FORSKRIFT_OM_BIDRAGSFORSKOTT_BOSTED_OG_OPPHOLD("64", "Forskrift om i hvilke tilfelle vilkåret i forskotteringsloven om bosted og opphold i riket skal anses oppfyllt og om i hvilke tilfelle bidragsforskott kan utbetales i utlandet", "Forskrift om bidragsforskott (bosted og opphold)"),
     FORSKRIFT_OM_BIDRAGSFORSKOTT_VED_DELT_BOSTED("65", "Forskrift om i hvilke tilfelle det kan ytes bidragsforskott til barn som har delt bosted", "Forskrift om bidragsforskott ved delt bosted"),
     FORSKRIFT_OM_BIDRAGSENDRING_FORSKOTTERINGSLOVEN("66", "Forskrift om i hvilke tilfelle bidragsfogden skal fastsette eller endre bidrag av eget tiltak etter forskotteringsloven § 3 annet ledd", "Forskrift om bidragsendring, forskotteringsloven"),

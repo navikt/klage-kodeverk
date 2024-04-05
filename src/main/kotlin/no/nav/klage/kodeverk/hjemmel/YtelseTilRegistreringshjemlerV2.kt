@@ -5,6 +5,9 @@ import no.nav.klage.kodeverk.hjemmel.Registreringshjemmel.*
 
 val registreringshjemlerYRK = listOf(
     FTRL_13_0,
+    FTRL_13_0A,
+    FTRL_13_0B,
+    FTRL_13_0C,
     FTRL_13_2,
     FTRL_13_3A,
     FTRL_13_3B,
@@ -705,6 +708,9 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         EOES_883_2004_65_2,
     ),
     Ytelse.AAP_AAP to listOf(
+        FTRL_11_0A,
+        FTRL_11_0B,
+        FTRL_11_0C,
         FTRL_11_2,
         FTRL_11_3,
         FTRL_11_4,
