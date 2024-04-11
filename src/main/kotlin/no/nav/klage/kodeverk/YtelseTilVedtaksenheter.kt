@@ -33,26 +33,26 @@ val ytelseTilVedtaksenheter = mapOf(
     Ytelse.BIL_BIL to vedtaksEnheterHJE_HJE,
     Ytelse.HEL_HEL to vedtaksEnheterHJE_HJE,
     Ytelse.OMS_OMP to setOf(
-        E4432,
-        E4409,
+        E4403,
+        E4410,
         E4483,
         E2103
     ),
     Ytelse.OMS_OLP to setOf(
-        E4432,
-        E4409,
+        E4403,
+        E4410,
         E4483,
         E2103
     ),
     Ytelse.OMS_PLS to setOf(
-        E4432,
-        E4409,
+        E4403,
+        E4410,
         E4483,
         E2103
     ),
     Ytelse.OMS_PSB to setOf(
-        E4432,
-        E4409,
+        E4403,
+        E4410,
         E4483,
         E2103
     ),
@@ -2051,12 +2051,6 @@ val ytelseTilVedtaksenheter = mapOf(
     ),
     Ytelse.BID_OPI to setOf(
         E4833,
-        E2103
-    ),
-    Ytelse.OMS_OLP to setOf(
-        E4432,
-        E4409,
-        E4483,
         E2103
     ),
     Ytelse.PEN_AFP to setOf(
