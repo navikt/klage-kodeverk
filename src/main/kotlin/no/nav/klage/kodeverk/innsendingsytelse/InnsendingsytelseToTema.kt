@@ -61,6 +61,7 @@ val innsendingsytelseToTema: Map<Innsendingsytelse, Tema> = mapOf(
     Innsendingsytelse.PLEIEPENGER_FOR_EN_UTVIKLINGSHEMMET_PERSON_OVER_18_AR to Tema.OMS,
     Innsendingsytelse.PLEIEPENGER_FOR_SYKT_BARN to Tema.OMS,
     Innsendingsytelse.PLEIEPENGER_I_LIVETS_SLUTTFASE to Tema.OMS,
+    Innsendingsytelse.REISEKOSTNADER_VED_SAMVAER to Tema.BID,
     Innsendingsytelse.REISEKOSTNADER_VED_SAMVAR to Tema.BID,
     Innsendingsytelse.REISETILSKUDD to Tema.SYK,
     Innsendingsytelse.REISEUTGIFTER to Tema.HJE,
