@@ -23,17 +23,17 @@ internal class KodeverkTest {
 
     @Test
     fun `InnsendingsytelseToDisplayName contains all Innsendingsytelser`() {
-        assertThat(innsendingsytelseToDisplayName.keys.containsAll(Innsendingsytelse.entries))
+        assertThat(innsendingsytelseToDisplayName.keys).containsAll(Innsendingsytelse.entries)
     }
 
     @Test
     fun `InnsendingsytelseToTema contains all Innsendingsytelser`() {
-        assertThat(innsendingsytelseToTema.keys.containsAll(Innsendingsytelse.entries))
+        assertThat(innsendingsytelseToTema.keys).containsAll(Innsendingsytelse.entries)
     }
 
     @Test
     fun `InnsendingsytelseToAnkeEnhet contains all Innsendingsytelser`() {
-        assertThat(innsendingsytelseToAnkeEnhet.keys.containsAll(Innsendingsytelse.entries))
+        assertThat(innsendingsytelseToAnkeEnhet.keys).containsAll(Innsendingsytelse.entries)
     }
 
     @Test
