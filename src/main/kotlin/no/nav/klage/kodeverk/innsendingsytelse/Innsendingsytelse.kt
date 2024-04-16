@@ -47,6 +47,7 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
     GRONT_ARBEID("GRONT_ARBEID", "Grønt arbeid"),
     HJELPEMIDLER("HJELPEMIDLER", "Hjelpemidler og tilrettelegging ved nedsatt funksjonsevne"),
     HJELPESTONAD("HJELPESTONAD", "Hjelpestønad"),
+    JOBBKLUBB("JOBBKLUBB", "Jobbklubb"),
     JOBBMESTRENDE_OPPFOLGING("JOBBMESTRENDE_OPPFOLGING", "Jobbmestrende oppfølging"),
     KONTANTSTOTTE("KONTANTSTOTTE", "Kontantstøtte"),
     KRIGSPENSJON("KRIGSPENSJON", "Krigspensjon"),

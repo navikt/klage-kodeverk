@@ -163,6 +163,11 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Attendance benefit (Hjelpestønad)",
         "Hjelpestønad"
     ),
+    Innsendingsytelse.JOBBKLUBB to DisplayName(
+        "Jobbklubb",
+        "Job club",
+        "Jobbklubb",
+    ),
     Innsendingsytelse.JOBBMESTRENDE_OPPFOLGING to DisplayName(
         "Jobbmestrende oppfølging",
         "Work proficiency follow-up",
