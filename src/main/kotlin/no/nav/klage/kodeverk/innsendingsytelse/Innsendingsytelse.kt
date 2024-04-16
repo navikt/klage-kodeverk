@@ -1,5 +1,7 @@
 package no.nav.klage.kodeverk.innsendingsytelse
 
+import jakarta.persistence.AttributeConverter
+import jakarta.persistence.Converter
 import no.nav.klage.kodeverk.MinimalCode
 
 enum class Innsendingsytelse(override val id: String, override val nbName: String) : MinimalCode {
@@ -181,7 +183,29 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
     UFORETRYGD("UFORETRYGD", "Uføretrygd"),
     UTVIDET_BARNETRYGD("UTVIDET_BARNETRYGD", "Utvidet barnetrygd"),
     YRKESSKADE("YRKESSKADE", "Yrkesskade"),
-    YTELSER_TIL_TIDLIGERE_FAMILIEPLEIERE("YTELSER_TIL_TIDLIGERE_FAMILIEPLEIERE", "Ytelser til tidligere familiepleiere")
+    YTELSER_TIL_TIDLIGERE_FAMILIEPLEIERE("YTELSER_TIL_TIDLIGERE_FAMILIEPLEIERE", "Ytelser til tidligere familiepleiere");
+
+    companion object {
+        fun of(id: String): Innsendingsytelse {
+            return Innsendingsytelse.entries.firstOrNull { it.id == id }
+                ?: throw IllegalArgumentException("No Innsendingsytelse with id $id exists")
+        }
+
+        fun fromNbName(nbName: String): Innsendingsytelse {
+            return Innsendingsytelse.entries.firstOrNull { it.nbName == nbName }
+                ?: throw IllegalArgumentException("No Innsendingsytelse with nbName $nbName exists")
+        }
+    }
+}
+
+@Converter
+class InnsendingsytelseConverter : AttributeConverter<Innsendingsytelse, String?> {
+
+    override fun convertToDatabaseColumn(entity: Innsendingsytelse?): String? =
+        entity?.id
+
+    override fun convertToEntityAttribute(id: String?): Innsendingsytelse? =
+        id?.let { Innsendingsytelse.of(it) }
 }
 
 data class DisplayName(
