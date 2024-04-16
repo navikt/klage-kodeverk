@@ -116,6 +116,8 @@ enum class Registreringshjemmel(
 
     FTRL_8_2("156", LovKilde.FOLKETRYGDLOVEN, "§ 8-2"),
     FTRL_8_3("157", LovKilde.FOLKETRYGDLOVEN, "§ 8-3"),
+    FTRL_8_3A("FTRL_8_3A", LovKilde.FOLKETRYGDLOVEN, "§ 8-3 første ledd"),
+    FTRL_8_3B("FTRL_8_3B", LovKilde.FOLKETRYGDLOVEN, "§ 8-3 andre ledd"),
     FTRL_8_4A("158", LovKilde.FOLKETRYGDLOVEN, "§ 8-4 første ledd"),
     FTRL_8_4B("159", LovKilde.FOLKETRYGDLOVEN, "§ 8-4 andre ledd"),
     FTRL_8_4C("160", LovKilde.FOLKETRYGDLOVEN, "§ 8-4 tredje ledd"),
@@ -130,6 +132,8 @@ enum class Registreringshjemmel(
     FTRL_8_11("167", LovKilde.FOLKETRYGDLOVEN, "§ 8-11"),
     FTRL_8_12("168", LovKilde.FOLKETRYGDLOVEN, "§ 8-12"),
     FTRL_8_13("1000.008.013", LovKilde.FOLKETRYGDLOVEN, "§ 8-13"),
+    FTRL_8_13A("FTRL_8_13A", LovKilde.FOLKETRYGDLOVEN, "§ 8-13 første ledd"),
+    FTRL_8_13B("FTRL_8_13B", LovKilde.FOLKETRYGDLOVEN, "§ 8-13 andre ledd"),
     FTRL_8_14("169", LovKilde.FOLKETRYGDLOVEN, "§ 8-14"),
     FTRL_8_15("170", LovKilde.FOLKETRYGDLOVEN, "§ 8-15"),
     FTRL_8_16("171", LovKilde.FOLKETRYGDLOVEN, "§ 8-16"),
