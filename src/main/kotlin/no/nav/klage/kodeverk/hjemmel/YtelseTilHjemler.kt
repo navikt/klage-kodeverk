@@ -250,6 +250,9 @@ val ytelseTilHjemler = mapOf(
         FTRL_22_15,
         FTRL_22_17,
         FTRL_22_17A,
+
+        KRAV_OM_OMGJOERING,
+        BEGJAERING_OM_GJENOPPTAK,
     ),
     Ytelse.SUP_UFF to listOf(
         SUP_ST_L_3,
