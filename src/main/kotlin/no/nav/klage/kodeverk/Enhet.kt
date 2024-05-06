@@ -460,6 +460,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E4258("E4258", "4258", "NAV Klageinstans - Tiltak"),
     E4259("E4259", "4259", "NAV Klageinstans - Sykepenger - INN"),
     E4153("520", "4153", "NAV Økonomi Stønad"),
+    E4154("E4154", "4154", "Nasjonal oppfølgingsenhet"),
     E4486("521", "4486", "NAV Arbeid og ytelse lønnskompensasjon"),
     E4534("522", "4534", "NAV Registerforvaltning"),
     E2103("523", "2103", "NAV Vikafossen"),
