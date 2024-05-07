@@ -592,7 +592,7 @@ enum class Registreringshjemmel(
     FS_HJE_MM_2M("49", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 2 gjeldsoppgjør"),
     FS_HJE_MM_2N("50", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 2 alarm og varsling"),
     FS_HJE_MM_2O("51", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 2 madrasser og puter"),
-    FS_HJE_MM_2P("52", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 2 utstyr på arbeidsplass  jordbruk og fiske"),
+    FS_HJE_MM_2P("52", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 2 utstyr på arbeidsplass jordbruk og fiske"),
     FS_HJE_MM_2Q("53", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 2 varmehjelpemidler"),
     FS_HJE_MM_2R("54", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 2 refusjon isteden for utlån"),
     FS_HJE_MM_3A("FS_HJE_MM_3A", LovKilde.FORSKRIFT_OM_HJELPEMIDLER_MM, "§ 3 grunnmønster"),
@@ -667,6 +667,7 @@ enum class Registreringshjemmel(
     FS_MOK_11B("105", LovKilde.FORSKRIFT_OM_MOTORKJØRETØY, "§ 11 tilskudd til firehjulstrekk"),
     FS_MOK_12A("106", LovKilde.FORSKRIFT_OM_MOTORKJØRETØY, "§ 12 tilskudd til kjøreopplæring"),
     FS_MOK_13("FS_MOK_13", LovKilde.FORSKRIFT_OM_MOTORKJØRETØY, "§ 13 Dekning av reise- og oppholdsutgifter"),
+    FS_MOK_14("FS_MOK_14", LovKilde.FORSKRIFT_OM_MOTORKJØRETØY, "§ 14 Reparasjoner"),
     FS_MOK_15("107", LovKilde.FORSKRIFT_OM_MOTORKJØRETØY, "§ 15 gjeldoppgjør"),
 
     FVL_2("FVL_2", LovKilde.FORVALTNINGSLOVEN, "§ 2"),
