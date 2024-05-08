@@ -236,6 +236,7 @@ enum class Registreringshjemmel(
     FTRL_10_7G("20", LovKilde.FOLKETRYGDLOVEN, "§ 10-7g Tolk- og ledsagerhjelp"),
     FTRL_10_7H("21", LovKilde.FOLKETRYGDLOVEN, "§ 10-7h Motorkjøretøy"),
     FTRL_10_7I("22", LovKilde.FOLKETRYGDLOVEN, "§ 10-7i Ortopediske hjelpemidler"),
+    FTRL_10_7I_B("FTRL_10_7I_B", LovKilde.FOLKETRYGDLOVEN, "§ 10-7i HMS"),
     FTRL_10_7XA("23", LovKilde.FOLKETRYGDLOVEN, "§ 10-7 Ombygging av maskiner"),
     FTRL_10_7XB("24", LovKilde.FOLKETRYGDLOVEN, "§ 10-7 Opplæringstiltak"),
     FTRL_10_8A("25", LovKilde.FOLKETRYGDLOVEN, "§ 10-8 Bortfall av rettigheter"),
