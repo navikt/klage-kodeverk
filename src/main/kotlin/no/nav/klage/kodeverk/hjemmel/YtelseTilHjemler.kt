@@ -238,6 +238,31 @@ val ytelseTilHjemler = mapOf(
         KRAV_OM_OMGJOERING,
         BEGJAERING_OM_GJENOPPTAK,
     ),
+    Ytelse.SUP_PEN to listOf(
+        SUP_ST_L_3,
+        SUP_ST_L_4,
+        SUP_ST_L_5,
+        SUP_ST_L_6,
+        SUP_ST_L_7,
+        SUP_ST_L_8,
+        SUP_ST_L_9,
+        SUP_ST_L_10,
+        SUP_ST_L_11,
+        SUP_ST_L_12,
+        SUP_ST_L_13,
+        SUP_ST_L_17,
+        SUP_ST_L_18,
+        SUP_ST_L_21,
+
+        FVL_29,
+        FVL_30,
+        FVL_31,
+        FVL_35,
+
+        TRRL_9,
+        TRRL_10,
+        TRRL_11,
+    ),
     Ytelse.SUP_UFF to listOf(
         SUP_ST_L_3,
         SUP_ST_L_4,
@@ -253,6 +278,15 @@ val ytelseTilHjemler = mapOf(
         SUP_ST_L_17,
         SUP_ST_L_18,
         SUP_ST_L_21,
+
+        FVL_29,
+        FVL_30,
+        FVL_31,
+        FVL_35,
+
+        TRRL_9,
+        TRRL_10,
+        TRRL_11,
     ),
     Ytelse.FOR_ENG to listOf(
         FTRL_14_2,
