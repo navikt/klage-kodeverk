@@ -873,5 +873,15 @@ val ytelseTilHjemler = mapOf(
         FTRL_8_36,
         FTRL_8_37,
         FTRL_8_39,
-    )
+    ),
+
+    Ytelse.PEN_ALD to listOf(
+        FTRL_21_12,
+        FTRL_22_15,
+    ),
+
+    Ytelse.UFO_UFO to listOf(
+        FTRL_21_12,
+        FTRL_22_15,
+    ),
 )
