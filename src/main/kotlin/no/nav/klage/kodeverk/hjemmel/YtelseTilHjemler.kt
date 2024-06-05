@@ -881,7 +881,77 @@ val ytelseTilHjemler = mapOf(
     ),
 
     Ytelse.UFO_UFO to listOf(
+        FTRL_12_2,
+        FTRL_12_2_12_8,
+        FTRL_12_2_6_57,
+        FTRL_12_2_TRYGDEAVTALE,
+        FTRL_12_3,
+        FTRL_12_3_EOES,
+        FTRL_12_3_TRYGDEAVTALE,
+        FTRL_12_5,
+        FTRL_12_6,
+        FTRL_12_7_12_9_12_10,
+        FTRL_12_8,
+        FTRL_12_8_UNG_UFOER,
+        FTRL_12_11_12_12_12_13_BEREGNING,
+        FTRL_12_11_12_12_12_13_ART_52,
+        FTRL_12_11_12_12_12_13_TRYGDEAVTALE,
+        FTRL_12_13_SIVILSTAND,
+        FTRL_12_13_UNG_UFOER,
+        FTRL_12_14_EO,
+        FTRL_12_15,
+        FTRL_12_16,
+        FTRL_12_17,
+        FTRL_12_19,
+        FTRL_12_20,
+
         FTRL_21_12,
+
+        FTRL_22_12_22_13,
         FTRL_22_15,
+        FTRL_22_17,
+
+        FVL_35_C_UGUNST,
+        FVL_35_OMGJOERING,
+
+        BEGJAERING_OM_GJENOPPTAK,
     ),
+
+    Ytelse.TSO_TSO to listOf(
+        ARBML_13,
+        ARBML_17,
+        ARBML_22,
+
+        FTRL_11_A_3,
+        FTRL_11_A_4,
+        FTRL_11_A_4_3,
+
+        FTRL_15_11,
+
+        FTRL_17_10_17_15,
+
+        FTRL_21_12,
+        FTRL_22_13,
+        FTRL_22_15,
+        FTRL_22_17A,
+
+        FS_TILL_ST_1_3_MOBILITET,
+        FS_TILL_ST_3_REISE,
+        FS_TILL_ST_6_FLYTTING,
+        FS_TILL_ST_8_BOLIG,
+        FS_TILL_ST_10_TILSYN,
+        FS_TILL_ST_12_LAEREMIDLER,
+        FS_TILL_ST_15_2,
+        FS_TILL_ST_15_3,
+
+        FL_2_3,
+        FL_10,
+
+        FVL_11,
+        FVL_17,
+        FVL_18_19,
+        FVL_35,
+        FVL_41,
+        FVL_42,
+    )
 )
