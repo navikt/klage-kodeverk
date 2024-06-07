@@ -640,10 +640,6 @@ val ytelseTilHjemler = mapOf(
         EOES_AVTALEN_MEDLEMSKAP_TRYGDETID,
     ),
 
-    Ytelse.PEN_AFP to listOf(
-        TODO()
-    ),
-
     Ytelse.PEN_EYO to listOf(
         FTRL_17_2,
         FTRL_17_3,
