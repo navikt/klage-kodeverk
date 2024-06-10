@@ -533,6 +533,7 @@ val ytelseTilHjemler = mapOf(
         FS_ORT_HJE_MM_6A,
         FS_ORT_HJE_MM_7A,
         FS_ORT_HJE_MM_7A,
+        FS_ORT_HJE_MM_8G,
         FS_ORT_HJE_MM_9A,
         FS_ORT_HJE_MM_9AA,
         FS_ORT_HJE_MM_10A,
