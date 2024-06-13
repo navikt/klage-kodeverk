@@ -441,6 +441,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E4286("506", "4286", "NAV Klageinstans - Uføretrygd - inn"),
 
     //    E4279("507", "4279", "NAV Klageinstans Sakskostnader"),
+    E4290("E4290", "4290", "IT-avdelingen"),
     E4293("508", "4293", "NAV Klageinstans øst"),
 
     //    E4207("509", "4207", "Avviklet NAV Klageinstans øst"),
@@ -461,6 +462,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E4259("E4259", "4259", "NAV Klageinstans - Sykepenger - INN"),
     E4153("520", "4153", "NAV Økonomi Stønad"),
     E4154("E4154", "4154", "Nasjonal oppfølgingsenhet"),
+    E4480("E4480", "4480", "NAV Arbeid og ytelser rådgivende legetjeneste"),
     E4486("521", "4486", "NAV Arbeid og ytelse lønnskompensasjon"),
     E4534("522", "4534", "NAV Registerforvaltning"),
     E2103("523", "2103", "NAV Vikafossen"),
