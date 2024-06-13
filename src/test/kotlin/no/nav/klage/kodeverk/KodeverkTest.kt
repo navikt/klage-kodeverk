@@ -3,11 +3,13 @@ package no.nav.klage.kodeverk
 import no.nav.klage.kodeverk.hjemmel.Hjemmel
 import no.nav.klage.kodeverk.hjemmel.LovKilde
 import no.nav.klage.kodeverk.hjemmel.Registreringshjemmel
+import no.nav.klage.kodeverk.hjemmel.ytelseTilHjemler
 import no.nav.klage.kodeverk.innsendingsytelse.Innsendingsytelse
 import no.nav.klage.kodeverk.innsendingsytelse.innsendingsytelseToAnkeEnhet
 import no.nav.klage.kodeverk.innsendingsytelse.innsendingsytelseToDisplayName
 import no.nav.klage.kodeverk.innsendingsytelse.innsendingsytelseToTema
 import org.assertj.core.api.Assertions.assertThat
+import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 
 internal class KodeverkTest {
@@ -284,5 +286,18 @@ internal class KodeverkTest {
         }.filter {
             it.value.size > 1
         }).isEmpty()
+    }
+
+    @Disabled
+    @Test
+    fun `Print id and spesifikasjon from YtelseTilHjemler`() {
+        for (ytelse in Ytelse.entries) {
+            if (ytelseTilHjemler[ytelse] != null) {
+                println(ytelse.name)
+                ytelseTilHjemler[ytelse]!!.forEach {
+                    println("${it.id},${it.spesifikasjon}")
+                }
+            }
+        }
     }
 }

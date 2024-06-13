@@ -1093,5 +1093,11 @@ val ytelseTilHjemler = mapOf(
         FVL_35,
         FVL_41,
         FVL_42,
+    ),
+
+    Ytelse.PEN_AFP to listOf(
+        AFP_62_OFFENTLIG_ETTEROPPGJOER,
+        AFP_62_OFFENTLIG_ANNET,
+        AFP_62_PRIVAT,
     )
 )

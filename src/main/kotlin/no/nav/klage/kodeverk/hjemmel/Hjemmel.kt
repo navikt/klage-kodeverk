@@ -599,6 +599,10 @@ enum class Hjemmel(
     FTL_9("1000.009", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven kapittel 9"),
     MANGLER("1002", LovKilde.UKJENT, "Hjemmel mangler"),
 
+    AFP_62_PRIVAT("AFP_62_PRIVAT", LovKilde.AFP_62_PRIVAT, "AFP-62 Privat"),
+    AFP_62_OFFENTLIG_ETTEROPPGJOER("AFP_62_OFFENTLIG_ETTEROPPGJOER", LovKilde.AFP_62_OFFENTLIG, "AFP-62 Offentlig - etteroppgjør"),
+    AFP_62_OFFENTLIG_ANNET("AFP_62_OFFENTLIG_ANNET", LovKilde.AFP_62_OFFENTLIG, "AFP-62 Offentlig - annet"),
+
     KRAV_OM_OMGJOERING("KRAV_OM_OMGJOERING", LovKilde.ANNET, "Krav om omgjøring"),
     BEGJAERING_OM_GJENOPPTAK("BEGJAERING_OM_GJENOPPTAK", LovKilde.ANNET, "Begjæring om gjenopptak"),
     ;
