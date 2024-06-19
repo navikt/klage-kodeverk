@@ -82,7 +82,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E0331("82", "0331", "NAV Nordre Aker"),
     E0334("84", "0334", "NAV Vestre Aker"),
     E0383("E0383", "0383", "NAV egne ansatte Oslo"),
-    E0393("536", "0393", "NAV Oppfølging utland"),
+    E0393("536", "0393", "NAV Utland og fellestjenester Oslo"),
     E0402("85", "0402", "NAV Kongsvinger"),
     E0403("86", "0403", "NAV Hamar"),
     E0412("87", "0412", "NAV Ringsaker"),
