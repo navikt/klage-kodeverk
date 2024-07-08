@@ -14,6 +14,7 @@ val infotrygdKlageutfallToUtfall = mapOf(
     "AVSLAG_GODKJENNING" to Utfall.STADFESTELSE,
     "TILBAKEBETALING" to Utfall.STADFESTELSE,
     "AVVIST_KLAGE" to Utfall.AVVIST,
+    "HENLAGT_BORTFALT" to Utfall.HEVET,
 )
 
 val ankeutfallToInfotrygdutfall = mapOf(
@@ -33,6 +34,7 @@ val klageutfallToInfotrygdutfall = mapOf(
     Utfall.STADFESTELSE to "AVSLAG",
     Utfall.AVVIST to "AVSLAG",
     Utfall.RETUR to "IKKE_BEHANDLET",
+    Utfall.HEVET to "HENLAGT_BORTFALT",
 )
 
 val klageTilbakebetalingutfallToInfotrygdutfall = mapOf(
