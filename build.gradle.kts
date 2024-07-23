@@ -1,12 +1,12 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-val jakartaPersistenceApiVersion = "3.1.0"
-val junitJupiterVersion = "5.10.2"
-val assertjCoreVersion = "3.25.3"
+val jakartaPersistenceApiVersion = "3.2.0"
+val junitJupiterVersion = "5.10.3"
+val assertjCoreVersion = "3.26.3"
 
 
 plugins {
-	kotlin("jvm") version "1.9.24"
+	kotlin("jvm") version "2.0.0"
 	id("maven-publish")
 	id("java-library")
 }
