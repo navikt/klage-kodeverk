@@ -75,12 +75,12 @@ enum class Tema(override val id: String, override val navn: String, override val
 
     companion object {
         fun of(id: String): Tema {
-            return values().firstOrNull { it.id == id }
+            return entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No Tema with id $id exists")
         }
 
         fun fromNavn(navn: String?): Tema {
-            return values().firstOrNull { it.navn == navn }
+            return entries.firstOrNull { it.navn == navn }
                 ?: throw IllegalArgumentException("No Tema with navn $navn exists")
         }
     }

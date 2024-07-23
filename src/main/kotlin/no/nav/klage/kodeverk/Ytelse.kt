@@ -70,7 +70,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
 
     companion object {
         fun of(id: String): Ytelse {
-            return values().firstOrNull { it.id == id }
+            return entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No Ytelse with id $id exists")
         }
     }

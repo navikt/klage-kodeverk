@@ -9,7 +9,7 @@ enum class Source(override val id: String, override val navn: String, override v
 
     companion object {
         fun of(id: String): Source {
-            return values().firstOrNull { it.id == id }
+            return entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No Source with id $id exists")
         }
     }
