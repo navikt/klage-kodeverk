@@ -41,12 +41,12 @@ enum class Fagsystem(
 
     companion object {
         fun of(id: String): Fagsystem {
-            return values().firstOrNull { it.id == id }
+            return entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No Fagsystem with id $id exists")
         }
 
         fun fromNavn(navn: String): Fagsystem {
-            return values().firstOrNull { it.navn == navn }
+            return entries.firstOrNull { it.navn == navn }
                 ?: throw IllegalArgumentException("No Fagsystem with navn $navn exists")
         }
     }

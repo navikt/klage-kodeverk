@@ -8,12 +8,12 @@ enum class ROLState(override val id: String, override val navn: String, override
 
     companion object {
         fun of(id: String): ROLState {
-            return values().firstOrNull { it.id == id }
+            return entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No ROLState with id $id exists")
         }
 
         fun fromNavn(navn: String?): ROLState {
-            return values().firstOrNull { it.navn == navn }
+            return entries.firstOrNull { it.navn == navn }
                 ?: throw IllegalArgumentException("No ROLState with navn $navn exists")
         }
     }

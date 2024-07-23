@@ -17,12 +17,12 @@ enum class Brevmottakertype(override val id: String, override val navn: String, 
 
     companion object {
         fun of(id: String): Brevmottakertype {
-            return values().firstOrNull { it.id == id }
+            return entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No Bremottakertype with id $id exists")
         }
 
         fun fromNavn(navn: String): Brevmottakertype {
-            return values().firstOrNull { it.navn == navn }
+            return entries.firstOrNull { it.navn == navn }
                 ?: throw IllegalArgumentException("No Bremottakertype with navn $navn exists")
         }
     }

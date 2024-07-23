@@ -29,17 +29,17 @@ enum class DokumentType(
 
     companion object {
         fun of(id: String): DokumentType {
-            return DokumentType.values().firstOrNull { it.id == id }
+            return entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No DokumentType with id $id exists")
         }
 
         fun fromNavn(navn: String): DokumentType {
-            return DokumentType.values().firstOrNull { it.navn == navn }
+            return entries.firstOrNull { it.navn == navn }
                 ?: throw IllegalArgumentException("No DokumentType with navn $navn exists")
         }
 
         fun fromBeskrivelse(beskrivelse: String): DokumentType {
-            return DokumentType.values().firstOrNull { it.beskrivelse == beskrivelse }
+            return entries.firstOrNull { it.beskrivelse == beskrivelse }
                 ?: throw IllegalArgumentException("No DokumentType with beskrivelse $beskrivelse exists")
         }
     }

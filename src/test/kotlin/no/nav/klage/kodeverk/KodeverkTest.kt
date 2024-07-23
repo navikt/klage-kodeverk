@@ -285,4 +285,25 @@ internal class KodeverkTest {
             it.value.size > 1
         }).isEmpty()
     }
+
+    @Test
+    fun `TimeUnitType has no duplicate values`() {
+        assertThat(TimeUnitType.entries.groupBy {
+            it.id
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
+
+        assertThat(TimeUnitType.entries.groupBy {
+            it.navn
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
+
+        assertThat(TimeUnitType.entries.groupBy {
+            it.beskrivelse
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
+    }
 }
