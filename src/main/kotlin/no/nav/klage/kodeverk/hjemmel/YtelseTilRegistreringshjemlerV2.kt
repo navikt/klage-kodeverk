@@ -1262,6 +1262,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         NRD_KNV,
     ),
     Ytelse.ENF_ENF to listOf(
+        FTRL_15_1A,
         FTRL_15_2,
         FTRL_15_3,
         FTRL_15_4,
@@ -1345,6 +1346,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         EOES_883_2004_16,
         EOES_883_2004_67,
         EOES_883_2004_68,
+        EOES_883_2004_69,
 
         GJ_F_FORD_987_2009_11,
         GJ_F_FORD_987_2009_14B,
@@ -2189,6 +2191,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         BTRL_15,
         BTRL_16,
         BTRL_17,
+        BTRL_22,
 
         FTRL_21_12,
 
@@ -2212,6 +2215,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         EOES_883_2004_16,
         EOES_883_2004_67,
         EOES_883_2004_68,
+        EOES_883_2004_69,
 
         GJ_F_FORD_987_2009_11,
         GJ_F_FORD_987_2009_14B,

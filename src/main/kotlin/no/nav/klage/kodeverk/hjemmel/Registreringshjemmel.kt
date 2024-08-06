@@ -377,6 +377,7 @@ enum class Registreringshjemmel(
     FTRL_14_17("429", LovKilde.FOLKETRYGDLOVEN, "§ 14-17"),
     FTRL_14_18("413", LovKilde.FOLKETRYGDLOVEN, "§ 14-18"),
 
+    FTRL_15_1A("FTRL_15_1A", LovKilde.FOLKETRYGDLOVEN, "§ 15-1a"),
     FTRL_15_2("431", LovKilde.FOLKETRYGDLOVEN, "§ 15-2"),
     FTRL_15_3("432", LovKilde.FOLKETRYGDLOVEN, "§ 15-3"),
     FTRL_15_4("433", LovKilde.FOLKETRYGDLOVEN, "§ 15-4"),
@@ -885,6 +886,7 @@ enum class Registreringshjemmel(
     BTRL_15("598", LovKilde.BARNETRYGDLOVEN, "§ 15"),
     BTRL_16("599", LovKilde.BARNETRYGDLOVEN, "§ 16"),
     BTRL_17("600", LovKilde.BARNETRYGDLOVEN, "§ 17"),
+    BTRL_22("BTRL_22", LovKilde.BARNETRYGDLOVEN, "§ 22"),
 
 
     KONTSL_2("606", LovKilde.KONTANTSTØTTELOVEN, "§ 2"),
