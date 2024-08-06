@@ -20,7 +20,7 @@ enum class Fagsystem(
     K9("8", "K9", "Sykdom i familien", true),
     OB36("9", "OB36", "Utbetalingsmelding", false),
     OEBS("10", "OEBS", "OEBS", false),
-    PP01("11", "PP01", "Pesys", false),
+    PP01("11", "PP01", "Pesys", true),
     UFM("12", "UFM", "Unntak fra medlemskap", false),
     BA("13", "BA", "Barnetrygd", false),
     EF("14", "EF", "Enslig forsørger", true),
