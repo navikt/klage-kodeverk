@@ -29,13 +29,13 @@ val typeTilUtfall = mapOf(
         HEVET,
         HENVIST,
     ),
-//    Type.BEHANDLING_ETTER_TRYGDERETTEN_OPPHEVET to setOf(
-//        TRUKKET,
-//        RETUR,
-//        OPPHEVET,
-//        MEDHOLD,
-//        DELVIS_MEDHOLD,
-//        STADFESTELSE,
-//        AVVIST,
-//    ),
+    Type.BEHANDLING_ETTER_TRYGDERETTEN_OPPHEVET to setOf(
+        TRUKKET,
+        RETUR,
+        OPPHEVET,
+        MEDHOLD,
+        DELVIS_MEDHOLD,
+        STADFESTELSE,
+        AVVIST,
+    ),
 )
