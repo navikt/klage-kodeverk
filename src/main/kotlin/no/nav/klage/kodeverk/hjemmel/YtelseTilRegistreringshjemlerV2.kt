@@ -622,6 +622,8 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_21_7,
         FTRL_21_10,
         FTRL_21_12,
+        ANKENEMNDA_FTRL_21_12_ARBEIDSTAKER,
+        ANKENEMNDA_FTRL_21_12_ARBEIDSGIVER,
 
         FTRL_22_3,
         FTRL_22_7,

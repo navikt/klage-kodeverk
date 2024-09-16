@@ -238,6 +238,8 @@ val ytelseTilHjemler = mapOf(
         FTRL_22_17,
         FTRL_22_17A,
 
+        ANKENEMNDA,
+
         KRAV_OM_OMGJOERING,
         BEGJAERING_OM_GJENOPPTAK,
     ),
