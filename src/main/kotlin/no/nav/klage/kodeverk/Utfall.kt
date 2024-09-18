@@ -15,7 +15,11 @@ enum class Utfall(override val id: String, override val navn: String, override v
     INNSTILLING_STADFESTELSE("9", "Innstilling: Stadfestet", "Innstilling: Stadfestet"),
     INNSTILLING_AVVIST("10", "Innstilling: Avvist", "Innstilling: Avvist"),
     HEVET("11", "Hevet", "Hevet"),
-    HENVIST("12", "Henvist", "Henvist");
+    HENVIST("12", "Henvist", "Henvist"),
+    MEDHOLD_ETTER_FVL_35("13", "Medhold etter forvaltningsloven § 35", "Medhold etter forvaltningsloven § 35"),
+    BESLUTNING_IKKE_OMGJOERE("14", "Beslutning om ikke å omgjøre", "Beslutning om ikke å omgjøre"),
+    STADFESTET_ANNEN_BEGRUNNELSE("15", "Stadfestet med en annen begrunnelse", "Stadfestet med en annen begrunnelse"),
+    ;
 
 
     override fun toString(): String {
