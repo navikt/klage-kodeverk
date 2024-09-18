@@ -38,4 +38,9 @@ val typeTilUtfall = mapOf(
         STADFESTELSE,
         AVVIST,
     ),
+    Type.OMGJOERINGSKRAV to setOf(
+        MEDHOLD_ETTER_FVL_35,
+        BESLUTNING_IKKE_OMGJOERE,
+        STADFESTET_ANNEN_BEGRUNNELSE,
+    )
 )
