@@ -109,6 +109,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FS_HJE_MM_2P,
         FS_HJE_MM_2Q,
         FS_HJE_MM_2R,
+        FS_HJE_MM_3A,
         FS_HJE_MM_4,
         FS_HJE_MM_6A,
         FS_HJE_MM_6D,
