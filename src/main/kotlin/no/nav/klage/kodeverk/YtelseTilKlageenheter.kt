@@ -174,6 +174,7 @@ val ytelseTilKlageenheter = mapOf(
     ),
     Ytelse.TSO_TSO to setOf(
         E4250,
+        E4291,
         E2103
     ),
     Ytelse.TIL_TIP to setOf(
