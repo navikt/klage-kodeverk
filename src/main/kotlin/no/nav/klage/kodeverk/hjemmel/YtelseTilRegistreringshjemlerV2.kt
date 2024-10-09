@@ -31,6 +31,7 @@ val registreringshjemlerYRK = listOf(
     FTRL_22_13,
     FTRL_22_14,
 
+    FTRL_22_15_TILBAKEKREVING,
     FTRL_22_15A,
     FTRL_22_15B,
     FTRL_22_15C,
@@ -84,6 +85,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_12,
         FTRL_22_13,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_17,
 
         FS_AKT_26_2A,
@@ -178,6 +180,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_12,
         FTRL_22_13,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_17,
 
         FS_MOK_2B,
@@ -251,6 +254,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_12,
         FTRL_22_13,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_17,
 
         FS_ORT_HJE_MM_1A,
@@ -329,6 +333,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_3,
         FTRL_22_13,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -385,6 +390,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_3,
         FTRL_22_13,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -448,6 +454,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_3,
         FTRL_22_13,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -504,6 +511,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_3,
         FTRL_22_13,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -636,6 +644,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_13E,
         FTRL_22_13F,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -780,6 +789,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_13G,
         FTRL_22_13E,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -885,6 +895,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_13G,
         FTRL_22_13E,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -1009,6 +1020,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_13C,
         FTRL_22_13E,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -1130,6 +1142,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_13E,
         FTRL_22_13F,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -1178,6 +1191,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_13B,
         FTRL_22_13E,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -1240,6 +1254,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_13E,
         FTRL_22_13F,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -1300,6 +1315,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_12,
         FTRL_22_13,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -1384,6 +1400,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_12,
         FTRL_22_13,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -1446,6 +1463,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_12,
         FTRL_22_13,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -1502,6 +1520,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_12,
         FTRL_22_13,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -1633,6 +1652,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_12,
         FTRL_22_13,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -1781,6 +1801,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_12,
         FTRL_22_13,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -1933,6 +1954,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_12,
         FTRL_22_13,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -2054,6 +2076,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_12,
         FTRL_22_13,
         FTRL_22_14,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -2136,6 +2159,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         TILLEGGSLOV_OM_KRIGSPENSJONERING_AV_1951,
         TILLEGGSLOV_OM_KRIGSPENSJONERING_AV_1968,
 
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -2199,6 +2223,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
 
         FTRL_21_12,
 
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -2270,6 +2295,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         KONTSL_14,
         KONTSL_16,
 
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -2369,6 +2395,8 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FVL_35,
         FVL_41,
         FVL_42,
+
+        FTRL_22_15_TILBAKEKREVING,
     ),
 
     Ytelse.BID_BIF to listOf(
@@ -2395,6 +2423,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         INNKL_26B_T,
         INNKL_29,
 
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -2451,6 +2480,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
 
         BL_78,
 
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -2509,6 +2539,8 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FVL_35,
         FVL_41,
         FVL_42,
+
+        FTRL_22_15_TILBAKEKREVING,
     ),
 
     Ytelse.BID_OPI to listOf(
@@ -2541,6 +2573,8 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FVL_35,
         FVL_41,
         FVL_42,
+
+        FTRL_22_15_TILBAKEKREVING,
     ),
 
     Ytelse.SUP_PEN to listOf(
@@ -2561,6 +2595,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
 
         FTRL_21_10,
         FTRL_21_12,
+        FTRL_22_15_TILBAKEKREVING,
 
         FVL_11,
         FVL_12,
@@ -2606,6 +2641,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
 
         FTRL_21_10,
         FTRL_21_12,
+        FTRL_22_15_TILBAKEKREVING,
 
         FVL_11,
         FVL_12,
@@ -2672,6 +2708,8 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FVL_35,
         FVL_41,
         FVL_42,
+
+        FTRL_22_15_TILBAKEKREVING,
     ),
     Ytelse.TIL_TIP to listOf(
         ARBML_2,
@@ -2693,6 +2731,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FS_TIP_10,
         FS_TIP_11,
 
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -2742,6 +2781,8 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FVL_30,
         FVL_31,
         FVL_32,
+
+        FTRL_22_15_TILBAKEKREVING,
     ),
 
     Ytelse.MED_MED to listOf(
@@ -2763,6 +2804,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_2_16,
         FTRL_2_17,
         FTRL_21_12,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_23_3,
         FTRL_23_4,
         FTRL_24_1,
@@ -2812,6 +2854,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_6B,
         FTRL_22_6C,
         FTRL_22_6D,
+        FTRL_22_15_TILBAKEKREVING,
 
         FTRL_21_12,
 
@@ -2844,7 +2887,8 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
 
     Ytelse.PEN_AFP to listOf(
         AFP_62_PRIVAT,
-        AFP_62_OFFENTLIG
+        AFP_62_OFFENTLIG,
+        FTRL_22_15_TILBAKEKREVING,
     ),
     Ytelse.TSR_TSR to listOf(
         FS_ARB_UTD_R_2,
@@ -2853,6 +2897,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FS_ARB_UTD_R_5,
         FS_ARB_UTD_R_6,
         FS_ARB_UTD_R_8,
+        FTRL_22_15_TILBAKEKREVING,
     ),
     Ytelse.TSO_TSO to listOf(
         FS_TILL_ST_1,
@@ -2888,6 +2933,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_21_10,
         FTRL_21_12,
         FTRL_22_13,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -2940,6 +2986,8 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FVL_35,
         FVL_41,
         FVL_42,
+
+        FTRL_22_15_TILBAKEKREVING,
     ),
 
     Ytelse.DAG_LKP to listOf(
@@ -2954,6 +3002,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
 
         FTRL_21_7,
         FTRL_21_12,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -2998,6 +3047,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FORSK_DP_6B,
 
         FTRL_21_12,
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -3027,6 +3077,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         MIDL_KOMP_SELV_7,
         MIDL_KOMP_SELV_9,
 
+        FTRL_22_15_TILBAKEKREVING,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -3068,15 +3119,21 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         KONV_SIV_BBF_13,
         KONV_SIV_BBF_17,
         KONV_SIV_BBF_24,
+
+        FTRL_22_15_TILBAKEKREVING,
     ),
     Ytelse.FAR_FAR to listOf(
         BL_7,
-        BL_80
+        BL_80,
+
+        FTRL_22_15_TILBAKEKREVING,
     ),
 
     Ytelse.AAR_AAR to listOf(
         FS_OM_AA_REGISTERET_2,
         FS_OM_AA_REGISTERET_3,
+
+        FTRL_22_15_TILBAKEKREVING,
     ),
 
     Ytelse.FOS_FOS to listOf(
@@ -3089,6 +3146,8 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_8_41,
         FTRL_8_42,
         FTRL_8_43,
+
+        FTRL_22_15_TILBAKEKREVING,
     )
 
 )

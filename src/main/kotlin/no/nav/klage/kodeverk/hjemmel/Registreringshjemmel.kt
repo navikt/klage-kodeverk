@@ -542,6 +542,7 @@ enum class Registreringshjemmel(
     FTRL_22_13E("226", LovKilde.FOLKETRYGDLOVEN, "§ 22-13 sjuende ledd"),
     FTRL_22_13F("227", LovKilde.FOLKETRYGDLOVEN, "§ 22-13 åttende ledd"),
     FTRL_22_14("115", LovKilde.FOLKETRYGDLOVEN, "§ 22-14"),
+    FTRL_22_15_TILBAKEKREVING("FTRL_22_15_TILBAKEKREVING", LovKilde.FOLKETRYGDLOVEN, "§ 22-15 Tilbakekreving"),
     FTRL_22_15A("144", LovKilde.FOLKETRYGDLOVEN, "§ 22-15 første ledd første punktum"),
     FTRL_22_15B("145", LovKilde.FOLKETRYGDLOVEN, "§ 22-15 første ledd andre punktum"),
     FTRL_22_15C("146", LovKilde.FOLKETRYGDLOVEN, "§ 22-15 andre ledd"),
