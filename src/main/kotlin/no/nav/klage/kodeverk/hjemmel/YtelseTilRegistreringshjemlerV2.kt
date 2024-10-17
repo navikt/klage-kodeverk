@@ -2917,6 +2917,13 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FVL_35,
         FVL_41,
         FVL_42,
+
+        TRRL_2,
+        TRRL_9,
+        TRRL_10,
+        TRRL_11,
+        TRRL_12,
+        TRRL_14,
     ),
 
     Ytelse.OPP_OPP to listOf(
