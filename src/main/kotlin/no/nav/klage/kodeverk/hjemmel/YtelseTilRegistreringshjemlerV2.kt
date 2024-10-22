@@ -66,6 +66,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_10_7AB,
         FTRL_10_7AC,
         FTRL_10_7AD,
+        FTRL_10_7AE,
         FTRL_10_7B,
         FTRL_10_7C,
         FTRL_10_7D,
@@ -122,6 +123,12 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FS_HA_MM_8A,
 
         FS_SH_2,
+
+        FS_STØNAD_BRILLER_TIL_BARN_2,
+        FS_STØNAD_BRILLER_TIL_BARN_3,
+        FS_STØNAD_BRILLER_TIL_BARN_4,
+        FS_STØNAD_BRILLER_TIL_BARN_6,
+        FS_STØNAD_BRILLER_TIL_BARN_7,
 
         EOES_883_2004_11,
         EOES_883_2004_12,
