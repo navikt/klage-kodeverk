@@ -346,7 +346,7 @@ enum class Hjemmel(
     FTRL_18_11_YRKESSKADE_GAMMEL("FTRL_18_11_YRKESSKADE_GAMMEL", LovKilde.FOLKETRYGDLOVEN, "§ 18-11 yrkesskade før 01.01.2024"),
 
     FTRL_19_OG_20_UFOERE_TIL_ALDER("FTRL_19_OG_20_UFOERE_TIL_ALDER", LovKilde.FOLKETRYGDLOVEN, "19 og 20 uføre til alder"),
-    FTRL_19_OG_20_BEREGNING("FTRL_19_OG_20_BEREGNING", LovKilde.FOLKETRYGDLOVEN, "19 og 20 eregning"),
+    FTRL_19_OG_20_BEREGNING("FTRL_19_OG_20_BEREGNING", LovKilde.FOLKETRYGDLOVEN, "19 og 20 beregning"),
     FTRL_19_2("FTRL_19_2", LovKilde.FOLKETRYGDLOVEN, "§ 19-2"),
     FTRL_19_3("FTRL_19_3", LovKilde.FOLKETRYGDLOVEN, "§ 19-3"),
     FTRL_19_4("FTRL_19_4", LovKilde.FOLKETRYGDLOVEN, "§ 19-4"),
@@ -594,6 +594,10 @@ enum class Hjemmel(
 
     FL_2_3("FL_2_3", LovKilde.FORELDELSESLOVEN, "§§ 2 og 3"),
     FL_10("FL_10", LovKilde.FORELDELSESLOVEN, "§ 10"),
+
+    AFP_PRIVAT("AFP_PRIVAT", LovKilde.AFP_62_PRIVAT, "AFP Privat"),
+    AFP_62_OFFENTLIG_ETTEROPPGJOER("AFP_62_OFFENTLIG_ETTEROPPGJOER", LovKilde.AFP_62_OFFENTLIG, "AFP-62 Offentlig - etteroppgjør"),
+    AFP_62_OFFENTLIG_ANNET("AFP_62_OFFENTLIG_ANNET", LovKilde.AFP_62_OFFENTLIG, "AFP-62 Offentlig - annet"),
 
     //Backwards compatibility in dev with search and innstillinger. Can be removed later?
     FTL("1000", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven"),

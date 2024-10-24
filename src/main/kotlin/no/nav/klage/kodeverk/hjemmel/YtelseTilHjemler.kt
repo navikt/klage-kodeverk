@@ -583,6 +583,11 @@ val ytelseTilHjemler = mapOf(
         TRRL_14,
     ),
 
+    Ytelse.PEN_AFP to listOf(
+        AFP_PRIVAT,
+        AFP_62_OFFENTLIG_ETTEROPPGJOER,
+        AFP_62_OFFENTLIG_ANNET,
+    ),
 
     Ytelse.PEN_BAR to listOf(
         FTRL_18_2,
