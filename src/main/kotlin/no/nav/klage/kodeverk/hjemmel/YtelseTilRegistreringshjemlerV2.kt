@@ -2285,6 +2285,13 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_15F,
 
         EOES_883_2004_11,
+        EOES_883_2004_67,
+        EOES_883_2004_68,
+        EOES_AVTALEN,
+
+        GJ_F_FORD_987_2009_11,
+        GJ_F_FORD_987_2009_59,
+        GJ_F_FORD_987_2009_60,
 
         FVL_35,
     ),
