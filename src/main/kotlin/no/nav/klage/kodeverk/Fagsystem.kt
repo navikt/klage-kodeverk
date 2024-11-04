@@ -20,7 +20,7 @@ enum class Fagsystem(
     K9("8", "K9", "Sykdom i familien", true),
     OB36("9", "OB36", "Utbetalingsmelding", false),
     OEBS("10", "OEBS", "OEBS", false),
-    PP01("11", "PP01", "Pesys", false),
+    PP01("11", "PP01", "Pesys", true),
     UFM("12", "UFM", "Unntak fra medlemskap", false),
     BA("13", "BA", "Barnetrygd", false),
     EF("14", "EF", "Enslig forsørger", true),
@@ -37,7 +37,8 @@ enum class Fagsystem(
     EY("22", "EY", "Etterlatteytelser", true),
     KABAL("23", "KABAL", "Kabal", true),
     TILLEGGSSTONADER("25", "TILLEGGSSTONADER", "Tilleggsstønader", true),
-    KOMPYS("26", "KOMPYS", "Kompys", true);
+    KOMPYS("26", "KOMPYS", "Kompys", true),
+    ARBEIDSOPPFOLGING("27", "ARBEIDSOPPFOLGING", "Arbeidsoppfølging", false);
 
     companion object {
         fun of(id: String): Fagsystem {

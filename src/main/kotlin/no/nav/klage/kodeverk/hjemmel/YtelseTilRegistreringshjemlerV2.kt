@@ -66,6 +66,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_10_7AB,
         FTRL_10_7AC,
         FTRL_10_7AD,
+        FTRL_10_7AE,
         FTRL_10_7B,
         FTRL_10_7C,
         FTRL_10_7D,
@@ -109,6 +110,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FS_HJE_MM_2P,
         FS_HJE_MM_2Q,
         FS_HJE_MM_2R,
+        FS_HJE_MM_3A,
         FS_HJE_MM_4,
         FS_HJE_MM_6A,
         FS_HJE_MM_6D,
@@ -121,6 +123,12 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FS_HA_MM_8A,
 
         FS_SH_2,
+
+        FS_STØNAD_BRILLER_TIL_BARN_2,
+        FS_STØNAD_BRILLER_TIL_BARN_3,
+        FS_STØNAD_BRILLER_TIL_BARN_4,
+        FS_STØNAD_BRILLER_TIL_BARN_6,
+        FS_STØNAD_BRILLER_TIL_BARN_7,
 
         EOES_883_2004_11,
         EOES_883_2004_12,
@@ -817,6 +825,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         EOES_883_2004_12,
         EOES_883_2004_13,
         EOES_883_2004_61,
+        EOES_883_2004_62,
         EOES_883_2004_64,
         EOES_883_2004_65_1,
         EOES_883_2004_65_2,
@@ -1108,6 +1117,7 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_14_14,
         FTRL_14_15,
         FTRL_14_16,
+        FTRL_14_17,
 
         FTRL_8_28,
         FTRL_8_29,
@@ -2276,6 +2286,13 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FTRL_22_15F,
 
         EOES_883_2004_11,
+        EOES_883_2004_67,
+        EOES_883_2004_68,
+        EOES_AVTALEN,
+
+        GJ_F_FORD_987_2009_11,
+        GJ_F_FORD_987_2009_59,
+        GJ_F_FORD_987_2009_60,
 
         FVL_35,
     ),
@@ -2915,6 +2932,13 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         FVL_35,
         FVL_41,
         FVL_42,
+
+        TRRL_2,
+        TRRL_9,
+        TRRL_10,
+        TRRL_11,
+        TRRL_12,
+        TRRL_14,
     ),
 
     Ytelse.OPP_OPP to listOf(
