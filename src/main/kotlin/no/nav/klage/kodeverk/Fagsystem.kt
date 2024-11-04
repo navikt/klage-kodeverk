@@ -37,7 +37,8 @@ enum class Fagsystem(
     EY("22", "EY", "Etterlatteytelser", true),
     KABAL("23", "KABAL", "Kabal", true),
     TILLEGGSSTONADER("25", "TILLEGGSSTONADER", "Tilleggsstønader", true),
-    KOMPYS("26", "KOMPYS", "Kompys", true);
+    KOMPYS("26", "KOMPYS", "Kompys", true),
+    ARBEIDSOPPFOLGING("27", "ARBEIDSOPPFOLGING", "Arbeidsoppfølging", false);
 
     companion object {
         fun of(id: String): Fagsystem {
