@@ -986,6 +986,7 @@ val ytelseTilHjemler = mapOf(
         FTRL_21_6,
         FTRL_21_12_KLAGEFRIST,
 
+        FTRL_22_6,
         FTRL_22_8,
         FTRL_22_12_22_13,
         FTRL_22_15_TILBAKEKREVING,
