@@ -891,6 +891,7 @@ val ytelseTilHjemler = mapOf(
 
         EOES_883_2004,
         ANDRE_TRYGDEAVTALER,
+        BEGJAERING_OM_GJENOPPTAK,
     ),
 
     Ytelse.GRA_GRA to listOf(
