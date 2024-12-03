@@ -897,9 +897,10 @@ enum class Registreringshjemmel(
     BTRL_17("600", LovKilde.BARNETRYGDLOVEN, "§ 17"),
     BTRL_22("BTRL_22", LovKilde.BARNETRYGDLOVEN, "§ 22"),
 
-
+    KONTSL_1A("KONTSL_1A", LovKilde.KONTANTSTØTTELOVEN, "§ 1a"),
     KONTSL_2("606", LovKilde.KONTANTSTØTTELOVEN, "§ 2"),
     KONTSL_3("621", LovKilde.KONTANTSTØTTELOVEN, "§ 3"),
+    KONTSL_3A("KONTSL_3A", LovKilde.KONTANTSTØTTELOVEN, "§ 3a"),
     KONTSL_4("608", LovKilde.KONTANTSTØTTELOVEN, "§ 4"),
     KONTSL_6("609", LovKilde.KONTANTSTØTTELOVEN, "§ 6"),
     KONTSL_7("610", LovKilde.KONTANTSTØTTELOVEN, "§ 7"),
@@ -911,6 +912,9 @@ enum class Registreringshjemmel(
     KONTSL_13("616", LovKilde.KONTANTSTØTTELOVEN, "§ 13"),
     KONTSL_14("617", LovKilde.KONTANTSTØTTELOVEN, "§ 14"),
     KONTSL_16("618", LovKilde.KONTANTSTØTTELOVEN, "§ 16"),
+    KONTSL_17("KONTSL_17", LovKilde.KONTANTSTØTTELOVEN, "§ 17"),
+    KONTSL_19("KONTSL_19", LovKilde.KONTANTSTØTTELOVEN, "§ 19"),
+    KONTSL_22("KONTSL_22", LovKilde.KONTANTSTØTTELOVEN, "§ 22"),
 
 
     BL_0_PR_BID("BL_0_PR_BID", LovKilde.BARNELOVA, "§ 0 Prosjekt bidrag"),
