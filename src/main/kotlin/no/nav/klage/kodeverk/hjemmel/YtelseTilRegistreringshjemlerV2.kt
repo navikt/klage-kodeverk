@@ -2264,8 +2264,10 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         TRRL_28,
     ),
     Ytelse.KON_KON to listOf(
+        KONTSL_1A,
         KONTSL_2,
         KONTSL_3,
+        KONTSL_3A,
         KONTSL_4,
         KONTSL_6,
         KONTSL_7,
@@ -2277,6 +2279,9 @@ val ytelseTilRegistreringshjemlerV2 = mapOf(
         KONTSL_13,
         KONTSL_14,
         KONTSL_16,
+        KONTSL_17,
+        KONTSL_19,
+        KONTSL_22,
 
         FTRL_22_15A,
         FTRL_22_15B,
