@@ -2,7 +2,7 @@ package no.nav.klage.kodeverk
 
 import no.nav.klage.kodeverk.Utfall.*
 
-val typeTilUtfall = mapOf(
+val typeToUtfall = mapOf(
     Type.KLAGE to setOf(
         TRUKKET,
         RETUR,
