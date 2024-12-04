@@ -1,7 +1,9 @@
-package no.nav.klage.kodeverk
+package no.nav.klage.kodeverk.ytelse
 
 import jakarta.persistence.AttributeConverter
 import jakarta.persistence.Converter
+import no.nav.klage.kodeverk.Kode
+import no.nav.klage.kodeverk.Tema
 
 enum class Ytelse(override val id: String, override val navn: String, override val beskrivelse: String) : Kode {
     OMS_OMP("1", "Sykdom i familien - Omsorgspenger", "Sykdom i familien - Omsorgspenger"),
@@ -49,8 +51,8 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     AAR_AAR("41", "AA-register", "AA-register"),
     TSR_TSR(
         "42",
-        "Arbeid og utdanningsreiser etter arbeidsmarkedsloven",
-        "Arbeid og utdanningsreiser etter arbeidsmarkedsloven"
+        "Støtte til arbeids- og utdanningsreiser",
+        "Støtte til arbeids- og utdanningsreiser"
     ),
     FRI_FRI(
         "43",
@@ -139,4 +141,10 @@ val enheterPerYtelse = mapOf(
     Ytelse.OMS_PLS to listOf("4295"),
     Ytelse.OMS_PSB to listOf("4295"),
     Ytelse.OMS_OLP to listOf("4295"),
+)
+
+data class DisplayName(
+    val nb: String,
+    val en: String,
+    val nn: String,
 )

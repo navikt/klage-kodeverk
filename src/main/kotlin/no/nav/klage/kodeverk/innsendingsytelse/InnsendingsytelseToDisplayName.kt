@@ -160,7 +160,7 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
     ),
     Innsendingsytelse.HJELPESTONAD to DisplayName(
         "Hjelpestønad",
-        "Attendance benefit (Hjelpestønad)",
+        "Assistance allowance (Hjelpestønad)",
         "Hjelpestønad"
     ),
     Innsendingsytelse.JOBBKLUBB to DisplayName(

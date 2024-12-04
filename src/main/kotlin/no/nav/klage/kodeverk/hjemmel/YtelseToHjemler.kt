@@ -1,6 +1,6 @@
 package no.nav.klage.kodeverk.hjemmel
 
-import no.nav.klage.kodeverk.Ytelse
+import no.nav.klage.kodeverk.ytelse.Ytelse
 import no.nav.klage.kodeverk.hjemmel.Hjemmel.*
 
 val hjemlerGRU = listOf(
@@ -53,7 +53,7 @@ val hjemlerYRK = listOf(
  * Used for innsending, search and innstillinger
  */
 
-val ytelseTilHjemler = mapOf(
+val ytelseToHjemler = mapOf(
     Ytelse.ENF_ENF to listOf(
         FTRL_15_2,
         FTRL_15_3,

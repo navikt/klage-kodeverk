@@ -1,9 +1,9 @@
 package no.nav.klage.kodeverk.hjemmel
 
-import no.nav.klage.kodeverk.Ytelse
+import no.nav.klage.kodeverk.ytelse.Ytelse
 import no.nav.klage.kodeverk.hjemmel.Registreringshjemmel.*
 
-val ytelseTilRegistreringshjemlerV1 = mapOf(
+val ytelseToRegistreringshjemlerV1 = mapOf(
     Ytelse.HJE_HJE to listOf(
 
         FTRL_10_3,

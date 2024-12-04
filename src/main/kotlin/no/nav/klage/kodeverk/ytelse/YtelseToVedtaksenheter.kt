@@ -1,4 +1,4 @@
-package no.nav.klage.kodeverk
+package no.nav.klage.kodeverk.ytelse
 
 import no.nav.klage.kodeverk.Enhet.*
 
@@ -28,7 +28,7 @@ val vedtaksEnheterHJE_HJE = setOf(
     E2103
 )
 
-val ytelseTilVedtaksenheter = mapOf(
+val ytelseToVedtaksenheter = mapOf(
     Ytelse.HJE_HJE to vedtaksEnheterHJE_HJE,
     Ytelse.BIL_BIL to vedtaksEnheterHJE_HJE,
     Ytelse.HEL_HEL to vedtaksEnheterHJE_HJE,
