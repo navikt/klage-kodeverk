@@ -3,11 +3,11 @@ package no.nav.klage.kodeverk
 import no.nav.klage.kodeverk.hjemmel.Hjemmel
 import no.nav.klage.kodeverk.hjemmel.LovKilde
 import no.nav.klage.kodeverk.hjemmel.Registreringshjemmel
-import no.nav.klage.kodeverk.hjemmel.ytelseTilHjemler
 import no.nav.klage.kodeverk.innsendingsytelse.Innsendingsytelse
 import no.nav.klage.kodeverk.innsendingsytelse.innsendingsytelseToAnkeEnhet
 import no.nav.klage.kodeverk.innsendingsytelse.innsendingsytelseToDisplayName
 import no.nav.klage.kodeverk.innsendingsytelse.innsendingsytelseToTema
+import no.nav.klage.kodeverk.ytelse.Ytelse
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 
