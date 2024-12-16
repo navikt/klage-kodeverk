@@ -6,7 +6,12 @@ import no.nav.klage.kodeverk.MinimalCode
 
 enum class Innsendingsytelse(override val id: String, override val nbName: String) : MinimalCode {
     ALDERSPENSJON("ALDERSPENSJON", "Alderspensjon"),
+    ARBEID_MED_STOTTE("ARBEID_MED_STOTTE", "Arbeid med støtte"),
     ARBEIDSAVKLARINGSPENGER("ARBEIDSAVKLARINGSPENGER", "Arbeidsavklaringspenger"),
+    ARBEIDSFORBEREDENDE_TRENING("ARBEIDSFORBEREDENDE_TRENING", "Arbeidsforberedende trening"),
+    ARBEIDSRETTET_REHABILITERING("ARBEIDSRETTET_REHABILITERING", "Arbeidsrettet rehabilitering"),
+    ARBEIDSTRENING("ARBEIDSTRENING", "Arbeidstrening"),
+    AVKLARING("AVKLARING", "Avklaring"),
     AVTALEFESTET_PENSJON_PRIVAT("AVTALEFESTET_PENSJON_PRIVAT", "Avtalefestet pensjon (AFP) i privat sektor"),
     AVTALEFESTET_PENSJON_SPK("AVTALEFESTET_PENSJON_SPK", "Avtalefestet pensjon (AFP) fra Statens pensjonskasse"),
     BARNEBIDRAG("BARNEBIDRAG", "Barnebidrag"),
@@ -49,8 +54,12 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
     GRONT_ARBEID("GRONT_ARBEID", "Grønt arbeid"),
     HJELPEMIDLER("HJELPEMIDLER", "Hjelpemidler og tilrettelegging ved nedsatt funksjonsevne"),
     HJELPESTONAD("HJELPESTONAD", "Hjelpestønad"),
+    INKLUDERINGSTILSKUDD("INKLUDERINGSTILSKUDD", "Inkluderingstilskudd"),
+    IPS("IPS", "IPS"),
+    IPS_UNG("IPS_UNG", "IPS ung"),
     JOBBKLUBB("JOBBKLUBB", "Jobbklubb"),
     JOBBMESTRENDE_OPPFOLGING("JOBBMESTRENDE_OPPFOLGING", "Jobbmestrende oppfølging"),
+    JOBBSOKERKURS("JOBBSOKERKURS", "Jobbsøkerkurs"),
     KONTANTSTOTTE("KONTANTSTOTTE", "Kontantstøtte"),
     KRIGSPENSJON("KRIGSPENSJON", "Krigspensjon"),
     LESE_OG_SEKRETARHJELP("LESE_OG_SEKRETARHJELP", "Lese- og sekretærhjelp"),
@@ -68,11 +77,17 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
         "MENERSTATNING_VED_YRKESSKADE_ELLER_YRKESSYKDOM",
         "Menerstatning ved yrkesskade eller yrkessykdom"
     ),
+    MENTOR("MENTOR", "Mentor"),
     MIDLERTIDIG_KOMPENSASJON(
         "MIDLERTIDIG_KOMPENSASJON",
         "Midlertidig kompensasjon for selvstendig næringsdrivende og frilansere"
     ),
+    MIDLERTIDIG_LONNSTILSKUDD(
+        "MIDLERTIDIG_LONNSTILSKUDD",
+        "Midlertidig lønnstilskudd"
+    ),
     MINSTEPENSJON_I_ALDERSPENSJONEN("MINSTEPENSJON_I_ALDERSPENSJONEN", "Minstepensjon i alderspensjonen"),
+
     //Deprecated
     NAV_LOVEN_14A("NAV_LOVEN_14A", "Vurdering av behov for bistand etter NAV-loven § 14 a"),
     OMSORGSPENGER_HJEMME_MED_SYKT_BARN_DAGER(
@@ -82,9 +97,12 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
     OMSTILLINGSSTONAD("OMSTILLINGSSTONAD", "Omstillingsstønad"),
     OPPFOSTRINGSBIDRAG("OPPFOSTRINGSBIDRAG", "Oppfostringsbidrag"),
     OPPFOLGING("OPPFOLGING", "Oppfølging"),
+    OPPLARING("OPPLARING", "Opplæring"),
     OPPLARINGSPENGER("OPPLARINGSPENGER", "Opplæringspenger"),
+
     //Deprecated
     OPPHOLD_ELLER_ARBEID_I_NORGE("OPPHOLD_ELLER_ARBEID_I_NORGE", "Opphold eller arbeid i Norge"),
+
     //Deprecated
     OPPHOLD_ELLER_ARBEID_UTENFOR_NORGE("OPPHOLD_ELLER_ARBEID_UTENFOR_NORGE", "Opphold eller arbeid utenfor Norge"),
     OVERGANGSSTONAD_TIL_ENSLIG_MOR_ELLER_FAR(
@@ -106,11 +124,13 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
     ),
     PLEIEPENGER_FOR_SYKT_BARN("PLEIEPENGER_FOR_SYKT_BARN", "Pleiepenger for sykt barn"),
     PLEIEPENGER_I_LIVETS_SLUTTFASE("PLEIEPENGER_I_LIVETS_SLUTTFASE", "Pleiepenger i livets sluttfase"),
+
     //Deprecated
     REISEKOSTNADER_VED_SAMVAER("REISEKOSTNADER_VED_SAMVAER", "Reisekostnader ved samvær"),
     REISEKOSTNADER_VED_SAMVAR("REISEKOSTNADER_VED_SAMVAR", "Reisekostnader ved samvær"),
     REISETILSKUDD("REISETILSKUDD", "Reisetilskudd"),
     REISEUTGIFTER("REISEUTGIFTER", "Reiseutgifter"),
+    SENTER_FOR_JOBBMESTRING("SENTER_FOR_JOBBMESTRING", "Senter for jobbmestring"),
     SERVICEHUND("SERVICEHUND", "Servicehund"),
     STUDIER_MED_STOTTE("STUDIER_MED_STOTTE", "Studier med støtte"),
     STONAD_TIL_BARNETILSYN_FOR_ENSLIG_MOR_ELLER_FAR(
@@ -145,9 +165,11 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
         "Supplerende stønad for uføre flyktninger under 67 år"
     ),
     SVANGERSKAPSPENGER("SVANGERSKAPSPENGER", "Svangerskapspenger"),
+
     //Deprecated
     SYKDOM_I_FAMILIEN("SYKDOM_I_FAMILIEN", "Omsorgspenger, opplæringspenger, pleiepenger"),
     SYKEPENGER("SYKEPENGER", "Sykepenger"),
+
     //Deprecated
     TIDLIGERE_FAMILIEPLEIER("TIDLIGERE_FAMILIEPLEIER", "Ytelser til tidligere familiepleier"),
     TILLEGGSSTONADER("TILLEGGSSTONADER", "Tilleggsstønader"),
@@ -175,6 +197,7 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
     ),
     TILSKUDD_TIL_OMBYGGING("TILSKUDD_TIL_OMBYGGING", "Tilskudd til ombygging"),
     TILSKUDD_TIL_RIMELIGE_HJELPEMIDLER("TILSKUDD_TIL_RIMELIGE_HJELPEMIDLER", "Tilskudd til rimelige hjelpemidler"),
+    TILSKUDD_TIL_SOMMERJOBB("TILSKUDD_TIL_SOMMERJOBB", "Tilskudd til sommerjobb"),
     TILTAKSPENGER("TILTAKSPENGER", "Tiltakspenger for arbeidsmarkedstiltak"),
     TOLKING_FOR_DOVE_DOVBLINDE_OG_HORSELSHEMMEDE(
         "TOLKING_FOR_DOVE_DOVBLINDE_OG_HORSELSHEMMEDE",
@@ -182,8 +205,13 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
     ),
     UFORETRYGD("UFORETRYGD", "Uføretrygd"),
     UTVIDET_BARNETRYGD("UTVIDET_BARNETRYGD", "Utvidet barnetrygd"),
+    VARIG_LONNSTILSKUDD("VARIG_LONNSTILSKUDD", "Varig lønnstilskudd"),
+    VARIG_TILRETTELAGT_ARBEID("VARIG_TILRETTELAGT_ARBEID", "Varig tilrettelagt arbeid"),
     YRKESSKADE("YRKESSKADE", "Yrkesskade"),
-    YTELSER_TIL_TIDLIGERE_FAMILIEPLEIERE("YTELSER_TIL_TIDLIGERE_FAMILIEPLEIERE", "Ytelser til tidligere familiepleiere");
+    YTELSER_TIL_TIDLIGERE_FAMILIEPLEIERE(
+        "YTELSER_TIL_TIDLIGERE_FAMILIEPLEIERE",
+        "Ytelser til tidligere familiepleiere"
+    );
 
     companion object {
         fun of(id: String): Innsendingsytelse {

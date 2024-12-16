@@ -1,16 +1,6 @@
 package no.nav.klage.kodeverk.innsendingsytelse
 
 val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
-    Innsendingsytelse.ALDERSPENSJON to DisplayName(
-        "Alderspensjon",
-        "Retirement pension",
-        "Alderspensjon"
-    ),
-    Innsendingsytelse.ARBEIDSAVKLARINGSPENGER to DisplayName(
-        "Arbeidsavklaringspenger (AAP)",
-        "Work assessment allowance (AAP)",
-        "Arbeidsavklaringspengar (AAP)"
-    ),
     Innsendingsytelse.AVTALEFESTET_PENSJON_SPK to DisplayName(
         "Avtalefestet pensjon (AFP) fra Statens pensjonskasse",
         "Contractual early retirement pension (AFP) in the public sector",
@@ -20,6 +10,31 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Avtalefestet pensjon (AFP) i privat sektor",
         "Contractual early retirement pension (AFP) in the private sector",
         "Avtalefesta pensjon (AFP) i privat sektor"
+    ),
+    Innsendingsytelse.ALDERSPENSJON to DisplayName(
+        "Alderspensjon",
+        "Retirement pension",
+        "Alderspensjon"
+    ),
+    Innsendingsytelse.ARBEID_MED_STOTTE to DisplayName(
+        "Arbeid med støtte", "Employment support scheme", "Arbeid med støtte"
+    ),
+    Innsendingsytelse.ARBEIDSAVKLARINGSPENGER to DisplayName(
+        "Arbeidsavklaringspenger (AAP)",
+        "Work assessment allowance (AAP)",
+        "Arbeidsavklaringspengar (AAP)"
+    ),
+    Innsendingsytelse.ARBEIDSFORBEREDENDE_TRENING to DisplayName(
+        "Arbeidsforberedende trening", "Employment preparation training", "Arbeidsførebuande trening"
+    ),
+    Innsendingsytelse.ARBEIDSRETTET_REHABILITERING to DisplayName(
+        "Arbeidsrettet rehabilitering", "Occupational rehabilitation", "Arbeidsretta rehabilitering"
+    ),
+    Innsendingsytelse.ARBEIDSTRENING to DisplayName(
+        "Arbeidstrening", "Work training", "Arbeidstrening"
+    ),
+    Innsendingsytelse.AVKLARING to DisplayName(
+        "Avklaring", "Assessment", "Avklaring"
     ),
     Innsendingsytelse.BARNEBIDRAG to DisplayName(
         "Barnebidrag",
@@ -163,6 +178,15 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Assistance allowance (Hjelpestønad)",
         "Hjelpestønad"
     ),
+    Innsendingsytelse.INKLUDERINGSTILSKUDD to DisplayName(
+        "Inkluderingstilskudd", "Inclusion subsidy", "Inkluderingstilskot"
+    ),
+    Innsendingsytelse.IPS to DisplayName(
+        "IPS", "IPS", "IPS"
+    ),
+    Innsendingsytelse.IPS_UNG to DisplayName(
+        "IPS ung", "IPS Youth", "IPS ung"
+    ),
     Innsendingsytelse.JOBBKLUBB to DisplayName(
         "Jobbklubb",
         "Job club",
@@ -172,6 +196,9 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Jobbmestrende oppfølging",
         "Work proficiency follow-up",
         "Jobbmeistrande oppfølging",
+    ),
+    Innsendingsytelse.JOBBSOKERKURS to DisplayName(
+        "Jobbsøkerkurs", "Job seeker course", "Jobbsøkjarkurs"
     ),
     Innsendingsytelse.KONTANTSTOTTE to DisplayName(
         "Kontantstøtte",
@@ -213,11 +240,17 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Permanent impairment compensation in the event of an occupational injury or illness",
         "Meinerstatning ved yrkesskade eller yrkessjukdom"
     ),
+    Innsendingsytelse.MENTOR to DisplayName(
+        "Mentor", "Mentor", "Mentor"
+    ),
     //Deprecated
     Innsendingsytelse.MIDLERTIDIG_KOMPENSASJON to DisplayName(
         "Midlertidig kompensasjon for selvstendig næringsdrivende og frilansere",
         "Temporary compensation for self-employed and freelancers",
         "Midlertidig kompensasjon for sjølvstendig næringsdrivande og frilansarar"
+    ),
+    Innsendingsytelse.MIDLERTIDIG_LONNSTILSKUDD to DisplayName(
+        "Midlertidig lønnstilskudd", "Timelimited wage subsidies", "Mellombels lønstilskot"
     ),
     Innsendingsytelse.MINSTEPENSJON_I_ALDERSPENSJONEN to DisplayName(
         "Minstepensjon i alderspensjonen",
@@ -248,6 +281,9 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Oppfølging",
         "Follow up",
         "Oppfølging"
+    ),
+    Innsendingsytelse.OPPLARING to DisplayName(
+        "Opplæring", "Training", "Opplæring"
     ),
     Innsendingsytelse.OPPLARINGSPENGER to DisplayName(
         "Opplæringspenger",
@@ -320,6 +356,9 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Reiseutgifter",
         "Travel expenses",
         "Reiseutgifter"
+    ),
+    Innsendingsytelse.SENTER_FOR_JOBBMESTRING to DisplayName(
+        "Senter for jobbmestring", "Job coping centre", "Senter for jobbmeistring"
     ),
     Innsendingsytelse.SERVICEHUND to DisplayName(
         "Servicehund",
@@ -453,6 +492,9 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Affordable assistive technology grant",
         "Tilskot til rimelege hjelpemiddel"
     ),
+    Innsendingsytelse.TILSKUDD_TIL_SOMMERJOBB to DisplayName(
+        "Tilskudd til sommerjobb", "Summer job grants", "Tilskot til sommarjobb"
+    ),
     Innsendingsytelse.TILTAKSPENGER to DisplayName(
         "Tiltakspenger",
         "Employment scheme benefits",
@@ -472,6 +514,12 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Utvidet barnetrygd",
         "Extended child benefit",
         "Utvida barnetrygd"
+    ),
+    Innsendingsytelse.VARIG_LONNSTILSKUDD to DisplayName(
+        "Varig lønnstilskudd", "Permanent wage subsidy", "Varig lønstilskot"
+    ),
+    Innsendingsytelse.VARIG_TILRETTELAGT_ARBEID to DisplayName(
+        "Varig tilrettelagt arbeid", "Permanent adapted work", "Varig tilrettelagt arbeid"
     ),
     Innsendingsytelse.YRKESSKADE to DisplayName(
         "Yrkesskade eller yrkessykdom",
