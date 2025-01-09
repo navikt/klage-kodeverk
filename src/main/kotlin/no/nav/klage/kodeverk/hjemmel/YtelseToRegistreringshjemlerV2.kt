@@ -829,6 +829,9 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         EOES_883_2004_64,
         EOES_883_2004_65_1,
         EOES_883_2004_65_2,
+
+        KNV_STBR_ART_58,
+        KNV_STBR_ART_59,
     ),
     Ytelse.AAP_AAP to listOf(
         FTRL_11_0A,
@@ -2861,6 +2864,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
     ),
 
     Ytelse.PEN_AFP to listOf(

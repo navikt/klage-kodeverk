@@ -1237,6 +1237,9 @@ enum class Registreringshjemmel(
     FS_STØNAD_BRILLER_TIL_BARN_4("FS_STØNAD_BRILLER_TIL_BARN_4", LovKilde.FORSKRIFT_OM_STØNAD_TIL_BRILLER_TIL_BARN, "§ 4 Stønadens størrelse"),
     FS_STØNAD_BRILLER_TIL_BARN_6("FS_STØNAD_BRILLER_TIL_BARN_6", LovKilde.FORSKRIFT_OM_STØNAD_TIL_BRILLER_TIL_BARN, "§ 6 Fremsetting av krav"),
     FS_STØNAD_BRILLER_TIL_BARN_7("FS_STØNAD_BRILLER_TIL_BARN_7", LovKilde.FORSKRIFT_OM_STØNAD_TIL_BRILLER_TIL_BARN, "§ 7 Krav til dokumentasjon"),
+
+    KNV_STBR_ART_58("KNV_STBR_ART_58", LovKilde.KONVENSJON_MED_STORBRITANNIA, "Artikkel 58 (overføring)"),
+    KNV_STBR_ART_59("KNV_STBR_ART_59", LovKilde.KONVENSJON_MED_STORBRITANNIA, "Artikkel 59 (beregning)"),
     ;
     //@formatter:on
 
