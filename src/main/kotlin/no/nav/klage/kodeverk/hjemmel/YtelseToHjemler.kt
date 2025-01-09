@@ -1076,6 +1076,7 @@ val ytelseToHjemler = mapOf(
 
         FTRL_21_12,
 
+        FTRL_22_12_FVL_35_C,
         FTRL_22_12_22_13,
         FTRL_22_15,
         FTRL_22_17,
