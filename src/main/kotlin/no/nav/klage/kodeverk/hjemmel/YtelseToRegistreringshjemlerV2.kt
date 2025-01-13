@@ -760,6 +760,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FS_DAG_6_8,
         FS_DAG_8_1,
         FS_DAG_9_1,
+        FS_DAG_10_4_1,
+        FS_DAG_10_4_2,
         FS_DAG_13_1,
         FS_DAG_13_2,
         FS_DAG_13_3A,
