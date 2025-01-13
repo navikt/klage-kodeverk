@@ -779,6 +779,8 @@ enum class Registreringshjemmel(
     FS_DAG_6_8("855", LovKilde.DAGPENGEFORSKRIFTEN, "§ 6-8"),
     FS_DAG_8_1("865", LovKilde.DAGPENGEFORSKRIFTEN, "§ 8-1"),
     FS_DAG_9_1("260", LovKilde.DAGPENGEFORSKRIFTEN, "§ 9-1"),
+    FS_DAG_10_4_1("FS_DAG_10_4_1", LovKilde.DAGPENGEFORSKRIFTEN, "§ 10-4 første ledd (generell stans)"),
+    FS_DAG_10_4_2("FS_DAG_10_4_2", LovKilde.DAGPENGEFORSKRIFTEN, "§ 10-4 andre ledd (stans 6U)"),
     FS_DAG_13_1("FS_DAG_13_1", LovKilde.DAGPENGEFORSKRIFTEN, "§ 13-1 Minsteinntekt"),
     FS_DAG_13_2("FS_DAG_13_2", LovKilde.DAGPENGEFORSKRIFTEN, "§ 13-2 Stønadsperiode"),
     FS_DAG_13_3("261", LovKilde.DAGPENGEFORSKRIFTEN, "§ 13-3"),
