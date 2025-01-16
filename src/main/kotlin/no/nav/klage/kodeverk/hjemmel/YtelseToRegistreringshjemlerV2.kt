@@ -2663,6 +2663,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
     Ytelse.TIL_TIL to listOf(
         ARBML_2,
         ARBML_12,
+        ARBML_16,
         ARBML_17,
 
         FS_TIL_1_3,
@@ -2680,6 +2681,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FS_TIL_12,
         FS_TIL_13,
         FS_TIL_14,
+
+        FVL_FS_33,
 
         FVL_11,
         FVL_12,

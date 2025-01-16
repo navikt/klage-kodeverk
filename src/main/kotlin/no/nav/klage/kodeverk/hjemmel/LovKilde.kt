@@ -79,5 +79,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
 
     KONVENSJON_MED_STORBRITANNIA("72", "Konvensjon med Storbritannia", "Konvensjon med Storbritannia"),
 
+    FORVALTNINGSLOVFORSKRIFTEN("73", "Forskrift til forvaltningsloven", "Forskrift til forvaltningsloven"),
+
     UKJENT("999","Ukjent", "Ukjent")
 }
