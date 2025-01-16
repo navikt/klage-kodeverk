@@ -1058,6 +1058,7 @@ enum class Registreringshjemmel(
     ARBML_12("708", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 12"),
     ARBML_13("723", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 13"),
     ARBML_15("ARBML_15", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 15"),
+    ARBML_16("ARBML_16", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 16"),
     ARBML_17("709", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 17"),
     ARBML_19("ARBML_19", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 19"),
     ARBML_22("724", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 22"),
@@ -1242,6 +1243,8 @@ enum class Registreringshjemmel(
 
     KNV_STBR_ART_58("KNV_STBR_ART_58", LovKilde.KONVENSJON_MED_STORBRITANNIA, "Artikkel 58 (overføring)"),
     KNV_STBR_ART_59("KNV_STBR_ART_59", LovKilde.KONVENSJON_MED_STORBRITANNIA, "Artikkel 59 (beregning)"),
+
+    FVL_FS_33("FVL_FS_33", LovKilde.FORVALTNINGSLOVFORSKRIFTEN, "§ 33")
     ;
     //@formatter:on
 
