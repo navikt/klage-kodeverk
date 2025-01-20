@@ -44,7 +44,7 @@ val innsendingsytelseToTema: Map<Innsendingsytelse, Tema> = mapOf(
     Innsendingsytelse.IPS to Tema.OPP,
     Innsendingsytelse.IPS_UNG to Tema.OPP,
     Innsendingsytelse.JOBBKLUBB to Tema.OPP,
-    Innsendingsytelse.JOBBMESTRENDE_OPPFOLGING to Tema.TIL,
+    Innsendingsytelse.JOBBMESTRENDE_OPPFOLGING to Tema.OPP,
     Innsendingsytelse.JOBBSOKERKURS to Tema.OPP,
     Innsendingsytelse.KONTANTSTOTTE to Tema.KON,
     Innsendingsytelse.KRIGSPENSJON to Tema.PEN,
