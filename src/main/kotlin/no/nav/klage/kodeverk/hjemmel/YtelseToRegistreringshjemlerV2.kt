@@ -1,7 +1,7 @@
 package no.nav.klage.kodeverk.hjemmel
 
-import no.nav.klage.kodeverk.ytelse.Ytelse
 import no.nav.klage.kodeverk.hjemmel.Registreringshjemmel.*
+import no.nav.klage.kodeverk.ytelse.Ytelse
 
 val registreringshjemlerYRK = listOf(
     FTRL_13_0,
@@ -2571,6 +2571,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
     ),
 
     Ytelse.SUP_PEN to listOf(
+        SUP_ST_L_2,
         SUP_ST_L_3,
         SUP_ST_L_4,
         SUP_ST_L_5,
@@ -2616,6 +2617,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_14,
     ),
     Ytelse.SUP_UFF to listOf(
+        SUP_ST_L_2,
         SUP_ST_L_3,
         SUP_ST_L_4,
         SUP_ST_L_5,

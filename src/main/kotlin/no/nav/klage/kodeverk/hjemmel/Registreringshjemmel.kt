@@ -1039,6 +1039,7 @@ enum class Registreringshjemmel(
     BVL_15_2A("BVL_15_2A", LovKilde.BARNEVERNLOVEN, "§ 15-12 første ledd"),
     BVL_15_2B("BVL_15_2B", LovKilde.BARNEVERNLOVEN, "§ 15-12 andre ledd"),
 
+    SUP_ST_L_2("SUP_ST_L_2", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 2"),
     SUP_ST_L_3("696", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 3"),
     SUP_ST_L_4("697", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 4"),
     SUP_ST_L_5("698", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 5"),
