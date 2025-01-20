@@ -1565,6 +1565,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FTRL_19_7,
         FTRL_19_8,
         FTRL_19_9,
+        FTRL_19_9A,
         FTRL_19_10,
         FTRL_19_11,
         FTRL_19_12,
@@ -1657,6 +1658,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FTRL_22_17,
         FTRL_22_17A,
 
+        FTRL_AV_1966_1_2,
+
         FL_2_3,
         FL_10,
 
@@ -1713,6 +1716,15 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         GJ_F_FORD_987_2009_12,
 
         EOES_FORORDNING_1408_71,
+        EOES_FORORDNING_1408_71_13,
+        EOES_FORORDNING_1408_71_14,
+        EOES_FORORDNING_1408_71_14A,
+        EOES_FORORDNING_1408_71_14B,
+        EOES_FORORDNING_1408_71_14C,
+        EOES_FORORDNING_1408_71_14D,
+        EOES_FORORDNING_1408_71_15,
+        EOES_FORORDNING_1408_71_16,
+        EOES_FORORDNING_1408_71_17,
 
         ANDRE_TRYGDEAVTALER,
 
