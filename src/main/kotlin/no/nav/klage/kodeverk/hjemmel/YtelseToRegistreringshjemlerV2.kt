@@ -1688,6 +1688,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
 
         EOES_883_2004_1,
         EOES_883_2004_2,
@@ -1857,6 +1858,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
 
         EOES_883_2004_1,
         EOES_883_2004_2,
@@ -2009,6 +2011,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
 
         EOES_883_2004_1,
         EOES_883_2004_2,
