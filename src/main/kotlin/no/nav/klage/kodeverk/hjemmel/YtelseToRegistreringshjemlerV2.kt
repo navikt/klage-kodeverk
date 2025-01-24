@@ -696,6 +696,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
 
         FS_COV_19_1_2,
         FS_COV_19_1_3,
