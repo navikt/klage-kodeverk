@@ -29,10 +29,12 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
     ),
     EKTEFELLEBIDRAG("EKTEFELLEBIDRAG", "Ektefellebidrag"),
     ENGANGSSTONAD("ENGANGSSTONAD", "Engangsstønad"),
-    //Deprecated
+    //Only used in Mine Klager
     ENSLIG_MOR_ELLER_FAR("ENSLIG_MOR_ELLER_FAR", "Enslig mor eller far"),
     FORELDREPENGER("FORELDREPENGER", "Foreldrepenger"),
     FORHOYET_HJELPESTONAD("FORHOYET_HJELPESTONAD", "Forhøyet hjelpestønad"),
+    //Only used in Mine Klager
+    FORSIKRING("FORSIKRING", "Forsikring"),
     FORSIKRING_FOR_FRILANSERE("FORSIKRING_FOR_FRILANSERE", "Forsikring for frilansere"),
     FORSIKRING_FOR_JORDBRUKERE_OG_REINDRIFTSUTOVERE(
         "FORSIKRING_FOR_JORDBRUKERE_OG_REINDRIFTSUTOVERE",
@@ -53,6 +55,8 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
     GRUNN_OG_HJELPESTONAD("GRUNN_OG_HJELPESTONAD", "Grunnstønad og hjelpestønad"),
     GRONT_ARBEID("GRONT_ARBEID", "Grønt arbeid"),
     HJELPEMIDLER("HJELPEMIDLER", "Hjelpemidler og tilrettelegging ved nedsatt funksjonsevne"),
+    //Only used in Mine Klager
+    HJELPEMIDLER_ORTOPEDISKE("HJELPEMIDLER_ORTOPEDISKE", "Hjelpemidler - Ortopediske"),
     HJELPESTONAD("HJELPESTONAD", "Hjelpestønad"),
     INKLUDERINGSTILSKUDD("INKLUDERINGSTILSKUDD", "Inkluderingstilskudd"),
     IPS("IPS", "IPS"),
@@ -65,6 +69,8 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
     LESE_OG_SEKRETARHJELP("LESE_OG_SEKRETARHJELP", "Lese- og sekretærhjelp"),
     LONNSGARANTI("LONNSGARANTI", "Lønnsgaranti ved konkurs hos arbeidsgiver"),
     LONNSKOMPENSASJON("LONNSKOMPENSASJON", "Lønnskompensasjon for permitterte"),
+    //Only used in Mine Klager
+    MEDLEMSKAP("MEDLEMSKAP", "Medlemskap i folketrygden"),
     MEDLEMSKAP_I_FOLKETRYGDEN_UNDER_OPPHOLD_I_EOS_ELLER_SVEITS(
         "MEDLEMSKAP_I_FOLKETRYGDEN_UNDER_OPPHOLD_I_EOS_ELLER_SVEITS",
         "Medlemskap i folketrygden under opphold i EØS eller Sveits"

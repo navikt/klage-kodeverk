@@ -107,6 +107,11 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Higher rate assistance allowance",
         "Auka hjelpestønad"
     ),
+    Innsendingsytelse.FORSIKRING to DisplayName(
+        "Forsikring",
+        "Insurance",
+        "Forsikring"
+    ),
     Innsendingsytelse.FORSIKRING_FOR_FRILANSERE to DisplayName(
         "Forsikring for frilansere",
         "Insurance for freelancers",
@@ -173,6 +178,11 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Assistive technology and facilitation for impaired functional ability",
         "Hjelpemiddel og tilrettelegging ved nedsatt funksjonsevne"
     ),
+    Innsendingsytelse.HJELPEMIDLER_ORTOPEDISKE to DisplayName(
+        "Hjelpemidler - Ortopediske",
+        "Assistive tools - Orthopedical",
+        "Hjelpemiddel - Ortopediske",
+    ),
     Innsendingsytelse.HJELPESTONAD to DisplayName(
         "Hjelpestønad",
         "Assistance allowance (Hjelpestønad)",
@@ -224,6 +234,11 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Lønnskompensasjon for permitterte",
         "Salary compensation for persons who are laid-off",
         "Lønskompensasjon for permitterte"
+    ),
+    Innsendingsytelse.MEDLEMSKAP to DisplayName(
+        "Medlemskap",
+        "Membership",
+        "Medlemskap"
     ),
     Innsendingsytelse.MEDLEMSKAP_I_FOLKETRYGDEN_UNDER_OPPHOLD_I_EOS_ELLER_SVEITS to DisplayName(
         "Medlemskap i folketrygden under opphold i EØS eller Sveits",
