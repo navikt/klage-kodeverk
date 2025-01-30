@@ -11,6 +11,7 @@ val typeToUtfall = mapOf(
         DELVIS_MEDHOLD,
         STADFESTELSE,
         AVVIST,
+        UGUNST,
     ),
     Type.ANKE to setOf(
         TRUKKET,
