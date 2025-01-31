@@ -2316,7 +2316,12 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FTRL_22_15E,
         FTRL_22_15F,
 
+        EOES_883_2004_2,
+        EOES_883_2004_6,
         EOES_883_2004_11,
+        EOES_883_2004_12,
+        EOES_883_2004_13,
+        EOES_883_2004_16,
         EOES_883_2004_67,
         EOES_883_2004_68,
         EOES_AVTALEN,
