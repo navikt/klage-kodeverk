@@ -1,7 +1,7 @@
 package no.nav.klage.kodeverk.hjemmel
 
-import no.nav.klage.kodeverk.ytelse.Ytelse
 import no.nav.klage.kodeverk.hjemmel.Hjemmel.*
+import no.nav.klage.kodeverk.ytelse.Ytelse
 
 val hjemlerGRU = listOf(
     FTRL_6_2,
@@ -30,6 +30,9 @@ val hjemlerGRU = listOf(
     FVL_31,
     FVL_32,
     FVL_33,
+
+    KRAV_OM_OMGJOERING,
+    BEGJAERING_OM_GJENOPPTAK,
 )
 
 val hjemlerYRK = listOf(
