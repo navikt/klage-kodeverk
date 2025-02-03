@@ -1,7 +1,7 @@
 package no.nav.klage.kodeverk.hjemmel
 
-import no.nav.klage.kodeverk.ytelse.Ytelse
 import no.nav.klage.kodeverk.hjemmel.Hjemmel.*
+import no.nav.klage.kodeverk.ytelse.Ytelse
 
 val hjemlerGRU = listOf(
     FTRL_6_2,
@@ -30,6 +30,9 @@ val hjemlerGRU = listOf(
     FVL_31,
     FVL_32,
     FVL_33,
+
+    KRAV_OM_OMGJOERING,
+    BEGJAERING_OM_GJENOPPTAK,
 )
 
 val hjemlerYRK = listOf(
@@ -193,9 +196,11 @@ val ytelseToHjemler = mapOf(
         FTRL_8_2,
         FTRL_8_3,
         FTRL_8_4,
+        FTRL_8_4_PILOT_22_15,
         FTRL_8_5,
         FTRL_8_6,
         FTRL_8_7,
+        FTRL_8_7_PILOT,
         FTRL_8_8,
         FTRL_8_9,
         FTRL_8_10,
@@ -1068,6 +1073,7 @@ val ytelseToHjemler = mapOf(
         FTRL_12_13_SIVILSTAND,
         FTRL_12_13_UNG_UFOER,
         FTRL_12_14_EO,
+        FTRL_12_14_INNTEKTSENDRING,
         FTRL_12_15,
         FTRL_12_16,
         FTRL_12_17,
