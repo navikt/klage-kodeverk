@@ -619,6 +619,7 @@ enum class Hjemmel(
 
     KRAV_OM_OMGJOERING("KRAV_OM_OMGJOERING", LovKilde.ANNET, "Krav om omgjøring"),
     BEGJAERING_OM_GJENOPPTAK("BEGJAERING_OM_GJENOPPTAK", LovKilde.ANNET, "Begjæring om gjenopptak"),
+    FEDREKVOTESAK("FEDREKVOTESAK", LovKilde.ANNET, "Fedrekvotesak"),
     ;
 
     fun toSearchableString(): String {
