@@ -2334,6 +2334,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
     ),
     Ytelse.BID_BAB to listOf(
         BL_7,
+        BL_44,
         BL_66,
         BL_67A,
         BL_67B,
@@ -2901,7 +2902,11 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
     Ytelse.PEN_AFP to listOf(
         AFP_62_PRIVAT,
-        AFP_62_OFFENTLIG
+        AFP_62_OFFENTLIG,
+
+        FTRL_22_15_TILBAKEKREVING,
+
+        FVL_35,
     ),
     Ytelse.TSR_TSR to listOf(
         FS_ARB_UTD_R_2,
