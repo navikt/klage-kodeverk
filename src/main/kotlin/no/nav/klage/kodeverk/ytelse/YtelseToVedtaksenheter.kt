@@ -2101,6 +2101,7 @@ val ytelseToVedtaksenheter = mapOf(
     Ytelse.ENF_ENF to setOf(
         E4410,
         E4415,
+        E4416,
         E4408,
         E4483,
         E2103

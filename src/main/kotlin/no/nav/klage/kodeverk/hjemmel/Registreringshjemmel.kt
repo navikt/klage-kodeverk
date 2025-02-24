@@ -156,8 +156,8 @@ enum class Registreringshjemmel(
     FTRL_8_28C("185", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 tredje ledd"),
     FTRL_8_28_3A("FTRL_8_28_3A", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 tredje ledd bokstav a"),
     FTRL_8_28_3B("FTRL_8_28_3B", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 tredje ledd bokstav b"),
-    FTRL_8_28_3C("FTRL_8_28_3C", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 tredje ledd bokstav C"),
-    FTRL_8_28D("186", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 fjerde  ledd"),
+    FTRL_8_28_3C("FTRL_8_28_3C", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 tredje ledd bokstav c"),
+    FTRL_8_28D("186", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 fjerde ledd"),
     FTRL_8_28E("187", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 femte ledd"),
     FTRL_8_28F("188", LovKilde.FOLKETRYGDLOVEN, "§ 8-28 sjette ledd"),
     FTRL_8_29("189", LovKilde.FOLKETRYGDLOVEN, "§ 8-29"),
@@ -937,6 +937,7 @@ enum class Registreringshjemmel(
 
     BL_0_PR_BID("BL_0_PR_BID", LovKilde.BARNELOVA, "§ 0 Prosjekt bidrag"),
     BL_7("622", LovKilde.BARNELOVA, "§ 7 (farskap)"),
+    BL_44("BL_44", LovKilde.BARNELOVA, "§ 44 (reisekostnader ved samvær)"),
     BL_66("623", LovKilde.BARNELOVA, "§ 66"),
     BL_67A("624", LovKilde.BARNELOVA, "§ 67 første ledd"),
     BL_67B("625", LovKilde.BARNELOVA, "§ 67 andre ledd (særtilskudd)"),
