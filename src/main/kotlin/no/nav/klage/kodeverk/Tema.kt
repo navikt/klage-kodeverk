@@ -20,6 +20,7 @@ enum class Tema(override val id: String, override val navn: String, override val
     FAR("10", "FAR", "Farskap"),
     FEI("11", "FEI", "Feilutbetaling"),
     FOR("12", "FOR", "Foreldre- og svangerskapspenger"),
+    FIP("FIP", "FIP", "Fiskerpensjon"),
     FOS("13", "FOS", "Forsikring"),
     FRI("14", "FRI", "Kompensasjon for selvstendig næringsdrivende/frilansere"),
     FUL("15", "FUL", "Fullmakt"),
