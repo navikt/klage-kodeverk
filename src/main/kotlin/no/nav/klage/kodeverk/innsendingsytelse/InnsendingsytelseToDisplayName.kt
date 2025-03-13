@@ -88,9 +88,9 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Ektefellebidrag"
     ),
     Innsendingsytelse.ENGANGSSTONAD to DisplayName(
-        "Engangsstønad",
-        "Lump-sum grant (Engangsstønad)",
-        "Eingongsstønad"
+        "Engangsstønad ved fødsel eller adopsjon",
+        "Lump sum grant at birth or upon an adoption (Engangsstønad)",
+        "Eingongsstønad ved fødsel eller adopsjon"
     ),
     Innsendingsytelse.ENSLIG_MOR_ELLER_FAR to DisplayName(
         "Enslig mor eller far",
