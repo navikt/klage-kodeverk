@@ -28,7 +28,7 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
         "Tilbakebetaling av forskudd på dagpenger"
     ),
     EKTEFELLEBIDRAG("EKTEFELLEBIDRAG", "Ektefellebidrag"),
-    ENGANGSSTONAD("ENGANGSSTONAD", "Engangsstønad"),
+    ENGANGSSTONAD("ENGANGSSTONAD", "Engangsstønad ved fødsel eller adopsjon"),
     //Only used in Mine Klager
     ENSLIG_MOR_ELLER_FAR("ENSLIG_MOR_ELLER_FAR", "Enslig mor eller far"),
     FORELDREPENGER("FORELDREPENGER", "Foreldrepenger"),
