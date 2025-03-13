@@ -67,6 +67,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E0238("62", "0238", "Nav Nannestad Gjerdrum"),
     E0239("63", "0239", "Nav Hurdal"),
     E0283("E0283", "0283", "Nav egne ansatte Øst-Viken"),
+    E0291("E0291", "0291", "Nav arbeidslivssenter Øst-Viken"),
     E0312("67", "0312", "Nav Frogner"),
     E0313("68", "0313", "Nav St. Hanshaugen"),
     E0314("69", "0314", "Nav Sagene"),
