@@ -1,7 +1,7 @@
 package no.nav.klage.kodeverk.hjemmel
 
-import no.nav.klage.kodeverk.ytelse.Ytelse
 import no.nav.klage.kodeverk.hjemmel.Registreringshjemmel.*
+import no.nav.klage.kodeverk.ytelse.Ytelse
 
 val ytelseToRegistreringshjemlerV1 = mapOf(
     Ytelse.HJE_HJE to listOf(
@@ -704,6 +704,10 @@ val ytelseToRegistreringshjemlerV1 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,

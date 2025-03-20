@@ -347,6 +347,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -403,6 +407,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -466,6 +474,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -522,6 +534,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -656,6 +672,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         EOES_883_2004_2,
         EOES_883_2004_4,
@@ -805,6 +825,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_16,
@@ -914,6 +938,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -1042,6 +1070,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -1330,6 +1362,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         NRD_KNV,
         ANDRE_TRYGDEAVTALER,
@@ -1414,6 +1450,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -1476,6 +1516,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -1532,6 +1576,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -1666,6 +1714,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -1835,6 +1887,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -1988,6 +2044,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -2100,6 +2160,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -2179,6 +2243,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -2242,6 +2310,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         EOES_AVTALEN,
 
@@ -2456,6 +2528,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -2512,6 +2588,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -2759,6 +2839,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -2960,6 +3044,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -3034,6 +3122,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
 
         FVL_11,
         FVL_12,
@@ -3087,6 +3179,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         FL_2_3,
         FL_10,
+        FL_16,
+        FL_17,
+        FL_21,
+        FL_28,
     ),
 
     Ytelse.FRI_FRI to listOf(

@@ -722,6 +722,10 @@ enum class Registreringshjemmel(
 
     FL_2_3("151", LovKilde.FORELDELSESLOVEN, "§§ 2 og 3"),
     FL_10("152", LovKilde.FORELDELSESLOVEN, "§ 10"),
+    FL_16("FL_16", LovKilde.FORELDELSESLOVEN, "§ 16"),
+    FL_17("FL_17", LovKilde.FORELDELSESLOVEN, "§ 17"),
+    FL_21("FL_21", LovKilde.FORELDELSESLOVEN, "§ 21"),
+    FL_28("FL_28", LovKilde.FORELDELSESLOVEN, "§ 28"),
 
     EOES_883_2004_1("530", LovKilde.EØS_FORORDNING_883_2004, "art. 1"),
     EOES_883_2004_2("310", LovKilde.EØS_FORORDNING_883_2004, "art. 2"),
