@@ -1,7 +1,7 @@
 package no.nav.klage.kodeverk.hjemmel
 
-import no.nav.klage.kodeverk.ytelse.Ytelse
 import no.nav.klage.kodeverk.hjemmel.Registreringshjemmel.*
+import no.nav.klage.kodeverk.ytelse.Ytelse
 
 val ytelseToRegistreringshjemlerV1 = mapOf(
     Ytelse.HJE_HJE to listOf(
