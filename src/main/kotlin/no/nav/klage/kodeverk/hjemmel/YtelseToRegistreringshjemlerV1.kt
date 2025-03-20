@@ -704,10 +704,6 @@ val ytelseToRegistreringshjemlerV1 = mapOf(
 
         FL_2_3,
         FL_10,
-        FL_16,
-        FL_17,
-        FL_21,
-        FL_28,
 
         FVL_11,
         FVL_12,
