@@ -2414,6 +2414,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         BL_68B,
         BL_68C,
         BL_69,
+        BL_70A_1,
         BL_70B,
         BL_70_5,
         BL_70_6,
