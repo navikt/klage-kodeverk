@@ -951,6 +951,7 @@ enum class Registreringshjemmel(
     BL_68C("BL_68C", LovKilde.BARNELOVA, "§ 68 tredje ledd (høyere utdanning)"),
     BL_69("629", LovKilde.BARNELOVA, "§ 69"),
     BL_70A("630", LovKilde.BARNELOVA, "§ 70"),
+    BL_70A_1("BL_70A_1", LovKilde.BARNELOVA, "§ 70 første ledd"),
     BL_70B("631", LovKilde.BARNELOVA, "§ 70 andre ledd siste punktum (gebyr)"),
     BL_70_5("BL_70_5", LovKilde.BARNELOVA, "§ 70 femte ledd (eget tiltak - barnets fødsel)"),
     BL_70_6("BL_70_6", LovKilde.BARNELOVA, "§ 70 sjette ledd (eget tiltak - barnetillegg)"),
