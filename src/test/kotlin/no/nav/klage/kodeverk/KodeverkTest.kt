@@ -3,6 +3,7 @@ package no.nav.klage.kodeverk
 import no.nav.klage.kodeverk.hjemmel.Hjemmel
 import no.nav.klage.kodeverk.hjemmel.LovKilde
 import no.nav.klage.kodeverk.hjemmel.Registreringshjemmel
+import no.nav.klage.kodeverk.hjemmel.ytelseToRegistreringshjemlerV2
 import no.nav.klage.kodeverk.innsendingsytelse.Innsendingsytelse
 import no.nav.klage.kodeverk.innsendingsytelse.innsendingsytelseToAnkeEnhet
 import no.nav.klage.kodeverk.innsendingsytelse.innsendingsytelseToDisplayName
@@ -313,6 +314,15 @@ internal class KodeverkTest {
 //        ytelseTilHjemler.entries.sortedBy { it.key.navn }.forEach { ytelseTilHjemmel ->
 //            ytelseTilHjemmel.value.sortedBy { it.lovKilde.navn }.forEach {
 //                println(ytelseTilHjemmel.key.navn + ";" + it.spesifikasjon + ";" + it.lovKilde.navn)
+//            }
+//        }
+//    }
+
+//    @Test
+//    fun `print ytelser without foreldelseslov export`() {
+//        ytelseToRegistreringshjemlerV2.entries.sortedBy { it.key.navn }.forEach { ytelseTilRegistreringshjemmel ->
+//            if (!ytelseTilRegistreringshjemmel.value.contains(Registreringshjemmel.FL_2_3)) {
+//                println(ytelseTilRegistreringshjemmel.key.navn)
 //            }
 //        }
 //    }
