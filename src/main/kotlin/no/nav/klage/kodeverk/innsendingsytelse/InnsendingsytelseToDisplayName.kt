@@ -142,6 +142,11 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Functional assistance in the workplace",
         "Funksjonsassistanse i arbeidslivet"
     ),
+    Innsendingsytelse.FOLKEHOYSKOLE_ELLER_TILPASNINGSKURS to DisplayName(
+        "Folkehøyskole eller tilpasningskurs",
+        "Folk high school or adaptation course",
+        "Folkehøgskule eller tilpassingskurs"
+    ),
     Innsendingsytelse.FORERHUND to DisplayName(
         "Førerhund",
         "Guide dog",
@@ -187,6 +192,11 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Hjelpestønad",
         "Assistance allowance (Hjelpestønad)",
         "Hjelpestønad"
+    ),
+    Innsendingsytelse.HOREAPPARAT_ELLER_TINNITUSMASKERER to DisplayName(
+        "Høreapparat eller tinnitusmaskerer",
+        "Hearing aid or tinnitus maskers",
+        "Høyrerapparat eller tinnitusmaskerar"
     ),
     Innsendingsytelse.INKLUDERINGSTILSKUDD to DisplayName(
         "Inkluderingstilskudd", "Inclusion subsidy", "Inkluderingstilskot"
@@ -315,6 +325,11 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Opphold eller arbeid utenfor Norge",
         "Residence or work outside Norway",
         "Opphald eller arbeid utanfor Noreg"
+    ),
+    Innsendingsytelse.ORTOPEDISKE_HJELPEMIDLER to DisplayName(
+        "Ortopediske hjelpemidler",
+        "Orthopedic assistive devices",
+        "Ortopediske hjelpemiddel"
     ),
     Innsendingsytelse.OVERGANGSSTONAD_TIL_ENSLIG_MOR_ELLER_FAR to DisplayName(
         "Overgangsstønad til enslig mor eller far",

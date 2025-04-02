@@ -31,6 +31,7 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
     ENGANGSSTONAD("ENGANGSSTONAD", "Engangsstønad ved fødsel eller adopsjon"),
     //Only used in Mine Klager
     ENSLIG_MOR_ELLER_FAR("ENSLIG_MOR_ELLER_FAR", "Enslig mor eller far"),
+    FOLKEHOYSKOLE_ELLER_TILPASNINGSKURS("FOLKEHOYSKOLE_ELLER_TILPASNINGSKURS", "Folkehøyskole eller tilpasningskurs"),
     FORELDREPENGER("FORELDREPENGER", "Foreldrepenger"),
     FORHOYET_HJELPESTONAD("FORHOYET_HJELPESTONAD", "Forhøyet hjelpestønad"),
     //Only used in Mine Klager
@@ -58,6 +59,7 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
     //Only used in Mine Klager
     HJELPEMIDLER_ORTOPEDISKE("HJELPEMIDLER_ORTOPEDISKE", "Hjelpemidler - Ortopediske"),
     HJELPESTONAD("HJELPESTONAD", "Hjelpestønad"),
+    HOREAPPARAT_ELLER_TINNITUSMASKERER("HOREAPPARAT_ELLER_TINNITUSMASKERER", "Høreapparat eller tinnitusmaskerer"),
     INKLUDERINGSTILSKUDD("INKLUDERINGSTILSKUDD", "Inkluderingstilskudd"),
     IPS("IPS", "IPS"),
     IPS_UNG("IPS_UNG", "IPS ung"),
@@ -111,6 +113,7 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
 
     //Deprecated
     OPPHOLD_ELLER_ARBEID_UTENFOR_NORGE("OPPHOLD_ELLER_ARBEID_UTENFOR_NORGE", "Opphold eller arbeid utenfor Norge"),
+    ORTOPEDISKE_HJELPEMIDLER("ORTOPEDISKE_HJELPEMIDLER", "Ortopediske hjelpemidler"),
     OVERGANGSSTONAD_TIL_ENSLIG_MOR_ELLER_FAR(
         "OVERGANGSSTONAD_TIL_ENSLIG_MOR_ELLER_FAR",
         "Overgangsstønad til enslig mor eller far"
