@@ -196,7 +196,7 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
     Innsendingsytelse.HOREAPPARAT_ELLER_TINNITUSMASKERER to DisplayName(
         "Høreapparat eller tinnitusmaskerer",
         "Hearing aid or tinnitus maskers",
-        "Høyrerapparat eller tinnitusmaskerar"
+        "Høyreapparat eller tinnitusmaskerar"
     ),
     Innsendingsytelse.INKLUDERINGSTILSKUDD to DisplayName(
         "Inkluderingstilskudd", "Inclusion subsidy", "Inkluderingstilskot"
