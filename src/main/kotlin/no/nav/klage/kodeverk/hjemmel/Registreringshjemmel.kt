@@ -1266,7 +1266,9 @@ enum class Registreringshjemmel(
     KNV_STBR_ART_58("KNV_STBR_ART_58", LovKilde.KONVENSJON_MED_STORBRITANNIA, "Artikkel 58 (overføring)"),
     KNV_STBR_ART_59("KNV_STBR_ART_59", LovKilde.KONVENSJON_MED_STORBRITANNIA, "Artikkel 59 (beregning)"),
 
-    FVL_FS_33("FVL_FS_33", LovKilde.FORVALTNINGSLOVFORSKRIFTEN, "§ 33")
+    FVL_FS_33("FVL_FS_33", LovKilde.FORVALTNINGSLOVFORSKRIFTEN, "§ 33"),
+
+    FEDREKVOTESAK("FEDREKVOTESAK", LovKilde.ANNET, "Fedrekvotesak"),
     ;
     //@formatter:on
 
