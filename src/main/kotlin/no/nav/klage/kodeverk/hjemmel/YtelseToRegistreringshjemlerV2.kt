@@ -1211,6 +1211,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FL_17,
         FL_21,
         FL_28,
+
+        FEDREKVOTESAK,
     ),
     Ytelse.FOR_ENG to listOf(
         FTRL_14_0A,
