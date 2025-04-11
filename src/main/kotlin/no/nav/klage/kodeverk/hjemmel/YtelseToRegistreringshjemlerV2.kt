@@ -58,6 +58,9 @@ val registreringshjemlerYRK = listOf(
 
 val ytelseToRegistreringshjemlerV2 = mapOf(
     Ytelse.HJE_HJE to listOf(
+        FTRL_2_1,
+        FTRL_2_2,
+        FTRL_2_14,
         FTRL_10_3,
         FTRL_10_4,
         FTRL_10_5E,
@@ -171,6 +174,9 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
     ) ,
 
     Ytelse.BIL_BIL to listOf(
+        FTRL_2_1,
+        FTRL_2_2,
+        FTRL_2_14,
         FTRL_10_3,
         FTRL_10_4,
         FTRL_10_5E,
@@ -244,6 +250,9 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
     ) ,
 
     Ytelse.HEL_HEL to listOf(
+        FTRL_2_1,
+        FTRL_2_2,
+        FTRL_2_14,
         FTRL_10_3,
         FTRL_10_4,
         FTRL_10_5E,
