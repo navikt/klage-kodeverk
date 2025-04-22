@@ -54,15 +54,18 @@ val ytelseToKlageenheter = mapOf(
     ),
     Ytelse.YRK_YRK to setOf(
         E4291,
-        E2103
+        E4292,
+        E2103,
     ),
     Ytelse.YRK_YSY to setOf(
         E4291,
-        E2103
+        E4292,
+        E2103,
     ),
     Ytelse.YRK_MEN to setOf(
         E4291,
-        E2103
+        E4292,
+        E2103,
     ),
     Ytelse.UFO_UFO to setOf(
         E4292,
