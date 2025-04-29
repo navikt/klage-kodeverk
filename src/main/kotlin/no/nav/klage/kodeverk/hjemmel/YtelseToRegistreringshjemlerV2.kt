@@ -2413,6 +2413,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         KONTSL_19,
         KONTSL_22,
 
+        FTRL_2_1,
+        FTRL_2_2,
         FTRL_22_15A,
         FTRL_22_15B,
         FTRL_22_15C,
@@ -2434,7 +2436,15 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         GJ_F_FORD_987_2009_59,
         GJ_F_FORD_987_2009_60,
 
+        FVL_28,
+        FVL_29,
+        FVL_30,
+        FVL_31,
+        FVL_32,
+        FVL_33,
+        FVL_34,
         FVL_35,
+        FVL_36,
     ),
     Ytelse.BID_BAB to listOf(
         BL_7,
