@@ -708,6 +708,7 @@ enum class Registreringshjemmel(
     FVL_33("130", LovKilde.FORVALTNINGSLOVEN, "§ 33"),
     FVL_34("FVL_34", LovKilde.FORVALTNINGSLOVEN, "§ 34"),
     FVL_35("131", LovKilde.FORVALTNINGSLOVEN, "§ 35"),
+    FVL_36("FVL_36", LovKilde.FORVALTNINGSLOVEN, "§ 36"),
     FVL_41("132", LovKilde.FORVALTNINGSLOVEN, "§ 41"),
     FVL_42("133", LovKilde.FORVALTNINGSLOVEN, "§ 42"),
 
