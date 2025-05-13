@@ -40,6 +40,7 @@ enum class Fagsystem(
     KOMPYS("26", "KOMPYS", "Kompys", true),
     ARBEIDSOPPFOLGING("27", "ARBEIDSOPPFOLGING", "Arbeidsoppfølging", false),
     KELVIN("28", "KELVIN", "Kelvin", true),
+    DAGPENGER("29", "DAGPENGER", "Dagpenger", true),
     ;
 
     companion object {
