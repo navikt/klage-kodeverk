@@ -1826,6 +1826,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
     Ytelse.PEN_GJE to listOf(
         FTRL_17_2,
+        FTRL_17_2_FOER_2024,
         FTRL_17_3,
         FTRL_17_3_GAMMEL,
         FTRL_17_4_1,

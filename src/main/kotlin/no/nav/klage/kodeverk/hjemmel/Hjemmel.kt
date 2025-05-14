@@ -364,6 +364,7 @@ enum class Hjemmel(
 
     FTRL_17_1_A("FTRL_17_1_A", LovKilde.FOLKETRYGDLOVEN, "§ 17-1 a"),
     FTRL_17_2("FTRL_17_2", LovKilde.FOLKETRYGDLOVEN, "§ 17-2"),
+    FTRL_17_2_FOER_2024("FTRL_17_2_FOER_2024", LovKilde.FOLKETRYGDLOVEN, "§ 17-2 - Før 01.01.2024"),
     FTRL_17_3("FTRL_17_3", LovKilde.FOLKETRYGDLOVEN, "§ 17-3"),
     FTRL_17_4("FTRL_17_4", LovKilde.FOLKETRYGDLOVEN, "§ 17-4 - Før 01.01.2024"),
     FTRL_17_4_1("FTRL_17_4_1", LovKilde.FOLKETRYGDLOVEN, "§ 17-4 første ledd"),
