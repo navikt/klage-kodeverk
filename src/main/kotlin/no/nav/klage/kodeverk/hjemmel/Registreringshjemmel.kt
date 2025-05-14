@@ -422,6 +422,7 @@ enum class Registreringshjemmel(
     FTRL_16_12("551", LovKilde.FOLKETRYGDLOVEN, "§ 16-12"),
 
     FTRL_17_2("552", LovKilde.FOLKETRYGDLOVEN, "§ 17-2"),
+    FTRL_17_2_FOER_2024("FTRL_17_2_FOER_2024", LovKilde.FOLKETRYGDLOVEN, "§ 17-2 - Før 01.01.2024"),
     FTRL_17_3("553", LovKilde.FOLKETRYGDLOVEN, "§ 17-3"),
     FTRL_17_3_GAMMEL("FTRL_17_3_GAMMEL", LovKilde.FOLKETRYGDLOVEN, "§ 17-3 - Før 01.01.2024"),
     FTRL_17_4("554", LovKilde.FOLKETRYGDLOVEN, "§ 17-4 - Før 01.01.2024"),
