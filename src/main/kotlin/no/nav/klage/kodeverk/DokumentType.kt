@@ -21,7 +21,7 @@ enum class DokumentType(
     ANNEN_INNGAAENDE_POST("7", "Annen inngående post", "Annen inngående post", "Annen inngående post.pdf"),
     SVARBREV("8", "Svarbrev", "Svarbrev", "svarbrev.pdf"),
     FORLENGET_BEHANDLINGSTIDSBREV("9", "Forlenget behandlingstidsbrev", "Forlenget behandlingstidsbrev", "Forlenget behandlingstidsbrev.pdf"),
-    EKSPEDISJONSBREV("10", "Ekspedisjonsbrev til Trygderetten", "Ekspedisjonsbrev til Trygderetten", "Ekspedisjonsbrev til Trygderetten.pdf"),
+    EKSPEDISJONSBREV_TIL_TRYGDERETTEN("10", "Ekspedisjonsbrev til Trygderetten", "Ekspedisjonsbrev til Trygderetten", "Ekspedisjonsbrev til Trygderetten.pdf"),
     ;
 
     override fun toString(): String {
