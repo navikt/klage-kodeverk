@@ -360,6 +360,7 @@ enum class Registreringshjemmel(
     FTRL_14_3("400", LovKilde.FOLKETRYGDLOVEN, "§ 14-3"),
     FTRL_14_4("430", LovKilde.FOLKETRYGDLOVEN, "§ 14-4"),
     FTRL_14_5("401", LovKilde.FOLKETRYGDLOVEN, "§ 14-5"),
+    FTRL_14_5_GRUPPE_2_LAND("FTRL_14_5_GRUPPE_2_LAND", LovKilde.FOLKETRYGDLOVEN, "§ 14-5 gruppe 2 land"),
     FTRL_14_6("402", LovKilde.FOLKETRYGDLOVEN, "§ 14-6"),
     FTRL_14_7("403", LovKilde.FOLKETRYGDLOVEN, "§ 14-7"),
     FTRL_14_7A("FTRL_14_7A", LovKilde.FOLKETRYGDLOVEN, "§ 14-7 Arbeidstaker"),
