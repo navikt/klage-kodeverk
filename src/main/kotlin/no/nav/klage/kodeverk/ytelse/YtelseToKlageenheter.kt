@@ -76,6 +76,7 @@ val ytelseToKlageenheter = mapOf(
     ),
     Ytelse.FOR_FOR to setOf(
         E4292,
+        E4295,
         E2103
     ),
     Ytelse.GRU_GRU to setOf(
@@ -126,6 +127,7 @@ val ytelseToKlageenheter = mapOf(
     ),
     Ytelse.KON_KON to setOf(
         E4292,
+        E4295,
         E2103
     ),
     Ytelse.BID_BAB to setOf(
@@ -169,10 +171,12 @@ val ytelseToKlageenheter = mapOf(
     ),
     Ytelse.FOR_ENG to setOf(
         E4292,
+        E4295,
         E2103
     ),
     Ytelse.FOR_SVA to setOf(
         E4292,
+        E4295,
         E2103
     ),
     Ytelse.TSO_TSO to setOf(
