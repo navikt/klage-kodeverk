@@ -6,7 +6,7 @@ enum class SattPaaVentReason(override val id: String, override val navn: String,
     VENTER_PAA_DOKUMENTASJON("2", "VENTER_PAA_DOKUMENTASJON", "Venter på dokumentasjon"),
     VENTER_PAA_AVKLARING_OM_DOEDSBO("3", "VENTER_PAA_AVKLARING_OM_DOEDSBO", "Venter på avklaring om dødsbo"),
     SATT_I_BERO("4", "SATT_I_BERO", "Satt i bero"),
-    ANNET("9", "ANNET", "Annet"),
+    ANNET("5", "ANNET", "Annet"),
     ;
 
 
