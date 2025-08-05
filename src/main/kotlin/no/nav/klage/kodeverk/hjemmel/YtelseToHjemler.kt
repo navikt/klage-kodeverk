@@ -1135,6 +1135,7 @@ val ytelseToHjemler = mapOf(
     ),
 
     Ytelse.AAP_AAP to listOf(
+        FTRL_KAPITTEL_2,
         FTRL_21_12_FVL_31,
         EOES_883_2004,
         FTRL_11_2,
