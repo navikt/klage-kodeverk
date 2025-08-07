@@ -1852,6 +1852,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRYGDEAVTALER_MED_USA,
 
         NRD_KNV,
+
+        GRL_97,
     ),
 
     Ytelse.PEN_GJE to listOf(
@@ -2018,6 +2020,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRYGDEAVTALER_MED_USA,
 
         NRD_KNV,
+
+        GRL_97,
     ),
     Ytelse.PEN_EYO to listOf(
         FTRL_17_2,
@@ -2175,6 +2179,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRYGDEAVTALER_MED_USA,
 
         NRD_KNV,
+
+        GRL_97,
     ),
 
     Ytelse.PEN_BAR to listOf(
@@ -2290,6 +2296,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRYGDEAVTALER_MED_USA,
 
         NRD_KNV,
+
+        GRL_97,
     ),
     Ytelse.PEN_KRI to listOf(
         LOV_OM_KRIGSPENSJON_FOR_MILITÆRPERSONER,
@@ -2795,6 +2803,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+
+        GRL_97,
     ),
     Ytelse.SUP_UFF to listOf(
         SUP_ST_L_2,
@@ -2842,6 +2852,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+
+        GRL_97,
     ),
     Ytelse.TIL_TIL to listOf(
         ARBML_2,
