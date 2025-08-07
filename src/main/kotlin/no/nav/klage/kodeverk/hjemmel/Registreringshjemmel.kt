@@ -1286,6 +1286,8 @@ enum class Registreringshjemmel(
     FVL_FS_33("FVL_FS_33", LovKilde.FORVALTNINGSLOVFORSKRIFTEN, "§ 33"),
 
     FEDREKVOTESAK("FEDREKVOTESAK", LovKilde.ANNET, "Fedrekvotesak"),
+
+    GRL_97("GRL_97", LovKilde.GRUNNLOVEN, "§ 97"),
     ;
     //@formatter:on
 

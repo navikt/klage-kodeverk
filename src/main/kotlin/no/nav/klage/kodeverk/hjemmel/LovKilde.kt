@@ -81,5 +81,7 @@ enum class LovKilde(override val id: String, override val navn: String, override
 
     FORVALTNINGSLOVFORSKRIFTEN("73", "Forskrift til forvaltningsloven", "Forskrift til forvaltningsloven"),
 
+    GRUNNLOVEN("74", "Grunnloven", "Grl"),
+
     UKJENT("999","Ukjent", "Ukjent")
 }
