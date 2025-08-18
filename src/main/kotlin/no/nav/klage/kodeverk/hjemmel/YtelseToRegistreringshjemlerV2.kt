@@ -3342,6 +3342,17 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FTRL_8_41,
         FTRL_8_42,
         FTRL_8_43,
+    ),
+
+    Ytelse.PAR_PAR to listOf(
+        FVL_18,
+        FVL_18_A,
+        FVL_18_B,
+        FVL_18_C,
+        FVL_18_D,
+        FVL_19,
+        FVL_20,
+        FVL_21,
     )
 
 )

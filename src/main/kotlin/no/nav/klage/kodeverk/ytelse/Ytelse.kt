@@ -67,6 +67,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     BIL_BIL("49", "Hjelpemidler - Bil og motorkjøretøy", "Hjelpemidler - Bil og motorkjøretøy"),
     HEL_HEL("50", "Hjelpemidler - Ortopediske", "Hjelpemidler - Ortopediske"),
     FOS_FOS("51", "Forsikring", "Forsikring"),
+    PAR_PAR("53", "Partsinnsyn", "Partsinnsyn"),
     ;
 
 
@@ -109,6 +110,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
             BIL_BIL -> Tema.BIL
             HEL_HEL -> Tema.HEL
             FOS_FOS -> Tema.FOS
+            PAR_PAR -> Tema.UKJ
         }
     }
 }

@@ -2143,5 +2143,8 @@ val ytelseToVedtaksenheter = mapOf(
         E4411,
         E4488,
         E2103,
+    ),
+    Ytelse.PAR_PAR to setOf(
+        E4100
     )
 )
