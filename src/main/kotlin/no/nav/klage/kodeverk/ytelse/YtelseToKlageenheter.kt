@@ -254,5 +254,13 @@ val ytelseToKlageenheter = mapOf(
         E4294,
         E2103
     ),
-
+    Ytelse.PAR_PAR to setOf(
+        E4250,
+        E4291,
+        E4292,
+        E4293,
+        E4294,
+        E4295,
+        E2103
+    )
 )
