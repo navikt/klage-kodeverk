@@ -115,6 +115,7 @@ val innsendingsytelseToAnkeEnhet: Map<Innsendingsytelse, Enhet> = mapOf(
     Innsendingsytelse.TILTAKSPENGER to Enhet.E4255,
     Innsendingsytelse.TOLKING_FOR_DOVE_DOVBLINDE_OG_HORSELSHEMMEDE to Enhet.E4293,
     Innsendingsytelse.UFORETRYGD to Enhet.E4286,
+    Innsendingsytelse.UNGDOMSPROGRAMMET to Enhet.E4250,
     Innsendingsytelse.UTVIDET_BARNETRYGD to Enhet.E4295,
     Innsendingsytelse.VARIG_LONNSTILSKUDD to Enhet.E4258,
     Innsendingsytelse.VARIG_TILRETTELAGT_ARBEID to Enhet.E4258,

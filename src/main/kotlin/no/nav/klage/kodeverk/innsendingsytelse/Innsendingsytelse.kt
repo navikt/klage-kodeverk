@@ -213,6 +213,7 @@ enum class Innsendingsytelse(override val id: String, override val nbName: Strin
         "Tolking for døve, døvblinde og hørselshemmede"
     ),
     UFORETRYGD("UFORETRYGD", "Uføretrygd"),
+    UNGDOMSPROGRAMMET("UNGDOMSPROGRAMMET", "Ungdomsprogrammet"),
     UTVIDET_BARNETRYGD("UTVIDET_BARNETRYGD", "Utvidet barnetrygd"),
     VARIG_LONNSTILSKUDD("VARIG_LONNSTILSKUDD", "Varig lønnstilskudd"),
     VARIG_TILRETTELAGT_ARBEID("VARIG_TILRETTELAGT_ARBEID", "Varig tilrettelagt arbeid"),

@@ -540,6 +540,11 @@ val innsendingsytelseToDisplayName: Map<Innsendingsytelse, DisplayName> = mapOf(
         "Disability benefit (Uføretrygd)",
         "Uføretrygd"
     ),
+    Innsendingsytelse.UNGDOMSPROGRAMMET to DisplayName(
+        "Ungdomsprogrammet",
+        "Youth Program",
+        "Ungdomsprogrammet"
+    ),
     Innsendingsytelse.UTVIDET_BARNETRYGD to DisplayName(
         "Utvidet barnetrygd",
         "Extended child benefit",
