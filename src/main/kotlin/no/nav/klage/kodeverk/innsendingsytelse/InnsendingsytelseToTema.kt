@@ -115,6 +115,7 @@ val innsendingsytelseToTema: Map<Innsendingsytelse, Tema> = mapOf(
     Innsendingsytelse.TILTAKSPENGER to Tema.IND,
     Innsendingsytelse.TOLKING_FOR_DOVE_DOVBLINDE_OG_HORSELSHEMMEDE to Tema.HJE,
     Innsendingsytelse.UFORETRYGD to Tema.UFO,
+    Innsendingsytelse.UNGDOMSPROGRAMMET to Tema.OPP,
     Innsendingsytelse.UTVIDET_BARNETRYGD to Tema.BAR,
     Innsendingsytelse.VARIG_LONNSTILSKUDD to Tema.OPP,
     Innsendingsytelse.VARIG_TILRETTELAGT_ARBEID to Tema.OPP,
