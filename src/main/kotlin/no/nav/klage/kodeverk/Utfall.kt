@@ -19,6 +19,7 @@ enum class Utfall(override val id: String, override val navn: String, override v
     MEDHOLD_ETTER_FVL_35("13", "Medhold etter forvaltningsloven § 35", "Medhold etter forvaltningsloven § 35"),
     BESLUTNING_IKKE_OMGJOERE("14", "Beslutning om ikke å omgjøre", "Beslutning om ikke å omgjøre"),
     STADFESTET_ANNEN_BEGRUNNELSE("15", "Stadfestet med en annen begrunnelse", "Stadfestet med en annen begrunnelse"),
+    HENLAGT("16", "Henlagt", "Henlagt")
     ;
 
 
