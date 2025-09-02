@@ -1,5 +1,8 @@
 package no.nav.klage.kodeverk
 
+import jakarta.persistence.AttributeConverter
+import jakarta.persistence.Converter
+
 enum class FradelingReason(override val id: String, override val navn: String, override val beskrivelse: String) :
     Kode {
     FEIL_HJEMMEL("1", "FEIL_HJEMMEL", "Feil hjemmel"),
@@ -28,4 +31,14 @@ enum class FradelingReason(override val id: String, override val navn: String, o
                 ?: throw IllegalArgumentException("No FradelingReason with navn $navn exists")
         }
     }
+}
+
+@Converter
+class FradelingReasonConverter : AttributeConverter<FradelingReason, String?> {
+
+    override fun convertToDatabaseColumn(entity: FradelingReason?): String? =
+        entity?.id
+
+    override fun convertToEntityAttribute(id: String?): FradelingReason? =
+        id?.let { FradelingReason.of(it) }
 }
