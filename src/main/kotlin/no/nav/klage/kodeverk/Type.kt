@@ -10,6 +10,8 @@ enum class Type(override val id: String, override val navn: String, override val
     ANKE_I_TRYGDERETTEN("3", "Anke i Trygderetten", "Anke i Trygderetten"),
     BEHANDLING_ETTER_TRYGDERETTEN_OPPHEVET("4", "Behandling etter Trygderetten opphevet", "Behandling etter Trygderetten opphevet"),
     OMGJOERINGSKRAV("5", "Omgjøringskrav", "Omgjøringskrav"),
+    BEGJAERING_OM_GJENOPPTAK("6", "Begjæring om gjenopptak", "Begjæring om gjenopptak"),
+    BEGJAERING_OM_GJENOPPTAK_TRYGDERETTEN("7", "Begjæring om gjenopptak i Trygderetten", "Begjæring om gjenopptak i Trygderetten"),
     ;
 
     override fun toString(): String {
