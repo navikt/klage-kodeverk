@@ -24,6 +24,7 @@ val ankeutfallToInfotrygdutfall = mapOf(
     Utfall.DELVIS_MEDHOLD to "DELVIS_INNVILGET",
     Utfall.INNSTILLING_STADFESTELSE to "AVSLAG",
     Utfall.INNSTILLING_AVVIST to "AVSLAG",
+    Utfall.HENLAGT to "HENLAGT",
 )
 
 val klageutfallToInfotrygdutfall = mapOf(
@@ -36,6 +37,7 @@ val klageutfallToInfotrygdutfall = mapOf(
     Utfall.RETUR to "IKKE_BEHANDLET",
     Utfall.HEVET to "HENLAGT_BORTFALT",
     Utfall.UGUNST to "AVSLAG",
+    Utfall.HENLAGT to "HENLAGT",
 )
 
 val klageTilbakebetalingutfallToInfotrygdutfall = mapOf(
@@ -46,4 +48,5 @@ val klageTilbakebetalingutfallToInfotrygdutfall = mapOf(
     Utfall.STADFESTELSE to "TILBAKEBETALING",
     Utfall.AVVIST to "AVVIST_KLAGE",
     Utfall.RETUR to "IKKE_BEHANDLET",
+    Utfall.HENLAGT to "HENLAGT",
 )
