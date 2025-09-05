@@ -48,5 +48,7 @@ val klageTilbakebetalingutfallToInfotrygdutfall = mapOf(
     Utfall.STADFESTELSE to "TILBAKEBETALING",
     Utfall.AVVIST to "AVVIST_KLAGE",
     Utfall.RETUR to "IKKE_BEHANDLET",
+    Utfall.HEVET to "HENLAGT_BORTFALT",
+    Utfall.UGUNST to "AVSLAG",
     Utfall.HENLAGT to "HENLAGT",
 )
