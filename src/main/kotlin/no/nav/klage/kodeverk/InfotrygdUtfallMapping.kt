@@ -1,7 +1,7 @@
 package no.nav.klage.kodeverk
 
 val infotrygdKlageutfallToUtfall = mapOf(
-    "HENLAGT" to Utfall.TRUKKET,
+    "HENLAGT" to Utfall.HENLAGT,
     "IKKE_BEHANDLET" to Utfall.RETUR,
     "HJEMVIST_FOR_NY_BEHANDLING" to Utfall.OPPHEVET,
     "INNVILGET" to Utfall.MEDHOLD,
