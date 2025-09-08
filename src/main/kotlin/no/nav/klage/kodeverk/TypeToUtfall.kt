@@ -12,6 +12,7 @@ val typeToUtfall = mapOf(
         STADFESTELSE,
         AVVIST,
         UGUNST,
+        HENLAGT,
     ),
     Type.ANKE to setOf(
         TRUKKET,
@@ -20,6 +21,7 @@ val typeToUtfall = mapOf(
         DELVIS_MEDHOLD,
         INNSTILLING_STADFESTELSE,
         INNSTILLING_AVVIST,
+        HENLAGT
     ),
     Type.ANKE_I_TRYGDERETTEN to setOf(
         OPPHEVET,
@@ -38,11 +40,14 @@ val typeToUtfall = mapOf(
         DELVIS_MEDHOLD,
         STADFESTELSE,
         AVVIST,
+        HENLAGT,
     ),
     Type.OMGJOERINGSKRAV to setOf(
         MEDHOLD_ETTER_FVL_35,
         BESLUTNING_IKKE_OMGJOERE,
         STADFESTET_ANNEN_BEGRUNNELSE,
+        TRUKKET,
+        HENLAGT
     ),
     Type.BEGJAERING_OM_GJENOPPTAK to setOf(
         MEDHOLD_ETTER_FVL_35,
