@@ -84,6 +84,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E0334("84", "0334", "Nav Vestre Aker"),
     E0383("E0383", "0383", "Nav egne ansatte Oslo"),
     E0393("536", "0393", "Nav Utland og fellestjenester Oslo"),
+    E0400("E0400", "0400", "Nav Innlandet"),
     E0402("85", "0402", "Nav Kongsvinger"),
     E0403("86", "0403", "Nav Hamar"),
     E0412("87", "0412", "Nav Ringsaker"),
