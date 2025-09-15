@@ -528,6 +528,7 @@ enum class Registreringshjemmel(
     FTRL_20_17("522", LovKilde.FOLKETRYGDLOVEN, "§ 20-17"),
     FTRL_20_18("523", LovKilde.FOLKETRYGDLOVEN, "§ 20-18"),
     FTRL_20_19("524", LovKilde.FOLKETRYGDLOVEN, "§ 20-19"),
+    FTRL_20_19_A("FTRL_20_19_A", LovKilde.FOLKETRYGDLOVEN, "§ 20-19a"),
     FTRL_20_20("525", LovKilde.FOLKETRYGDLOVEN, "§ 20-20"),
     FTRL_20_21("526", LovKilde.FOLKETRYGDLOVEN, "§ 20-21"),
     FTRL_20_22("527", LovKilde.FOLKETRYGDLOVEN, "§ 20-22"),
