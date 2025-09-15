@@ -1744,6 +1744,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FTRL_20_17,
         FTRL_20_18,
         FTRL_20_19,
+        FTRL_20_19_A,
         FTRL_20_20,
         FTRL_20_21,
         FTRL_20_22,
