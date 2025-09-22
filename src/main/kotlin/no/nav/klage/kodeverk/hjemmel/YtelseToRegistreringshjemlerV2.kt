@@ -2185,6 +2185,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
     ),
 
     Ytelse.PEN_BAR to listOf(
+        FTRL_18_1A,
         FTRL_18_2,
         FTRL_18_3,
         FTRL_18_4,
