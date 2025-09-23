@@ -1669,8 +1669,11 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_14,
     ),
     Ytelse.PEN_ALD to listOf(
+        FTRL_19_1A,
         FTRL_19_2,
+        FTRL_19_2A,
         FTRL_19_3,
+        FTRL_19_3A,
         FTRL_19_4,
         FTRL_19_5,
         FTRL_19_5A,
@@ -1858,6 +1861,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
     ),
 
     Ytelse.PEN_GJE to listOf(
+        FTRL_17_1A,
         FTRL_17_2,
         FTRL_17_2_FOER_2024,
         FTRL_17_3,
@@ -2025,6 +2029,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         GRL_97,
     ),
     Ytelse.PEN_EYO to listOf(
+        FTRL_17_1A,
         FTRL_17_2,
         FTRL_17_3,
         FTRL_17_4_1,
