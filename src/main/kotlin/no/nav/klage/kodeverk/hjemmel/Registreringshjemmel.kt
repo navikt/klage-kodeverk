@@ -436,6 +436,7 @@ enum class Registreringshjemmel(
     FTRL_16_11("550", LovKilde.FOLKETRYGDLOVEN, "§ 16-11"),
     FTRL_16_12("551", LovKilde.FOLKETRYGDLOVEN, "§ 16-12"),
 
+    FTRL_17_1A("FTRL_17_1A", LovKilde.FOLKETRYGDLOVEN, "§ 17-1 a"),
     FTRL_17_2("552", LovKilde.FOLKETRYGDLOVEN, "§ 17-2"),
     FTRL_17_2_FOER_2024("FTRL_17_2_FOER_2024", LovKilde.FOLKETRYGDLOVEN, "§ 17-2 - Før 01.01.2024"),
     FTRL_17_3("553", LovKilde.FOLKETRYGDLOVEN, "§ 17-3"),
@@ -485,8 +486,11 @@ enum class Registreringshjemmel(
     FTRL_18_10("FTRL_18_10", LovKilde.FOLKETRYGDLOVEN, "§ 18-10"),
     FTRL_18_11("581", LovKilde.FOLKETRYGDLOVEN, "§ 18-11 - Før 01.01.2024"),
 
+    FTRL_19_1A("FTRL_19_1A", LovKilde.FOLKETRYGDLOVEN, "§ 19-1 a"),
     FTRL_19_2("464", LovKilde.FOLKETRYGDLOVEN, "§ 19-2"),
+    FTRL_19_2A("FTRL_19_2A", LovKilde.FOLKETRYGDLOVEN, "§ 19-2 a"),
     FTRL_19_3("465", LovKilde.FOLKETRYGDLOVEN, "§ 19-3"),
+    FTRL_19_3A("FTRL_19_3A", LovKilde.FOLKETRYGDLOVEN, "§ 19-3 a"),
     FTRL_19_4("466", LovKilde.FOLKETRYGDLOVEN, "§ 19-4"),
     FTRL_19_5("467", LovKilde.FOLKETRYGDLOVEN, "§ 19-5"),
     FTRL_19_5A("FTRL_19_5A", LovKilde.FOLKETRYGDLOVEN, "§ 19-5 beregning"),
@@ -529,7 +533,7 @@ enum class Registreringshjemmel(
     FTRL_20_17("522", LovKilde.FOLKETRYGDLOVEN, "§ 20-17"),
     FTRL_20_18("523", LovKilde.FOLKETRYGDLOVEN, "§ 20-18"),
     FTRL_20_19("524", LovKilde.FOLKETRYGDLOVEN, "§ 20-19"),
-    FTRL_20_19_A("FTRL_20_19_A", LovKilde.FOLKETRYGDLOVEN, "§ 20-19a"),
+    FTRL_20_19_A("FTRL_20_19_A", LovKilde.FOLKETRYGDLOVEN, "§ 20-19 a"),
     FTRL_20_20("525", LovKilde.FOLKETRYGDLOVEN, "§ 20-20"),
     FTRL_20_21("526", LovKilde.FOLKETRYGDLOVEN, "§ 20-21"),
     FTRL_20_22("527", LovKilde.FOLKETRYGDLOVEN, "§ 20-22"),
