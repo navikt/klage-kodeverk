@@ -57,7 +57,7 @@ enum class Registreringshjemmel(
     FTRL_4_0A("FTRL_4_0A", LovKilde.FOLKETRYGDLOVEN, "§ 4-0 vanlig o-brev"),
     FTRL_4_0B("FTRL_4_0B", LovKilde.FOLKETRYGDLOVEN, "§ 4-0 forenklet o-brev"),
     FTRL_4_0C("FTRL_4_0C", LovKilde.FOLKETRYGDLOVEN, "§ 4-0 uten o-brev"),
-    FTRL_4_1A("FTRL_4_1A", LovKilde.FOLKETRYGDLOVEN, "§ 4-1a"),
+    FTRL_4_1A("FTRL_4_1A", LovKilde.FOLKETRYGDLOVEN, "§ 4-1 a"),
     FTRL_4_2("232", LovKilde.FOLKETRYGDLOVEN, "§ 4-2"),
     FTRL_4_3A("233", LovKilde.FOLKETRYGDLOVEN, "§ 4-3 første ledd"),
     FTRL_4_3B("234", LovKilde.FOLKETRYGDLOVEN, "§ 4-3 andre ledd"),
@@ -388,7 +388,7 @@ enum class Registreringshjemmel(
     FTRL_14_8("404", LovKilde.FOLKETRYGDLOVEN, "§ 14-8"),
     FTRL_14_9("405", LovKilde.FOLKETRYGDLOVEN, "§ 14-9"),
     FTRL_14_10("406", LovKilde.FOLKETRYGDLOVEN, "§ 14-10"),
-    FTRL_14_10A("869", LovKilde.FOLKETRYGDLOVEN, "§ 14-10a"),
+    FTRL_14_10A("869", LovKilde.FOLKETRYGDLOVEN, "§ 14-10 a"),
     FTRL_14_11("407", LovKilde.FOLKETRYGDLOVEN, "§ 14-11"),
     FTRL_14_12("408", LovKilde.FOLKETRYGDLOVEN, "§ 14-12"),
     FTRL_14_13("409", LovKilde.FOLKETRYGDLOVEN, "§ 14-13"),
@@ -399,7 +399,7 @@ enum class Registreringshjemmel(
     FTRL_14_17_GAMMEL("FTRL_14_17_GAMMEL", LovKilde.FOLKETRYGDLOVEN, "§ 14-17 - før 1. oktober 2024"),
     FTRL_14_18("413", LovKilde.FOLKETRYGDLOVEN, "§ 14-18"),
 
-    FTRL_15_1A("FTRL_15_1A", LovKilde.FOLKETRYGDLOVEN, "§ 15-1a"),
+    FTRL_15_1A("FTRL_15_1A", LovKilde.FOLKETRYGDLOVEN, "§ 15-1 a"),
     FTRL_15_2("431", LovKilde.FOLKETRYGDLOVEN, "§ 15-2"),
     FTRL_15_3("432", LovKilde.FOLKETRYGDLOVEN, "§ 15-3"),
     FTRL_15_4("433", LovKilde.FOLKETRYGDLOVEN, "§ 15-4"),
@@ -474,7 +474,7 @@ enum class Registreringshjemmel(
     FTRL_17_A_7("571", LovKilde.FOLKETRYGDLOVEN, "§ 17 A-7"),
     FTRL_17_A_8("572", LovKilde.FOLKETRYGDLOVEN, "§ 17 A-8"),
 
-    FTRL_18_1A("FTRL_18_1A", LovKilde.FOLKETRYGDLOVEN, "§ 18-1a"),
+    FTRL_18_1A("FTRL_18_1A", LovKilde.FOLKETRYGDLOVEN, "§ 18-1 a"),
     FTRL_18_2("573", LovKilde.FOLKETRYGDLOVEN, "§ 18-2"),
     FTRL_18_3("574", LovKilde.FOLKETRYGDLOVEN, "§ 18-3"),
     FTRL_18_4("575", LovKilde.FOLKETRYGDLOVEN, "§ 18-4 stønadsperiode"),
@@ -949,10 +949,10 @@ enum class Registreringshjemmel(
     BTRL_17("600", LovKilde.BARNETRYGDLOVEN, "§ 17"),
     BTRL_22("BTRL_22", LovKilde.BARNETRYGDLOVEN, "§ 22"),
 
-    KONTSL_1A("KONTSL_1A", LovKilde.KONTANTSTØTTELOVEN, "§ 1a"),
+    KONTSL_1A("KONTSL_1A", LovKilde.KONTANTSTØTTELOVEN, "§ 1 a"),
     KONTSL_2("606", LovKilde.KONTANTSTØTTELOVEN, "§ 2"),
     KONTSL_3("621", LovKilde.KONTANTSTØTTELOVEN, "§ 3"),
-    KONTSL_3A("KONTSL_3A", LovKilde.KONTANTSTØTTELOVEN, "§ 3a"),
+    KONTSL_3A("KONTSL_3A", LovKilde.KONTANTSTØTTELOVEN, "§ 3 a"),
     KONTSL_4("608", LovKilde.KONTANTSTØTTELOVEN, "§ 4"),
     KONTSL_6("609", LovKilde.KONTANTSTØTTELOVEN, "§ 6"),
     KONTSL_7("610", LovKilde.KONTANTSTØTTELOVEN, "§ 7"),
@@ -1178,7 +1178,7 @@ enum class Registreringshjemmel(
     FS_TILL_ST_15A("769", LovKilde.TILLEGGSSTØNADSFORSKRIFTEN, "§ 15 andre ledd"),
     FS_TILL_ST_15B("770", LovKilde.TILLEGGSSTØNADSFORSKRIFTEN, "§ 15 tredje ledd"),
 
-    NAV_L_14A("771", LovKilde.NAV_LOVEN, "§ 14a"),
+    NAV_L_14A("771", LovKilde.NAV_LOVEN, "§ 14 a"),
 
     MIDL_KOMP_SELV_2("772", LovKilde.MIDLERTIDIG_LOV_KOMP_SELVST_OG_FRILANS, "§ 2"),
     MIDL_KOMP_SELV_3("773", LovKilde.MIDLERTIDIG_LOV_KOMP_SELVST_OG_FRILANS, "§ 3"),
