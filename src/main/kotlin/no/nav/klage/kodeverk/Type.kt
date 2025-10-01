@@ -11,7 +11,7 @@ enum class Type(override val id: String, override val navn: String, override val
     BEHANDLING_ETTER_TRYGDERETTEN_OPPHEVET("4", "Behandling etter Trygderetten opphevet", "Behandling etter Trygderetten opphevet"),
     OMGJOERINGSKRAV("5", "Omgjøringskrav", "Omgjøringskrav"),
     BEGJAERING_OM_GJENOPPTAK("6", "Begjæring om gjenopptak", "Begjæring om gjenopptak"),
-    BEGJAERING_OM_GJENOPPTAK_TRYGDERETTEN("7", "Begjæring om gjenopptak i Trygderetten", "Begjæring om gjenopptak i Trygderetten"),
+    BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN("7", "Begjæring om gjenopptak i Trygderetten", "Begjæring om gjenopptak i Trygderetten"),
     ;
 
     override fun toString(): String {
