@@ -750,6 +750,8 @@ enum class Registreringshjemmel(
     TRRL_27("TRRL_27", LovKilde.TRYGDERETTSLOVEN, "§ 27"),
     TRRL_28("TRRL_29", LovKilde.TRYGDERETTSLOVEN, "§ 28"),
 
+    FL_2("FL_2", LovKilde.FORELDELSESLOVEN, "§ 2"),
+    FL_3("FL_3", LovKilde.FORELDELSESLOVEN, "§ 3"),
     FL_2_3("151", LovKilde.FORELDELSESLOVEN, "§§ 2 og 3"),
     FL_10("152", LovKilde.FORELDELSESLOVEN, "§ 10"),
     FL_16("FL_16", LovKilde.FORELDELSESLOVEN, "§ 16"),
