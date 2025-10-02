@@ -2811,6 +2811,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_12,
         TRRL_14,
 
+        FL_2_3,
+
         GRL_97,
     ),
     Ytelse.SUP_UFF to listOf(
@@ -2859,6 +2861,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+
+        FL_2_3,
 
         GRL_97,
     ),
