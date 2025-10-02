@@ -2811,8 +2811,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_12,
         TRRL_14,
 
-        FL_2,
-        FL_3,
+        FL_2_3,
 
         GRL_97,
     ),
@@ -2863,8 +2862,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_12,
         TRRL_14,
 
-        FL_2,
-        FL_3,
+        FL_2_3,
 
         GRL_97,
     ),
