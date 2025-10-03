@@ -46,6 +46,11 @@ internal class KodeverkTest {
     }
 
     @Test
+    fun `TypeToSattPaaVentReason contains all Types`() {
+        assertThat(typeToSattPaaVentReason.keys).containsAll(Type.entries)
+    }
+
+    @Test
     fun `LovKilde has no duplicate values`() {
         assertThat(LovKilde.entries.groupBy {
             it.id
