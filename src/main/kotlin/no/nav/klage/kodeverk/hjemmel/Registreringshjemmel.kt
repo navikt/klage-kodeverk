@@ -881,6 +881,8 @@ enum class Registreringshjemmel(
     GJ_F_FORD_987_2007_12("394", LovKilde.GJENNOMFØRINGSFORORDNING_987_2007, "art. 12"),
 
     EOES_AVTALEN("601", LovKilde.EØS_AVTALEN, "EØS-avtalen"),
+    EOES_AVTALEN_28("EOES_AVTALEN_28", LovKilde.EØS_AVTALEN, "art. 28"),
+    EOES_AVTALEN_36("EOES_AVTALEN_36", LovKilde.EØS_AVTALEN, "art. 36"),
 
     EOES_FORORDNING_1408_71("395", LovKilde.EØS_FORORDNING_1408_71, "Forordning 1408/71"),
 
