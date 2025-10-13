@@ -60,6 +60,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
     Ytelse.HJE_HJE to listOf(
         FTRL_2_1,
         FTRL_2_2,
+        FTRL_2_8,
+        FTRL_2_9,
         FTRL_2_14,
         FTRL_10_3,
         FTRL_10_4,
@@ -133,6 +135,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FS_STØNAD_BRILLER_TIL_BARN_6,
         FS_STØNAD_BRILLER_TIL_BARN_7,
 
+        EOES_AVTALEN_28,
+        EOES_AVTALEN_36,
+
+        EOES_883_2004_3,
         EOES_883_2004_11,
         EOES_883_2004_12,
         EOES_883_2004_13,
@@ -176,6 +182,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
     Ytelse.BIL_BIL to listOf(
         FTRL_2_1,
         FTRL_2_2,
+        FTRL_2_8,
+        FTRL_2_9,
         FTRL_2_14,
         FTRL_10_3,
         FTRL_10_4,
@@ -209,6 +217,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FS_MOK_14,
         FS_MOK_15,
 
+        EOES_AVTALEN_28,
+        EOES_AVTALEN_36,
+
+        EOES_883_2004_3,
         EOES_883_2004_11,
         EOES_883_2004_12,
         EOES_883_2004_13,
@@ -252,6 +264,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
     Ytelse.HEL_HEL to listOf(
         FTRL_2_1,
         FTRL_2_2,
+        FTRL_2_8,
+        FTRL_2_9,
         FTRL_2_14,
         FTRL_10_3,
         FTRL_10_4,
@@ -284,6 +298,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FS_ORT_HJE_MM_10A,
         FS_ORT_HJE_MM_12A,
 
+        EOES_AVTALEN_28,
+        EOES_AVTALEN_36,
+
+        EOES_883_2004_3,
         EOES_883_2004_11,
         EOES_883_2004_12,
         EOES_883_2004_13,
