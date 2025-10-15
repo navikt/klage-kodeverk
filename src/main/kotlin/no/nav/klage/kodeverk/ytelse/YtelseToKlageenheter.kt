@@ -262,5 +262,9 @@ val ytelseToKlageenheter = mapOf(
         E4294,
         E4295,
         E2103
+    ),
+    Ytelse.UNG_UNG to setOf(
+        E4295,
+        E2103,
     )
 )
