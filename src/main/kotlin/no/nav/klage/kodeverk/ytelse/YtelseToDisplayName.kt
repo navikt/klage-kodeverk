@@ -177,9 +177,9 @@ val ytelseToDisplayName: Map<Ytelse, DisplayName> = mapOf(
     ),
     Ytelse.FOS_FOS to DisplayName("Forsikring", "Insurance", "Forsikring"),
     Ytelse.UNG_UNG to DisplayName(
-        "Ungdomsprogrammet",
-        "Youth Program",
-        "Ungdomsprogrammet"
+        "Ungdomsprogramytelsen",
+        "Youth Program benefit",
+        "Ungdomsprogramytinga"
     ),
 )
 

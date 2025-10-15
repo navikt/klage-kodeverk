@@ -68,7 +68,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     HEL_HEL("50", "Hjelpemidler - Ortopediske", "Hjelpemidler - Ortopediske"),
     FOS_FOS("51", "Forsikring", "Forsikring"),
     PAR_PAR("53", "Partsinnsyn", "Partsinnsyn"),
-    UNG_UNG("54", "Ungdomsprogrammet", "Ungdomsprogrammet"),
+    UNG_UNG("54", "Ungdomsprogramytelsen", "Ungdomsprogramytelsen"),
     ;
 
 
