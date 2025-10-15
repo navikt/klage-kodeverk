@@ -262,5 +262,5 @@ val ytelseToKlageenheter = mapOf(
         E4294,
         E4295,
         E2103
-    )
+    ),
 )
