@@ -1234,6 +1234,6 @@ val ytelseToHjemler = mapOf(
     ),
 
     Ytelse.UNG_UNG to listOf(
-        FVL_31
+        FVL_31,
     ),
 )

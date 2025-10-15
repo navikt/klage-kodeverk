@@ -3386,7 +3386,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
     ),
 
     Ytelse.UNG_UNG to listOf(
-        TRRL_9,
+        FVL_31,
     ),
 )
 
