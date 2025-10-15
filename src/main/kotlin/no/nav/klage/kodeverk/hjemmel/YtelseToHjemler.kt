@@ -1231,5 +1231,9 @@ val ytelseToHjemler = mapOf(
         TRRL_11,
         TRRL_14,
         TRRL_27,
-    )
+    ),
+
+    Ytelse.UNG_UNG to listOf(
+        FVL_31
+    ),
 )
