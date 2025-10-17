@@ -1234,7 +1234,8 @@ val ytelseToVedtaksenheter = mapOf(
         E4154,
         E5701,
         E5702,
-        E2103
+        E2103,
+        E5703,
     ),
     Ytelse.PEN_KRI to setOf(
         E4803,
