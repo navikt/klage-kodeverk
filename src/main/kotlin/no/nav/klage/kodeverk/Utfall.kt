@@ -20,7 +20,7 @@ enum class Utfall(override val id: String, override val navn: String, override v
     BESLUTNING_IKKE_OMGJOERE("14", "Beslutning om ikke å omgjøre", "Beslutning om ikke å omgjøre"),
     STADFESTET_ANNEN_BEGRUNNELSE("15", "Stadfestet med en annen begrunnelse", "Stadfestet med en annen begrunnelse"),
     HENLAGT("16", "Henlagt", "Henlagt"),
-    INNSTILLING_GJENOPPTAS_KAS_VEDTAK_STADFESTES("17", "Innstilling: Gjenopptas, men klageinstanses vedtak stadfestes", "Innstilling: Gjenopptas, men klageinstanses vedtak stadfestes"),
+    INNSTILLING_GJENOPPTAS_KAS_VEDTAK_STADFESTES("17", "Innstilling: Gjenopptas, men klageinstansens vedtak stadfestes", "Innstilling: Gjenopptas, men klageinstansens vedtak stadfestes"),
     INNSTILLING_GJENOPPTAS_IKKE("18", "Innstilling: Gjenopptas ikke", "Innstilling: Gjenopptas ikke"),
     GJENOPPTATT_DELVIS_ELLER_FULLT_MEDHOLD("19", "Gjenopptatt - Delvis eller fullt medhold", "Gjenopptatt - Delvis eller fullt medhold"),
     GJENOPPTATT_OPPHEVET("20", "Gjenopptatt - Opphevet", "Gjenopptatt - Opphevet"),
