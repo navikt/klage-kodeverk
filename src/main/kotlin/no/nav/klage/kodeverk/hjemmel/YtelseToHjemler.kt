@@ -281,12 +281,15 @@ val ytelseToHjemler = mapOf(
         SUP_ST_L_17,
         SUP_ST_L_18,
         SUP_ST_L_21,
+        SUP_ST_L_22,
 
         FTRL_21_12,
 
+        FVL_28,
         FVL_29,
         FVL_30,
         FVL_31,
+        FVL_32,
         FVL_35,
 
         TRRL_9,
@@ -308,12 +311,15 @@ val ytelseToHjemler = mapOf(
         SUP_ST_L_17,
         SUP_ST_L_18,
         SUP_ST_L_21,
+        SUP_ST_L_22,
 
         FTRL_21_12,
 
+        FVL_28,
         FVL_29,
         FVL_30,
         FVL_31,
+        FVL_32,
         FVL_35,
 
         TRRL_9,

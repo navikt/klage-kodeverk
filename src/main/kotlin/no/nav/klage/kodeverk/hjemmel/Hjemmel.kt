@@ -83,6 +83,7 @@ enum class Hjemmel(
     SUP_ST_L_17("839", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 17"),
     SUP_ST_L_18("707", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 18"),
     SUP_ST_L_21("840", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 21"),
+    SUP_ST_L_22("SUP_ST_L_22", LovKilde.LOV_OM_SUPPLERENDE_STØNAD, "§ 22"),
 
     FTRL_1_3("FTRL_1_3", LovKilde.FOLKETRYGDLOVEN, "§ 1-3"),
     FTRL_1_3_A("FTRL_1_3_A", LovKilde.FOLKETRYGDLOVEN, "§ 1-3 a"),
