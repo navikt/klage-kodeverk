@@ -1267,4 +1267,10 @@ val ytelseToHjemler = mapOf(
         FTRL_22_17,
         FTRL_22_17A,
     ),
+
+    Ytelse.PEN_KRI to listOf(
+        LOV_OM_KRIGSPENSJON_FOR_MILITÆRPERSONER,
+        LOV_OM_KRIGSPENSJON_FOR_SIVILE,
+        FTRL_22_15
+    )
 )
