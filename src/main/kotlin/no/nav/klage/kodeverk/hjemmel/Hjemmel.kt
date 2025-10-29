@@ -717,7 +717,9 @@ enum class Hjemmel(
     FTL_9("1000.009", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven kapittel 9"),
     MANGLER("1002", LovKilde.UKJENT, "Hjemmel mangler"),
 
+    //Deprecated
     KRAV_OM_OMGJOERING("KRAV_OM_OMGJOERING", LovKilde.ANNET, "Krav om omgjøring"),
+    //Deprecated
     BEGJAERING_OM_GJENOPPTAK("BEGJAERING_OM_GJENOPPTAK", LovKilde.ANNET, "Begjæring om gjenopptak"),
     FEDREKVOTESAK("FEDREKVOTESAK", LovKilde.ANNET, "Fedrekvotesak"),
     ;

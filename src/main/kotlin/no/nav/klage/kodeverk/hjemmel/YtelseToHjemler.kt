@@ -30,9 +30,6 @@ val hjemlerGRU = listOf(
     FVL_31,
     FVL_32,
     FVL_33,
-
-    KRAV_OM_OMGJOERING,
-    BEGJAERING_OM_GJENOPPTAK,
 )
 
 val hjemlerYRK = listOf(
@@ -47,9 +44,6 @@ val hjemlerYRK = listOf(
     FTRL_21_12,
 
     TRRL_9,
-
-    KRAV_OM_OMGJOERING,
-    BEGJAERING_OM_GJENOPPTAK,
 )
 
 /**
@@ -264,9 +258,6 @@ val ytelseToHjemler = mapOf(
         FTRL_22_17A,
 
         ANKENEMNDA,
-
-        KRAV_OM_OMGJOERING,
-        BEGJAERING_OM_GJENOPPTAK,
     ),
     Ytelse.SUP_PEN to listOf(
         SUP_ST_L_3,
@@ -924,7 +915,6 @@ val ytelseToHjemler = mapOf(
 
         EOES_883_2004,
         ANDRE_TRYGDEAVTALER,
-        BEGJAERING_OM_GJENOPPTAK,
     ),
 
     Ytelse.GRA_GRA to listOf(
@@ -1030,7 +1020,6 @@ val ytelseToHjemler = mapOf(
         FTRL_22_17,
 
         FVL_35_C_UGUNST,
-        FVL_35_OMGJOERING,
 
         EOES_883_2004_1,
         EOES_883_2004_2_OMFATTET,
@@ -1058,7 +1047,6 @@ val ytelseToHjemler = mapOf(
         GJ_F_FORD_987_2009_11,
         GJ_F_FORD_987_2009_12,
 
-        BEGJAERING_OM_GJENOPPTAK,
         ANDRE_TRYGDEAVTALER,
         TRYGDEAVTALE_MED_ENGLAND,
         TRYGDEAVTALE_MED_USA,
@@ -1099,9 +1087,6 @@ val ytelseToHjemler = mapOf(
         FTRL_22_17,
 
         FVL_35_C_UGUNST,
-        FVL_35_OMGJOERING,
-
-        BEGJAERING_OM_GJENOPPTAK,
     ),
 
     Ytelse.TSO_TSO to listOf(
