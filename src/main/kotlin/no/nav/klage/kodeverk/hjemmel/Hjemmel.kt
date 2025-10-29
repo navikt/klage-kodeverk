@@ -700,6 +700,18 @@ enum class Hjemmel(
     FS_UNG_12("FS_UNG_12", LovKilde.FORSKRIFT_OM_UNGDOMSPROGRAM_OG_UNGDOMSPROGRAMYTELSE, "§ 12"),
     FS_UNG_14("FS_UNG_14", LovKilde.FORSKRIFT_OM_UNGDOMSPROGRAM_OG_UNGDOMSPROGRAMYTELSE, "§ 14"),
 
+    LOV_OM_KRIGSPENSJON_FOR_MILITÆRPERSONER(
+        "LOV_OM_KRIGSPENSJON_FOR_MILITÆRPERSONER",
+        LovKilde.LOV_OM_KRIGSPENSJON_FOR_MILITÆRPERSONER,
+        "Lov om krigspensjon for militærpersoner"
+    ),
+
+    LOV_OM_KRIGSPENSJON_FOR_SIVILE(
+        "LOV_OM_KRIGSPENSJON_FOR_SIVILE",
+        LovKilde.LOV_OM_KRIGSPENSJON_FOR_SIVILE,
+        "Lov om krigspensjon for sivile m.v"
+    ),
+
     //Backwards compatibility in dev with search and innstillinger. Can be removed later?
     FTL("1000", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven"),
     FTL_9("1000.009", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven kapittel 9"),
