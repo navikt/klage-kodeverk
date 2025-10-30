@@ -278,6 +278,7 @@ val ytelseToHjemler = mapOf(
 
         FTRL_21_12,
 
+        FVL_12,
         FVL_28,
         FVL_29,
         FVL_30,
@@ -308,6 +309,7 @@ val ytelseToHjemler = mapOf(
 
         FTRL_21_12,
 
+        FVL_12,
         FVL_28,
         FVL_29,
         FVL_30,
