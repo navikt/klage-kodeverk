@@ -1005,7 +1005,10 @@ enum class Registreringshjemmel(
     BL_76("640", LovKilde.BARNELOVA, "§ 76"),
     BL_78("BL_78", LovKilde.BARNELOVA, "§ 78 (tvangsgrunnlag)"),
     BL_80("641", LovKilde.BARNELOVA, "§ 80"),
+    BL_81_1("BL_81_1", LovKilde.BARNELOVA, "§ 81 første ledd"),
+    BL_81_2("BL_81_2", LovKilde.BARNELOVA, "§ 81 annet ledd"),
     BL_83("821", LovKilde.BARNELOVA, "§ 83"),
+    BL_85_2("BL_85_2", LovKilde.BARNELOVA, "§ 85 annet ledd"),
 
     FS_FASTS_OG_END_1("695", LovKilde.FORSKRIFT_OM_FASTSETTELSE_OG_ENDRING_AV_FORSTRINGSTILSKOT, "§ 1"),
     FS_FASTS_OG_END_2("642", LovKilde.FORSKRIFT_OM_FASTSETTELSE_OG_ENDRING_AV_FORSTRINGSTILSKOT, "§ 2"),

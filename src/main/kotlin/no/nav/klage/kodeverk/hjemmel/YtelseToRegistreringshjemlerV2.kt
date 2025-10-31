@@ -3354,7 +3354,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
     ),
     Ytelse.FAR_FAR to listOf(
         BL_7,
-        BL_80
+        BL_80,
+        BL_81_1,
+        BL_81_2,
+        BL_85_2,
     ),
 
     Ytelse.AAR_AAR to listOf(
