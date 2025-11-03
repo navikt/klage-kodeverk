@@ -181,6 +181,9 @@ val ytelseToDisplayName: Map<Ytelse, DisplayName> = mapOf(
         "Youth Program benefit",
         "Ungdomsprogramytinga"
     ),
+    Ytelse.PEN_GYS to DisplayName(
+        "Gammel yrkesskade", "Old occupational injury", "Gammal yrkesskade",
+    ),
 )
 
 

@@ -1307,6 +1307,8 @@ enum class Registreringshjemmel(
     FEDREKVOTESAK("FEDREKVOTESAK", LovKilde.ANNET, "Fedrekvotesak"),
 
     GRL_97("GRL_97", LovKilde.GRUNNLOVEN, "§ 97"),
+
+    GAMMEL_YRKESSKADE("GAMMEL_YRKESSKADE", LovKilde.ANNET, "Gammel yrkesskade"),
     ;
     //@formatter:on
 

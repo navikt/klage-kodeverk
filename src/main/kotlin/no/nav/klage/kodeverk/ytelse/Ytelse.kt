@@ -69,6 +69,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     FOS_FOS("51", "Forsikring", "Forsikring"),
     PAR_PAR("53", "Partsinnsyn", "Partsinnsyn"),
     UNG_UNG("54", "Ungdomsprogramytelsen", "Ungdomsprogramytelsen"),
+    PEN_GYS("55", "Gammel yrkesskade", "Gammel yrkesskade"),
     ;
 
 
@@ -96,7 +97,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
             KON_KON -> Tema.KON
             MED_MED -> Tema.MED
             PEN_BAR -> Tema.EYB
-            PEN_ALD, PEN_AFP, PEN_KRI, PEN_GJE -> Tema.PEN
+            PEN_ALD, PEN_AFP, PEN_KRI, PEN_GJE, PEN_GYS -> Tema.PEN
             PEN_EYO -> Tema.EYO
             SUP_PEN, SUP_UFF -> Tema.SUP
             TIL_TIP, TIL_TIL -> Tema.TIL
