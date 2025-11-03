@@ -1259,5 +1259,9 @@ val ytelseToHjemler = mapOf(
         LOV_OM_KRIGSPENSJON_FOR_MILITÆRPERSONER,
         LOV_OM_KRIGSPENSJON_FOR_SIVILE,
         FTRL_22_15
+    ),
+
+    Ytelse.PEN_GYS to listOf(
+        GAMMEL_YRKESSKADE,
     )
 )

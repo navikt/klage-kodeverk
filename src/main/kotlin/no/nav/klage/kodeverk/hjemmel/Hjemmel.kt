@@ -712,6 +712,8 @@ enum class Hjemmel(
         "Lov om krigspensjon for sivile m.v"
     ),
 
+    GAMMEL_YRKESSKADE("GAMMEL_YRKESSKADE", LovKilde.ANNET, "Gammel yrkesskade"),
+
     //Backwards compatibility in dev with search and innstillinger. Can be removed later?
     FTL("1000", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven"),
     FTL_9("1000.009", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven kapittel 9"),

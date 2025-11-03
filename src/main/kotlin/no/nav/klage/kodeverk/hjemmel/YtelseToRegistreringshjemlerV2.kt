@@ -3391,5 +3391,9 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
     Ytelse.UNG_UNG to listOf(
         FVL_31,
     ),
+
+    Ytelse.PEN_GYS to listOf(
+        GAMMEL_YRKESSKADE,
+    )
 )
 
