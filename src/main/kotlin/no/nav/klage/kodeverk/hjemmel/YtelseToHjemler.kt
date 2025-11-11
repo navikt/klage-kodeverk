@@ -1074,6 +1074,7 @@ val ytelseToHjemler = mapOf(
         FTRL_12_13_SIVILSTAND,
         FTRL_12_13_UNG_UFOER,
         FTRL_12_14_EO,
+        Hjemmel.FTRL_12_14_EO_ARBEIDSFORSOEK,
         FTRL_12_14_INNTEKTSENDRING,
         FTRL_12_15,
         FTRL_12_16,
