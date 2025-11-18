@@ -1,5 +1,6 @@
 package no.nav.klage.kodeverk
 
+import com.fasterxml.jackson.annotation.JsonValue
 import jakarta.persistence.AttributeConverter
 import jakarta.persistence.Converter
 
@@ -28,11 +29,13 @@ enum class Utfall(override val id: String, override val navn: String, override v
     IKKE_GJENOPPTATT("22", "Ikke gjenopptatt", "Ikke gjenopptatt"),
     ;
 
-
     override fun toString(): String {
         return "Utfall(id=$id, " +
                 "navn=$navn)"
     }
+
+    @JsonValue
+    fun toJson(): String = name
 
     companion object {
         fun of(id: String): Utfall {

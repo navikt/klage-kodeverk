@@ -1,5 +1,6 @@
 package no.nav.klage.kodeverk
 
+import com.fasterxml.jackson.annotation.JsonValue
 import jakarta.persistence.AttributeConverter
 import jakarta.persistence.Converter
 
@@ -11,6 +12,9 @@ enum class PartIdType(override val id: String, override val navn: String, overri
         return "PartIdType(id=$id, " +
                 "navn=$navn)"
     }
+
+    @JsonValue
+    fun toJson(): String = name
 
     companion object {
         fun of(id: String): PartIdType {
