@@ -1,5 +1,7 @@
 package no.nav.klage.kodeverk
 
+import com.fasterxml.jackson.annotation.JsonValue
+
 enum class Template(override val id: String, override val navn: String, override val beskrivelse: String) : Kode {
 
     NOTAT("notat", "notat", "Notat"),
@@ -14,6 +16,9 @@ enum class Template(override val id: String, override val navn: String, override
         return "Template(id=$id, " +
                 "navn=$navn)"
     }
+
+    @JsonValue
+    fun toJson(): String = name
 
     companion object {
         fun of(id: String): Template {

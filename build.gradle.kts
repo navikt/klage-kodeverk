@@ -3,7 +3,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 val jakartaPersistenceApiVersion = "3.1.0"
 val junitJupiterVersion = "5.10.2"
 val assertjCoreVersion = "3.25.3"
-
+val jackson = "2.20"
 
 plugins {
 	kotlin("jvm") version "1.9.24"
@@ -22,6 +22,7 @@ repositories {
 dependencies {
 	compileOnly("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("jakarta.persistence:jakarta.persistence-api:$jakartaPersistenceApiVersion")
+    implementation("com.fasterxml.jackson.core:jackson-annotations:$jackson")
 	testImplementation("org.junit.jupiter:junit-jupiter:$junitJupiterVersion")
 	testImplementation("org.assertj:assertj-core:$assertjCoreVersion")
 }

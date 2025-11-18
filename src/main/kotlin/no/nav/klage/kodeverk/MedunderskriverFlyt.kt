@@ -1,5 +1,6 @@
 package no.nav.klage.kodeverk
 
+import com.fasterxml.jackson.annotation.JsonValue
 import jakarta.persistence.AttributeConverter
 import jakarta.persistence.Converter
 
@@ -14,6 +15,9 @@ enum class MedunderskriverFlyt(override val id: String, override val navn: Strin
         return "Medunderskriverflyt(id=$id, " +
                 "navn=$navn)"
     }
+
+    @JsonValue
+    fun toJson(): String = name
 
     companion object {
         fun of(id: String): MedunderskriverFlyt {
