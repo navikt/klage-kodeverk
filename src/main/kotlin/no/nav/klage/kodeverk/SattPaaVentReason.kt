@@ -8,6 +8,8 @@ enum class SattPaaVentReason(override val id: String, override val navn: String,
     SATT_I_BERO("4", "SATT_I_BERO", "Satt i bero etter instruks"),
     ANNET("5", "ANNET", "Annet"),
     ANNET_TIL_FORELEGGELSE("6", "ANNET_TIL_FORELEGGELSE", "Annet til foreleggelse"),
+    VENTER_PAA_UTFYLLENDE_KLAGE("7", "VENTER_PAA_UTFYLLENDE_KLAGE", "Venter på utfyllende klage"),
+    VENTER_PAA_UTFYLLENDE_ANKE("8", "VENTER_PAA_UTFYLLENDE_ANKE", "Venter på utfyllende anke"),
     ;
 
 
