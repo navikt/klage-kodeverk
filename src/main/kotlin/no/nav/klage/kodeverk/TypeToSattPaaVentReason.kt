@@ -11,7 +11,7 @@ val standardSet = setOf(
 )
 
 val typeToSattPaaVentReason = mapOf(
-    Type.KLAGE to standardSet,
+    Type.KLAGE to standardSet.plus(VENTER_PAA_UTFYLLENDE_KLAGE),
     Type.ANKE to standardSet.plus(listOf(OVERSENDELSESBREV_PAA_TILSVAR, VENTER_PAA_UTFYLLENDE_ANKE)),
     Type.ANKE_I_TRYGDERETTEN to standardSet,
     Type.BEHANDLING_ETTER_TRYGDERETTEN_OPPHEVET to standardSet,
