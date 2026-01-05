@@ -464,6 +464,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E4426("531", "4426", "Nav Arbeid og ytelser lønnsgaranti Vardø"),
     E1783("532", "1783", "Nav Værnes"),
     E2830("533", "2830", "DIR Ytelsesavdelingen"),
+    E2844("E2844", "2844", "Velferdsavdelingen"),
     E4151("535", "4151", "Nav Økonomi Stønad"),
     E5700("E5700", "5700", "Nav Trøndelag"),
     E5702("537", "5702", "Nav Lerkendal"),
