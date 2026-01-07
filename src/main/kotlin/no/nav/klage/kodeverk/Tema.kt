@@ -40,6 +40,7 @@ enum class Tema(override val id: String, override val navn: String, override val
     MED("25", "MED", "Medlemskap"),
     MOB("26", "MOB", "Mobilitetsfremmende stønad"),
     OMS("27", "OMS", "Omsorgspenger, pleiepenger og opplæringspenger"),
+    OLJ("OLJ", "OLJ", "Oljepionerene"),
     OPA("28", "OPA", "Oppfølging - Arbeidsgiver"),
     OPP("29", "OPP", "Oppfølging"),
     PAI("PAI", "PAI", "Innsyn"),
