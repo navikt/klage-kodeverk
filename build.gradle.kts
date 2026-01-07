@@ -1,4 +1,5 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 val jakartaPersistenceApiVersion = "3.2.0"
 val junitJupiterVersion = "6.0.2"
@@ -25,12 +26,13 @@ dependencies {
     implementation("com.fasterxml.jackson.core:jackson-annotations:$jackson")
 	testImplementation("org.junit.jupiter:junit-jupiter:$junitJupiterVersion")
 	testImplementation("org.assertj:assertj-core:$assertjCoreVersion")
+	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
 tasks.withType<KotlinCompile> {
-	kotlinOptions {
+	compilerOptions {
+		jvmTarget.set(JvmTarget.JVM_21)
 		freeCompilerArgs = listOf("-Xjsr305=strict")
-		jvmTarget = "21"
 	}
 }
 
