@@ -1,12 +1,13 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
-val jakartaPersistenceApiVersion = "3.1.0"
-val junitJupiterVersion = "5.10.2"
-val assertjCoreVersion = "3.25.3"
+val jakartaPersistenceApiVersion = "3.2.0"
+val junitJupiterVersion = "6.0.2"
+val assertjCoreVersion = "3.27.6"
 val jackson = "2.20"
 
 plugins {
-	kotlin("jvm") version "1.9.24"
+	kotlin("jvm") version "2.3.0"
 	id("maven-publish")
 	id("java-library")
 }
@@ -25,12 +26,13 @@ dependencies {
     implementation("com.fasterxml.jackson.core:jackson-annotations:$jackson")
 	testImplementation("org.junit.jupiter:junit-jupiter:$junitJupiterVersion")
 	testImplementation("org.assertj:assertj-core:$assertjCoreVersion")
+	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
 tasks.withType<KotlinCompile> {
-	kotlinOptions {
+	compilerOptions {
+		jvmTarget.set(JvmTarget.JVM_21)
 		freeCompilerArgs = listOf("-Xjsr305=strict")
-		jvmTarget = "21"
 	}
 }
 
