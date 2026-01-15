@@ -2423,6 +2423,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         EOES_883_2004_67,
         EOES_883_2004_68,
         EOES_883_2004_69,
+        EOES_883_2004_81,
 
         GJ_F_FORD_987_2009_11,
         GJ_F_FORD_987_2009_14B,
