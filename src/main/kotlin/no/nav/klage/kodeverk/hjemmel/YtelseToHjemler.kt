@@ -189,6 +189,8 @@ val ytelseToHjemler = mapOf(
         FTRL_8_1,
         FTRL_8_2,
         FTRL_8_3,
+        //Deprecated, skal fases ut ved egen håndtering.
+        FTRL_8_4,
         FTRL_8_4_1,
         FTRL_8_4_2,
         FTRL_8_4_3,
