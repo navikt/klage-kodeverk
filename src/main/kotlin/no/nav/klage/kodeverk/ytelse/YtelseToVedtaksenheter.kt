@@ -67,6 +67,7 @@ val ytelseToVedtaksenheter = mapOf(
         E4418,
         E4483,
         E4525,
+        E4450,
     ),
     Ytelse.AAP_AAP to setOf(
         E4404,
