@@ -24,7 +24,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E4418("21", "4418", "Nav Arbeid og ytelser Fauske"),
     E4432("22", "4432", "Nav Arbeid og ytelser Follo"),
     E4409("23", "4409", "Nav Arbeid og ytelser Arendal"),
-    E4450("24", "4450", "Dagpenger Inn"),
+    E4450("24", "4450", "Dagpenger"),
     E4470("25", "4470", "Dagpenger-Inn-Utland Eksport/Import"),
     E4465("26", "4465", "Dagpenger - Grensearbeider inn"),
     E4455("27", "4455", "Dagpenger u permittering Inn"),
