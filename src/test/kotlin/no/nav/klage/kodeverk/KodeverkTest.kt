@@ -1,8 +1,10 @@
 package no.nav.klage.kodeverk
 
 import no.nav.klage.kodeverk.hjemmel.Hjemmel
+import no.nav.klage.kodeverk.hjemmel.HjemmelAndUtfasesStatus
 import no.nav.klage.kodeverk.hjemmel.LovKilde
 import no.nav.klage.kodeverk.hjemmel.Registreringshjemmel
+import no.nav.klage.kodeverk.hjemmel.ytelseToHjemler
 import no.nav.klage.kodeverk.innsendingsytelse.Innsendingsytelse
 import no.nav.klage.kodeverk.innsendingsytelse.innsendingsytelseToAnkeEnhet
 import no.nav.klage.kodeverk.innsendingsytelse.innsendingsytelseToDisplayName
@@ -319,6 +321,27 @@ internal class KodeverkTest {
             it.value.size > 1
         }).isEmpty()
     }
+
+    @Test
+    fun `YtelseToHjemler contains only HjemmelAndUtfasesStatus objects`() {
+        ytelseToHjemler.forEach { (_, hjemler) ->
+            hjemler.forEach { hjemmelAndUtfasesStatus ->
+                assertThat(hjemmelAndUtfasesStatus).isInstanceOf(HjemmelAndUtfasesStatus::class.java)
+            }
+        }
+    }
+
+    @Test
+    fun `YtelseToHjemler contains no duplicates`() {
+        ytelseToHjemler.forEach { (_, hjemmelAndUtfasesStatus) ->
+            val hjemmelSet = mutableSetOf<Hjemmel>()
+            hjemmelAndUtfasesStatus.forEach { hjemmelAndUtfasesStatus ->
+                assertThat(hjemmelSet).doesNotContain(hjemmelAndUtfasesStatus.hjemmel)
+                hjemmelSet.add(hjemmelAndUtfasesStatus.hjemmel)
+            }
+        }
+    }
+
 
 //    @Test
 //    fun `print innsendingshjemler for excel export`() {
