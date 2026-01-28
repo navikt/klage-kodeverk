@@ -2511,6 +2511,12 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FVL_34,
         FVL_35,
         FVL_36,
+
+        FL_2_3,
+        FL_10,
+        FL_17,
+        FL_21,
+        FL_28,
     ),
     Ytelse.BID_BAB to listOf(
         BL_7,
