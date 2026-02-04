@@ -1,10 +1,6 @@
 package no.nav.klage.kodeverk
 
-import no.nav.klage.kodeverk.hjemmel.Hjemmel
-import no.nav.klage.kodeverk.hjemmel.HjemmelAndUtfasesStatus
-import no.nav.klage.kodeverk.hjemmel.LovKilde
-import no.nav.klage.kodeverk.hjemmel.Registreringshjemmel
-import no.nav.klage.kodeverk.hjemmel.ytelseToHjemler
+import no.nav.klage.kodeverk.hjemmel.*
 import no.nav.klage.kodeverk.innsendingsytelse.Innsendingsytelse
 import no.nav.klage.kodeverk.innsendingsytelse.innsendingsytelseToAnkeEnhet
 import no.nav.klage.kodeverk.innsendingsytelse.innsendingsytelseToDisplayName
@@ -343,14 +339,13 @@ internal class KodeverkTest {
     }
 
 
-//    @Test
-//    fun `print innsendingshjemler for excel export`() {
-//        ytelseTilHjemler.entries.sortedBy { it.key.navn }.forEach { ytelseTilHjemmel ->
-//            ytelseTilHjemmel.value.sortedBy { it.lovKilde.navn }.forEach {
-//                println(ytelseTilHjemmel.key.navn + ";" + it.spesifikasjon + ";" + it.lovKilde.navn)
-//            }
-//        }
-//    }
+    @Test
+    fun `print innsendingshjemler for excel export`() {
+        ytelseToHjemler[Ytelse.TSO_TSO]?.forEach {
+            println("${it.hjemmel.spesifikasjon}")
+        }
+
+    }
 
 //    @Test
 //    fun `print ytelser without foreldelseslov export`() {
