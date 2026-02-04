@@ -54,6 +54,11 @@ enum class Ytelse(override val id: String, override val navn: String, override v
         "Støtte til arbeids- og utdanningsreiser",
         "Støtte til arbeids- og utdanningsreiser"
     ),
+    TSR_ASO(
+        "56",
+        "Tilleggsstønad arbeidssøkere",
+        "Tilleggsstønad arbeidssøkere"
+    ),
     FRI_FRI(
         "43",
         "Kompensasjonsytelse for selvstendig næringsdrivende og frilansere",
@@ -105,7 +110,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
             YRK_YRK, YRK_MEN, YRK_YSY -> Tema.YRK
             OPP_OPP -> Tema.OPP
             AAR_AAR -> Tema.AAR
-            TSR_TSR -> Tema.TSR
+            TSR_TSR, TSR_ASO -> Tema.TSR
             FRI_FRI -> Tema.FRI
             TSO_TSO -> Tema.TSO
             FAR_FAR -> Tema.FAR

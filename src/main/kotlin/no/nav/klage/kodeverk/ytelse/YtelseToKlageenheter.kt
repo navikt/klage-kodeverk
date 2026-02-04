@@ -213,6 +213,11 @@ val ytelseToKlageenheter = mapOf(
         E4293,
         E2103
     ),
+    Ytelse.TSR_ASO to setOf(
+        E4250,
+        E4291,
+        E2103
+    ),
     Ytelse.FAR_FAR to setOf(
         E4293,
         E2103

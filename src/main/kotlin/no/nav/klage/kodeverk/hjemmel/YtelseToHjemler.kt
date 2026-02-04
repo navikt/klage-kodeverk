@@ -1098,6 +1098,26 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FVL_35_C_UGUNST),
     ),
 
+    Ytelse.TSR_ASO to listOf(
+        HjemmelAndUtfasesStatus(ARBML_13),
+        HjemmelAndUtfasesStatus(ARBML_17),
+        HjemmelAndUtfasesStatus(ARBML_22),
+        HjemmelAndUtfasesStatus(FS_TILL_ST_1_3_MOBILITET),
+        HjemmelAndUtfasesStatus(FS_TILL_ST_3_REISE),
+        HjemmelAndUtfasesStatus(FS_TILL_ST_5),
+        HjemmelAndUtfasesStatus(FS_TILL_ST_6_FLYTTING),
+        HjemmelAndUtfasesStatus(FS_TILL_ST_15_2),
+        HjemmelAndUtfasesStatus(FS_TILL_ST_15_3),
+        HjemmelAndUtfasesStatus(FL_2_3),
+        HjemmelAndUtfasesStatus(FL_10),
+        HjemmelAndUtfasesStatus(FVL_11),
+        HjemmelAndUtfasesStatus(FVL_17),
+        HjemmelAndUtfasesStatus(FVL_18_19),
+        HjemmelAndUtfasesStatus(FVL_35),
+        HjemmelAndUtfasesStatus(FVL_41),
+        HjemmelAndUtfasesStatus(FVL_42),
+    ),
+
     Ytelse.TSO_TSO to listOf(
         HjemmelAndUtfasesStatus(ARBML_13),
         HjemmelAndUtfasesStatus(ARBML_17),

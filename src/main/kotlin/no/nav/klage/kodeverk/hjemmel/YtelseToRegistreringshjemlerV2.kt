@@ -177,7 +177,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
-    ) ,
+    ),
 
     Ytelse.BIL_BIL to listOf(
         FTRL_2_1,
@@ -259,7 +259,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
-    ) ,
+    ),
 
     Ytelse.HEL_HEL to listOf(
         FTRL_2_1,
@@ -3125,6 +3125,25 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FS_ARB_UTD_R_5,
         FS_ARB_UTD_R_6,
         FS_ARB_UTD_R_8,
+    ),
+    Ytelse.TSR_ASO to listOf(
+        ARBML_13,
+        ARBML_17,
+        ARBML_22,
+        FS_TILL_ST_1D,
+        FS_TILL_ST_3A,
+        FS_TILL_ST_5,
+        FS_TILL_ST_6A,
+        FS_TILL_ST_15A,
+        FS_TILL_ST_15B,
+        FL_2_3,
+        FL_10,
+        FVL_11,
+        FVL_17,
+        FVL_18_19,
+        FVL_35,
+        FVL_41,
+        FVL_42,
     ),
     Ytelse.TSO_TSO to listOf(
         FS_TILL_ST_1,

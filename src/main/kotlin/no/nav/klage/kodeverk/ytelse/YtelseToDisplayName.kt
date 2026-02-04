@@ -141,6 +141,11 @@ val ytelseToDisplayName: Map<Ytelse, DisplayName> = mapOf(
         "Work and education travel grant",
         "Stønad til arbeids- og utdanningsreiser",
     ),
+    Ytelse.TSR_ASO to DisplayName(
+        "Tilleggsstønad arbeidssøkere",
+        "Supplemental benefit for jobseekers",
+        "Tilleggsstønad arbeidssøkjarar",
+    ),
     Ytelse.FRI_FRI to DisplayName(
         "Kompensasjonsytelse for selvstendig næringsdrivende og frilansere",
         "Compensation for self-employed and freelancers",
