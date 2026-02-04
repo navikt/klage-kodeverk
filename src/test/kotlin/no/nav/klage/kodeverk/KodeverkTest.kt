@@ -339,13 +339,13 @@ internal class KodeverkTest {
     }
 
 
-    @Test
-    fun `print innsendingshjemler for excel export`() {
-        ytelseToHjemler[Ytelse.TSO_TSO]?.forEach {
-            println("${it.hjemmel.spesifikasjon}")
-        }
-
-    }
+//    @Test
+//    fun `print innsendingshjemler for excel export`() {
+//        ytelseToHjemler[Ytelse.TSO_TSO]?.forEach {
+//            println("${it.hjemmel.spesifikasjon}")
+//        }
+//
+//    }
 
 //    @Test
 //    fun `print ytelser without foreldelseslov export`() {
