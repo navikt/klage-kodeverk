@@ -716,6 +716,13 @@ enum class Hjemmel(
 
     GAMMEL_YRKESSKADE("GAMMEL_YRKESSKADE", LovKilde.ANNET, "Gammel yrkesskade"),
 
+    FS_ARB_UTD_R_2("FS_ARB_UTD_R_2", LovKilde.FORSKRIFT_OM_ARBEIDS_OG_UTDANNINGSREISER, "§ 2"),
+    FS_ARB_UTD_R_3("FS_ARB_UTD_R_3", LovKilde.FORSKRIFT_OM_ARBEIDS_OG_UTDANNINGSREISER, "§ 3"),
+    FS_ARB_UTD_R_4("FS_ARB_UTD_R_4", LovKilde.FORSKRIFT_OM_ARBEIDS_OG_UTDANNINGSREISER, "§ 4"),
+    FS_ARB_UTD_R_5("FS_ARB_UTD_R_5", LovKilde.FORSKRIFT_OM_ARBEIDS_OG_UTDANNINGSREISER, "§ 5"),
+    FS_ARB_UTD_R_6("FS_ARB_UTD_R_6", LovKilde.FORSKRIFT_OM_ARBEIDS_OG_UTDANNINGSREISER, "§ 6"),
+    FS_ARB_UTD_R_8("FS_ARB_UTD_R_8", LovKilde.FORSKRIFT_OM_ARBEIDS_OG_UTDANNINGSREISER, "§ 8"),
+
     //Backwards compatibility in dev with search and innstillinger. Can be removed later?
     FTL("1000", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven"),
     FTL_9("1000.009", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven kapittel 9"),

@@ -2626,7 +2626,7 @@ val ytelseToRegistreringshjemlerV1 = mapOf(
         AFP_62_PRIVAT,
         AFP_62_OFFENTLIG
     ),
-    Ytelse.TSR_TSR to listOf(
+    Ytelse.HJE_AUR to listOf(
         FS_ARB_UTD_R_2,
         FS_ARB_UTD_R_3,
         FS_ARB_UTD_R_4,
