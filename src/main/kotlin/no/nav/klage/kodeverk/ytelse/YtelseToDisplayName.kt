@@ -136,7 +136,7 @@ val ytelseToDisplayName: Map<Ytelse, DisplayName> = mapOf(
     Ytelse.AAR_AAR to DisplayName(
         "AA-register", "AA registry", "AA-register",
     ),
-    Ytelse.TSR_TSR to DisplayName(
+    Ytelse.HJE_AUR to DisplayName(
         "Støtte til arbeids- og utdanningsreiser",
         "Work and education travel grant",
         "Stønad til arbeids- og utdanningsreiser",

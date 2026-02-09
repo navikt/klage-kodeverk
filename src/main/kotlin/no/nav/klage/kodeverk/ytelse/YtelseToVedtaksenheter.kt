@@ -2138,7 +2138,7 @@ val ytelseToVedtaksenheter = mapOf(
         E4534,
         E2103
     ),
-    Ytelse.TSR_TSR to setOf(
+    Ytelse.HJE_AUR to setOf(
         E0587,
         E2103
     ),

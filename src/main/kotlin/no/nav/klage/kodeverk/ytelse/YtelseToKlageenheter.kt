@@ -208,7 +208,7 @@ val ytelseToKlageenheter = mapOf(
         E4250,
         E2103
     ),
-    Ytelse.TSR_TSR to setOf(
+    Ytelse.HJE_AUR to setOf(
         E4292,
         E4293,
         E2103

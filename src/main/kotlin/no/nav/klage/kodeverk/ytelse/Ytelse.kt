@@ -49,7 +49,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     UFO_TVF("39", "Tvungen forvalting", "Tvungen forvalting"),
     OPP_OPP("40", "Oppfølgingssak - NAV-loven §14a", "Oppfølgingssak - NAV-loven §14a"),
     AAR_AAR("41", "AA-register", "AA-register"),
-    TSR_TSR(
+    HJE_AUR(
         "42",
         "Støtte til arbeids- og utdanningsreiser",
         "Støtte til arbeids- og utdanningsreiser"
@@ -98,7 +98,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
             GEN_GEN -> Tema.GEN
             GRA_GRA -> Tema.GRA
             GRU_HJE, GRU_GRU -> Tema.GRU
-            HJE_HJE -> Tema.HJE
+            HJE_HJE, HJE_AUR -> Tema.HJE
             KON_KON -> Tema.KON
             MED_MED -> Tema.MED
             PEN_BAR -> Tema.EYB
@@ -110,7 +110,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
             YRK_YRK, YRK_MEN, YRK_YSY -> Tema.YRK
             OPP_OPP -> Tema.OPP
             AAR_AAR -> Tema.AAR
-            TSR_TSR, TSR_ASO -> Tema.TSR
+            TSR_ASO -> Tema.TSR
             FRI_FRI -> Tema.FRI
             TSO_TSO -> Tema.TSO
             FAR_FAR -> Tema.FAR
