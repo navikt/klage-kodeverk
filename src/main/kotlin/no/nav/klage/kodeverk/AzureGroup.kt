@@ -1,7 +1,5 @@
 package no.nav.klage.kodeverk
 
-import javax.naming.Name
-
 enum class AzureGroup(override val id: String, override val navn: String, override val reference: String): CodeWithReference{
     KABAL_OPPGAVESTYRING_ALLE_ENHETER("KABAL_OPPGAVESTYRING_ALLE_ENHETER", "Kabal Oppgavestyring Alle Enheter", "0000-GA-KLAGE-KABAL_OPPGAVESTYRING_ALLE_ENHETER"),
     KABAL_MALTEKSTREDIGERING("KABAL_MALTEKSTREDIGERING", "Kabal Maltekstredigering", "0000-GA-KLAGE-KABAL_MALTEKSTREDIGERING"),
