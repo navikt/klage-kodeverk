@@ -10,3 +10,9 @@ interface MinimalCode{
     val id: String
     val nbName: String
 }
+
+interface CodeWithReference {
+    val id: String
+    val navn: String
+    val reference: String
+}
