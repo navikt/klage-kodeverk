@@ -1,5 +1,9 @@
 package no.nav.klage.kodeverk
 
+import com.fasterxml.jackson.annotation.JsonValue
+import jakarta.persistence.AttributeConverter
+import jakarta.persistence.Converter
+
 enum class AzureGroup(override val id: String, override val navn: String, override val reference: String) :
     CodeWithReference {
     KABAL_OPPGAVESTYRING_ALLE_ENHETER(
@@ -66,5 +70,33 @@ enum class AzureGroup(override val id: String, override val navn: String, overri
         "KAKA_EXCEL_UTTREKK_UTEN_FRITEKST",
         "Kaka Excel-uttrekk uten fritekst",
         "0000-GA-KLAGE-KAKA_EXCEL_UTTREKK_UTEN_FRITEKSTFELT"
-    ),
+    );
+
+    @JsonValue
+    fun toJson(): String = name
+    override fun toString(): String {
+        return "AzureGroup(id='$id', navn='$navn', reference='$reference')"
+    }
+
+    companion object {
+        fun of(id: String): AzureGroup {
+            return entries.firstOrNull { it.id == id }
+                ?: throw IllegalArgumentException("No AzureGroup with id $id exists")
+        }
+
+        fun fromNavn(navn: String): AzureGroup {
+            return entries.firstOrNull { it.navn == navn }
+                ?: throw IllegalArgumentException("No AzureGroup with navn $navn exists")
+        }
+    }
+}
+
+@Converter
+class AzureGroupConverter : AttributeConverter<AzureGroup, String?> {
+
+    override fun convertToDatabaseColumn(entity: AzureGroup?): String? =
+        entity?.id
+
+    override fun convertToEntityAttribute(id: String?): AzureGroup? =
+        id?.let { AzureGroup.of(it) }
 }

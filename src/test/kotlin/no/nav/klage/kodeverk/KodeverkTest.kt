@@ -319,6 +319,27 @@ internal class KodeverkTest {
     }
 
     @Test
+    fun `AzureGroup has no duplicate values`() {
+        assertThat(AzureGroup.entries.groupBy {
+            it.id
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
+
+        assertThat(AzureGroup.entries.groupBy {
+            it.navn
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
+
+        assertThat(AzureGroup.entries.groupBy {
+            it.reference
+        }.filter {
+            it.value.size > 1
+        }).isEmpty()
+    }
+
+    @Test
     fun `YtelseToHjemler contains only HjemmelAndUtfasesStatus objects`() {
         ytelseToHjemler.forEach { (_, hjemler) ->
             hjemler.forEach { hjemmelAndUtfasesStatus ->
