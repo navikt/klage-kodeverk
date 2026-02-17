@@ -51,8 +51,8 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     AAR_AAR("41", "AA-register", "AA-register"),
     HJE_AUR(
         "42",
-        "Hjelpemidler - Støtte til arbeid- og utdanningsreiser",
-        "Hjelpemidler - Støtte til arbeid- og utdanningsreiser"
+        "Hjelpemidler - Støtte til arbeids- og utdanningsreiser",
+        "Hjelpemidler - Støtte til arbeids- og utdanningsreiser"
     ),
     TSR_ASO(
         "56",
