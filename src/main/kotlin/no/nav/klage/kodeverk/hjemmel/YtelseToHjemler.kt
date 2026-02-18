@@ -1315,5 +1315,41 @@ val ytelseToHjemler = mapOf(
 
     Ytelse.PEN_GYS to listOf(
         HjemmelAndUtfasesStatus(GAMMEL_YRKESSKADE),
+    ),
+
+    Ytelse.TIL_TIP to listOf(
+        HjemmelAndUtfasesStatus(ARBML_2),
+        HjemmelAndUtfasesStatus(ARBML_13),
+        HjemmelAndUtfasesStatus(ARBML_13_LOENN),
+        HjemmelAndUtfasesStatus(ARBML_13_4),
+        HjemmelAndUtfasesStatus(ARBML_15),
+        HjemmelAndUtfasesStatus(ARBML_17),
+        HjemmelAndUtfasesStatus(ARBML_22),
+
+        HjemmelAndUtfasesStatus(FS_TIP_2),
+        HjemmelAndUtfasesStatus(FS_TIP_3),
+        HjemmelAndUtfasesStatus(FS_TIP_5),
+        HjemmelAndUtfasesStatus(FS_TIP_6),
+        HjemmelAndUtfasesStatus(FS_TIP_7),
+        HjemmelAndUtfasesStatus(FS_TIP_8),
+        HjemmelAndUtfasesStatus(FS_TIP_9),
+        HjemmelAndUtfasesStatus(FS_TIP_10),
+        HjemmelAndUtfasesStatus(FS_TIP_11),
+
+        HjemmelAndUtfasesStatus(FVL_11),
+        HjemmelAndUtfasesStatus(FVL_17),
+        HjemmelAndUtfasesStatus(FVL_18_19),
+        HjemmelAndUtfasesStatus(FVL_28),
+        HjemmelAndUtfasesStatus(FVL_30),
+        HjemmelAndUtfasesStatus(FVL_31),
+        HjemmelAndUtfasesStatus(FVL_32),
+        HjemmelAndUtfasesStatus(FVL_35),
+        HjemmelAndUtfasesStatus(FVL_41),
+        HjemmelAndUtfasesStatus(FVL_42),
+
+        HjemmelAndUtfasesStatus(FTRL_22_15),
+        HjemmelAndUtfasesStatus(FTRL_22_17),
+        HjemmelAndUtfasesStatus(FL_2_3),
+        HjemmelAndUtfasesStatus(FL_10),
     )
 )
