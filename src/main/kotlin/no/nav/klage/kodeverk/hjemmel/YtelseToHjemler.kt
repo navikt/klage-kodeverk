@@ -1348,7 +1348,7 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FVL_42),
 
         HjemmelAndUtfasesStatus(FTRL_22_15),
-        HjemmelAndUtfasesStatus(FTRL_22_17),
+        HjemmelAndUtfasesStatus(FTRL_22_17A),
         HjemmelAndUtfasesStatus(FL_2_3),
         HjemmelAndUtfasesStatus(FL_10),
     )
