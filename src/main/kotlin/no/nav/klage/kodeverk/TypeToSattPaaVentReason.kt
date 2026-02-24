@@ -10,12 +10,18 @@ val standardSet = setOf(
     ANNET,
 )
 
+val trygderettenSet = setOf(
+    SATT_I_BERO,
+    VENTER_PAA_AVGJOERELSE_OM_SOEKSMAAL_GJENOPPTAKSBEGJAERING,
+    ANNET
+)
+
 val typeToSattPaaVentReason = mapOf(
     Type.KLAGE to standardSet.plus(VENTER_PAA_UTFYLLENDE_KLAGE),
     Type.ANKE to standardSet.plus(listOf(OVERSENDELSESBREV_PAA_TILSVAR, VENTER_PAA_UTFYLLENDE_ANKE)),
-    Type.ANKE_I_TRYGDERETTEN to standardSet,
+    Type.ANKE_I_TRYGDERETTEN to trygderettenSet,
     Type.BEHANDLING_ETTER_TRYGDERETTEN_OPPHEVET to standardSet,
     Type.OMGJOERINGSKRAV to standardSet,
     Type.BEGJAERING_OM_GJENOPPTAK to standardSet.plus(OVERSENDELSESBREV_PAA_TILSVAR),
-    Type.BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN to standardSet,
+    Type.BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN to trygderettenSet,
 )

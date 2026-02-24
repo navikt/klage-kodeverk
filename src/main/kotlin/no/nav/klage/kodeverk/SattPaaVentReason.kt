@@ -10,6 +10,11 @@ enum class SattPaaVentReason(override val id: String, override val navn: String,
     ANNET_TIL_FORELEGGELSE("6", "ANNET_TIL_FORELEGGELSE", "Annet til foreleggelse"),
     VENTER_PAA_UTFYLLENDE_KLAGE("7", "VENTER_PAA_UTFYLLENDE_KLAGE", "Venter på utfyllende klage"),
     VENTER_PAA_UTFYLLENDE_ANKE("8", "VENTER_PAA_UTFYLLENDE_ANKE", "Venter på utfyllende anke"),
+    VENTER_PAA_AVGJOERELSE_OM_SOEKSMAAL_GJENOPPTAKSBEGJAERING(
+        "9",
+        "VENTER_PAA_AVGJOERELSE_OM_SOEKSMAAL_GJENOPPTAKSBEGJAERING",
+        "Venter på avgjørelse om søksmål/gjenopptaksbegjæring"
+    ),
     ;
 
 
