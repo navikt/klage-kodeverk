@@ -15,6 +15,11 @@ enum class SattPaaVentReason(override val id: String, override val navn: String,
         "VENTER_PAA_AVGJOERELSE_OM_SOEKSMAAL_GJENOPPTAKSBEGJAERING",
         "Venter på avgjørelse om søksmål/gjenopptaksbegjæring"
     ),
+    UTREDER_FOR_TRYGDERETTEN(
+        "10",
+        "UTREDER_FOR_TRYGDERETTEN",
+        "Utreder for Trygderetten"
+    ),
     ;
 
 

@@ -13,7 +13,8 @@ val standardSet = setOf(
 val trygderettenSet = setOf(
     SATT_I_BERO,
     VENTER_PAA_AVGJOERELSE_OM_SOEKSMAAL_GJENOPPTAKSBEGJAERING,
-    ANNET
+    ANNET,
+    UTREDER_FOR_TRYGDERETTEN,
 )
 
 val typeToSattPaaVentReason = mapOf(
