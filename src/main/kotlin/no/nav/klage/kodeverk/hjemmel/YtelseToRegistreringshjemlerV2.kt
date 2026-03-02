@@ -1070,6 +1070,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FTRL_12_13C,
         FTRL_12_14A,
         FTRL_12_14B,
+        FTRL_12_14_EO_ARBEIDSFORSOEK,
         FTRL_12_15,
         FTRL_12_16,
         FTRL_12_17,
