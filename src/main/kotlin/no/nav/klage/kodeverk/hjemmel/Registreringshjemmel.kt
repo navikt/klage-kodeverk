@@ -334,6 +334,7 @@ enum class Registreringshjemmel(
     FTRL_12_13C("FTRL_12_13C", LovKilde.FOLKETRYGDLOVEN, "§ 12-13 tredje ledd (36 års-regelen)"),
     FTRL_12_14A("348", LovKilde.FOLKETRYGDLOVEN, "§ 12-14"),
     FTRL_12_14B("349", LovKilde.FOLKETRYGDLOVEN, "§ 12-14 fjerde ledd (etteroppgjør)"),
+    FTRL_12_14_EO_ARBEIDSFORSOEK("FTRL_12_14_EO_ARBEIDSFORSOEK", LovKilde.FOLKETRYGDLOVEN, "§ 12-14 EO - Arbeidsforsøk"),
     FTRL_12_15("350", LovKilde.FOLKETRYGDLOVEN, "§ 12-15"),
     FTRL_12_16("351", LovKilde.FOLKETRYGDLOVEN, "§ 12-16"),
     FTRL_12_17("352", LovKilde.FOLKETRYGDLOVEN, "§ 12-17"),
