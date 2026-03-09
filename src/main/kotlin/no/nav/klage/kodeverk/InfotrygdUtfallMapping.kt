@@ -24,6 +24,7 @@ val ankeutfallToInfotrygdutfall = mapOf(
     Utfall.DELVIS_MEDHOLD to "DELVIS_INNVILGET",
     Utfall.INNSTILLING_STADFESTELSE to "AVSLAG",
     Utfall.INNSTILLING_AVVIST to "AVSLAG",
+    Utfall.UGUNST to "AVSLAG",
     Utfall.HENLAGT to "HENLAGT",
 )
 
