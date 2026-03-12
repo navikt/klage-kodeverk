@@ -1046,7 +1046,8 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_20_23),
 
         HjemmelAndUtfasesStatus(FTRL_21_6),
-        HjemmelAndUtfasesStatus(FTRL_21_12_KLAGEFRIST),
+        HjemmelAndUtfasesStatus(FTRL_21_12),
+        HjemmelAndUtfasesStatus(FTRL_21_12_KLAGEFRIST), //TODO remove when PEN_ALD use FTRL_21_12 instead
 
         HjemmelAndUtfasesStatus(FTRL_22_6),
         HjemmelAndUtfasesStatus(FTRL_22_8),
