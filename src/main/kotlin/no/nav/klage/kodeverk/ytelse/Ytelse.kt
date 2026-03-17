@@ -105,7 +105,8 @@ enum class Ytelse(override val id: String, override val navn: String, override v
             PEN_ALD, PEN_AFP, PEN_KRI, PEN_GJE, PEN_GYS -> Tema.PEN
             PEN_EYO -> Tema.EYO
             SUP_PEN, SUP_UFF -> Tema.SUP
-            TIL_TIP, TIL_TIL -> Tema.TIL
+            TIL_TIP -> Tema.IND
+            TIL_TIL -> Tema.TIL
             UFO_UFO, UFO_TVF -> Tema.UFO
             YRK_YRK, YRK_MEN, YRK_YSY -> Tema.YRK
             OPP_OPP -> Tema.OPP
