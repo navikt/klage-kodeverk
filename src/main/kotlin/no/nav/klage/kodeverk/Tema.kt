@@ -12,6 +12,7 @@ enum class Tema(override val id: String, override val navn: String, override val
     ARP("59", "ARP", "Arbeidsrådgivning - psykologtjenester"),
     ARS("58", "ARS", "Arbeidsrådgivning - skjermet"),
     BAR("4", "BAR", "Barnetrygd"),
+    BBF("BBF", "BBF", "Barnebortføring"),
     BID("5", "BID", "Bidrag"),
     BIL("6", "BIL", "Bil"),
     DAG("7", "DAG", "Dagpenger"),
