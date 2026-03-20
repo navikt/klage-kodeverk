@@ -49,6 +49,7 @@ val hjemlerYRK = listOf(
     HjemmelAndUtfasesStatus(FTRL_21_12),
 
     HjemmelAndUtfasesStatus(TRRL_9),
+    HjemmelAndUtfasesStatus(TRRL_27),
 )
 
 /**
