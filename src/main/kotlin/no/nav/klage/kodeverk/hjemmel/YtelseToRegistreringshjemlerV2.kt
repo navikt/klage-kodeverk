@@ -54,6 +54,7 @@ val registreringshjemlerYRK = listOf(
 
     TRRL_9,
     TRRL_10,
+    TRRL_27,
 )
 
 val ytelseToRegistreringshjemlerV2 = mapOf(
