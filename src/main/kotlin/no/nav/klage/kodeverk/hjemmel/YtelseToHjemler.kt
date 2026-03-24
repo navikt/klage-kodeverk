@@ -35,6 +35,9 @@ val hjemlerGRU = listOf(
     HjemmelAndUtfasesStatus(FVL_31),
     HjemmelAndUtfasesStatus(FVL_32),
     HjemmelAndUtfasesStatus(FVL_33),
+
+    HjemmelAndUtfasesStatus(TRRL_9),
+    HjemmelAndUtfasesStatus(TRRL_10),
 )
 
 val hjemlerYRK = listOf(
@@ -49,6 +52,7 @@ val hjemlerYRK = listOf(
     HjemmelAndUtfasesStatus(FTRL_21_12),
 
     HjemmelAndUtfasesStatus(TRRL_9),
+    HjemmelAndUtfasesStatus(TRRL_10),
     HjemmelAndUtfasesStatus(TRRL_27),
 )
 
@@ -72,6 +76,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_22_12),
         HjemmelAndUtfasesStatus(FTRL_22_13),
         HjemmelAndUtfasesStatus(FTRL_22_15),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
     Ytelse.BAR_BAR to listOf(
         HjemmelAndUtfasesStatus(BTRL_2),
@@ -90,6 +97,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(EOES_AVTALEN),
         HjemmelAndUtfasesStatus(NORDISK_KONVENSJON),
         HjemmelAndUtfasesStatus(ANDRE_TRYGDEAVTALER),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
 
     Ytelse.KON_KON to listOf(
@@ -142,6 +152,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_21_12),
         HjemmelAndUtfasesStatus(FTRL_22_13),
         HjemmelAndUtfasesStatus(FTRL_22_15),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
     Ytelse.OMS_OMP to listOf(
         HjemmelAndUtfasesStatus(FTRL_9_2),
@@ -159,6 +172,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_21_12),
         HjemmelAndUtfasesStatus(FTRL_22_13),
         HjemmelAndUtfasesStatus(FTRL_22_15),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
     Ytelse.OMS_PLS to listOf(
         HjemmelAndUtfasesStatus(FTRL_9_2),
@@ -176,6 +192,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_21_12),
         HjemmelAndUtfasesStatus(FTRL_22_13),
         HjemmelAndUtfasesStatus(FTRL_22_15),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
     Ytelse.OMS_PSB to listOf(
         HjemmelAndUtfasesStatus(FTRL_9_2),
@@ -193,6 +212,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_21_12),
         HjemmelAndUtfasesStatus(FTRL_22_13),
         HjemmelAndUtfasesStatus(FTRL_22_15),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
 
     Ytelse.SYK_SYK to listOf(
@@ -270,6 +292,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_22_17A),
 
         HjemmelAndUtfasesStatus(ANKENEMNDA),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
     Ytelse.SUP_PEN to listOf(
         HjemmelAndUtfasesStatus(SUP_ST_L_3),
@@ -339,6 +364,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_21_3),
         HjemmelAndUtfasesStatus(FTRL_22_13),
         HjemmelAndUtfasesStatus(FTRL_22_15),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
     Ytelse.FOR_FOR to listOf(
         HjemmelAndUtfasesStatus(FTRL_14_2),
@@ -361,6 +389,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(EOES_883_2004_5),
         HjemmelAndUtfasesStatus(EOES_883_2004_6),
         HjemmelAndUtfasesStatus(FEDREKVOTESAK),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
     Ytelse.FOR_SVA to listOf(
         HjemmelAndUtfasesStatus(FTRL_14_2),
@@ -372,6 +403,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_22_13),
         HjemmelAndUtfasesStatus(FTRL_22_15),
         HjemmelAndUtfasesStatus(EOES_883_2004_6),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
     Ytelse.HJE_HJE to listOf(
         HjemmelAndUtfasesStatus(FTRL_10_3),
@@ -501,6 +535,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FVL_35),
         HjemmelAndUtfasesStatus(FVL_41),
         HjemmelAndUtfasesStatus(FVL_42),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
     Ytelse.BIL_BIL to listOf(
         HjemmelAndUtfasesStatus(FTRL_10_3),
@@ -648,6 +685,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(AFP_PRIVAT),
         HjemmelAndUtfasesStatus(AFP_62_OFFENTLIG_ETTEROPPGJOER),
         HjemmelAndUtfasesStatus(AFP_62_OFFENTLIG_ANNET),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
 
     Ytelse.PEN_BAR to listOf(
@@ -710,6 +750,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(EOES_AVTALEN_BEREGNING),
 
         HjemmelAndUtfasesStatus(EOES_AVTALEN_MEDLEMSKAP_TRYGDETID),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
 
     Ytelse.PEN_EYO to listOf(
@@ -813,6 +856,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(EOES_AVTALEN_BEREGNING),
 
         HjemmelAndUtfasesStatus(EOES_AVTALEN_MEDLEMSKAP_TRYGDETID),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
 
     Ytelse.PEN_GJE to listOf(
@@ -923,6 +969,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(EOES_AVTALEN_BEREGNING),
 
         HjemmelAndUtfasesStatus(EOES_AVTALEN_MEDLEMSKAP_TRYGDETID),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
     Ytelse.GRU_HJE to hjemlerGRU,
     Ytelse.GRU_GRU to hjemlerGRU,
@@ -950,6 +999,7 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_23_3),
 
         HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
 
         HjemmelAndUtfasesStatus(EOES_883_2004),
         HjemmelAndUtfasesStatus(ANDRE_TRYGDEAVTALER),
@@ -960,12 +1010,18 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_7_3),
         HjemmelAndUtfasesStatus(FTRL_22_13_2),
         HjemmelAndUtfasesStatus(FTRL_22_15),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
 
     Ytelse.FOS_FOS to listOf(
         HjemmelAndUtfasesStatus(FTRL_8_36),
         HjemmelAndUtfasesStatus(FTRL_8_37),
         HjemmelAndUtfasesStatus(FTRL_8_39),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
 
     Ytelse.PEN_ALD to listOf(
@@ -1090,6 +1146,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(TRYGDEAVTALE_MED_ENGLAND),
         HjemmelAndUtfasesStatus(TRYGDEAVTALE_MED_USA),
         HjemmelAndUtfasesStatus(NORDISK_KONVENSJON),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
 
     Ytelse.UFO_UFO to listOf(
@@ -1127,8 +1186,12 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_22_17),
 
         HjemmelAndUtfasesStatus(FVL_35_C_UGUNST),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
 
+    //Skal ikke ha de nye trygderettsgreiene
     Ytelse.TSR_ASO to listOf(
         HjemmelAndUtfasesStatus(ARBML_13),
         HjemmelAndUtfasesStatus(ARBML_17),
@@ -1186,6 +1249,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FVL_35),
         HjemmelAndUtfasesStatus(FVL_41),
         HjemmelAndUtfasesStatus(FVL_42),
+
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
 
     Ytelse.AAP_AAP to listOf(
@@ -1219,8 +1285,9 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_22_13),
         HjemmelAndUtfasesStatus(FTRL_22_15),
         HjemmelAndUtfasesStatus(FTRL_22_17),
-        HjemmelAndUtfasesStatus(TRRL_9_FVL_31),
         HjemmelAndUtfasesStatus(FVL_35),
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
         HjemmelAndUtfasesStatus(TRRL_27),
     ),
 
@@ -1317,10 +1384,14 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(LOV_OM_KRIGSPENSJON_FOR_MILITÆRPERSONER),
         HjemmelAndUtfasesStatus(LOV_OM_KRIGSPENSJON_FOR_SIVILE),
         HjemmelAndUtfasesStatus(FTRL_22_15),
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
 
     Ytelse.PEN_GYS to listOf(
         HjemmelAndUtfasesStatus(GAMMEL_YRKESSKADE),
+        HjemmelAndUtfasesStatus(TRRL_9),
+        HjemmelAndUtfasesStatus(TRRL_10),
     ),
 
     Ytelse.TIL_TIP to listOf(
