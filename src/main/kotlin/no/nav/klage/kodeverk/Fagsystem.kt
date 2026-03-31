@@ -42,7 +42,8 @@ enum class Fagsystem(
     KELVIN("28", "KELVIN", "Kelvin", true),
     DAGPENGER("29", "DAGPENGER", "Dagpenger", true),
     UNG_SAK("30", "UNG_SAK", "Ungdomsprogramytelsen", true),
-    TILTAKSPENGER("31", "TILTAKSPENGER", "Tiltakspenger", false),
+    TILTAKSPENGER("31", "TILTAKSPENGER", "Tiltakspenger", true),
+    HELT("32", "HELT", "Helt", true),
     ;
 
     companion object {
