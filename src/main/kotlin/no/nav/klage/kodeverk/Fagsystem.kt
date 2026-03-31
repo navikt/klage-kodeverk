@@ -31,6 +31,7 @@ enum class Fagsystem(
 
     //Ikke i bruk i Dokarkiv.
     MANUELL("18", "MANUELL", "Manuell registrering av kvalitetsskjema", false),
+
     FS22("19", "FS22", "GOSYS", false),
     HJELPEMIDLER("20", "HJELPEMIDLER", "Hjelpemidler", false),
     BARNEBRILLER("21", "BARNEBRILLER", "Barnebriller", false),
