@@ -1289,6 +1289,7 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(TRRL_9),
         HjemmelAndUtfasesStatus(TRRL_10),
         HjemmelAndUtfasesStatus(TRRL_27),
+        HjemmelAndUtfasesStatus(ANDRE_TRYGDEAVTALER),
     ),
 
     Ytelse.DAG_DAG to listOf(
