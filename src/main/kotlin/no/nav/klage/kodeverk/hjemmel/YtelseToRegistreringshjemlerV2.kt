@@ -1050,7 +1050,9 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
     Ytelse.UFO_UFO to listOf(
         FTRL_12_2,
+        FTRL_12_2_EOES,
         FTRL_12_3,
+        FTRL_12_3_EOES,
         FTRL_12_4,
         FTRL_12_5,
         FTRL_12_5_PROSJEKT,
@@ -1065,7 +1067,9 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FTRL_12_9D,
         FTRL_12_10,
         FTRL_12_11,
+        FTRL_12_11_EOES,
         FTRL_12_12,
+        FTRL_12_12_EOES,
         FTRL_12_13A,
         FTRL_12_13B,
         FTRL_12_13C,
