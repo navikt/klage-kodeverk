@@ -45,6 +45,7 @@ enum class Fagsystem(
     UNG_SAK("30", "UNG_SAK", "Ungdomsprogramytelsen", true),
     TILTAKSPENGER("31", "TILTAKSPENGER", "Tiltakspenger", true),
     HELT("32", "HELT", "Helt", true),
+    SUPERHELT("33", "SUPERHELT", "Superhelt", true),
     ;
 
     companion object {
