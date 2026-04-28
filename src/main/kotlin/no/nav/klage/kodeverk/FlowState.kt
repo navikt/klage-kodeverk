@@ -8,7 +8,9 @@ enum class FlowState(override val id: String, override val navn: String, overrid
     Kode {
     NOT_SENT("1", "IKKE_SENDT", "Ikke sendt"),
     SENT("2", "OVERSENDT", "Oversendt"),
-    RETURNED("3", "RETURNERT_TIL_SAKSBEHANDLER", "Returnert til saksbehandler")
+    RETURNED("3", "RETURNERT_TIL_SAKSBEHANDLER", "Returnert til saksbehandler"),
+    RETURNED_APPROVED("4", "RETURNERT_TIL_SAKSBEHANDLER_MED_GODKJENNING", "Returnert til saksbehandler med godkjenning"),
+    RETURNED_NOT_APPROVED("5", "RETURNERT_TIL_SAKSBEHANDLER_UTEN_GODKJENNING", "Returnert til saksbehandler uten godkjenning"),
     ;
 
     override fun toString(): String {
