@@ -6,6 +6,7 @@ import no.nav.klage.kodeverk.innsendingsytelse.innsendingsytelseToAnkeEnhet
 import no.nav.klage.kodeverk.innsendingsytelse.innsendingsytelseToDisplayName
 import no.nav.klage.kodeverk.innsendingsytelse.innsendingsytelseToTema
 import no.nav.klage.kodeverk.ytelse.Ytelse
+import no.nav.klage.kodeverk.ytelse.ytelseToDisplayName
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 
@@ -28,6 +29,11 @@ internal class KodeverkTest {
     @Test
     fun `InnsendingsytelseToTema contains all Innsendingsytelser`() {
         assertThat(innsendingsytelseToTema.keys).containsAll(Innsendingsytelse.entries)
+    }
+
+    @Test
+    fun `YtelseToDisplayName contains all Ytelser`() {
+        assertThat(ytelseToDisplayName.keys).containsAll(Ytelse.entries)
     }
 
     @Test
