@@ -46,6 +46,12 @@ enum class Fagsystem(
     TILTAKSPENGER("31", "TILTAKSPENGER", "Tiltakspenger", true),
     HELT("32", "HELT", "Helt", true),
     SUPERHELT("33", "SUPERHELT", "Superhelt", true),
+    WATSON("34", "WATSON", "Watson", false),
+    TILTAKSADMINISTRASJON("35", "TILTAKSADMINISTRASJON", "Tiltaksadministrasjon", false),
+    FIA("36", "FIA", "FIA", true),
+    REMEDY("37", "REMEDY", "Remedy", true),
+    EKSPERTBISTAND("38", "EKSPERTBISTAND", "Ekspertbistand", false),
+    ARGUS("39", "ARGUS", "Argus", false),
     ;
 
     companion object {
