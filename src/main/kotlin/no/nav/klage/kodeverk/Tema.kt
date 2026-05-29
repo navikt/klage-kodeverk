@@ -3,6 +3,8 @@
 import com.fasterxml.jackson.annotation.JsonValue
 import jakarta.persistence.AttributeConverter
 import jakarta.persistence.Converter
+import no.nav.klage.kodeverk.ytelse.Ytelse
+import no.nav.klage.kodeverk.ytelse.getYtelserCurrentlyInUse
 
 enum class Tema(override val id: String, override val navn: String, override val beskrivelse: String) : Kode {
     AAP("1", "AAP", "Arbeidsavklaringspenger"),
@@ -94,6 +96,15 @@ enum class Tema(override val id: String, override val navn: String, override val
             return entries.firstOrNull { it.navn == navn }
                 ?: throw IllegalArgumentException("No Tema with navn $navn exists")
         }
+    }
+
+    fun toAllYtelser(): List<Ytelse> {
+        return Ytelse.entries.filter { it.toTema().id == this.id }
+    }
+
+    fun toYtelserCurrentlyInUse(): List<Ytelse> {
+        if (this == FEI) return listOf(Ytelse.AAP_AAP, Ytelse.DAG_DAG, Ytelse.TIL_TIP)
+        return Ytelse.entries.filter { it.toTema().id == this.id && it in getYtelserCurrentlyInUse() }
     }
 }
 
