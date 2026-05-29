@@ -4,6 +4,7 @@ import jakarta.persistence.AttributeConverter
 import jakarta.persistence.Converter
 import no.nav.klage.kodeverk.Kode
 import no.nav.klage.kodeverk.Tema
+import no.nav.klage.kodeverk.hjemmel.ytelseToHjemler
 
 enum class Ytelse(override val id: String, override val navn: String, override val beskrivelse: String) : Kode {
     OMS_OMP("1", "Sykdom i familien - Omsorgspenger", "Sykdom i familien - Omsorgspenger"),
@@ -159,3 +160,7 @@ data class DisplayName(
     val en: String,
     val nn: String,
 )
+
+fun getYtelserCurrentlyInUse(): List<Ytelse> {
+    return ytelseToHjemler.entries.map { it.key }
+}
