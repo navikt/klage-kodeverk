@@ -661,6 +661,7 @@ enum class Hjemmel(
     ARBML_13_LOENN("ARBML_13_LOENN", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 13 - lønn"),
     ARBML_13_4("ARBML_13_4", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 13 fjerde ledd"),
     ARBML_15("ARBML_15", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 15"),
+    ARBML_16("ARBML_16", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 16"),
     ARBML_17("ARBML_17", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 17"),
     ARBML_22("ARBML_22", LovKilde.ARBEIDSMARKEDSLOVEN, "§ 22"),
 
@@ -739,6 +740,24 @@ enum class Hjemmel(
     FS_TIP_9("FS_TIP_9", LovKilde.FORSKRIFT_OM_TILTAKSPENGER, "§ 9"),
     FS_TIP_10("FS_TIP_10", LovKilde.FORSKRIFT_OM_TILTAKSPENGER, "§ 10"),
     FS_TIP_11("FS_TIP_11", LovKilde.FORSKRIFT_OM_TILTAKSPENGER, "§ 11"),
+
+    NAV_L_14A("NAV_L_14A", LovKilde.NAV_LOVEN, "§ 14 a"),
+
+    FS_TIL_1_3("FS_TIL_1_3", LovKilde.FORSKRIFT_OM_TILTAK, "§ 1-3"),
+    FS_TIL_1_6("FS_TIL_1_6", LovKilde.FORSKRIFT_OM_TILTAK, "§ 1-6"),
+    FS_TIL_2("FS_TIL_2", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 2"),
+    FS_TIL_3("FS_TIL_3", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 3"),
+    FS_TIL_4("FS_TIL_4", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 4"),
+    FS_TIL_5("FS_TIL_5", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 5"),
+    FS_TIL_6("FS_TIL_6", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 6"),
+    FS_TIL_7("FS_TIL_7", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 7"),
+    FS_TIL_8("FS_TIL_8", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 8"),
+    FS_TIL_9("FS_TIL_9", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 9"),
+    FS_TIL_10("FS_TIL_10", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 10"),
+    FS_TIL_11("FS_TIL_11", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 11"),
+    FS_TIL_12("FS_TIL_12", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 12"),
+    FS_TIL_13("FS_TIL_13", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 13"),
+    FS_TIL_14("FS_TIL_14", LovKilde.FORSKRIFT_OM_TILTAK, "kap. 14"),
 
     //Backwards compatibility in dev with search and innstillinger. Can be removed later?
     FTL("1000", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven"),
