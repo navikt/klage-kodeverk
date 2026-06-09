@@ -1429,5 +1429,32 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_22_17A),
         HjemmelAndUtfasesStatus(FL_2_3),
         HjemmelAndUtfasesStatus(FL_10),
-    )
+    ),
+
+    Ytelse.OPP_OPP to listOf(
+        HjemmelAndUtfasesStatus(NAV_L_14A),
+        HjemmelAndUtfasesStatus(FVL_31),
+        HjemmelAndUtfasesStatus(FVL_32),
+    ),
+
+    Ytelse.TIL_TIL to listOf(
+        HjemmelAndUtfasesStatus(ARBML_2),
+        HjemmelAndUtfasesStatus(FS_TIL_1_3),
+        HjemmelAndUtfasesStatus(FS_TIL_1_6),
+        HjemmelAndUtfasesStatus(FS_TIL_2),
+        HjemmelAndUtfasesStatus(FS_TIL_3),
+        HjemmelAndUtfasesStatus(FS_TIL_4),
+        HjemmelAndUtfasesStatus(FS_TIL_5),
+        HjemmelAndUtfasesStatus(FS_TIL_6),
+        HjemmelAndUtfasesStatus(FS_TIL_7),
+        HjemmelAndUtfasesStatus(FS_TIL_8),
+        HjemmelAndUtfasesStatus(FS_TIL_9),
+        HjemmelAndUtfasesStatus(FS_TIL_10),
+        HjemmelAndUtfasesStatus(FS_TIL_11),
+        HjemmelAndUtfasesStatus(FS_TIL_12),
+        HjemmelAndUtfasesStatus(FS_TIL_13),
+        HjemmelAndUtfasesStatus(FS_TIL_14),
+        HjemmelAndUtfasesStatus(FVL_31),
+        HjemmelAndUtfasesStatus(FVL_32),
+    ),
 )
