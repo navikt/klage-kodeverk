@@ -103,7 +103,7 @@ enum class Tema(override val id: String, override val navn: String, override val
     }
 
     fun toYtelserCurrentlyInUse(): List<Ytelse> {
-        if (this == FEI) return listOf(Ytelse.AAP_AAP, Ytelse.DAG_DAG, Ytelse.TIL_TIP)
+        if (this == FEI) return listOf(Ytelse.AAP_AAP, Ytelse.DAG_DAG, Ytelse.TIL_TIP, Ytelse.TSO_TSO, Ytelse.TSR_ASO)
         return Ytelse.entries.filter { it.toTema().id == this.id && it in getYtelserCurrentlyInUse() }
     }
 }
