@@ -4,10 +4,10 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 val jakartaPersistenceApiVersion = "3.2.0"
 val junitJupiterVersion = "6.1.0"
 val assertjCoreVersion = "3.27.7"
-val jackson = "2.21"
+val jackson = "2.22"
 
 plugins {
-	kotlin("jvm") version "2.3.21"
+	kotlin("jvm") version "2.4.0"
 	id("maven-publish")
 	id("java-library")
 }
