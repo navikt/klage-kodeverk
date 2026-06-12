@@ -370,6 +370,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FTRL_21_12,
 
         FTRL_22_3,
+        FTRL_22_3_1,
         FTRL_22_13,
         FTRL_22_14,
         FTRL_22_15A,
@@ -438,6 +439,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FTRL_21_12,
 
         FTRL_22_3,
+        FTRL_22_3_1,
         FTRL_22_13,
         FTRL_22_14,
         FTRL_22_15A,
@@ -508,6 +510,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FTRL_21_12,
 
         FTRL_22_3,
+        FTRL_22_3_1,
         FTRL_22_13,
         FTRL_22_14,
         FTRL_22_15A,
@@ -576,6 +579,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FTRL_21_12,
 
         FTRL_22_3,
+        FTRL_22_3_1,
         FTRL_22_13,
         FTRL_22_14,
         FTRL_22_15A,
@@ -707,6 +711,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         ANKENEMNDA_FTRL_21_12_ARBEIDSGIVER,
 
         FTRL_22_3,
+        FTRL_22_3_1,
         FTRL_22_7,
         FTRL_22_12,
         FTRL_22_13A,
@@ -1237,6 +1242,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FTRL_21_7,
         FTRL_21_12,
 
+        FTRL_22_3_1,
         FTRL_22_7,
         FTRL_22_13A,
         FTRL_22_13B,
@@ -1366,6 +1372,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FTRL_21_7,
         FTRL_21_12,
 
+        FTRL_22_3_1,
         FTRL_22_13A,
         FTRL_22_13B,
         FTRL_22_13C,
