@@ -563,6 +563,7 @@ enum class Registreringshjemmel(
     ANKENEMNDA_FTRL_21_12_ARBEIDSGIVER("ANKENEMNDA_FTRL_21_12_ARBEIDSGIVER", LovKilde.FOLKETRYGDLOVEN, "Ankenemnda § 21-13 (arbeidsgiver)"),
 
     FTRL_22_3("1000.022.003", LovKilde.FOLKETRYGDLOVEN, "§ 22-3"),
+    FTRL_22_3_1("FTRL_22_3_1", LovKilde.FOLKETRYGDLOVEN, "§ 22-3 første ledd"),
     FTRL_22_6A("746", LovKilde.FOLKETRYGDLOVEN, "§ 22-6 første ledd første setning"),
     FTRL_22_6B("747", LovKilde.FOLKETRYGDLOVEN, "§ 22-6 første ledd andre setning"),
     FTRL_22_6C("748", LovKilde.FOLKETRYGDLOVEN, "§ 22-6 andre ledd"),
