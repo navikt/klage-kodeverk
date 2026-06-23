@@ -55,6 +55,7 @@ val registreringshjemlerYRK = listOf(
     TRRL_9,
     TRRL_10,
     TRRL_27,
+    TRRL_28,
 )
 
 val ytelseToRegistreringshjemlerV2 = mapOf(
@@ -178,6 +179,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
     ),
 
     Ytelse.BIL_BIL to listOf(
@@ -260,6 +263,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
     ),
 
     Ytelse.HEL_HEL to listOf(
@@ -341,6 +346,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
     ),
     Ytelse.OMS_PSB to listOf(
         FTRL_9_2,
@@ -414,6 +421,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
     ),
     Ytelse.OMS_OLP to listOf(
         FTRL_9_2,
@@ -483,6 +492,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
     ),
     Ytelse.OMS_OMP to listOf(
         FTRL_8_28,
@@ -554,6 +565,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
     ),
     Ytelse.OMS_PLS to listOf(
         FTRL_9_2,
@@ -623,6 +636,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
     ),
     Ytelse.SYK_SYK to listOf(
         FTRL_8_2,
@@ -910,6 +925,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
 
         EOES_883_2004_11,
         EOES_883_2004_12,
@@ -1028,6 +1045,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
 
         NRD_KNV,
 
@@ -1166,6 +1185,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_12,
         TRRL_14,
         TRRL_27,
+        TRRL_28,
 
         EOES_883_2004_5,
         EOES_883_2004_6,
@@ -1267,6 +1287,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         TRRL_9,
         TRRL_10,
+        TRRL_27,
+        TRRL_28,
 
         EOES_883_2004_5,
         EOES_883_2004_6,
@@ -1326,6 +1348,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         TRRL_9,
         TRRL_10,
+        TRRL_27,
+        TRRL_28,
 
         EOES_883_2004_5,
         EOES_883_2004_6,
@@ -1396,6 +1420,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         TRRL_9,
         TRRL_10,
+        TRRL_27,
+        TRRL_28,
 
         EOES_883_2004_5,
         EOES_883_2004_6,
@@ -1577,6 +1603,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
 
         EOES_883_2004_7,
         EOES_883_2004_11,
@@ -1643,6 +1671,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
 
         EOES_883_2004_7,
         EOES_883_2004_11,
@@ -1847,6 +1877,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_12,
         TRRL_14,
         TRRL_27,
+        TRRL_28,
 
         EOES_883_2004_1,
         EOES_883_2004_2,
@@ -2025,6 +2056,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_12,
         TRRL_14,
         TRRL_27,
+        TRRL_28,
 
         EOES_883_2004_1,
         EOES_883_2004_2,
@@ -2185,6 +2217,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_12,
         TRRL_14,
         TRRL_27,
+        TRRL_28,
 
         EOES_883_2004_1,
         EOES_883_2004_2,
@@ -2303,6 +2336,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
 
         EOES_883_2004_1,
         EOES_883_2004_2,
@@ -2853,6 +2888,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
 
         FL_2_3,
 
@@ -2904,6 +2941,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
 
         FL_2_3,
 
@@ -3076,6 +3115,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
 
         EOES_883_2004_11,
         EOES_883_2004_12,
@@ -3256,6 +3297,8 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         TRRL_11,
         TRRL_12,
         TRRL_14,
+        TRRL_27,
+        TRRL_28,
     ),
 
     Ytelse.OPP_OPP to listOf(
