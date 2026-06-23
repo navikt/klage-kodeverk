@@ -1,5 +1,8 @@
 package no.nav.klage.kodeverk
 
+import jakarta.persistence.AttributeConverter
+import jakarta.persistence.Converter
+
 enum class Enhet(override val id: String, override val navn: String, override val beskrivelse: String) : Kode {
     E4701("1", "4701", "Nav Hjelpemiddelsentral Øst-Viken"),
     E4702("2", "4702", "Nav Hjelpemiddelsentral Akershus"),
@@ -26,6 +29,7 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E4409("23", "4409", "Nav Arbeid og ytelser Arendal"),
     E4450("24", "4450", "Dagpenger"),
     E4470("25", "4470", "Dagpenger-Inn-Utland Eksport/Import"),
+    E4462("E4462", "4462", "Nav arbeid og ytelser - tilleggsstønad"),
     E4465("26", "4465", "Dagpenger - Grensearbeider inn"),
     E4455("27", "4455", "Dagpenger u permittering Inn"),
     E4404("28", "4404", "Nav Arbeid og ytelser Hamar"),
@@ -481,6 +485,29 @@ enum class Enhet(override val id: String, override val navn: String, override va
     E0300("546", "0300", "Nav Oslo"),
     E1200("547", "1200", "Nav Vestland"),
     E4100("E4100", "4100", "Nav styringsenhet kontaktsenter"),
+    ;
+
+    companion object {
+        fun of(id: String): Enhet {
+            return entries.firstOrNull { it.id == id }
+                ?: throw IllegalArgumentException("No Enhet with id $id exists")
+        }
+
+        fun fromNavn(navn: String): Enhet {
+            return entries.firstOrNull { it.navn == navn }
+                ?: throw IllegalArgumentException("No Enhet with navn $navn exists")
+        }
+    }
+}
+
+@Converter
+class EnhetConverter : AttributeConverter<Enhet, String?> {
+
+    override fun convertToDatabaseColumn(entity: Enhet?): String? =
+        entity?.id
+
+    override fun convertToEntityAttribute(id: String?): Enhet? =
+        id?.let { Enhet.of(it) }
 }
 
 val klageenheter = setOf(Enhet.E4295, Enhet.E4293, Enhet.E4250, Enhet.E4294, Enhet.E4292, Enhet.E4291, Enhet.E2103)

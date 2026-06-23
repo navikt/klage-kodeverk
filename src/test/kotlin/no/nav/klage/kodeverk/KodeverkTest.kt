@@ -365,6 +365,13 @@ internal class KodeverkTest {
         }
     }
 
+    @Test
+    fun `Print all ytelser represented in ytelseToHjemler`() {
+        ytelseToHjemler.forEach { (ytelse, _) ->
+            println(ytelse.name)
+        }
+    }
+
 
 //    @Test
 //    fun `print innsendingshjemler for excel export`() {
