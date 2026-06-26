@@ -827,6 +827,7 @@ enum class Registreringshjemmel(
     FS_DAG_1_8("FS_DAG_1_8", LovKilde.DAGPENGEFORSKRIFTEN, "§ 1-8 Unntatt opphold etter art. 65 nr. 1"),
     FS_DAG_2_1("FS_DAG_2_1", LovKilde.DAGPENGEFORSKRIFTEN, "§ 2-1 Dagpenger ved konkurs m.v."),
     FS_DAG_3A_1("FS_DAG_3A_1", LovKilde.DAGPENGEFORSKRIFTEN, "§ 3A-1"),
+    FS_DAG_3A_2("FS_DAG_3A_2", LovKilde.DAGPENGEFORSKRIFTEN, "§ 3A-2"),
     FS_DAG_6_5("841", LovKilde.DAGPENGEFORSKRIFTEN, "§ 6-5"),
     FS_DAG_6_7("259", LovKilde.DAGPENGEFORSKRIFTEN, "§ 6-7"),
     FS_DAG_6_8("855", LovKilde.DAGPENGEFORSKRIFTEN, "§ 6-8"),
@@ -866,6 +867,7 @@ enum class Registreringshjemmel(
     GJ_F_FORD_987_2009_14A("315", LovKilde.GJENNOMFØRINGSFORORDNING_987_2009, "art. 14 følgende"),
     GJ_F_FORD_987_2009_14B("607", LovKilde.GJENNOMFØRINGSFORORDNING_987_2009, "art. 14"),
     GJ_F_FORD_987_2009_27("GJ_F_FORD_987_2009_27", LovKilde.GJENNOMFØRINGSFORORDNING_987_2009, "art. 27"),
+    GJ_F_FORD_987_2009_55("GJ_F_FORD_987_2009_55", LovKilde.GJENNOMFØRINGSFORORDNING_987_2009, "art. 55"),
     GJ_F_FORD_987_2009_58("662", LovKilde.GJENNOMFØRINGSFORORDNING_987_2009, "art. 58"),
     GJ_F_FORD_987_2009_59("663", LovKilde.GJENNOMFØRINGSFORORDNING_987_2009, "art. 59"),
     GJ_F_FORD_987_2009_60("664", LovKilde.GJENNOMFØRINGSFORORDNING_987_2009, "art. 60"),
@@ -1339,12 +1341,14 @@ enum class Registreringshjemmel(
     GRL_97("GRL_97", LovKilde.GRUNNLOVEN, "§ 97"),
 
     GAMMEL_YRKESSKADE("GAMMEL_YRKESSKADE", LovKilde.ANNET, "Gammel yrkesskade"),
+
+    AML_15_3("AML_15_3", LovKilde.ARBEIDSMILJØLOVEN, "§ 15-3"),
     ;
     //@formatter:on
 
     companion object {
         fun of(id: String): Registreringshjemmel {
-            return values().firstOrNull { it.id == id }
+            return entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No Registreringshjemmel with id $id exists")
         }
     }
