@@ -52,6 +52,7 @@ enum class Fagsystem(
     REMEDY("37", "REMEDY", "Remedy", true),
     EKSPERTBISTAND("38", "EKSPERTBISTAND", "Ekspertbistand", false),
     ARGUS("39", "ARGUS", "Argus", false),
+    SPEIL("40", "SPEIL", "Speil", false),
     ;
 
     companion object {
