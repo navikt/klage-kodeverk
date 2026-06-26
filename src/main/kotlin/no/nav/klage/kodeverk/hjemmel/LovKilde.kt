@@ -70,20 +70,14 @@ enum class LovKilde(override val id: String, override val navn: String, override
     FORSKRIFT_OM_BIDRAGSFORSKOTT_VED_DELT_BOSTED("65", "Forskrift om i hvilke tilfelle det kan ytes bidragsforskott til barn som har delt bosted", "Forskrift om bidragsforskott ved delt bosted"),
     FORSKRIFT_OM_BIDRAGSENDRING_FORSKOTTERINGSLOVEN("66", "Forskrift om i hvilke tilfelle bidragsfogden skal fastsette eller endre bidrag av eget tiltak etter forskotteringsloven § 3 annet ledd", "Forskrift om bidragsendring, forskotteringsloven"),
     FORSKRIFT_OM_INNTEKTSPRØVING_AV_FORSKOTT("67", "Forskrift om gjennomføringen av bestemmelsene om inntektsprøving av forskott", "Forskrift om inntektsprøving av forskott"),
-
     ANNET("68", "Annet", "Annet"),
-
     FORSKRIFT_OM_YTELSER_TIL_GJENLEVENDE_EKTEFELLE_OG_TIDLIGERE_FAMILIEPLEIER("69", "Forskrift om ytelser til gjenlevende ektefelle og tidligere familiepleier etter folketrygdloven kapittel 17", "Forskrift om ytelser til gjenlevende ektefelle og tidligere familiepleier etter folketrygdloven kapittel 17"),
     FORSKRIFT_OM_GEBYR_FOR_OFFENTLIG_FASTSETTELSE_AV_BARNEBIDRAG("70", "Forskrift om gebyr for offentlig fastsettelse av barnebidrag", "Forskrift om gebyr for bidragsfastsettelse"),
     FORSKRIFT_OM_STØNAD_TIL_BRILLER_TIL_BARN("71", "Forskrift om stønad til briller til barn", "Forskrift om stønad til briller til barn"),
-
     KONVENSJON_MED_STORBRITANNIA("72", "Konvensjon med Storbritannia", "Konvensjon med Storbritannia"),
-
     FORVALTNINGSLOVFORSKRIFTEN("73", "Forskrift til forvaltningsloven", "Forskrift til forvaltningsloven"),
-
     GRUNNLOVEN("74", "Grunnloven", "Grl"),
-
     FORSKRIFT_OM_UNGDOMSPROGRAM_OG_UNGDOMSPROGRAMYTELSE("75", "Forskrift om forsøk med ungdomsprogram og ungdomsprogramytelse", "Forskrift om forsøk med ungdomsprogram og ungdomsprogramytelse"),
-
-    UKJENT("999","Ukjent", "Ukjent")
+    ARBEIDSMILJØLOVEN("76", "Arbeidsmiljøloven", "Aml"),
+    UKJENT("999","Ukjent", "Ukjent"),
 }

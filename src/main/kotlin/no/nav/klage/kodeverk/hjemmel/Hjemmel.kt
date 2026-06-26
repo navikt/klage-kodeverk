@@ -140,7 +140,6 @@ enum class Hjemmel(
 
     FTRL_4_2("FTRL_4_2", LovKilde.FOLKETRYGDLOVEN, "§ 4-2"),
     FTRL_4_3_1("FTRL_4_3_1", LovKilde.FOLKETRYGDLOVEN, "§ 4-3(1)"),
-    FTRL_4_3_1_PERMLL("FTRL_4_3_1_PERMLL", LovKilde.FOLKETRYGDLOVEN, "§ 4-3(1) permitteringslønnsloven"),
     FTRL_4_3_2("FTRL_4_3_2", LovKilde.FOLKETRYGDLOVEN, "§ 4-3(2)"),
     FTRL_4_4("FTRL_4_4", LovKilde.FOLKETRYGDLOVEN, "§ 4-4"),
     FTRL_4_5_REGISTRERING("FTRL_4_5_REGISTRERING", LovKilde.FOLKETRYGDLOVEN, "§ 4-5 registrering"),

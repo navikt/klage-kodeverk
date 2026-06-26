@@ -854,6 +854,7 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FS_DAG_1_8,
         FS_DAG_2_1,
         FS_DAG_3A_1,
+        FS_DAG_3A_2,
         FS_DAG_6_5,
         FS_DAG_6_7,
         FS_DAG_6_8,
@@ -939,6 +940,11 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
 
         KNV_STBR_ART_58,
         KNV_STBR_ART_59,
+
+        GJ_F_FORD_987_2009_11,
+        GJ_F_FORD_987_2009_55,
+
+        AML_15_3,
     ),
     Ytelse.AAP_AAP to listOf(
         FTRL_11_0A,

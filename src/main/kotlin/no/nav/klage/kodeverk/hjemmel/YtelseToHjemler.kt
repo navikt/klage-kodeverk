@@ -1295,7 +1295,6 @@ val ytelseToHjemler = mapOf(
     Ytelse.DAG_DAG to listOf(
         HjemmelAndUtfasesStatus(FTRL_4_2),
         HjemmelAndUtfasesStatus(FTRL_4_3_1),
-        HjemmelAndUtfasesStatus(FTRL_4_3_1_PERMLL),
         HjemmelAndUtfasesStatus(FTRL_4_3_2),
         HjemmelAndUtfasesStatus(FTRL_4_4),
         HjemmelAndUtfasesStatus(FTRL_4_5_REGISTRERING),
