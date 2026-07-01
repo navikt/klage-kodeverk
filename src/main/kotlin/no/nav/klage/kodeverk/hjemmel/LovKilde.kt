@@ -80,5 +80,6 @@ enum class LovKilde(override val id: String, override val navn: String, override
     FORSKRIFT_OM_UNGDOMSPROGRAM_OG_UNGDOMSPROGRAMYTELSE("75", "Forskrift om forsøk med ungdomsprogram og ungdomsprogramytelse", "Forskrift om forsøk med ungdomsprogram og ungdomsprogramytelse"),
     ARBEIDSMILJØLOVEN("76", "Arbeidsmiljøloven", "Aml"),
     FORSKRIFT_OM_TILSKUDD_TIL_EKSPERTBISTAND("77", "Forskrift om tilskudd til ekspertbistand", "Forskrift om tilskudd til ekspertbistand"),
+    OVERGANGSFORSKRIFTEN("78", "Overgangsforskriften", "Overgangsforskriften"),
     UKJENT("999","Ukjent", "Ukjent"),
 }
