@@ -5,9 +5,6 @@ import no.nav.klage.kodeverk.ytelse.Ytelse
 
 val registreringshjemlerYRK = listOf(
     FTRL_13_0,
-    FTRL_13_0A,
-    FTRL_13_0B,
-    FTRL_13_0C,
     FTRL_13_2,
     FTRL_13_3A,
     FTRL_13_3B,
@@ -813,9 +810,6 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         GJ_F_FORD_987_2009_87,
     ),
     Ytelse.DAG_DAG to listOf(
-        FTRL_4_0A,
-        FTRL_4_0B,
-        FTRL_4_0C,
         FTRL_4_1A,
         FTRL_4_2,
         FTRL_4_3A,
@@ -947,9 +941,6 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         AML_15_3,
     ),
     Ytelse.AAP_AAP to listOf(
-        FTRL_11_0A,
-        FTRL_11_0B,
-        FTRL_11_0C,
         FTRL_11_2,
         FTRL_11_3,
         FTRL_11_4,
@@ -1225,10 +1216,6 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         GAMMELT_REGELVERK,
     ),
     Ytelse.FOR_FOR to listOf(
-        FTRL_14_0A,
-        FTRL_14_0B,
-        FTRL_14_0C,
-
         FTRL_14_2,
         FTRL_14_5,
         FTRL_14_5_GRUPPE_2_LAND,
@@ -1314,10 +1301,6 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FEDREKVOTESAK,
     ),
     Ytelse.FOR_ENG to listOf(
-        FTRL_14_0A,
-        FTRL_14_0B,
-        FTRL_14_0C,
-
         FTRL_14_2,
         FTRL_14_17,
         FTRL_14_17_GAMMEL,
@@ -1371,10 +1354,6 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FL_28,
     ),
     Ytelse.FOR_SVA to listOf(
-        FTRL_14_0A,
-        FTRL_14_0B,
-        FTRL_14_0C,
-
         FTRL_14_2,
         FTRL_14_4,
         FTRL_14_4A,
