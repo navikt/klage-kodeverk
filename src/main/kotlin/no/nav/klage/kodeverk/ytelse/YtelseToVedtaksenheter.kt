@@ -1679,6 +1679,7 @@ val ytelseToVedtaksenheter = mapOf(
         E2028,
         E2030,
         E2103,
+        E4715,
         E5701,
         E5702,
     ),
