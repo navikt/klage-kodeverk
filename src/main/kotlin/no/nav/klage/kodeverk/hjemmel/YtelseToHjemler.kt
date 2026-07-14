@@ -768,6 +768,7 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_17_8_NY),
         HjemmelAndUtfasesStatus(FTRL_17_9_NY),
         HjemmelAndUtfasesStatus(FTRL_17_10),
+        HjemmelAndUtfasesStatus(FTRL_17_10_A),
         HjemmelAndUtfasesStatus(FTRL_17_11),
         HjemmelAndUtfasesStatus(FTRL_17_12),
         HjemmelAndUtfasesStatus(FTRL_17_14),
@@ -881,6 +882,7 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_17_9_NY),
         HjemmelAndUtfasesStatus(FTRL_17_9),
         HjemmelAndUtfasesStatus(FTRL_17_10),
+        HjemmelAndUtfasesStatus(FTRL_17_10_A),
         HjemmelAndUtfasesStatus(FTRL_17_11),
         HjemmelAndUtfasesStatus(FTRL_17_12),
         HjemmelAndUtfasesStatus(FTRL_17_14),
@@ -1224,6 +1226,7 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FTRL_15_11),
 
         HjemmelAndUtfasesStatus(FTRL_17_10),
+        HjemmelAndUtfasesStatus(FTRL_17_10_A),
         HjemmelAndUtfasesStatus(FTRL_17_15),
 
         HjemmelAndUtfasesStatus(FTRL_21_12),
@@ -1239,6 +1242,19 @@ val ytelseToHjemler = mapOf(
         HjemmelAndUtfasesStatus(FS_TILL_ST_12_LAEREMIDLER),
         HjemmelAndUtfasesStatus(FS_TILL_ST_15_2),
         HjemmelAndUtfasesStatus(FS_TILL_ST_15_3),
+
+        HjemmelAndUtfasesStatus(OVERGANGSFORSKRIFTEN_1),
+        HjemmelAndUtfasesStatus(OVERGANGSFORSKRIFTEN_2),
+        HjemmelAndUtfasesStatus(OVERGANGSFORSKRIFTEN_3),
+        HjemmelAndUtfasesStatus(OVERGANGSFORSKRIFTEN_4),
+        HjemmelAndUtfasesStatus(OVERGANGSFORSKRIFTEN_5),
+        HjemmelAndUtfasesStatus(OVERGANGSFORSKRIFTEN_6),
+        HjemmelAndUtfasesStatus(OVERGANGSFORSKRIFTEN_7),
+        HjemmelAndUtfasesStatus(OVERGANGSFORSKRIFTEN_8),
+        HjemmelAndUtfasesStatus(OVERGANGSFORSKRIFTEN_9),
+        HjemmelAndUtfasesStatus(OVERGANGSFORSKRIFTEN_10),
+        HjemmelAndUtfasesStatus(OVERGANGSFORSKRIFTEN_11),
+        HjemmelAndUtfasesStatus(OVERGANGSFORSKRIFTEN_12),
 
         HjemmelAndUtfasesStatus(FL_2_3),
         HjemmelAndUtfasesStatus(FL_10),
