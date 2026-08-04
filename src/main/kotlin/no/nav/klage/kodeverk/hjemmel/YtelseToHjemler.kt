@@ -295,7 +295,6 @@ val ytelseToHjemler = mapOf(
 
         HjemmelAndUtfasesStatus(TRRL_9),
         HjemmelAndUtfasesStatus(TRRL_10),
-        HjemmelAndUtfasesStatus(TRRL_27),
     ),
     Ytelse.SUP_PEN to listOf(
         HjemmelAndUtfasesStatus(SUP_ST_L_3),
