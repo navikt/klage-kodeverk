@@ -843,9 +843,10 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FTRL_4_27,
         FTRL_4_28,
 
-        FS_DAG_1_5,
+        FS_DAG_1_6,
         FS_DAG_1_7,
         FS_DAG_1_8,
+        FS_DAG_1_9,
         FS_DAG_2_1,
         FS_DAG_3A_1,
         FS_DAG_3A_2,
@@ -875,7 +876,6 @@ val ytelseToRegistreringshjemlerV2 = mapOf(
         FS_DAG_11_3,
         FS_DAG_12_1,
         FS_DAG_13_1,
-        FS_DAG_13_2,
         FS_DAG_13_3A,
         FS_DAG_13_4A,
 
