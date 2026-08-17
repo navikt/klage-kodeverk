@@ -2071,27 +2071,8 @@ val ytelseToVedtaksenheter = mapOf(
         E2103
     ),
     Ytelse.TSO_TSO to setOf(
-        E0287,
-        E0387,
-        E0587,
-        E0687,
-        E0800,
-        E1087,
-        E1187,
-        E1287,
-        E1500,
-        E1800,
-        E1987,
-        E4402,
-        E4405,
-        E4407,
-        E4411,
-        E4416,
         E4462,
         E4483,
-        E5700,
-        E5771,
-        E2103
     ),
     Ytelse.FAR_FAR to setOf(
         E4860,
