@@ -16,7 +16,7 @@ val typeToUtfall =
                 UGUNST,
                 HENLAGT,
             ),
-        Type.ANKE to
+        Type.ANKE_FOER_2027 to
             setOf(
                 TRUKKET,
                 OPPHEVET,
@@ -27,7 +27,7 @@ val typeToUtfall =
                 UGUNST,
                 HENLAGT,
             ),
-        Type.ANKE_I_TRYGDERETTEN to
+        Type.ANKE_I_TRYGDERETTEN_FOER_2027 to
             setOf(
                 OPPHEVET,
                 MEDHOLD,
