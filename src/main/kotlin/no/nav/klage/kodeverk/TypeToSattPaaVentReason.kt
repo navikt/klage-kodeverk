@@ -28,4 +28,6 @@ val typeToSattPaaVentReason =
         Type.OMGJOERINGSKRAV to standardSet,
         Type.BEGJAERING_OM_GJENOPPTAK to standardSet.plus(OVERSENDELSESBREV_PAA_TILSVAR),
         Type.BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN to trygderettenSet,
+        Type.ANKE_ETTER_2027 to standardSet,
+        Type.ANKE_I_TRYGDERETTEN_ETTER_2027 to trygderettenSet,
     )

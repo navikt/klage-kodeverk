@@ -18,7 +18,15 @@ plugins {
 
 group = "no.nav.klage"
 version = properties["version"] ?: "local-build"
-java.sourceCompatibility = JavaVersion.VERSION_21
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
+}
+
+kotlin {
+    jvmToolchain(21)
+}
 
 repositories {
     mavenCentral()
