@@ -4,8 +4,11 @@ import com.fasterxml.jackson.annotation.JsonValue
 import jakarta.persistence.AttributeConverter
 import jakarta.persistence.Converter
 
-enum class FradelingReason(override val id: String, override val navn: String, override val beskrivelse: String) :
-    Kode {
+enum class FradelingReason(
+    override val id: String,
+    override val navn: String,
+    override val beskrivelse: String,
+) : Kode {
     FEIL_HJEMMEL("1", "FEIL_HJEMMEL", "Feil hjemmel"),
     MANGLER_KOMPETANSE("2", "MANGLER_KOMPETANSE", "Mangler kompetanse"),
     INHABIL("3", "INHABIL", "Inhabil"),
@@ -16,33 +19,27 @@ enum class FradelingReason(override val id: String, override val navn: String, o
     ANGRET("8", "ANGRET", "Tildeling angret ved å bruke angreknappen."),
     ;
 
-    override fun toString(): String {
-        return "FradelingReason(id=$id, " +
-                "navn=$navn)"
-    }
+    override fun toString(): String =
+        "FradelingReason(id=$id, " +
+            "navn=$navn)"
 
     @JsonValue
     fun toJson(): String = name
 
     companion object {
-        fun of(id: String): FradelingReason {
-            return entries.firstOrNull { it.id == id }
+        fun of(id: String): FradelingReason =
+            entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No FradelingReason with id $id exists")
-        }
 
-        fun fromNavn(navn: String?): FradelingReason {
-            return entries.firstOrNull { it.navn == navn }
+        fun fromNavn(navn: String?): FradelingReason =
+            entries.firstOrNull { it.navn == navn }
                 ?: throw IllegalArgumentException("No FradelingReason with navn $navn exists")
-        }
     }
 }
 
 @Converter
 class FradelingReasonConverter : AttributeConverter<FradelingReason, String?> {
+    override fun convertToDatabaseColumn(entity: FradelingReason?): String? = entity?.id
 
-    override fun convertToDatabaseColumn(entity: FradelingReason?): String? =
-        entity?.id
-
-    override fun convertToEntityAttribute(id: String?): FradelingReason? =
-        id?.let { FradelingReason.of(it) }
+    override fun convertToEntityAttribute(id: String?): FradelingReason? = id?.let { FradelingReason.of(it) }
 }

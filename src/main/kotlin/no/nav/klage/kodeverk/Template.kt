@@ -2,8 +2,11 @@ package no.nav.klage.kodeverk
 
 import com.fasterxml.jackson.annotation.JsonValue
 
-enum class Template(override val id: String, override val navn: String, override val beskrivelse: String) : Kode {
-
+enum class Template(
+    override val id: String,
+    override val navn: String,
+    override val beskrivelse: String,
+) : Kode {
     NOTAT("notat", "notat", "Notat"),
     GENERELT_BREV("generelt_brev", "Generelt brev", "Generelt brev"),
     ANKEVEDTAK("ankevedtak", "ankevedtak", "Ankevedtak"),
@@ -12,23 +15,20 @@ enum class Template(override val id: String, override val navn: String, override
     ROL_ANSWERS("rol-answers", "rol-answers", "ROL answers"),
     ;
 
-    override fun toString(): String {
-        return "Template(id=$id, " +
-                "navn=$navn)"
-    }
+    override fun toString(): String =
+        "Template(id=$id, " +
+            "navn=$navn)"
 
     @JsonValue
     fun toJson(): String = name
 
     companion object {
-        fun of(id: String): Template {
-            return entries.firstOrNull { it.id == id }
+        fun of(id: String): Template =
+            entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No Template with id $id exists")
-        }
 
-        fun fromNavn(navn: String): Template {
-            return entries.firstOrNull { it.navn == navn }
+        fun fromNavn(navn: String): Template =
+            entries.firstOrNull { it.navn == navn }
                 ?: throw IllegalArgumentException("No Template with navn $navn exists")
-        }
     }
 }

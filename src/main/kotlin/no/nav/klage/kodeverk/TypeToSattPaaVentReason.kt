@@ -2,27 +2,30 @@ package no.nav.klage.kodeverk
 
 import no.nav.klage.kodeverk.SattPaaVentReason.*
 
-val standardSet = setOf(
-    VENTER_PAA_DOKUMENTASJON,
-    VENTER_PAA_AVKLARING_OM_DOEDSBO,
-    SATT_I_BERO,
-    ANNET_TIL_FORELEGGELSE,
-    ANNET,
-)
+val standardSet =
+    setOf(
+        VENTER_PAA_DOKUMENTASJON,
+        VENTER_PAA_AVKLARING_OM_DOEDSBO,
+        SATT_I_BERO,
+        ANNET_TIL_FORELEGGELSE,
+        ANNET,
+    )
 
-val trygderettenSet = setOf(
-    SATT_I_BERO,
-    VENTER_PAA_AVGJOERELSE_OM_SOEKSMAAL_GJENOPPTAKSBEGJAERING,
-    ANNET,
-    UTREDER_FOR_TRYGDERETTEN,
-)
+val trygderettenSet =
+    setOf(
+        SATT_I_BERO,
+        VENTER_PAA_AVGJOERELSE_OM_SOEKSMAAL_GJENOPPTAKSBEGJAERING,
+        ANNET,
+        UTREDER_FOR_TRYGDERETTEN,
+    )
 
-val typeToSattPaaVentReason = mapOf(
-    Type.KLAGE to standardSet.plus(VENTER_PAA_UTFYLLENDE_KLAGE),
-    Type.ANKE to standardSet.plus(listOf(OVERSENDELSESBREV_PAA_TILSVAR, VENTER_PAA_UTFYLLENDE_ANKE)),
-    Type.ANKE_I_TRYGDERETTEN to trygderettenSet,
-    Type.BEHANDLING_ETTER_TRYGDERETTEN_OPPHEVET to standardSet,
-    Type.OMGJOERINGSKRAV to standardSet,
-    Type.BEGJAERING_OM_GJENOPPTAK to standardSet.plus(OVERSENDELSESBREV_PAA_TILSVAR),
-    Type.BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN to trygderettenSet,
-)
+val typeToSattPaaVentReason =
+    mapOf(
+        Type.KLAGE to standardSet.plus(VENTER_PAA_UTFYLLENDE_KLAGE),
+        Type.ANKE to standardSet.plus(listOf(OVERSENDELSESBREV_PAA_TILSVAR, VENTER_PAA_UTFYLLENDE_ANKE)),
+        Type.ANKE_I_TRYGDERETTEN to trygderettenSet,
+        Type.BEHANDLING_ETTER_TRYGDERETTEN_OPPHEVET to standardSet,
+        Type.OMGJOERINGSKRAV to standardSet,
+        Type.BEGJAERING_OM_GJENOPPTAK to standardSet.plus(OVERSENDELSESBREV_PAA_TILSVAR),
+        Type.BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN to trygderettenSet,
+    )

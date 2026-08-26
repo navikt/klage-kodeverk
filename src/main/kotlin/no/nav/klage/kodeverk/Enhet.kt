@@ -3,7 +3,11 @@ package no.nav.klage.kodeverk
 import jakarta.persistence.AttributeConverter
 import jakarta.persistence.Converter
 
-enum class Enhet(override val id: String, override val navn: String, override val beskrivelse: String) : Kode {
+enum class Enhet(
+    override val id: String,
+    override val navn: String,
+    override val beskrivelse: String,
+) : Kode {
     E4701("1", "4701", "Nav Hjelpemiddelsentral Øst-Viken"),
     E4702("2", "4702", "Nav Hjelpemiddelsentral Akershus"),
     E4703("3", "4703", "Nav Hjelpemiddelsentral Oslo"),
@@ -488,42 +492,38 @@ enum class Enhet(override val id: String, override val navn: String, override va
     ;
 
     companion object {
-        fun of(id: String): Enhet {
-            return entries.firstOrNull { it.id == id }
+        fun of(id: String): Enhet =
+            entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No Enhet with id $id exists")
-        }
 
-        fun fromNavn(navn: String): Enhet {
-            return entries.firstOrNull { it.navn == navn }
+        fun fromNavn(navn: String): Enhet =
+            entries.firstOrNull { it.navn == navn }
                 ?: throw IllegalArgumentException("No Enhet with navn $navn exists")
-        }
     }
 }
 
 @Converter
 class EnhetConverter : AttributeConverter<Enhet, String?> {
+    override fun convertToDatabaseColumn(entity: Enhet?): String? = entity?.id
 
-    override fun convertToDatabaseColumn(entity: Enhet?): String? =
-        entity?.id
-
-    override fun convertToEntityAttribute(id: String?): Enhet? =
-        id?.let { Enhet.of(it) }
+    override fun convertToEntityAttribute(id: String?): Enhet? = id?.let { Enhet.of(it) }
 }
 
 val klageenheter = setOf(Enhet.E4295, Enhet.E4293, Enhet.E4250, Enhet.E4294, Enhet.E4292, Enhet.E4291, Enhet.E2103)
 
-val klageenheterForAnkeinnsending = setOf(
-    Enhet.E4295,
-    Enhet.E4293,
-    Enhet.E4250,
-    Enhet.E4294,
-    Enhet.E4292,
-    Enhet.E4291,
-    Enhet.E4260,
-    Enhet.E4270,
-    Enhet.E4280,
-    Enhet.E4286,
-    Enhet.E2103
-)
+val klageenheterForAnkeinnsending =
+    setOf(
+        Enhet.E4295,
+        Enhet.E4293,
+        Enhet.E4250,
+        Enhet.E4294,
+        Enhet.E4292,
+        Enhet.E4291,
+        Enhet.E4260,
+        Enhet.E4270,
+        Enhet.E4280,
+        Enhet.E4286,
+        Enhet.E2103,
+    )
 
 val styringsenheter = setOf(Enhet.E4200, Enhet.E4400, Enhet.E4700)

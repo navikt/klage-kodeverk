@@ -1,7 +1,10 @@
 package no.nav.klage.kodeverk
 
-enum class SattPaaVentReason(override val id: String, override val navn: String, override val beskrivelse: String) :
-    Kode {
+enum class SattPaaVentReason(
+    override val id: String,
+    override val navn: String,
+    override val beskrivelse: String,
+) : Kode {
     OVERSENDELSESBREV_PAA_TILSVAR("1", "OVERSENDELSESBREV_PAA_TILSVAR", "Oversendelsesbrev på tilsvar"),
     VENTER_PAA_DOKUMENTASJON("2", "VENTER_PAA_DOKUMENTASJON", "Venter på dokumentasjon"),
     VENTER_PAA_AVKLARING_OM_DOEDSBO("3", "VENTER_PAA_AVKLARING_OM_DOEDSBO", "Venter på avklaring om dødsbo"),
@@ -13,25 +16,22 @@ enum class SattPaaVentReason(override val id: String, override val navn: String,
     VENTER_PAA_AVGJOERELSE_OM_SOEKSMAAL_GJENOPPTAKSBEGJAERING(
         "9",
         "VENTER_PAA_AVGJOERELSE_OM_SOEKSMAAL_GJENOPPTAKSBEGJAERING",
-        "Venter på avgjørelse om søksmål/gjenopptaksbegjæring"
+        "Venter på avgjørelse om søksmål/gjenopptaksbegjæring",
     ),
     UTREDER_FOR_TRYGDERETTEN(
         "10",
         "UTREDER_FOR_TRYGDERETTEN",
-        "Utreder for Trygderetten"
+        "Utreder for Trygderetten",
     ),
     ;
 
-
     companion object {
-        fun of(id: String): SattPaaVentReason {
-            return entries.firstOrNull { it.id == id }
+        fun of(id: String): SattPaaVentReason =
+            entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No SattPaaVentReason with id $id exists")
-        }
 
-        fun fromNavn(navn: String?): SattPaaVentReason {
-            return entries.firstOrNull { it.navn == navn }
+        fun fromNavn(navn: String?): SattPaaVentReason =
+            entries.firstOrNull { it.navn == navn }
                 ?: throw IllegalArgumentException("No SattPaaVentReason with navn $navn exists")
-        }
     }
 }

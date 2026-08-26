@@ -4,8 +4,11 @@ import com.fasterxml.jackson.annotation.JsonValue
 import jakarta.persistence.AttributeConverter
 import jakarta.persistence.Converter
 
-enum class FlowState(override val id: String, override val navn: String, override val beskrivelse: String) :
-    Kode {
+enum class FlowState(
+    override val id: String,
+    override val navn: String,
+    override val beskrivelse: String,
+) : Kode {
     NOT_SENT("1", "IKKE_SENDT", "Ikke sendt"),
     SENT("2", "OVERSENDT", "Oversendt"),
     RETURNED("3", "RETURNERT_TIL_SAKSBEHANDLER", "Returnert til saksbehandler"),
@@ -13,33 +16,27 @@ enum class FlowState(override val id: String, override val navn: String, overrid
     RETURNED_NOT_APPROVED("5", "RETURNERT_TIL_SAKSBEHANDLER_UTEN_GODKJENNING", "Returnert til saksbehandler uten godkjenning"),
     ;
 
-    override fun toString(): String {
-        return "FlowState(id=$id, " +
-                "navn=$navn)"
-    }
+    override fun toString(): String =
+        "FlowState(id=$id, " +
+            "navn=$navn)"
 
     @JsonValue
     fun toJson(): String = name
 
     companion object {
-        fun of(id: String): FlowState {
-            return entries.firstOrNull { it.id == id }
+        fun of(id: String): FlowState =
+            entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No FlowState with id $id exists")
-        }
 
-        fun fromNavn(navn: String?): FlowState {
-            return entries.firstOrNull { it.navn == navn }
+        fun fromNavn(navn: String?): FlowState =
+            entries.firstOrNull { it.navn == navn }
                 ?: throw IllegalArgumentException("No FlowState with navn $navn exists")
-        }
     }
 }
 
 @Converter
 class FlowStateConverter : AttributeConverter<FlowState, String?> {
+    override fun convertToDatabaseColumn(entity: FlowState?): String? = entity?.id
 
-    override fun convertToDatabaseColumn(entity: FlowState?): String? =
-        entity?.id
-
-    override fun convertToEntityAttribute(id: String?): FlowState? =
-        id?.let { FlowState.of(it) }
+    override fun convertToEntityAttribute(id: String?): FlowState? = id?.let { FlowState.of(it) }
 }

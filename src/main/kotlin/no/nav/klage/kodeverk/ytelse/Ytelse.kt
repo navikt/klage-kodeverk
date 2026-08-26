@@ -6,7 +6,11 @@ import no.nav.klage.kodeverk.Kode
 import no.nav.klage.kodeverk.Tema
 import no.nav.klage.kodeverk.hjemmel.ytelseToHjemler
 
-enum class Ytelse(override val id: String, override val navn: String, override val beskrivelse: String) : Kode {
+enum class Ytelse(
+    override val id: String,
+    override val navn: String,
+    override val beskrivelse: String,
+) : Kode {
     OMS_OMP("1", "Sykdom i familien - Omsorgspenger", "Sykdom i familien - Omsorgspenger"),
     OMS_OLP("2", "Sykdom i familien - Opplæringspenger", "Sykdom i familien - Opplæringspenger"),
     OMS_PSB("3", "Sykdom i familien - Pleiepenger sykt barn", "Sykdom i familien - Pleiepenger sykt barn"),
@@ -34,6 +38,7 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     PEN_ALD("25", "Alderspensjon", "Alderspensjon"),
     PEN_BAR("26", "Etterlatteytelser - Barnepensjon", "Etterlatteytelser - Barnepensjon"),
     PEN_AFP("27", "Avtalefestet pensjon (AFP)", "Avtalefestet pensjon (AFP)"),
+
 // Ikke lenger i bruk
 //    PEN_TIF("28", "Tidligere familiepleier", "Tidligere familiepleier"),
     PEN_KRI("29", "Krigspensjon", "Krigspensjon"),
@@ -53,17 +58,17 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     HJE_AUR(
         "42",
         "Hjelpemidler - Støtte til arbeids- og utdanningsreiser",
-        "Hjelpemidler - Støtte til arbeids- og utdanningsreiser"
+        "Hjelpemidler - Støtte til arbeids- og utdanningsreiser",
     ),
     TSR_ASO(
         "56",
         "Tilleggsstønad arbeidssøkere",
-        "Tilleggsstønad arbeidssøkere"
+        "Tilleggsstønad arbeidssøkere",
     ),
     FRI_FRI(
         "43",
         "Kompensasjonsytelse for selvstendig næringsdrivende og frilansere",
-        "Kompensasjonsytelse for selvstendig næringsdrivende og frilansere"
+        "Kompensasjonsytelse for selvstendig næringsdrivende og frilansere",
     ),
     TSO_TSO("44", "Tilleggsstønad", "Tilleggsstønad"),
     FAR_FAR("45", "Bidragsområdet - Far- og morskap", "Bidragsområdet - Far- og morskap"),
@@ -78,16 +83,14 @@ enum class Ytelse(override val id: String, override val navn: String, override v
     PEN_GYS("55", "Gammel yrkesskade", "Gammel yrkesskade"),
     ;
 
-
     companion object {
-        fun of(id: String): Ytelse {
-            return entries.firstOrNull { it.id == id }
+        fun of(id: String): Ytelse =
+            entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No Ytelse with id $id exists")
-        }
     }
 
-    fun toTema(): Tema {
-        return when (this) {
+    fun toTema(): Tema =
+        when (this) {
             OMS_OMP, OMS_OLP, OMS_PSB, OMS_PLS -> Tema.OMS
             SYK_SYK -> Tema.SYK
             FOR_FOR, FOR_ENG, FOR_SVA -> Tema.FOR
@@ -121,38 +124,36 @@ enum class Ytelse(override val id: String, override val navn: String, override v
             PAR_PAR -> Tema.UKJ
             UNG_UNG -> Tema.UNG
         }
-    }
 }
 
 @Converter
 class YtelseConverter : AttributeConverter<Ytelse, String?> {
+    override fun convertToDatabaseColumn(entity: Ytelse?): String? = entity?.id
 
-    override fun convertToDatabaseColumn(entity: Ytelse?): String? =
-        entity?.id
-
-    override fun convertToEntityAttribute(id: String?): Ytelse? =
-        id?.let { Ytelse.of(it) }
+    override fun convertToEntityAttribute(id: String?): Ytelse? = id?.let { Ytelse.of(it) }
 }
 
-val ytelserPerEnhet = mapOf(
-    "4291" to listOf(Ytelse.SYK_SYK),
-    "4292" to listOf(Ytelse.FOR_FOR, Ytelse.FOR_ENG, Ytelse.FOR_SVA, Ytelse.SYK_SYK),
-    "4293" to listOf(),
-    "4294" to listOf(Ytelse.SYK_SYK),
-    "4295" to listOf(Ytelse.OMS_OMP, Ytelse.OMS_PLS, Ytelse.OMS_PSB, Ytelse.OMS_OLP),
-    "4250" to listOf(),
-)
+val ytelserPerEnhet =
+    mapOf(
+        "4291" to listOf(Ytelse.SYK_SYK),
+        "4292" to listOf(Ytelse.FOR_FOR, Ytelse.FOR_ENG, Ytelse.FOR_SVA, Ytelse.SYK_SYK),
+        "4293" to listOf(),
+        "4294" to listOf(Ytelse.SYK_SYK),
+        "4295" to listOf(Ytelse.OMS_OMP, Ytelse.OMS_PLS, Ytelse.OMS_PSB, Ytelse.OMS_OLP),
+        "4250" to listOf(),
+    )
 
-val enheterPerYtelse = mapOf(
-    Ytelse.SYK_SYK to listOf("4291", "4292", "4294"),
-    Ytelse.FOR_SVA to listOf("4292"),
-    Ytelse.FOR_ENG to listOf("4292"),
-    Ytelse.FOR_FOR to listOf("4292"),
-    Ytelse.OMS_OMP to listOf("4295"),
-    Ytelse.OMS_PLS to listOf("4295"),
-    Ytelse.OMS_PSB to listOf("4295"),
-    Ytelse.OMS_OLP to listOf("4295"),
-)
+val enheterPerYtelse =
+    mapOf(
+        Ytelse.SYK_SYK to listOf("4291", "4292", "4294"),
+        Ytelse.FOR_SVA to listOf("4292"),
+        Ytelse.FOR_ENG to listOf("4292"),
+        Ytelse.FOR_FOR to listOf("4292"),
+        Ytelse.OMS_OMP to listOf("4295"),
+        Ytelse.OMS_PLS to listOf("4295"),
+        Ytelse.OMS_PSB to listOf("4295"),
+        Ytelse.OMS_OLP to listOf("4295"),
+    )
 
 data class DisplayName(
     val nb: String,
@@ -160,6 +161,4 @@ data class DisplayName(
     val nn: String,
 )
 
-fun getYtelserCurrentlyInUse(): List<Ytelse> {
-    return ytelseToHjemler.entries.map { it.key }
-}
+fun getYtelserCurrentlyInUse(): List<Ytelse> = ytelseToHjemler.entries.map { it.key }

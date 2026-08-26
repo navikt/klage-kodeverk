@@ -6,7 +6,7 @@ interface Kode {
     val beskrivelse: String
 }
 
-interface MinimalCode{
+interface MinimalCode {
     val id: String
     val nbName: String
 }
