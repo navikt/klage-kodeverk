@@ -6,7 +6,11 @@ import jakarta.persistence.Converter
 import no.nav.klage.kodeverk.ytelse.Ytelse
 import no.nav.klage.kodeverk.ytelse.getYtelserCurrentlyInUse
 
-enum class Tema(override val id: String, override val navn: String, override val beskrivelse: String) : Kode {
+enum class Tema(
+    override val id: String,
+    override val navn: String,
+    override val beskrivelse: String,
+) : Kode {
     AAP("1", "AAP", "Arbeidsavklaringspenger"),
     AAR("2", "AAR", "Aa-registeret"),
     AGR("3", "AGR", "Ajourhold - Grunnopplysninger"),
@@ -75,32 +79,27 @@ enum class Tema(override val id: String, override val navn: String, override val
     VEN("53", "VEN", "Ventelønn"),
     YRA("54", "YRA", "Yrkesrettet attføring"),
     YRK("55", "YRK", "Yrkesskade / Menerstatning"),
-    GOS("56", "GOS", "Gosys") //Er ikke egentlig et tema, men returneres fra Axsys likevel
+    GOS("56", "GOS", "Gosys"), // Er ikke egentlig et tema, men returneres fra Axsys likevel
     ;
 
-    override fun toString(): String {
-        return "Tema(id=$id, " +
-                "navn=$navn)"
-    }
+    override fun toString(): String =
+        "Tema(id=$id, " +
+            "navn=$navn)"
 
     @JsonValue
     fun toJson(): String = name
 
     companion object {
-        fun of(id: String): Tema {
-            return entries.firstOrNull { it.id == id }
+        fun of(id: String): Tema =
+            entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No Tema with id $id exists")
-        }
 
-        fun fromNavn(navn: String?): Tema {
-            return entries.firstOrNull { it.navn == navn }
+        fun fromNavn(navn: String?): Tema =
+            entries.firstOrNull { it.navn == navn }
                 ?: throw IllegalArgumentException("No Tema with navn $navn exists")
-        }
     }
 
-    fun toAllYtelser(): List<Ytelse> {
-        return Ytelse.entries.filter { it.toTema().id == this.id }
-    }
+    fun toAllYtelser(): List<Ytelse> = Ytelse.entries.filter { it.toTema().id == this.id }
 
     fun toYtelserCurrentlyInUse(): List<Ytelse> {
         if (this == FEI) return listOf(Ytelse.AAP_AAP, Ytelse.DAG_DAG, Ytelse.TIL_TIP, Ytelse.TSO_TSO, Ytelse.TSR_ASO)
@@ -110,10 +109,7 @@ enum class Tema(override val id: String, override val navn: String, override val
 
 @Converter
 class TemaConverter : AttributeConverter<Tema, String?> {
+    override fun convertToDatabaseColumn(entity: Tema?): String? = entity?.id
 
-    override fun convertToDatabaseColumn(entity: Tema?): String? =
-        entity?.id
-
-    override fun convertToEntityAttribute(id: String?): Tema? =
-        id?.let { Tema.of(it) }
+    override fun convertToEntityAttribute(id: String?): Tema? = id?.let { Tema.of(it) }
 }

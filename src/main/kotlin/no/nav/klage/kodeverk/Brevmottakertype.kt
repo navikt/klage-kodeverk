@@ -4,40 +4,35 @@ import com.fasterxml.jackson.annotation.JsonValue
 import jakarta.persistence.AttributeConverter
 import jakarta.persistence.Converter
 
-enum class Brevmottakertype(override val id: String, override val navn: String, override val beskrivelse: String) :
-    Kode {
+enum class Brevmottakertype(
+    override val id: String,
+    override val navn: String,
+    override val beskrivelse: String,
+) : Kode {
     KLAGER("1", "Klager", "Klager"),
     SAKEN_GJELDER("2", "Saken gjelder", "Saken gjelder"),
-    PROSESSFULLMEKTIG("3", "Prosessfullmektig", "Prosessfullmektig")
+    PROSESSFULLMEKTIG("3", "Prosessfullmektig", "Prosessfullmektig"),
     ;
 
-    override fun toString(): String {
-        return "Brevmottakertype(id=$id, " +
-                "navn=$navn)"
-    }
+    override fun toString(): String = "Brevmottakertype(id=$id, navn=$navn)"
 
     @JsonValue
     fun toJson(): String = name
 
     companion object {
-        fun of(id: String): Brevmottakertype {
-            return entries.firstOrNull { it.id == id }
+        fun of(id: String): Brevmottakertype =
+            entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No Bremottakertype with id $id exists")
-        }
 
-        fun fromNavn(navn: String): Brevmottakertype {
-            return entries.firstOrNull { it.navn == navn }
+        fun fromNavn(navn: String): Brevmottakertype =
+            entries.firstOrNull { it.navn == navn }
                 ?: throw IllegalArgumentException("No Bremottakertype with navn $navn exists")
-        }
     }
 }
 
 @Converter
 class BrevmottakertypeConverter : AttributeConverter<Brevmottakertype, String?> {
+    override fun convertToDatabaseColumn(entity: Brevmottakertype?): String? = entity?.id
 
-    override fun convertToDatabaseColumn(entity: Brevmottakertype?): String? =
-        entity?.id
-
-    override fun convertToEntityAttribute(id: String?): Brevmottakertype? =
-        id?.let { Brevmottakertype.of(it) }
+    override fun convertToEntityAttribute(id: String?): Brevmottakertype? = id?.let { Brevmottakertype.of(it) }
 }

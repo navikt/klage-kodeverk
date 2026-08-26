@@ -4,7 +4,11 @@ import com.fasterxml.jackson.annotation.JsonValue
 import jakarta.persistence.AttributeConverter
 import jakarta.persistence.Converter
 
-enum class Utfall(override val id: String, override val navn: String, override val beskrivelse: String) : Kode {
+enum class Utfall(
+    override val id: String,
+    override val navn: String,
+    override val beskrivelse: String,
+) : Kode {
     TRUKKET("1", "Trukket", "Trukket"),
     RETUR("2", "Retur", "Retur"),
     OPPHEVET("3", "Opphevet", "Opphevet"),
@@ -21,7 +25,11 @@ enum class Utfall(override val id: String, override val navn: String, override v
     BESLUTNING_IKKE_OMGJOERE("14", "Beslutning om ikke å omgjøre", "Beslutning om ikke å omgjøre"),
     STADFESTET_ANNEN_BEGRUNNELSE("15", "Stadfestet med en annen begrunnelse", "Stadfestet med en annen begrunnelse"),
     HENLAGT("16", "Henlagt", "Henlagt"),
-    INNSTILLING_GJENOPPTAS_KAS_VEDTAK_STADFESTES("17", "Innstilling: Gjenopptas, men klageinstansens vedtak stadfestes", "Innstilling: Gjenopptas, men klageinstansens vedtak stadfestes"),
+    INNSTILLING_GJENOPPTAS_KAS_VEDTAK_STADFESTES(
+        "17",
+        "Innstilling: Gjenopptas, men klageinstansens vedtak stadfestes",
+        "Innstilling: Gjenopptas, men klageinstansens vedtak stadfestes",
+    ),
     INNSTILLING_GJENOPPTAS_IKKE("18", "Innstilling: Gjenopptas ikke", "Innstilling: Gjenopptas ikke"),
     GJENOPPTATT_DELVIS_ELLER_FULLT_MEDHOLD("19", "Gjenopptatt - Delvis eller fullt medhold", "Gjenopptatt - Delvis eller fullt medhold"),
     GJENOPPTATT_OPPHEVET("20", "Gjenopptatt - Opphevet", "Gjenopptatt - Opphevet"),
@@ -29,28 +37,23 @@ enum class Utfall(override val id: String, override val navn: String, override v
     IKKE_GJENOPPTATT("22", "Ikke gjenopptatt", "Ikke gjenopptatt"),
     ;
 
-    override fun toString(): String {
-        return "Utfall(id=$id, " +
-                "navn=$navn)"
-    }
+    override fun toString(): String =
+        "Utfall(id=$id, " +
+            "navn=$navn)"
 
     @JsonValue
     fun toJson(): String = name
 
     companion object {
-        fun of(id: String): Utfall {
-            return entries.firstOrNull { it.id == id }
+        fun of(id: String): Utfall =
+            entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No Utfall with id $id exists")
-        }
     }
 }
 
 @Converter
 class UtfallConverter : AttributeConverter<Utfall, String?> {
+    override fun convertToDatabaseColumn(entity: Utfall?): String? = entity?.id
 
-    override fun convertToDatabaseColumn(entity: Utfall?): String? =
-        entity?.id
-
-    override fun convertToEntityAttribute(id: String?): Utfall? =
-        id?.let { Utfall.of(it) }
+    override fun convertToEntityAttribute(id: String?): Utfall? = id?.let { Utfall.of(it) }
 }

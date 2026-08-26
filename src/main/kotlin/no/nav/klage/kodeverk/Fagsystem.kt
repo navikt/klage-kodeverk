@@ -10,7 +10,8 @@ enum class Fagsystem(
     val modernized: Boolean,
 ) : Kode {
     FS36("1", "FS36", "Vedtaksløsning Foreldrepenger", true),
-    //MERK: FS39 er ikke lenger i bruk, og kan anses som utgått.
+
+    // MERK: FS39 er ikke lenger i bruk, og kan anses som utgått.
     FS39("2", "FS39", "Saksbehandling for Folketrygdloven kapittel 9", false),
     AO01("3", "AO01", "Arena", false),
     AO11("4", "AO11", "Grisen", false),
@@ -29,7 +30,7 @@ enum class Fagsystem(
     OMSORGSPENGER("17", "OMSORGSPENGER", "Omsorgspenger", false),
     NEESSI("24", "NEESSI", "NEESSI", false),
 
-    //Ikke i bruk i Dokarkiv.
+    // Ikke i bruk i Dokarkiv.
     MANUELL("18", "MANUELL", "Manuell registrering av kvalitetsskjema", false),
 
     FS22("19", "FS22", "GOSYS", false),
@@ -56,24 +57,19 @@ enum class Fagsystem(
     ;
 
     companion object {
-        fun of(id: String): Fagsystem {
-            return entries.firstOrNull { it.id == id }
+        fun of(id: String): Fagsystem =
+            entries.firstOrNull { it.id == id }
                 ?: throw IllegalArgumentException("No Fagsystem with id $id exists")
-        }
 
-        fun fromNavn(navn: String): Fagsystem {
-            return entries.firstOrNull { it.navn == navn }
+        fun fromNavn(navn: String): Fagsystem =
+            entries.firstOrNull { it.navn == navn }
                 ?: throw IllegalArgumentException("No Fagsystem with navn $navn exists")
-        }
     }
 }
 
 @Converter
 class FagsystemConverter : AttributeConverter<Fagsystem, String?> {
+    override fun convertToDatabaseColumn(entity: Fagsystem?): String? = entity?.id
 
-    override fun convertToDatabaseColumn(entity: Fagsystem?): String? =
-        entity?.id
-
-    override fun convertToEntityAttribute(id: String?): Fagsystem? =
-        id?.let { Fagsystem.of(it) }
+    override fun convertToEntityAttribute(id: String?): Fagsystem? = id?.let { Fagsystem.of(it) }
 }
