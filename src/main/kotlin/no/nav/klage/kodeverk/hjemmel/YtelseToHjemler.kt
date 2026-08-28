@@ -94,6 +94,7 @@ val ytelseToHjemler =
                 HjemmelAndUtfasesStatus(BTRL_15),
                 HjemmelAndUtfasesStatus(BTRL_17),
                 HjemmelAndUtfasesStatus(BTRL_18),
+                HjemmelAndUtfasesStatus(FVL_31),
                 HjemmelAndUtfasesStatus(FVL_35),
                 HjemmelAndUtfasesStatus(EOES_AVTALEN),
                 HjemmelAndUtfasesStatus(NORDISK_KONVENSJON),
