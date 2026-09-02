@@ -824,6 +824,8 @@ enum class Hjemmel(
     OVERGANGSFORSKRIFTEN_11("OVERGANGSFORSKRIFTEN_11", LovKilde.OVERGANGSFORSKRIFTEN, "§ 11"),
     OVERGANGSFORSKRIFTEN_12("OVERGANGSFORSKRIFTEN_12", LovKilde.OVERGANGSFORSKRIFTEN, "§ 12"),
 
+    FS_AAP_12("FS_AAP_12", LovKilde.FORSKRIFT_OM_ARBEIDSAVKLARINGSPENGER, "§ 12"),
+
     // Backwards compatibility in dev with search and innstillinger. Can be removed later?
     FTL("1000", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven"),
     FTL_9("1000.009", LovKilde.FOLKETRYGDLOVEN, "Folketrygdloven kapittel 9"),

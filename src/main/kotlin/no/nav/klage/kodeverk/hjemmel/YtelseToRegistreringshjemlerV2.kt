@@ -962,6 +962,7 @@ val ytelseToRegistreringshjemlerV2 =
                 FL_17,
                 FL_21,
                 FL_28,
+                FS_AAP_12,
                 FVL_11,
                 FVL_12,
                 FVL_14,
