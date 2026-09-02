@@ -153,5 +153,6 @@ enum class LovKilde(
     ARBEIDSMILJØLOVEN("76", "Arbeidsmiljøloven", "Aml"),
     FORSKRIFT_OM_TILSKUDD_TIL_EKSPERTBISTAND("77", "Forskrift om tilskudd til ekspertbistand", "Forskrift om tilskudd til ekspertbistand"),
     OVERGANGSFORSKRIFTEN("78", "Overgangsforskriften", "Overgangsforskriften"),
+    FORSKRIFT_OM_ARBEIDSAVKLARINGSPENGER("79", "Forskrift om arbeidsavklaringspenger", "Forskrift om arbeidsavklaringspenger"),
     UKJENT("999", "Ukjent", "Ukjent"),
 }
