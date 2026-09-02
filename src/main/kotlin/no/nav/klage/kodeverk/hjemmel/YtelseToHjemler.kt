@@ -1359,6 +1359,9 @@ val ytelseToHjemler =
         Ytelse.TIL_TIL to
             listOf(
                 HjemmelAndUtfasesStatus(ARBML_2),
+                HjemmelAndUtfasesStatus(ARBML_12),
+                HjemmelAndUtfasesStatus(ARBML_16),
+                HjemmelAndUtfasesStatus(ARBML_17),
                 HjemmelAndUtfasesStatus(FS_TIL_1_3),
                 HjemmelAndUtfasesStatus(FS_TIL_1_6),
                 HjemmelAndUtfasesStatus(FS_TIL_2),
