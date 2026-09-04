@@ -22,10 +22,12 @@ val trygderettenSet =
 val typeToSattPaaVentReason =
     mapOf(
         Type.KLAGE to standardSet.plus(VENTER_PAA_UTFYLLENDE_KLAGE),
-        Type.ANKE to standardSet.plus(listOf(OVERSENDELSESBREV_PAA_TILSVAR, VENTER_PAA_UTFYLLENDE_ANKE)),
-        Type.ANKE_I_TRYGDERETTEN to trygderettenSet,
+        Type.ANKE_FOER_2027 to standardSet.plus(listOf(OVERSENDELSESBREV_PAA_TILSVAR, VENTER_PAA_UTFYLLENDE_ANKE)),
+        Type.ANKE_I_TRYGDERETTEN_FOER_2027 to trygderettenSet,
         Type.BEHANDLING_ETTER_TRYGDERETTEN_OPPHEVET to standardSet,
         Type.OMGJOERINGSKRAV to standardSet,
         Type.BEGJAERING_OM_GJENOPPTAK to standardSet.plus(OVERSENDELSESBREV_PAA_TILSVAR),
         Type.BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN to trygderettenSet,
+        Type.ANKE_ETTER_2027 to standardSet,
+        Type.ANKE_I_TRYGDERETTEN_ETTER_2027 to trygderettenSet,
     )
