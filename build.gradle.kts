@@ -4,12 +4,12 @@ import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
 
 val ktlintVersion = "1.8.0"
 val jakartaPersistenceApiVersion = "3.2.0"
-val junitJupiterVersion = "6.1.0"
+val junitJupiterVersion = "6.1.3"
 val assertjCoreVersion = "3.27.7"
-val jackson = "2.21"
+val jackson = "2.22"
 
 plugins {
-    kotlin("jvm") version "2.3.21"
+    kotlin("jvm") version "2.4.10"
     id("maven-publish")
     id("java-library")
     id("org.jlleitschuh.gradle.ktlint") version "14.2.0"
