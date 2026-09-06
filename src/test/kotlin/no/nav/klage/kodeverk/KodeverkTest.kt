@@ -44,7 +44,7 @@ internal class KodeverkTest {
 
     @Test
     fun `InfotrygdUtfallMapping contains all relevant utfall`() {
-        assertThat(ankeutfallToInfotrygdutfall.keys).containsAll(typeToUtfall[Type.ANKE])
+        assertThat(ankeutfallToInfotrygdutfall.keys).containsAll(typeToUtfall[Type.ANKE_FOER_2027])
         assertThat(klageutfallToInfotrygdutfall.keys).containsAll(typeToUtfall[Type.KLAGE])
         assertThat(klageTilbakebetalingutfallToInfotrygdutfall.keys).containsAll(typeToUtfall[Type.KLAGE])
     }
