@@ -762,6 +762,7 @@ val ytelseToRegistreringshjemlerV2 =
                 FTRL_4_3A,
                 FTRL_4_3B,
                 FTRL_4_4,
+                FTRL_4_5,
                 FTRL_4_5A,
                 FTRL_4_5B,
                 FTRL_4_6A,
