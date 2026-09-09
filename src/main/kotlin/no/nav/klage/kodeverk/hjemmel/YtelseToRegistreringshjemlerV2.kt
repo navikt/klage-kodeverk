@@ -2756,6 +2756,12 @@ val ytelseToRegistreringshjemlerV2 =
                 FORSKRIFT_OM_TILSKUDD_TIL_EKSPERTBISTAND_4,
                 FORSKRIFT_OM_TILSKUDD_TIL_EKSPERTBISTAND_5,
                 FORSKRIFT_OM_TILSKUDD_TIL_EKSPERTBISTAND_6,
+                FS_UNG_2,
+                FS_UNG_3,
+                FS_UNG_4,
+                FS_UNG_5,
+                FS_UNG_6,
+                FS_UNG_7,
             ),
         Ytelse.TIL_TIP to
             listOf(
