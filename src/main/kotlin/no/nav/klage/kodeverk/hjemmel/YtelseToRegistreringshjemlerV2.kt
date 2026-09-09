@@ -2880,6 +2880,7 @@ val ytelseToRegistreringshjemlerV2 =
                 EOES_883_2004_13,
                 EOES_883_2004_14,
                 EOES_883_2004_16,
+                EOES_883_2004_25_OG_30,
                 NRD_KNV,
                 HNR_42_1,
                 HNR_42_2,
