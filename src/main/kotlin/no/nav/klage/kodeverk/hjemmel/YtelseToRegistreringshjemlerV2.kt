@@ -2756,6 +2756,7 @@ val ytelseToRegistreringshjemlerV2 =
                 FORSKRIFT_OM_TILSKUDD_TIL_EKSPERTBISTAND_4,
                 FORSKRIFT_OM_TILSKUDD_TIL_EKSPERTBISTAND_5,
                 FORSKRIFT_OM_TILSKUDD_TIL_EKSPERTBISTAND_6,
+                FORSKRIFT_OM_OPPFOELGINGSTILTAK_I_ARBEIDS_OG_VELFERDSETATENS_EGENREGI_1_3,
                 FS_UNG_2,
                 FS_UNG_3,
                 FS_UNG_4,
