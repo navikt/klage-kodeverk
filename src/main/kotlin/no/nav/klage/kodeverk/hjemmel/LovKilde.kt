@@ -154,5 +154,10 @@ enum class LovKilde(
     FORSKRIFT_OM_TILSKUDD_TIL_EKSPERTBISTAND("77", "Forskrift om tilskudd til ekspertbistand", "Forskrift om tilskudd til ekspertbistand"),
     OVERGANGSFORSKRIFTEN("78", "Overgangsforskriften", "Overgangsforskriften"),
     FORSKRIFT_OM_ARBEIDSAVKLARINGSPENGER("79", "Forskrift om arbeidsavklaringspenger", "Forskrift om arbeidsavklaringspenger"),
+    FORSKRIFT_OM_OPPFOELGINGSTILTAK_I_ARBEIDS_OG_VELFERDSETATENS_EGENREGI(
+        "80",
+        "Forskrift om oppfølgingstiltak i arbeids- og velferdsetatens egenregi",
+        "Forskrift om oppfølgingstiltak i arbeids- og velferdsetatens egenregi",
+    ),
     UKJENT("999", "Ukjent", "Ukjent"),
 }
