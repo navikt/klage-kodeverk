@@ -1039,7 +1039,10 @@ val ytelseToHjemler =
                 HjemmelAndUtfasesStatus(hjemmel = FTRL_21_12_KLAGEFRIST, utfases = true), // TODO remove when PEN_ALD use FTRL_21_12 instead
                 HjemmelAndUtfasesStatus(FTRL_22_6),
                 HjemmelAndUtfasesStatus(FTRL_22_8),
+                // Fjern når oppsplittet tas i bruk
                 HjemmelAndUtfasesStatus(FTRL_22_12_22_13),
+                HjemmelAndUtfasesStatus(FTRL_22_12),
+                HjemmelAndUtfasesStatus(FTRL_22_13),
                 HjemmelAndUtfasesStatus(FTRL_22_15_TILBAKEKREVING),
                 HjemmelAndUtfasesStatus(FTRL_22_15_TILBAKEKREVING_DOEDSBO),
                 HjemmelAndUtfasesStatus(FTRL_22_16),
@@ -1105,7 +1108,10 @@ val ytelseToHjemler =
                 HjemmelAndUtfasesStatus(FTRL_12_20),
                 HjemmelAndUtfasesStatus(FTRL_21_12),
                 HjemmelAndUtfasesStatus(FTRL_22_12_FVL_35_C),
+                // Fjern når oppsplittet tas i bruk
                 HjemmelAndUtfasesStatus(FTRL_22_12_22_13),
+                HjemmelAndUtfasesStatus(FTRL_22_12),
+                HjemmelAndUtfasesStatus(FTRL_22_13),
                 HjemmelAndUtfasesStatus(FTRL_22_15),
                 HjemmelAndUtfasesStatus(FTRL_22_17),
                 HjemmelAndUtfasesStatus(FVL_35_C_UGUNST),
