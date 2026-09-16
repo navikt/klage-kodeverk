@@ -1408,6 +1408,7 @@ val ytelseToVedtaksenheter =
                 E0335,
                 E0383,
                 E0386,
+                E0393,
                 E0400,
                 E0402,
                 E0403,
