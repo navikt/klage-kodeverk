@@ -19,6 +19,14 @@ val trygderettenSet =
         UTREDER_FOR_TRYGDERETTEN,
     )
 
+val ankeEtter2027Set =
+    setOf(
+        BEDT_TRYGDERETTEN_OM_UTSATT_FRIST,
+        VENTER_PAA_DOKUMENTASJON,
+        ANNET_TIL_FORELEGGELSE,
+        ANNET,
+    )
+
 val typeToSattPaaVentReason =
     mapOf(
         Type.KLAGE to standardSet.plus(VENTER_PAA_UTFYLLENDE_KLAGE),
@@ -28,6 +36,6 @@ val typeToSattPaaVentReason =
         Type.OMGJOERINGSKRAV to standardSet,
         Type.BEGJAERING_OM_GJENOPPTAK to standardSet.plus(OVERSENDELSESBREV_PAA_TILSVAR),
         Type.BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN to trygderettenSet,
-        Type.ANKE_ETTER_2027 to standardSet,
+        Type.ANKE_ETTER_2027 to ankeEtter2027Set,
         Type.ANKE_I_TRYGDERETTEN_ETTER_2027 to trygderettenSet,
     )
