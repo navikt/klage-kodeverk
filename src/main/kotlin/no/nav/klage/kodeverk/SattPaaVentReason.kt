@@ -23,6 +23,11 @@ enum class SattPaaVentReason(
         "UTREDER_FOR_TRYGDERETTEN",
         "Utreder for Trygderetten",
     ),
+    BEDT_TRYGDERETTEN_OM_UTSATT_FRIST(
+        "11",
+        "BEDT_TRYGDERETTEN_OM_UTSATT_FRIST",
+        "Bedt Trygderetten om utsatt frist",
+    ),
     ;
 
     companion object {
