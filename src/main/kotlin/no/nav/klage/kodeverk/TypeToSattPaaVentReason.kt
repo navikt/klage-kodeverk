@@ -6,12 +6,24 @@ val standardSet =
     setOf(
         VENTER_PAA_DOKUMENTASJON,
         VENTER_PAA_AVKLARING_OM_DOEDSBO,
+        VENTER_PAA_OVERSETTELSE,
+        VENTER_PAA_UTREDNING_AV_EOES_UTENLANDSFORHOLD,
         SATT_I_BERO,
         ANNET_TIL_FORELEGGELSE,
         ANNET,
     )
 
 val trygderettenSet =
+    setOf(
+        SATT_I_BERO,
+        VENTER_PAA_AVGJOERELSE_OM_SOEKSMAAL_GJENOPPTAKSBEGJAERING,
+        VENTER_PAA_OVERSETTELSE,
+        VENTER_PAA_UTREDNING_AV_EOES_UTENLANDSFORHOLD,
+        ANNET,
+        UTREDER_FOR_TRYGDERETTEN,
+    )
+
+val trygderettenEtter2027Set =
     setOf(
         SATT_I_BERO,
         VENTER_PAA_AVGJOERELSE_OM_SOEKSMAAL_GJENOPPTAKSBEGJAERING,
@@ -37,5 +49,5 @@ val typeToSattPaaVentReason =
         Type.BEGJAERING_OM_GJENOPPTAK to standardSet.plus(OVERSENDELSESBREV_PAA_TILSVAR),
         Type.BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN to trygderettenSet,
         Type.ANKE_ETTER_2027 to ankeEtter2027Set,
-        Type.ANKE_I_TRYGDERETTEN_ETTER_2027 to trygderettenSet,
+        Type.ANKE_I_TRYGDERETTEN_ETTER_2027 to trygderettenEtter2027Set,
     )
