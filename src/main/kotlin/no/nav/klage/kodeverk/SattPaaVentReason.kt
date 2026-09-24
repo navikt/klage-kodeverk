@@ -28,6 +28,16 @@ enum class SattPaaVentReason(
         "BEDT_TRYGDERETTEN_OM_UTSATT_FRIST",
         "Bedt Trygderetten om utsatt frist",
     ),
+    VENTER_PAA_OVERSETTELSE(
+        "12",
+        "VENTER_PAA_OVERSETTELSE",
+        "Venter på oversettelse",
+    ),
+    VENTER_PAA_UTREDNING_AV_EOES_UTENLANDSFORHOLD(
+        "13",
+        "VENTER_PAA_UTREDNING_AV_EOES_UTENLANDSFORHOLD",
+        "Venter på utredning av EØS-/utenlandsforhold",
+    ),
     ;
 
     companion object {

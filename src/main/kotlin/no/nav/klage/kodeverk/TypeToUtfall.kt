@@ -77,4 +77,25 @@ val typeToUtfall =
                 AVVIST,
                 HEVET,
             ),
+        Type.ANKE_ETTER_2027 to
+            setOf(
+                TRUKKET,
+                OPPHEVET,
+                MEDHOLD,
+                DELVIS_MEDHOLD,
+                INNSTILLING_STADFESTELSE,
+                INNSTILLING_AVVIST,
+                UGUNST,
+                HENLAGT,
+            ),
+        Type.ANKE_I_TRYGDERETTEN_ETTER_2027 to
+            setOf(
+                OPPHEVET,
+                MEDHOLD,
+                DELVIS_MEDHOLD,
+                STADFESTELSE,
+                AVVIST,
+                HEVET,
+                HENVIST,
+            ),
     )
