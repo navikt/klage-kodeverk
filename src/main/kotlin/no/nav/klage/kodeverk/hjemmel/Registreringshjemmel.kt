@@ -853,6 +853,7 @@ enum class Registreringshjemmel(
     FS_DAG_4_4("FS_DAG_4_4", LovKilde.DAGPENGEFORSKRIFTEN, "§ 4-4"),
     FS_DAG_4_5("FS_DAG_4_5", LovKilde.DAGPENGEFORSKRIFTEN, "§ 4-5"),
     FS_DAG_5_1("FS_DAG_5_1", LovKilde.DAGPENGEFORSKRIFTEN, "§ 5-1"),
+    FS_DAG_6_1("FS_DAG_6_1", LovKilde.DAGPENGEFORSKRIFTEN, "§ 6-1"),
     FS_DAG_6_2("FS_DAG_6_2", LovKilde.DAGPENGEFORSKRIFTEN, "§ 6-2"),
     FS_DAG_6_3("FS_DAG_6_3", LovKilde.DAGPENGEFORSKRIFTEN, "§ 6-3"),
     FS_DAG_6_5("841", LovKilde.DAGPENGEFORSKRIFTEN, "§ 6-5"),
