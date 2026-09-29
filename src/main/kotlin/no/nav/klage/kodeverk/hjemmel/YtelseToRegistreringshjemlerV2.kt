@@ -809,6 +809,7 @@ val ytelseToRegistreringshjemlerV2 =
                 FS_DAG_4_4,
                 FS_DAG_4_5,
                 FS_DAG_5_1,
+                FS_DAG_6_1,
                 FS_DAG_6_2,
                 FS_DAG_6_3,
                 FS_DAG_6_5,
