@@ -757,6 +757,7 @@ val ytelseToRegistreringshjemlerV2 =
             ),
         Ytelse.DAG_DAG to
             listOf(
+                FTRL_1_3A,
                 FTRL_4_1A,
                 FTRL_4_2,
                 FTRL_4_3A,
