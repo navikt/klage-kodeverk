@@ -9,6 +9,7 @@ enum class Registreringshjemmel(
     val spesifikasjon: String,
 ) {
     FTRL_1_3("308", LovKilde.FOLKETRYGDLOVEN, "§ 1-3"),
+    FTRL_1_3A("FTRL_1_3A", LovKilde.FOLKETRYGDLOVEN, "§ 1-3 a"),
     FTRL_1_5("485", LovKilde.FOLKETRYGDLOVEN, "§ 1-5"),
 
     FTRL_2("FTRL_2", LovKilde.FOLKETRYGDLOVEN, "kap. 2"),
