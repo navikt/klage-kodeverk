@@ -17,6 +17,7 @@ enum class Tema(
     AKT("AKT", "AKT", "Aktivitetsplan med dialoger"),
     ARP("59", "ARP", "Arbeidsrådgivning - psykologtjenester"),
     ARS("58", "ARS", "Arbeidsrådgivning - skjermet"),
+    AVP("AVP", "AVP", "Aktivitetspenger"),
     BAR("4", "BAR", "Barnetrygd"),
     BBF("BBF", "BBF", "Barnebortføring"),
     BID("5", "BID", "Bidrag"),
