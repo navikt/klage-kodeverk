@@ -58,7 +58,7 @@ val typeToUtfall =
                 UGUNST,
                 HENLAGT,
             ),
-        Type.BEGJAERING_OM_GJENOPPTAK to
+        Type.BEGJAERING_OM_GJENOPPTAK_FOER_2027 to
             setOf(
                 MEDHOLD_ETTER_FVL_35,
                 INNSTILLING_GJENOPPTAS_KAS_VEDTAK_STADFESTES,
@@ -68,7 +68,7 @@ val typeToUtfall =
                 UGUNST,
                 HENLAGT,
             ),
-        Type.BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN to
+        Type.BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN_FOER_2027 to
             setOf(
                 GJENOPPTATT_DELVIS_ELLER_FULLT_MEDHOLD,
                 GJENOPPTATT_OPPHEVET,
@@ -79,14 +79,12 @@ val typeToUtfall =
             ),
         Type.ANKE_ETTER_2027 to
             setOf(
-                TRUKKET,
                 OPPHEVET,
                 MEDHOLD,
                 DELVIS_MEDHOLD,
                 INNSTILLING_STADFESTELSE,
                 INNSTILLING_AVVIST,
                 UGUNST,
-                HENLAGT,
             ),
         Type.ANKE_I_TRYGDERETTEN_ETTER_2027 to
             setOf(
@@ -97,5 +95,22 @@ val typeToUtfall =
                 AVVIST,
                 HEVET,
                 HENVIST,
+            ),
+        Type.BEGJAERING_OM_GJENOPPTAK_ETTER_2027 to
+            setOf(
+                MEDHOLD_ETTER_FVL_35,
+                INNSTILLING_GJENOPPTAS_KAS_VEDTAK_STADFESTES,
+                INNSTILLING_GJENOPPTAS_IKKE,
+                INNSTILLING_AVVIST,
+                UGUNST,
+            ),
+        Type.BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN_ETTER_2027 to
+            setOf(
+                GJENOPPTATT_DELVIS_ELLER_FULLT_MEDHOLD,
+                GJENOPPTATT_OPPHEVET,
+                GJENOPPTATT_STADFESTET,
+                IKKE_GJENOPPTATT,
+                AVVIST,
+                HEVET,
             ),
     )

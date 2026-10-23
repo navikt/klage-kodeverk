@@ -14,10 +14,21 @@ enum class Type(
     ANKE_I_TRYGDERETTEN_FOER_2027("3", "Anke i Trygderetten", "Anke i Trygderetten"),
     BEHANDLING_ETTER_TRYGDERETTEN_OPPHEVET("4", "Behandling etter Trygderetten opphevet", "Behandling etter Trygderetten opphevet"),
     OMGJOERINGSKRAV("5", "Omgjøringskrav", "Omgjøringskrav"),
-    BEGJAERING_OM_GJENOPPTAK("6", "Begjæring om gjenopptak", "Begjæring om gjenopptak"),
-    BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN("7", "Begjæring om gjenopptak i Trygderetten", "Begjæring om gjenopptak i Trygderetten"),
+    BEGJAERING_OM_GJENOPPTAK_FOER_2027("6", "Begjæring om gjenopptak", "Begjæring om gjenopptak"),
+    BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN_FOER_2027(
+        "7",
+        "Begjæring om gjenopptak i Trygderetten",
+        "Begjæring om gjenopptak i Trygderetten",
+    ),
     ANKE_ETTER_2027("8", "Anke etter 1.1.2027", "Anke etter 1.1.2027"),
     ANKE_I_TRYGDERETTEN_ETTER_2027("9", "Anke i Trygderetten etter 1.1.2027", "Anke i Trygderetten etter 1.1.2027"),
+    BEGJAERING_OM_GJENOPPTAK_ETTER_2027("10", "Begjæring om gjenopptak etter 1.1.2027", "Begjæring om gjenopptak etter 1.1.2027"),
+    BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN_ETTER_2027(
+        "11",
+        "Begjæring om gjenopptak i Trygderetten etter 1.1.2027",
+        "Begjæring om gjenopptak i Trygderetten etter 1.1.2027",
+    ),
+
     ;
 
     override fun toString(): String =

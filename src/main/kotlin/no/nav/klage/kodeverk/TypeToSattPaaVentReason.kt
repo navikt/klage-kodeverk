@@ -46,8 +46,10 @@ val typeToSattPaaVentReason =
         Type.ANKE_I_TRYGDERETTEN_FOER_2027 to trygderettenSet,
         Type.BEHANDLING_ETTER_TRYGDERETTEN_OPPHEVET to standardSet,
         Type.OMGJOERINGSKRAV to standardSet,
-        Type.BEGJAERING_OM_GJENOPPTAK to standardSet.plus(OVERSENDELSESBREV_PAA_TILSVAR),
-        Type.BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN to trygderettenSet,
+        Type.BEGJAERING_OM_GJENOPPTAK_FOER_2027 to standardSet.plus(OVERSENDELSESBREV_PAA_TILSVAR),
+        Type.BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN_FOER_2027 to trygderettenSet,
         Type.ANKE_ETTER_2027 to ankeEtter2027Set,
         Type.ANKE_I_TRYGDERETTEN_ETTER_2027 to trygderettenEtter2027Set,
+        Type.BEGJAERING_OM_GJENOPPTAK_ETTER_2027 to ankeEtter2027Set,
+        Type.BEGJAERING_OM_GJENOPPTAK_I_TRYGDERETTEN_ETTER_2027 to trygderettenEtter2027Set,
     )
