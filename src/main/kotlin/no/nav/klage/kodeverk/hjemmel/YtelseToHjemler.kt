@@ -1107,6 +1107,7 @@ val ytelseToHjemler =
                 HjemmelAndUtfasesStatus(FTRL_12_19),
                 HjemmelAndUtfasesStatus(FTRL_12_20),
                 HjemmelAndUtfasesStatus(FTRL_21_12),
+                HjemmelAndUtfasesStatus(FTRL_22_6),
                 HjemmelAndUtfasesStatus(FTRL_22_12_FVL_35_C),
                 // Fjern når oppsplittet tas i bruk
                 HjemmelAndUtfasesStatus(FTRL_22_12_22_13),
