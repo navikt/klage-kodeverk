@@ -1429,6 +1429,7 @@ val ytelseToRegistreringshjemlerV2 =
                 OVERGANGSFORSKRIFTEN_10,
                 OVERGANGSFORSKRIFTEN_11,
                 OVERGANGSFORSKRIFTEN_12,
+                OVERGANGSFORSKRIFTEN_13,
             ),
         Ytelse.GRU_GRU to
             listOf(
