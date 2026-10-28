@@ -14,6 +14,11 @@ enum class AzureGroup(
         "Kabal Oppgavestyring Alle Enheter",
         "0000-GA-KLAGE-KABAL_OPPGAVESTYRING_ALLE_ENHETER",
     ),
+    KABAL_OPPGAVESTYRING_ANKETEAM(
+        "KABAL_OPPGAVESTYRING_ANKETEAM",
+        "Kabal Oppgavestyring Anketeam",
+        "0000-GA-KLAGE-KABAL_OPPGAVESTYRING_ANKETEAM",
+    ),
     KABAL_MALTEKSTREDIGERING(
         "KABAL_MALTEKSTREDIGERING",
         "Kabal Maltekstredigering",
