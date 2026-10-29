@@ -74,6 +74,7 @@ val ytelseToHjemler =
                 HjemmelAndUtfasesStatus(FTRL_15_11),
                 HjemmelAndUtfasesStatus(FTRL_15_12),
                 HjemmelAndUtfasesStatus(FTRL_15_13),
+                HjemmelAndUtfasesStatus(FTRL_21_12),
                 HjemmelAndUtfasesStatus(FTRL_22_12),
                 HjemmelAndUtfasesStatus(FTRL_22_13),
                 HjemmelAndUtfasesStatus(FTRL_22_15),
