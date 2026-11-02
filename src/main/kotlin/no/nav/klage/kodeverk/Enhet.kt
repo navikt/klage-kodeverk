@@ -35,6 +35,7 @@ enum class Enhet(
     E4470("25", "4470", "Nav arbeid og ytelser Innlandet - EØS dagpenger"),
     E4462("E4462", "4462", "Nav arbeid og ytelser - tilleggsstønad"),
     E4465("26", "4465", "Nav arbeid og ytelser Trondheim - DP grensearb"),
+    E4469("E4469", "4469", "Nav arbeid og Ytelser lønnsgaranti"),
     E4455("27", "4455", "Dagpenger u permittering Inn"),
     E4404("28", "4404", "Nav Arbeid og ytelser Hamar"),
     E4405("29", "4405", "Nav Arbeid og ytelser Innlandet"),
