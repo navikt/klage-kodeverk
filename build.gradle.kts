@@ -9,7 +9,7 @@ val assertjCoreVersion = "3.27.7"
 val jackson = "2.22"
 
 plugins {
-    kotlin("jvm") version "2.4.20"
+    kotlin("jvm") version "2.4.21"
     id("maven-publish")
     id("java-library")
     id("org.jlleitschuh.gradle.ktlint") version "14.2.0"
