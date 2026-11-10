@@ -20,12 +20,8 @@ group = "no.nav.klage"
 version = properties["version"] ?: "local-build"
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(21))
+        languageVersion.set(JavaLanguageVersion.of(25))
     }
-}
-
-kotlin {
-    jvmToolchain(21)
 }
 
 repositories {
@@ -43,7 +39,6 @@ dependencies {
 
 tasks.withType<KotlinCompile> {
     compilerOptions {
-        jvmTarget.set(JvmTarget.JVM_21)
         freeCompilerArgs = listOf("-Xjsr305=strict")
     }
 }
@@ -79,7 +74,7 @@ tasks.named("detekt") {
 }
 
 tasks.withType<dev.detekt.gradle.Detekt>().configureEach {
-    jvmTarget.set(JvmTarget.JVM_21.target)
+    jvmTarget.set(JvmTarget.JVM_25.target)
     reports {
         html.required.set(true)
         checkstyle.required.set(true)
