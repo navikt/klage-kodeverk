@@ -261,6 +261,7 @@ val ytelseToKlageenheter =
             ),
         Ytelse.FAR_FAR to
             setOf(
+                E4250,
                 E4293,
                 E2103,
             ),
